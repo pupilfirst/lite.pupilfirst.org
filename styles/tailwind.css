@@ -54,12 +54,11 @@ h4 {
 }
 
 .hero__bg-pattern {
-  /* background-image: url(".././public/hero/hero-pattern.svg"); */
-  background-repeat: repeat;
-  background-size: 400px 400px;
+  background-image: url(".././public/hero/hero-bg-circles.svg");
+  @apply bg-cover bg-center bg-no-repeat;
 }
 .hero__title-gradient {
-  @apply bg-gradient-to-r from-secondary-400 to-primary-500;
+  @apply bg-gradient-to-br from-secondary-400 to-secondary-600;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -90,7 +89,7 @@ h4 {
 }
 
 .heading-with-leftborder::before {
-  @apply absolute bg-gradient-to-b from-primary-400 to-secondary-400 rounded-r-md h-full top-0 left-0;
+  @apply absolute bg-gradient-to-b from-yellow-400 to-primary-500 rounded-r-md h-full top-0 left-0;
   content: "";
   width: 4px;
 }
@@ -106,7 +105,7 @@ h4 {
 }
 
 .heading-with-underscore::before {
-  @apply absolute bg-white h-0.5 w-4;
+  @apply absolute bg-primary-500 h-1 w-4;
   content: "";
   bottom: 10px;
   left: 4px;
