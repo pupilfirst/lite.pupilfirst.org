@@ -6,7 +6,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       <div className="relative rounded-lg bg-gradient-to-br from-yellow-300 to-primary-400 w-5/6 md:w-auto shadow-md ">
         <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain p-0.5 rounded-lg" />
       </div>
-      <h4 className={"text-lg pt-2"}>{name}</h4>
+      <p className={"text-lg pt-2"}>{name}</p>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>
         {caption}
       </p>
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto pb-8 md:pb-16 px-4 xl:px-0">
             <div className="w-full mx-auto md:w-4/5 text-center relative z-10">
               <div className="inline-block rounded bg-primary-100 py-1 px-3 mt-4 ">
-                <p className="font-medium text-sm text-primary-600">
+                <p className="font-medium text-sm text-primary-800">
                   All India Council for Technical Education.
                 </p>
               </div>
@@ -424,9 +424,9 @@ export default function Home() {
                   <p className="text-sm md:text-base lg:text-lg">Heads of institutions who share this dream of AICTE are invited to apply for the leadership in teaching excellence (LITE) program.</p>
                 </div>
                 <div className="pt-10 lg:pt-16">
-                  <h4 className="text-secondary-500 text-xl lg:text-3xl font-bold">Questions?</h4>
+                  <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">Questions?</h3>
                   <p className=" pt-2">Email Col. Venkat, Director, Faculty Development Cell (AICTE) at
-                    <a href="mailto:director.fdc@aicte-india.org" className={"text-primary-400 underline pl-2 tracking-wide font-medium"}>director.fdc@aicte-india.org</a>
+                    <a href="mailto:director.fdc@aicte-india.org" className={"text-primary-800 underline pl-2 tracking-wide font-medium"}>director.fdc@aicte-india.org</a>
                   </p>
                 </div>
               </div>
@@ -434,7 +434,7 @@ export default function Home() {
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">Apply now for <br/>AICTE  Leadership in <br/>Teaching Excellence Program</h4>
                   <div className="mt-4 flex justify-center">
-                    <a className="block text-center px-10 font-semibold py-3 bg-white text-primary-600 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-700 transition"
+                    <a className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-900 transition"
                       target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
                   </div>
                 </div>
