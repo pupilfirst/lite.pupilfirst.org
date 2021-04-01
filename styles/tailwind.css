@@ -8,28 +8,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.ContentSection {
-  @apply max-w-screen-sm mx-auto;
-  @apply py-8;
-  @apply px-6;
-}
-
-@screen sm {
-  .ContentSection {
-    @apply max-w-screen-md;
-    @apply py-16;
-    @apply px-0;
-  }
-}
-
-@screen md {
-  .ContentSection {
-    @apply max-w-screen-lg mx-auto;
-    @apply py-32;
-    @apply w-2/3;
-  }
-}
-
 h1,
 h2,
 h3,
