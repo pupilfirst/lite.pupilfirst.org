@@ -3,8 +3,8 @@ import Head from "next/head";
 function ImageWithDescription({ name, caption, role, imgSrc }) {
   return (
     <div>
-      <div className="rounded-lg overflow-hidden border-4 border-primary-400 w-5/6 md:w-auto ">
-        <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain" />
+      <div className="relative rounded-lg bg-gradient-to-br from-yellow-300 to-primary-400 w-5/6 md:w-auto shadow-md ">
+        <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain p-0.5 rounded-lg" />
       </div>
       <h4 className={"text-lg pt-2"}>{name}</h4>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>
@@ -19,7 +19,11 @@ export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>Introduction to Electric Vehicles(EV101)</title>
+        <title>Leadership in Teaching Excellence</title>
+        <meta name="description" content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence."></meta>
+        <meta name="keywords" content="AICTE, LITE, NEP 2020, Web development, Javascript, Ruby on Rails, Typed Functional programming, ReScript, Industry Experts,  Leadership, Teaching"></meta>
+        <meta name="author" content="Pupilfirst.org"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -47,13 +51,10 @@ export default function Home() {
       </Head>
       <main className="bg-primary-50 mx-auto">
         <section className="hero__bg-pattern relative">
-          <div class="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0">
-            <img class="h-full w-full object-cover" src="hero/hero-bg.webp" alt="People working on laptops"/>
-          </div>
-          <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
+          <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0">
             <div className="flex justify-between items-center">
-              <img className="block w-20 md:w-28" src="logos/LITE-logo.svg" />
-              <img className="w-16 md:w-24" src="logos/aicte-logo.png" />
+              <img className="block w-20 md:w-28" src="logos/LITE-logo.svg" alt="Logo of Leadership in Teaching Excellence (LITE)national programme." />
+              <img className="w-16 md:w-24" src="logos/aicte-logo.png" alt="Logo of All India Council for Technical Education (AICTE)" />
             </div>
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto pb-8 md:pb-16 px-4 xl:px-0">
@@ -67,27 +68,30 @@ export default function Home() {
                 Leadership in <br/>Teaching Excellence
               </h1>
               <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence.</p>
-
               <div className="pt-4 md:pt-8">
                 <a
-                  className="inline-block w-full md:w-64 p-3 text-white text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 transition"
-                  href="#">Apply Now</a>
+                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 transition"
+                  target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
               </div>
             </div>
           </div>
+           <div class="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
+            <img class="h-full w-full object-cover relative" src="hero/hero-bg.png" alt="LITE - hero background image"/>
+            <div class="absolute inset-0"></div>
+          </div>
         </section>
         <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
-          <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-secondary-400 relative shadow-lg max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="flex space-y-4 md:space-y-0 md:space-x-12 flex-col md:flex-row justify-between">
+          <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-secondary-500 relative shadow-lg max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="flex space-y-4 md:space-y-0 flex-col md:flex-row justify-between">
               <div className="md:w-8/12 p-4 lg:p-10">
                 <h2 className="text-xl md:text-3xl">In partnership with Pupilfirst</h2>
                 <p className="mt-4 text-sm md:text-base lg:text-lg">Pupilfirst is a founding member of National Educational Alliance for Technology (NEAT) programme of the Ministry of Education, that is implemented by AICTE.</p>
                 <p className="mt-4 text-sm md:text-base lg:text-lg">Pupilfirst’s mission is to enable teachers to transform classroom education to a learner centered model and achieve near 100% learning outcomes.</p>
-                <p className="mt-4">Learn More at: <a className="text-secondary-400 font-semibold" target="_blank" href="https://pupilfirst.org/">https://pupilfirst.org/</a> and <a className="text-secondary-400 font-semibold" target="_blank" href="https://neat.aicte-india.org/">https://neat.aicte-india.org/</a></p>
+                <p className="mt-4">Learn More at: <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://pupilfirst.org/">https://pupilfirst.org/</a> and <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://neat.aicte-india.org/">https://neat.aicte-india.org/</a></p>
               </div>
-              <div className="md:w-4/12 flex items-center justify-center flex-shrink-0 bg-gradient-to-br from-secondary-500 to-secondary-600">
-                <div className="pb-4">
-                  <img className="w-64 object-contain" src="logos/pupilfirst-logo-white.svg" alt="Pupilfirst" />
+              <div className="md:w-4/12 flex items-center justify-center flex-shrink-0 rounded-b-lg md:rounded-bl-none md:rounded-r-lg bg-gradient-to-br from-secondary-500 to-secondary-600">
+                <div className="p-6 md:p-3">
+                  <img className="w-36 md:w-48 lg:w-64 object-contain" src="logos/pupilfirst-logo-white.svg" alt="Pupilfirst logo" />
                 </div>
               </div>
             </div>
@@ -107,39 +111,55 @@ export default function Home() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">What is this program?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Industry-led introductory course in Electric Vehicles (EV) for undergraduate students pursuing engineering degrees in India.</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">AICTE and Industry led specialised leadership training for computer science teachers to teach a minor degree programme in Web Development and skill  their students using learner centered pedagogy, competency based curriculum and continuous assessments.</p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Why?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">To give undergraduate students an overview of the Electric Vehicle ecosystem to help them decide if they wish to build a career in it.</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">To equip academic institutions with teaching excellence in software industry standards and become an aspirational benchmark for other academic institutions across the country.</p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Who is this for?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Students who are at least 18 years old and no older than 25 years old and pursuing engineering undergraduate degree at an higher education institution in India.</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Universities, AICTE affiliated Institutions and CBSE schools with visionary heads of institutions and committed computer science faculty who can create transformational changes as envisioned by NEP 2020.</p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">When?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">April 2, 2021 - April 26, 2021</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Selected institutions shall start with faculty training from April 22<sup>nd</sup>.</p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Effort?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">25 hours of highly enjoyable study & tasks over the course of 3 weeks.</p>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Effort by Higher Educational Institutions</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Approving 20 credit “Minor in Advanced Web Development” program into academic curriculum for Academic Year 2021-22 onwards.</p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Format?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Self-paced learning via task around text and video tutorials</p>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Effort by CBSE Schools</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Offering the curriculum to students through CBSE Skills.</p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Mentorship?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">AMAs with industry veterans and a dedicated Q&amp;A forum.</p>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Effort by Faculty</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">40 hours of highly enjoyable study spread across 45 days.</p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Certificate?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Yes. Upon successful completion of the program, students will  receive a certificate.</p>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Format</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Self-paced learning with personalised feedback from industry coaches.</p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Cost</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Free</p>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Assessment</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Yes. Upon successful completion of training, both institutions and teachers shall receive joint certification from AICTE and Industry.</p>
+                    </div>
+                    <div>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Certificate for Faculty</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Teachers shall see diagnostic and formative assessments happen to them exactly the same way they would be assessing the students in future.</p>
+                    </div>
+                    <div>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Complete Support for Course Delivery to students</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Faculty shall receive end to end support for integrating the course including conducting student awareness sessions, student selection process, student onboarding, course delivery, continuous assessments, final evaluation and graduation support for internships or entrepreneurship.</p>
+                    </div>
+                    <div>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">National Recognition for Institutions</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Selected institutions whose trained faculty integrates the minor programme for its students shall be recognised by AICTE as Institutions with Leadership in Teaching Excellence.</p>
+                    </div>
+                    <div>
+                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Cost for Students and Faculty?</h3>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">AICTE approved fees for students Full Scholarship for Faculty.</p>
                     </div>
                   </div>
                 </div>
@@ -156,32 +176,36 @@ export default function Home() {
                         <p className="text-xs mt-4 text-gray-500">Important Dates</p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Mar 10, 2021</p>
-                            <p className="col-span-5 ">- Application Opens</p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Mar 29, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Application Opens</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Mar 21, 2021</p>
-                            <p className="col-span-5 ">- Applications window ends</p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Apr 12, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Deadline for Institutions to submit their nomination.</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Mar 26, 2021</p>
-                            <p className="col-span-5 ">- Announcement of selected students </p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Apr 17, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>AICTE to Announce Selected Institutions and Faculty.</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Apr 02, 2021</p>
-                            <p className="col-span-5 ">- Program Begins</p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Apr 22, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Signing of MoU’s with selected Institutions at AICTE HQ.</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Apr 23, 2021</p>
-                            <p className="col-span-5 ">- Program Ends</p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Apr 23, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Faculty Training Starts.</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500">Apr 26, 2021</p>
-                            <p className="col-span-5 ">- Course Conclusion</p>
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Jun 10, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Faculty Training Ends.</p>
+                          </div>
+                           <div className="grid grid-cols-7 gap-2 md:gap-3">
+                            <p className="col-span-2 text-secondary-500 text-right font-medium">Jun 13, 2021</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Institutions inform AICTE of Course Launch Date as per Academic Year start.</p>
                           </div>
                         </div>
                         <div className="pt-4 lg:pt-6">
-                            <a className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-xl hover:bg-primary-500 hover:to-primary-600 transition" href="#">Apply Now</a>
+                            <a className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-xl hover:bg-primary-500 hover:to-primary-600 transition" target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -247,7 +271,7 @@ export default function Home() {
                 <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:mx-auto">Advanced Industry Curriculum Approved by AICTE</h2>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-2xl space-y-6 ">
+                <div className="max-w-4xl space-y-6 ">
                   <p className="mt-4 text-sm lg:text-lg">Most modern programming languages widely used in the industry are converging towards this paradigm by adopting its features like types, discriminated unions, and immutable programming.</p>
                   <p className="mt-4 text-sm lg:text-lg">AICTE expert committee has approved the curriculum created jointly by Pupilfirst and Freshworks that enables institutions to offer advanced web development courses using typed functional programming.</p>
                   <p className="mt-4 text-sm lg:text-lg">In our knowledge, courses on functional programming are currently taught in India at IIT-Madras, IIT-Bombay, IIT-Kanpur and IIT-Mandi.</p>
@@ -262,20 +286,30 @@ export default function Home() {
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-4xl mt-4">
-                  <p className=" text-sm md:text-base lg:text-lg">This programme is designed with 3 courses such that selected institutions can offer a 20 credit “Minor Degree in Advanced Web Development” through their trained faculty to students.</p>
+                  <p className="text-sm md:text-base lg:text-lg">This programme is designed with 3 courses such that selected institutions can offer a 20 credit “Minor Degree in Advanced Web Development” through their trained faculty to students.</p>
                 </div>
-                <div className="grid md:grid-cols-3 gap-4 mt-8">
-                  <div className="bg-gradient-to-br from-white to-gray-100 border border-primary-400 rounded-lg shadow-md p-3 md:p-4">
+                <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mt-8">
+                  <div className="w-full md:flex-1 bg-gradient-to-br from-white to-gray-100 border border-primary-400 rounded-lg shadow-md p-3 md:p-4">
                     <p className="text-primary-400 text-xl md:text-2xl font-bold">WD 101</p>
-                    <p className="text-sm md:text-base leading-snug mt-1"><span className="font-semibold">Beginner</span> - Getting started with Javascript (WD 101).</p>
+                    <p className="text-sm leading-snug mt-1"><span className="font-semibold">Beginner</span> - Getting started with Javascript (WD 101).</p>
                   </div>
-                  <div className="bg-gradient-to-br from-white to-gray-100 border border-secondary-400 rounded-lg shadow-md p-3 md:p-4">
+                  <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="text-primary-700" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </div>
+                  <div className="w-full md:flex-1 bg-gradient-to-br from-white to-gray-100 border border-secondary-400 rounded-lg shadow-md p-3 md:p-4">
                     <p className="text-secondary-400 text-xl md:text-2xl font-bold">WD 201</p>
-                    <p className="text-sm md:text-base leading-snug mt-1"><span className="font-semibold">Intermediate</span> - Server-side programming with Ruby on Rails.</p>
+                    <p className="text-sm leading-snug mt-1"><span className="font-semibold">Intermediate</span> - Server-side programming with Ruby on Rails.</p>
                   </div>
-                  <div className="bg-gradient-to-br from-white to-gray-100 border border-green-500 rounded-lg shadow-md p-3 md:p-4">
+                  <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="text-secondary-700" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </div>
+                  <div className="w-full md:flex-1 bg-gradient-to-br from-white to-gray-100 border border-green-500 rounded-lg shadow-md p-3 md:p-4">
                     <p className="text-green-500 text-xl md:text-2xl font-bold">WD 301</p>
-                    <p className="text-sm md:text-base leading-snug mt-1"><span className="font-semibold">Advanced</span> - Typed Functional programming with ReScript.</p>
+                    <p className="text-sm leading-snug mt-1"><span className="font-semibold">Advanced</span> - Typed Functional programming with ReScript.</p>
                   </div>
                 </div>
               </div>
@@ -291,7 +325,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-3xl ">
+                <div className="max-w-4xl">
                   <p className="text-sm md:text-base lg:text-lg font-semibold mt-4">The training programme shall be hosted online at Pupilfirst platform and delivered by Hari Gopal, Prashant Reddy Koteru, Bellam Vamsi Krishna and Mamatha Yarramaneni.</p>
                   <p className="text-sm md:text-base lg:text-lg mt-4">Hari and Prashanth are industry experts while Vamsi and Mamatha will be the student TAs for this program to assist faculty in making this an enjoyable learning experience.</p>
                 </div>
@@ -311,14 +345,14 @@ export default function Home() {
                       Chief Technology Officer, Pupilfirst</>}
                       role={<>
                       <span className="block pb-2 font-semibold">Course Author &amp; Coach</span> Hari is a full-stack software engineer with 11 years of experience and leads Pupilfirst, one of the largest open-source projects using ReScript, the language used to build Facebook.</> }
-                    imgSrc="people/Swapnil-Mankame.png"
+                    imgSrc="people/hari-gopal.png"
                   />
                   <ImageWithDescription name="Prashanth Reddy Koteru"
                     caption={<>
                       Coach-Web Development, Pupilfirst</>}
                       role={<>
                       <span className="block pb-2 font-semibold">Course Coach</span> Prashanth is a full-stack web developer and product engineer with five years of experience and an active evangelist in the indian developer community.</> }
-                    imgSrc="people/Swapnil-Mankame.png"
+                    imgSrc="people/prashanth-reddy.png"
                   />
                   <ImageWithDescription name="Bellam Vamsi Krishna"
                     caption={<>
@@ -327,7 +361,7 @@ export default function Home() {
                       <span className="block pb-2 font-semibold">8<sup>th</sup> semester student, CSE SASTRA University.</span>
                       Vamsi has completed the WD 201 course at SASTRA University during July-December 2019 semester.
                       He was a Teaching Assistant (TAs) for the January-July 2020 Semester web development course at SASTRA University.</> }
-                    imgSrc="people/Swapnil-Mankame.png"
+                    imgSrc="people/bellam-vamsi.png"
                   />
                 </div>
               </div>
@@ -345,28 +379,32 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">March 10, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Application Opens</p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">March 29, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Application Opens</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">March 21, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Applications window ends</p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">April 12, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Deadline for Institutions to submit their nomination.</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">March 26, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Announcement of selected students </p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">April 17, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> AICTE to Announce Selected Institutions and Faculty.</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">April 02, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Program Begins</p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">April 22, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Signing of MoU’s with selected Institutions at AICTE HQ.</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">April 23, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Program Ends</p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">April 23, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Faculty Training Starts.</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-500 lg:text-right">April 26, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8">- Course Conclusion</p>
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">June 10, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Faculty Training Ends.</p>
+                  </div>
+                  <div className="md:grid md:grid-cols-12 p-4">
+                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">June 13, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Institutions inform AICTE of Course Launch Date as per Academic Year start.</p>
                   </div>
                 </div>
               </div>
@@ -397,7 +435,7 @@ export default function Home() {
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">Apply now for <br/>AICTE  Leadership in <br/>Teaching Excellence Program</h4>
                   <div className="mt-4 flex justify-center">
                     <a className="block text-center px-10 font-semibold py-3 bg-white text-primary-600 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-700 transition"
-                      href="#">Apply Now</a>
+                      target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
                   </div>
                 </div>
               </div>
