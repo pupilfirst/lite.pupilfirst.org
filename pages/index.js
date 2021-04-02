@@ -26,11 +26,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
         <meta property="og:title" content="Introduction to Electric Vehicles (EV101)" />
         <meta property="og:description" content="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
-        <meta name="theme-color" content="#21252E" />
+        <meta name="theme-color" content="#FDFAF7" />
         <meta property="og:image" content="introduction-to-electric-vehicles-EV101.png" />
         <meta property="og:url" content="https://ev.pupilfirst.org/" />
         <meta name="twitter:card" content="introduction-to-electric-vehicles-EV101.png" />
@@ -65,18 +65,18 @@ export default function Home() {
                 </p>
               </div>
               <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl lg:py-4 font-extrabold">
-                Leadership in <br/>Teaching Excellence
+                Leadership in <br />Teaching Excellence
               </h1>
               <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence.</p>
               <div className="pt-4 md:pt-8">
                 <a
-                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 transition"
+                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 focus:ring focus:ring-secondary-300 transition"
                   target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
               </div>
             </div>
           </div>
-           <div class="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
-            <img class="h-full w-full object-cover relative" src="hero/hero-bg.png" alt="LITE - hero background image"/>
+          <div class="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
+            <img class="h-full w-full object-cover relative" src="hero/hero-bg.png" alt="LITE - hero background image" />
             <div class="absolute inset-0"></div>
           </div>
         </section>
@@ -173,7 +173,8 @@ export default function Home() {
                       </div>
                       <div className="p-2 md:p-4 lg:p-5 2xl:p-6">
                         <p className="text-xl font-semibold leading-tight">Leadership in Teaching Excellence (LITE)</p>
-                        <p className="text-xs mt-4 text-gray-500">Important Dates</p>
+                        <p className="pt-4">AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence.</p>
+                        {/* <p className="text-xs mt-4 text-gray-500">Important Dates</p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 text-right font-medium">Mar 29, 2021</p>
@@ -199,13 +200,13 @@ export default function Home() {
                             <p className="col-span-2 text-secondary-500 text-right font-medium">Jun 10, 2021</p>
                             <p className="col-span-5 flex"><span className="pr-3">-</span>Faculty Training Ends.</p>
                           </div>
-                           <div className="grid grid-cols-7 gap-2 md:gap-3">
+                          <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 text-right font-medium">Jun 13, 2021</p>
                             <p className="col-span-5 flex"><span className="pr-3">-</span>Institutions inform AICTE of Course Launch Date as per Academic Year start.</p>
                           </div>
-                        </div>
+                        </div> */}
                         <div className="pt-4 lg:pt-6">
-                            <a className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-xl hover:bg-primary-500 hover:to-primary-600 transition" target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
+                          <a className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-xl hover:bg-primary-500 hover:to-primary-600 focus:ring focus:ring-secondary-300 transition" target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -295,7 +296,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="text-primary-700" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
                     </svg>
                   </div>
                   <div className="w-full md:flex-1 bg-gradient-to-br from-white to-gray-100 border border-secondary-400 rounded-lg shadow-md p-3 md:p-4">
@@ -304,7 +305,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="text-secondary-700" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
                     </svg>
                   </div>
                   <div className="w-full md:flex-1 bg-gradient-to-br from-white to-gray-100 border border-green-500 rounded-lg shadow-md p-3 md:p-4">
@@ -321,7 +322,7 @@ export default function Home() {
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-20">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:mx-auto">Delivered by <br/> Industry Experts and TAs</h2>
+                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:mx-auto">Delivered by <br /> Industry Experts and TAs</h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
@@ -343,24 +344,24 @@ export default function Home() {
                   <ImageWithDescription name="Hari Gopal"
                     caption={<>
                       Chief Technology Officer, Pupilfirst</>}
-                      role={<>
-                      <span className="block pb-2 font-semibold">Course Author &amp; Coach</span> Hari is a full-stack software engineer with 11 years of experience and leads Pupilfirst, one of the largest open-source projects using ReScript, the language used to build Facebook.</> }
+                    role={<>
+                      <span className="block pb-2 font-semibold">Course Author &amp; Coach</span> Hari is a full-stack software engineer with 11 years of experience and leads Pupilfirst, one of the largest open-source projects using ReScript, the language used to build Facebook.</>}
                     imgSrc="people/hari-gopal.png"
                   />
                   <ImageWithDescription name="Prashanth Reddy Koteru"
                     caption={<>
                       Coach-Web Development, Pupilfirst</>}
-                      role={<>
-                      <span className="block pb-2 font-semibold">Course Coach</span> Prashanth is a full-stack web developer and product engineer with five years of experience and an active evangelist in the indian developer community.</> }
+                    role={<>
+                      <span className="block pb-2 font-semibold">Course Coach</span> Prashanth is a full-stack web developer and product engineer with five years of experience and an active evangelist in the indian developer community.</>}
                     imgSrc="people/prashanth-reddy.png"
                   />
                   <ImageWithDescription name="Bellam Vamsi Krishna"
                     caption={<>
                       Teaching Assistant, Pupilfirst</>}
-                      role={<>
+                    role={<>
                       <span className="block pb-2 font-semibold">8<sup>th</sup> semester student, CSE SASTRA University.</span>
                       Vamsi has completed the WD 201 course at SASTRA University during July-December 2019 semester.
-                      He was a Teaching Assistant (TAs) for the January-July 2020 Semester web development course at SASTRA University.</> }
+                      He was a Teaching Assistant (TAs) for the January-July 2020 Semester web development course at SASTRA University.</>}
                     imgSrc="people/bellam-vamsi.png"
                   />
                 </div>
@@ -369,7 +370,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+          {/* <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
@@ -409,7 +410,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
@@ -432,9 +433,9 @@ export default function Home() {
               </div>
               <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12">
-                  <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">Apply now for <br/>AICTE  Leadership in <br/>Teaching Excellence Program</h4>
+                  <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">Apply now for <br />AICTE  Leadership in <br />Teaching Excellence Program</h4>
                   <div className="mt-4 flex justify-center">
-                    <a className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-900 transition"
+                    <a className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-900 focus:ring focus:ring-secondary-300 transition"
                       target="_blank" href="https://pupilfirst.typeform.com/to/qhbUdgTs">Apply Now</a>
                   </div>
                 </div>
@@ -442,7 +443,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main >
-    </div >
+      </main>
+    </div>
   );
 }
