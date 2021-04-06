@@ -37,14 +37,14 @@ export default function Home() {
         <meta property="og:site_name" content="Introduction to Electric Vehicles (EV101)" />
         <meta name="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-11P76BRB6N"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-11P76BRB6N');
+                gtag('config', 'G-6H1NS1GQNW');
               `,
           }}
         />
