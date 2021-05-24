@@ -85,7 +85,7 @@ h4 {
 .heading-with-underscore::before {
   @apply absolute bg-primary-500 h-1 w-4;
   content: "";
-  bottom: 10px;
+  top: 18px;
   left: 4px;
 }
 
