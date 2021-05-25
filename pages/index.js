@@ -661,12 +661,12 @@ export default function Home() {
                     Pupilfirst LMS, and delivered by Hari Gopal and Prashant
                     Reddy Koteru.
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg mt-4">
+                  {/* <p className="text-sm md:text-base lg:text-lg mt-4">
                     Hari and Prashanth are the industry experts in web
                     development. They will be assisted by Vamsi as a teaching
                     assistant for this program in order to make it an enjoyable
                     experience for everyone involved.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <svg
@@ -714,8 +714,8 @@ export default function Home() {
                         Hari is a full-stack web developer with 12 years of
                         experience. He's the CTO at Pupilfirst and leads
                         development of the Pupilfirst LMS, an open-source
-                        project that blends a traditional stack (RoR) with
-                        the latest and greatest tech (ReScript).
+                        project that blends a traditional stack (RoR) with the
+                        latest and greatest tech (ReScript).
                       </>
                     }
                     imgSrc="people/hari-gopal.png"
@@ -733,7 +733,7 @@ export default function Home() {
                     }
                     imgSrc="people/prashanth-reddy.png"
                   />
-                  <ImageWithDescription
+                  {/* <ImageWithDescription
                     name="Bellam Vamsi Krishna"
                     caption={<>Teaching Assistant, Pupilfirst</>}
                     role={
@@ -750,7 +750,7 @@ export default function Home() {
                       </>
                     }
                     imgSrc="people/bellam-vamsi.png"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
