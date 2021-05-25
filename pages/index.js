@@ -6,7 +6,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       <div className="relative rounded-lg bg-gradient-to-br from-yellow-300 to-primary-400 w-5/6 md:w-auto shadow-md ">
         <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain p-0.5 rounded-lg" />
       </div>
-      <p className={"text-lg pt-2"}>{name}</p>
+      <p className={"text-lg font-semibold pt-2"}>{name}</p>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>
         {caption}
       </p>
@@ -20,22 +20,22 @@ export default function Home() {
     <div className={""}>
       <Head>
         <title>Leadership in Teaching Excellence (LITE)</title>
-        <meta name="description" content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence."></meta>
-        <meta name="keywords" content="AICTE, LITE, NEP 2020, Web development, Javascript, Ruby on Rails, Typed Functional programming, ReScript, Industry Experts,  Leadership, Teaching"></meta>
-        <meta name="author" content="Pupilfirst.org"></meta>
+        <meta name="description" content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."></meta>
+        <meta name="keywords" content="Employment for Students, AICTE guided industry training for faculty, Recognition for Institute, Proven Online Teaching-Learning method as per NEP 2020, Internship with Covid19 Digital War Rooms."></meta>
+        <meta name="author" content="pupilfirst.org"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-        <meta property="og:title" content="Introduction to Electric Vehicles (EV101)" />
-        <meta property="og:description" content="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
+        <meta property="og:title" content="Leadership in Teaching Excellence (LITE)" />
+        <meta property="og:description" content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence." />
         <meta name="theme-color" content="#FDFAF7" />
-        <meta property="og:image" content="introduction-to-electric-vehicles-EV101.png" />
-        <meta property="og:url" content="https://ev.pupilfirst.org/" />
-        <meta name="twitter:card" content="introduction-to-electric-vehicles-EV101.png" />
-        <meta property="og:site_name" content="Introduction to Electric Vehicles (EV101)" />
-        <meta name="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
+        <meta property="og:image" content="leadership-in-teaching-excellence.jpg" />
+        <meta property="og:url" content="https://lite.pupilfirst.org/" />
+        <meta name="twitter:card" content="leadership-in-teaching-excellence.jpg" />
+        <meta property="og:site_name" content="Leadership in Teaching Excellence (LITE)" />
+        <meta name="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence." />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"></script>
         <script
@@ -67,7 +67,7 @@ export default function Home() {
               <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl lg:py-4 font-extrabold">
                 Leadership in <br />Teaching Excellence<span className="text-xl pl-1">(LITE)</span>
               </h1>
-              <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip one hundred institutions with leadership in teaching excellence.</p>
+              <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence.</p>
               <div className="pt-4 md:pt-8">
                 <a
                   className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 focus:ring focus:ring-secondary-300 transition"
@@ -87,7 +87,7 @@ export default function Home() {
                 <h2 className="text-xl md:text-3xl">In partnership with Pupilfirst</h2>
                 <p className="mt-4 text-sm md:text-base lg:text-lg">Pupilfirst is a founding member of National Educational Alliance for Technology (NEAT) programme of the Ministry of Education, that is implemented by AICTE.</p>
                 <p className="mt-4 text-sm md:text-base lg:text-lg">Pupilfirst’s mission is to enable teachers to transform classroom education to a learner centered model and achieve near 100% learning outcomes.</p>
-                <p className="mt-4">Learn More at: <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://pupilfirst.org/">https://pupilfirst.org/</a> and <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://neat.aicte-india.org/">https://neat.aicte-india.org/</a></p>
+                <p className="mt-4 text-sm md:text-base">Learn More at: <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://pupilfirst.org/">https://pupilfirst.org/</a> and <a className="text-secondary-500 font-semibold hover:underline hover:bg-secondary-50" target="_blank" href="https://neat.aicte-india.org/">https://neat.aicte-india.org/</a></p>
               </div>
               <div className="md:w-4/12 flex items-center justify-center flex-shrink-0 rounded-b-lg md:rounded-bl-none md:rounded-r-lg bg-gradient-to-br from-secondary-500 to-secondary-600">
                 <div className="p-6 md:p-3">
@@ -123,7 +123,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-500 font-semibold">When?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Selected institutions shall sign MoU’s and start faculty training under AICTE guidance from June 30 2021.</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg ">Selected institutions shall sign MoUs and start faculty training under AICTE guidance from June 30 2021.</p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-500 font-semibold">Effort by Higher Educational Institutions</h3>
@@ -188,7 +188,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">Jun 28, 2021</p>
-                            <p className="col-span-5 flex"><span className="pr-3">-</span>Institutions to send back signed MOU’s.</p>
+                            <p className="col-span-5 flex"><span className="pr-3">-</span>Institutions to send back signed MOUs.</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">Jun 30, 2021</p>
@@ -335,7 +335,7 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-4xl">
                   <p className="text-sm md:text-base lg:text-lg font-semibold mt-4">The training programme shall be hosted online at Pupilfirst platform and delivered by Hari Gopal, and Prashant Reddy Koteru.</p>
-                  <p className="text-sm md:text-base lg:text-lg mt-4">Hari and Prashanth are industry experts while Vamsi shall be the student TAs for this program to assist faculty in making this an enjoyable learning experience.</p>
+                  <p className="text-sm md:text-base lg:text-lg mt-4">Hari and Prashanth are the industry experts in web technology. They will be assisted by  Vamsi as the student Teaching Assistant for this program in making this an enjoyable learning experience for the faculty.</p>
                 </div>
               </div>
               <svg className="absolute right-0 top-1/4 object-center" width="120" height="400" fill="none" viewBox="0 0 120 400">
@@ -367,8 +367,7 @@ export default function Home() {
                       Teaching Assistant, Pupilfirst</>}
                     role={<>
                       <span className="block pb-2 font-semibold">8<sup>th</sup> semester student, CSE SASTRA University.</span>
-                      Vamsi has completed the WD 201 course at SASTRA University during July-December 2019 semester.
-                      He was a Teaching Assistant (TAs) for the January-July 2020 Semester web development course at SASTRA University.</>}
+                      Vamsi completed the WD 201 course at SASTRA University in 2019, and is currently interning at a prominent software development firm in Chennai. He has also been a teaching assistant for web development courses, starting from 2020.</>}
                     imgSrc="people/bellam-vamsi.png"
                   />
                 </div>
@@ -400,7 +399,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">June 28, 2021</p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Institutions to send back signed MOU’s.</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex"><span className="pr-3">-</span> Institutions to send back signed MOUs.</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">June 30, 2021</p>
@@ -469,7 +468,7 @@ export default function Home() {
                 </div>
                 <div className="pt-10 lg:pt-16">
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">Questions?</h3>
-                  <p className="pt-2">Email <span className="font-medium"> Col. Venkat, Director,</span> Faculty Development Cell (AICTE) at
+                  <p className="pt-2">Email <span className="font-medium"> Col. B. Venkat,</span> Faculty Development Cell (AICTE) at
                     <a href="mailto:director.fdc@aicte-india.org" className={"text-primary-800 underline pl-2 tracking-wide font-medium"}>director.fdc@aicte-india.org</a>
                   </p>
                 </div>
