@@ -657,15 +657,15 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-4xl">
                   <p className="text-sm md:text-base lg:text-lg font-semibold mt-4">
-                    The training programme shall be hosted online at Pupilfirst
-                    platform and delivered by Hari Gopal, and Prashant Reddy
-                    Koteru.
+                    The training programme shall be hosted online on the
+                    Pupilfirst LMS, and delivered by Hari Gopal and Prashant
+                    Reddy Koteru.
                   </p>
                   <p className="text-sm md:text-base lg:text-lg mt-4">
                     Hari and Prashanth are the industry experts in web
-                    technology. They will be assisted by Vamsi as the student
-                    Teaching Assistant for this program in making this an
-                    enjoyable learning experience for the faculty.
+                    development. They will be assisted by Vamsi as a teaching
+                    assistant for this program in order to make it an enjoyable
+                    experience for everyone involved.
                   </p>
                 </div>
               </div>
@@ -708,13 +708,14 @@ export default function Home() {
                     caption={<>Chief Technology Officer, Pupilfirst</>}
                     role={
                       <>
-                        <span className="block pb-2 font-semibold">
+                        <div className="pb-2 font-semibold">
                           Course Author &amp; Coach
-                        </span>{" "}
-                        Hari is a full-stack software engineer with 11 years of
-                        experience and leads Pupilfirst, one of the largest
-                        open-source projects using ReScript, the language used
-                        to build Facebook.
+                        </div>{" "}
+                        Hari is a full-stack web developer with 12 years of
+                        experience. He's the CTO at Pupilfirst and leads
+                        development of the Pupilfirst LMS, an open-source
+                        project that blends a traditional stack (RoR) with
+                        the latest and greatest tech (ReScript).
                       </>
                     }
                     imgSrc="people/hari-gopal.png"
@@ -724,12 +725,10 @@ export default function Home() {
                     caption={<>Coach-Web Development, Pupilfirst</>}
                     role={
                       <>
-                        <span className="block pb-2 font-semibold">
-                          Course Coach
-                        </span>{" "}
+                        <div className="pb-2 font-semibold">Course Coach</div>{" "}
                         Prashanth is a full-stack web developer and product
-                        engineer with five years of experience and an active
-                        evangelist in the indian developer community.
+                        engineer with five years of experience. He's an active
+                        evangelist in the Indian developer community.
                       </>
                     }
                     imgSrc="people/prashanth-reddy.png"
@@ -739,10 +738,10 @@ export default function Home() {
                     caption={<>Teaching Assistant, Pupilfirst</>}
                     role={
                       <>
-                        <span className="block pb-2 font-semibold">
+                        <div className="pb-2 font-semibold">
                           8<sup>th</sup> semester student, CSE SASTRA
                           University.
-                        </span>
+                        </div>
                         Vamsi completed the WD 201 course at SASTRA University
                         in 2019, and is currently interning at a prominent
                         software development firm in Chennai. He has also been a
