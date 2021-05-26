@@ -935,7 +935,7 @@ export default function Home() {
                   </h3>
                   <p className="pt-2">
                     Email <span className="font-medium"> Col. B. Venkat,</span>{" "}
-                    Faculty Development Cell (AICTE) at
+                    Director, Faculty Development Cell (AICTE) at
                     <a
                       href="mailto:director.fdc@aicte-india.org"
                       className={
