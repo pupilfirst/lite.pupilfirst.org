@@ -345,7 +345,7 @@ export default function Home() {
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              May 27, 2021
+                              May 26, 2021
                             </p>
                             <p className="col-span-5 flex font-bold">
                               <span className="pr-3">-</span>Applications Open
@@ -771,7 +771,7 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      May 27, 2021
+                      May 26, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Applications Open
