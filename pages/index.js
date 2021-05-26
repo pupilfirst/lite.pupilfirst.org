@@ -104,14 +104,17 @@ export default function Home() {
                   All India Council for Technical Education.
                 </p>
               </div>
-              <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl lg:py-4 font-extrabold">
+              <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
                 Leadership in <br />
-                Teaching Excellence<span className="text-xl pl-1">(LITE)</span>
+                Teaching Excellence
+                <span className="hidden md:inline-block text-xl pl-1">
+                  (LITE)
+                </span>
               </h1>
-              <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
+              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
                 AICTE’s Leadership in Teaching Excellence (LITE) is a national
-                programme to equip 50 colleges and 50 schools with leadership in
-                teaching excellence.
+                programme to select and equip 50 colleges and 50 schools with
+                leadership in teaching excellence.
               </p>
               <div className="pt-4 md:pt-8">
                 <a
@@ -441,6 +444,100 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-white bg-opacity-75 border-t border-gray-200 mx-auto relative">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-200 mx-4 xl:mx-0">
+              <div className="pt-10 lg:pt-16">
+                <div className="heading-with-leftborder">
+                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
+                    3 Step Selection Process
+                  </h2>
+                </div>
+              </div>
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-8 pb-10 lg:pb-16">
+                <div className="space-y-4 md:space-y-0 md:grid grid-cols-3 gap-4 lg:gap-8">
+                  <div className="relative rounded-lg px-4 py-3 bg-gradient-to-br from-transparent to-secondary-50 border border-secondary-100">
+                    <img
+                      className="block w-20 md:w-28"
+                      src="selection-steps/selection-step-1.svg"
+                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                    />
+                    <div className="pl-3 pt-2">
+                      <p className="font-medium text-xl text-primary-500">
+                        Step 1
+                      </p>
+                      <p className="pt-1">
+                        Institutes who apply are shortlisted
+                      </p>
+                      <p className="absolute right-2 top-1 text-secondary-100 opacity-40 text-8xl font-extrabold">
+                        1
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative rounded-lg px-4 py-3 bg-gradient-to-br from-transparent to-secondary-50 border border-secondary-100">
+                    <img
+                      className="block w-20 md:w-28"
+                      src="selection-steps/selection-step-2.svg"
+                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                    />
+                    <div className="pl-3 pt-2">
+                      <p className="font-medium text-xl text-primary-500">
+                        Step 2
+                      </p>
+                      <p className="pt-2">
+                        Shortlisted Institutes get link to nominate upto 5
+                        faculties
+                      </p>
+                      <p className="absolute right-2 top-1 text-secondary-100 opacity-40 text-8xl font-extrabold">
+                        2
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative rounded-lg px-4 py-3 bg-gradient-to-br from-transparent to-secondary-50 border border-secondary-100">
+                    <img
+                      className="block w-20 md:w-28"
+                      src="selection-steps/selection-step-3.svg"
+                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                    />
+                    <div className="pl-3 pt-2">
+                      <p className="font-medium text-xl text-primary-500">
+                        Step 3
+                      </p>
+                      <p className="pt-1">
+                        AICTE announces the list of selected Institutes and its
+                        faculty members.
+                      </p>
+                      <p className="absolute right-2 top-1 text-secondary-100 opacity-40 text-8xl font-extrabold">
+                        3
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex space-x-3 bg-yellow-50 border border-yellow-400 px-4 py-3 mt-4 rounded text-sm ">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="text-secondary-400 w-9 h-9"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                    </svg>
+                  </div>
+                  <p>
+                    <span className="font-medium">Important:</span> Shortlisting
+                    of applications shall be on a rolling basis. Institutions
+                    that meet the selection criteria on a first come first serve
+                    basis shall immediately receive the url link for nominating
+                    their faculty members.
+                  </p>
                 </div>
               </div>
             </div>
@@ -924,9 +1021,12 @@ export default function Home() {
                     create high quality learning outcomes for students.
                   </p>
                   <p className="text-sm md:text-base lg:text-lg">
-                    Heads of institutions who share this dream of AICTE are
-                    invited to apply for the leadership in teaching excellence
-                    (LITE) program.
+                    Heads of institutions who want to share this vision of AICTE
+                    are invited to apply for the leadership in teaching
+                    excellence (LITE) program and nominate names of five faculty
+                    members for training. Applications would be processed on a
+                    rolling basis as outlined in the three step selection
+                    process.
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
@@ -935,7 +1035,7 @@ export default function Home() {
                   </h3>
                   <p className="pt-2">
                     Email <span className="font-medium"> Col. B. Venkat,</span>{" "}
-                    Faculty Development Cell (AICTE) at
+                    Director, Faculty Development Cell (AICTE) at
                     <a
                       href="mailto:director.fdc@aicte-india.org"
                       className={
