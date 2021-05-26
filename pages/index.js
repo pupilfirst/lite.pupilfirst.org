@@ -830,6 +830,30 @@ export default function Home() {
                     }
                     imgSrc="people/prashanth-reddy.png"
                   />
+                  <ImageWithDescription
+                    name="Vinil Bhandari"
+                    caption={
+                      <>Director of Engineering, The New York Stock Exchange</>
+                    }
+                    role={
+                      <>
+                        Vinil Bhandari is Director of Engineering at{" "}
+                        <a
+                          className="text-secondary-500 font-medium underline hover:bg-secondary-100"
+                          target="_blank"
+                          href="https://www.linkedin.com/in/vinil-bhandari-9821a82"
+                        >
+                          NYSE
+                        </a>{" "}
+                        and advisor to the leadership team. Vinil believes that
+                        the open source technology being built by Pupilfirst in
+                        tight collaboration with India’s higher education
+                        regulator can result in massive social impact for
+                        millions of learners in India and developing countries.
+                      </>
+                    }
+                    imgSrc="people/vinil-bhandari.png"
+                  />
                   {/* <ImageWithDescription
                     name="Bellam Vamsi Krishna"
                     caption={<>Teaching Assistant, Pupilfirst</>}
