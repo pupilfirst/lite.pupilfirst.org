@@ -465,7 +465,7 @@ export default function Home() {
                     <img
                       className="block w-20 md:w-28"
                       src="selection-steps/selection-step-1.svg"
-                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                      alt="Institutes who apply are shortlisted"
                     />
                     <div className="pl-3 pt-2">
                       <p className="font-medium text-xl text-primary-500">
@@ -483,7 +483,7 @@ export default function Home() {
                     <img
                       className="block w-20 md:w-28"
                       src="selection-steps/selection-step-2.svg"
-                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                      alt="Shortlisted Institutes get link to nominate upto 5 faculties"
                     />
                     <div className="pl-3 pt-2">
                       <p className="font-medium text-xl text-primary-500">
@@ -502,7 +502,7 @@ export default function Home() {
                     <img
                       className="block w-20 md:w-28"
                       src="selection-steps/selection-step-3.svg"
-                      alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                      alt="AICTE announces the list of selected Institutes and its faculty members"
                     />
                     <div className="pl-3 pt-2">
                       <p className="font-medium text-xl text-primary-500">
