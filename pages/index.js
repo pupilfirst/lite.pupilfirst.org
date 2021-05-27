@@ -842,7 +842,7 @@ export default function Home() {
                         Exchange with in-depth expertise in building highly
                         scalable software along with diverse &amp; inclusive
                         teams.
-                        <p>
+                        <p className="pt-2">
                           Vinil has been invited by the AICTE leadership team to
                           share cutting knowledge to faculty for enabling them
                           to orient students to become part of high performance
