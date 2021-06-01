@@ -205,7 +205,7 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg ">
                         AICTE and Industry led specialised leadership training
-                        for computer science teachers to teach a minor degree
+                        for teachers from computer science and allied departments, to teach a minor degree
                         programme in Web Development and skill their students
                         using{" "}
                         <span className="italic">
@@ -232,8 +232,8 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg ">
                         Universities and AICTE affiliated Institutions with
-                        visionary heads of institutions and committed computer
-                        science faculty who can create transformational changes
+                        visionary heads of institutions and committed faculty from computer
+                        science and allied departments who can create transformational changes
                         as envisioned by NEP 2020.
                       </p>
                     </div>
