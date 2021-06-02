@@ -360,7 +360,7 @@ export default function Home() {
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Deadline for
-                              Institutions and Faculty nominations.
+                              Institution registrations and Faculty applications.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
@@ -369,7 +369,7 @@ export default function Home() {
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>AICTE to Announce
-                              Selected Institutions and Faculty.
+                              Selected Institutions and Faculty members.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
@@ -900,8 +900,8 @@ export default function Home() {
                       June 15, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Deadline for Institutions
-                      and Faculty nominations.
+                      <span className="pr-3">-</span> Deadline for Institution
+                      registrations and Faculty applications.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
@@ -910,7 +910,7 @@ export default function Home() {
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> AICTE to Announce Selected
-                      Institutions and Faculty.
+                      Institutions and Faculty members.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
@@ -1045,8 +1045,8 @@ export default function Home() {
                   <p className="text-sm md:text-base lg:text-lg">
                     Heads of institutions who want to share this vision of AICTE
                     are invited to apply for the leadership in teaching
-                    excellence (LITE) program and nominate names of five faculty
-                    members for training. Applications would be processed on a
+                    excellence (LITE) program and shortlisted institutes shall be 
+                    informed of faculty application and next steps by email. Applications would be processed on a
                     rolling basis as outlined in the three step selection
                     process.
                   </p>
