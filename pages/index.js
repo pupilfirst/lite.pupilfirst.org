@@ -185,6 +185,64 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="mx-4 xl:mx-0 pb-10 md:pb-16 pt-12">
+          <div className="relative max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="flex space-y-4 md:space-y-0 flex-col md:flex-row justify-between">
+              <div className="md:w-5/12 flex items-center justify-center flex-shrink-0">
+                <div className="p-4 md:p-3 rounded-full border-2 bg-primary-100 border-primary-200 shadow-sm">
+                  <img
+                    className="h-72 w-72 lg:h-96 lg:w-96 object-cover rounded-full"
+                    src="people/MP-Poonia.png"
+                    alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
+                  />
+                </div>
+              </div>
+              <div className="md:w-7/12">
+                <h2 className="text-base md:text-xl lg:text-2xl lg:pt-8">
+                  Letter to Vice Chancellors and Head of Institutions from{" "}
+                  <br />
+                  Hon: Vice Chairman, AICTE
+                </h2>
+                <p className="mt-4 max-w-xl">
+                  “We intend to upgrade selected institutions as AICTE Brand
+                  Ambassadors of Change and highlight selected institutions, its
+                  leadership, faculty and students as change agents who are
+                  implementing proven online teaching-learning methods that are
+                  aligned with NEP 2020”
+                </p>
+                <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
+                <p className="italic">Vice Chairman, </p>
+                <p className="italic">
+                  All India Council for Technical Education.
+                </p>
+                <a
+                  className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-8 border border-primary-400 hover:bg-primary-50 hover:shadow-lg transition"
+                  href="letter-from-VCM/Letter-from-the-VCM-AICTE.pdf"
+                  target="_blank"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="w-full h-7 text-primary-500"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"
+                      />
+                    </svg>
+                  </span>
+                  <span>Read the full letter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="relative border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
@@ -205,9 +263,9 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg ">
                         AICTE and Industry led specialised leadership training
-                        for teachers from computer science and allied departments, to teach a minor degree
-                        programme in Web Development and skill their students
-                        using{" "}
+                        for teachers from computer science and allied
+                        departments, to teach a minor degree programme in Web
+                        Development and skill their students using{" "}
                         <span className="italic">
                           learner centered pedagogy, competency based curriculum
                           and continuous assessments and professional
@@ -232,9 +290,10 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg ">
                         Universities and AICTE affiliated Institutions with
-                        visionary heads of institutions and committed faculty from computer
-                        science and allied departments who can create transformational changes
-                        as envisioned by NEP 2020.
+                        visionary heads of institutions and committed faculty
+                        from computer science and allied departments who can
+                        create transformational changes as envisioned by NEP
+                        2020.
                       </p>
                     </div>
                     <div>
@@ -360,7 +419,8 @@ export default function Home() {
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Deadline for
-                              Institution registrations and Faculty applications.
+                              Institution registrations and Faculty
+                              applications.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
@@ -1045,10 +1105,10 @@ export default function Home() {
                   <p className="text-sm md:text-base lg:text-lg">
                     Heads of institutions who want to share this vision of AICTE
                     are invited to apply for the leadership in teaching
-                    excellence (LITE) program and shortlisted institutes shall be 
-                    informed of faculty application and next steps by email. Applications would be processed on a
-                    rolling basis as outlined in the three step selection
-                    process.
+                    excellence (LITE) program and shortlisted institutes shall
+                    be informed of faculty application and next steps by email.
+                    Applications would be processed on a rolling basis as
+                    outlined in the three step selection process.
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
