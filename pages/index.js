@@ -117,13 +117,9 @@ export default function Home() {
                 leadership in teaching excellence.
               </p>
               <div className="pt-4 md:pt-8">
-                <a
-                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-primary-500 hover:to-primary-600 focus:ring focus:ring-secondary-300 transition"
-                  target="_blank"
-                  href="https://pupilfirst.typeform.com/to/qhbUdgTs"
-                >
-                  Apply Now
-                </a>
+                <div className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg">
+                  Application Closed
+                </div>
               </div>
             </div>
           </div>
@@ -417,7 +413,7 @@ export default function Home() {
                             <p className="col-span-2 text-secondary-500 font-medium">
                               Jun 15, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-5 flex font-bold">
                               <span className="pr-3">-</span>Deadline for
                               Institution registrations and Faculty
                               applications.
@@ -493,13 +489,12 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="pt-4 lg:pt-6">
-                          <a
-                            className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg hover:shadow-xl hover:bg-primary-500 hover:to-primary-600 focus:ring focus:ring-secondary-300 transition"
+                          <div
+                            className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md"
                             target="_blank"
-                            href="https://pupilfirst.typeform.com/to/qhbUdgTs"
                           >
-                            Apply Now
-                          </a>
+                            Application Closed
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1137,13 +1132,9 @@ export default function Home() {
                     Teaching Excellence Program
                   </h4>
                   <div className="mt-4 flex justify-center">
-                    <a
-                      className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-100 hover:text-primary-900 focus:ring focus:ring-secondary-300 transition"
-                      target="_blank"
-                      href="https://pupilfirst.typeform.com/to/qhbUdgTs"
-                    >
-                      Apply Now
-                    </a>
+                    <div className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md">
+                      Application Closed
+                    </div>
                   </div>
                 </div>
               </div>
