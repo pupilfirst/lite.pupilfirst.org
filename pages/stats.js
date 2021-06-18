@@ -80,8 +80,8 @@ export default function Home() {
               />
             </div>
           </header>
-          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col lg:flex-row justify-between mx-auto pb-8 md:pb-16 px-4 xl:px-0">
-            <div className="w-full lg:w-5/12 relative z-10">
+          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col xl:flex-row justify-between mx-auto pb-8 md:pb-16 px-4 xl:px-0">
+            <div className="w-full xl:w-5/12 relative z-10">
               <div className="inline-block rounded bg-primary-100 py-1 px-3 mt-4">
                 <p className="font-medium text-sm text-primary-800">
                   All India Council for Technical Education.
@@ -128,7 +128,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative flex w-full lg:w-7/12 min-h-full z-10">
+            <div className="hidden md:flex relative mx-auto w-max min-h-full z-10">
               <img
                 className="min-h-full w-[44rem] object-fill"
                 src="hero/stats-map.svg"
