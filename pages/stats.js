@@ -93,37 +93,55 @@ export default function Home() {
               </h1>
               <div className="text-sm md:text-base">
                 <p className="pt-4">
-                  The Chairman, Vice Chairman, Member Secretary of AICTE has
-                  reviewed the applications received from across the country for
-                  the first batch of LITE programme. 495 Academic Institutions
-                  have applied out of which 132 Institutions across 22 States
-                  qualify the selection criteria.
+                  495 Academic Institutions from 28 states applied for the LITE
+                  program. From this group, 132 Institutions across 22 States
+                  have qualified the selection process.
                 </p>
                 <p className="pt-2">
                   All qualified institutions may download the AICTE Welcome Kit
                   and follow instructions to send back the signed and scanned
-                  copy of MOU by the Head of Institute to AICTE before
+                  copy of MOU by the Head of Institute before
                   <strong>
                     &nbsp;28<sup>th</sup> June 2021
                   </strong>
                   .
                 </p>
+                <p className="pt-2">
+                  50 Institutions shall form the founding batch of the LITE
+                  programme.
+                </p>
+                <button className="mt-4 px-4 py-3 flex items-center space-x-2.5 bg-gradient-to-br from-yellow-500 to-primary-600 text-white font-semibold rounded-lg shadow transition hover:shadow-xl ">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="w-6 h-6"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M5.5 9.438V8.5h1v.938a1 1 0 0 0 .03.243l.4 1.598-.93.62-.93-.62.4-1.598a1 1 0 0 0 .03-.243z" />
+                      <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-4-.5V2h-1V1H6v1h1v1H6v1h1v1H6v1h1v1H5.5V6h-1V5h1V4h-1V3h1zm0 4.5h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.109 0l-.93-.62a1 1 0 0 1-.415-1.074l.4-1.599V8.5a1 1 0 0 1 1-1z" />
+                    </svg>
+                  </div>
+                  <p>Download Welcome Kit</p>
+                </button>
               </div>
-              <div className="grid grid-cols-2 gap-3 pt-8">
-                <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-6 text-center">
-                  <p className="text-3xl text-primary-500 font-bold">28</p>
+              <div className="grid grid-cols-4 gap-3 pt-8">
+                <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-4 text-center">
+                  <p className="text-3xl text-primary-700 font-bold">28</p>
                   <p className="text-sm font-medium">States/UT Applied</p>
                 </div>
-                <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-6 text-center">
-                  <p className="text-3xl text-primary-500 font-bold">26</p>
+                <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-4 text-center">
+                  <p className="text-3xl text-primary-700 font-bold">22</p>
                   <p className="text-sm font-medium">States/UT Qualified</p>
                 </div>
-                <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-6 text-center">
+                <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
                   <p className="text-3xl text-secondary-500 font-bold">475</p>
                   <p className="text-sm font-medium">Institutes Applied</p>
                 </div>
-                <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-6 text-center">
-                  <p className="text-3xl text-secondary-500 font-bold">255</p>
+                <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
+                  <p className="text-3xl text-secondary-500 font-bold">132</p>
                   <p className="text-sm font-medium">Institutes Qualified</p>
                 </div>
               </div>
@@ -146,7 +164,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">92</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">62</span>
+                      Qualified: <span className="font-semibold">30</span>
                     </p>
                   </div>
                 </span>
@@ -182,7 +200,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">24</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">9</span>
+                      Qualified: <span className="font-semibold">6</span>
                     </p>
                   </div>
                 </span>
@@ -200,7 +218,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">53</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">30</span>
+                      Qualified: <span className="font-semibold">20</span>
                     </p>
                   </div>
                 </span>
@@ -220,7 +238,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">55</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">27</span>
+                      Qualified: <span className="font-semibold">12</span>
                     </p>
                   </div>
                 </span>
@@ -238,7 +256,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">31</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">15</span>
+                      Qualified: <span className="font-semibold">9</span>
                     </p>
                   </div>
                 </span>
@@ -274,7 +292,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">59</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">34</span>
+                      Qualified: <span className="font-semibold">18</span>
                     </p>
                   </div>
                 </span>
@@ -292,7 +310,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">22</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">7</span>
+                      Qualified: <span className="font-semibold">2</span>
                     </p>
                   </div>
                 </span>
@@ -310,7 +328,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">9</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">6</span>
+                      Qualified: <span className="font-semibold">3</span>
                     </p>
                   </div>
                 </span>
@@ -364,7 +382,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">9</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">6</span>
+                      Qualified: <span className="font-semibold">2</span>
                     </p>
                   </div>
                 </span>
@@ -382,7 +400,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">6</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">3</span>
+                      Qualified: <span className="font-semibold">1</span>
                     </p>
                   </div>
                 </span>
@@ -418,7 +436,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">23</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">14</span>
+                      Qualified: <span className="font-semibold">4</span>
                     </p>
                   </div>
                 </span>
@@ -438,7 +456,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">22</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">10</span>
+                      Qualified: <span className="font-semibold">8</span>
                     </p>
                   </div>
                 </span>
@@ -456,7 +474,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">5</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">2</span>
+                      Qualified: <span className="font-semibold">1</span>
                     </p>
                   </div>
                 </span>
@@ -474,7 +492,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">17</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">7</span>
+                      Qualified: <span className="font-semibold">4</span>
                     </p>
                   </div>
                 </span>
@@ -492,61 +510,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">12</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">5</span>
-                    </p>
-                  </div>
-                </span>
-              </div>
-
-              <div className="tooltip tooltip-left right-[38%] top-[44%]">
-                <span className="absolute flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-sm ring ring-secondary-400 ring-offset-1 bg-secondary-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-sm h-2 w-2 bg-primary-400 ring ring-secondary-400 ring-offset-2"></span>
-                </span>
-                <span className="tooltip-content">
-                  <p className="text-sm font-medium px-3 py-2">Jharkhand</p>
-                  <div className="bg-secondary-200 bg-opacity-20 px-3 py-1.5 rounded-b-lg">
-                    <p className="text-sm">
-                      Applied: <span className="font-semibold">1</span>
-                    </p>
-                    <p className="text-sm">
-                      Qualified: <span className="font-semibold">1</span>
-                    </p>
-                  </div>
-                </span>
-              </div>
-
-              <div className="tooltip tooltip-right right-[36%] top-[36%]">
-                <span className="absolute flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-sm ring ring-secondary-400 ring-offset-1 bg-secondary-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-sm h-2 w-2 bg-primary-400 ring ring-secondary-400 ring-offset-2"></span>
-                </span>
-                <span className="tooltip-content">
-                  <p className="text-sm font-medium px-3 py-2">Bihar</p>
-                  <div className="bg-secondary-200 bg-opacity-20 px-3 py-1.5 rounded-b-lg">
-                    <p className="text-sm">
-                      Applied: <span className="font-semibold">3</span>
-                    </p>
-                    <p className="text-sm">
-                      Qualified: <span className="font-semibold">1</span>
-                    </p>
-                  </div>
-                </span>
-              </div>
-
-              <div className="tooltip tooltip-left right-[29%] top-[30%]">
-                <span className="absolute flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-sm ring ring-secondary-400 ring-offset-1 bg-secondary-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-sm h-2 w-2 bg-primary-400 ring ring-secondary-400 ring-offset-2"></span>
-                </span>
-                <span className="tooltip-content">
-                  <p className="text-sm font-medium px-3 py-2">Sikkim</p>
-                  <div className="bg-secondary-200 bg-opacity-20 px-3 py-1.5 rounded-b-lg">
-                    <p className="text-sm">
-                      Applied: <span className="font-semibold">1</span>
-                    </p>
-                    <p className="text-sm">
-                      Qualified: <span className="font-semibold">1</span>
+                      Qualified: <span className="font-semibold">4</span>
                     </p>
                   </div>
                 </span>
@@ -564,25 +528,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">5</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">4</span>
-                    </p>
-                  </div>
-                </span>
-              </div>
-
-              <div className="tooltip tooltip-left right-[12%] top-[38%]">
-                <span className="absolute flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-sm ring ring-secondary-400 ring-offset-1 bg-secondary-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-sm h-2 w-2 bg-primary-400 ring ring-secondary-400 ring-offset-2"></span>
-                </span>
-                <span className="tooltip-content">
-                  <p className="text-sm font-medium px-3 py-2">Manipur</p>
-                  <div className="bg-secondary-200 bg-opacity-20 px-3 py-1.5 rounded-b-lg">
-                    <p className="text-sm">
-                      Applied: <span className="font-semibold">1</span>
-                    </p>
-                    <p className="text-sm">
-                      Qualified: <span className="font-semibold">1</span>
+                      Qualified: <span className="font-semibold">2</span>
                     </p>
                   </div>
                 </span>
@@ -602,7 +548,7 @@ export default function Home() {
                       Applied: <span className="font-semibold">2</span>
                     </p>
                     <p className="text-sm">
-                      Qualified: <span className="font-semibold">2</span>
+                      Qualified: <span className="font-semibold">1</span>
                     </p>
                   </div>
                 </span>
@@ -859,7 +805,7 @@ export default function Home() {
                   </div>
                   <div className="mt-4">
                     <p className="text-xs text-right italic">
-                      Arranged In alphabetical order.
+                      Arranged state wise and in alphabetical order.
                     </p>
                     <div class="overflow-x-auto">
                       <div class="py-2 align-middle inline-block min-w-full">
@@ -902,101 +848,102 @@ export default function Home() {
                             <tbody className="border bg-white divide-y divide-gray-200">
                               <tr className="divide-x divide-gray-200">
                                 <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2 font-medium">
+                                  VIT Vellore
                                 </td>
-                                <td className="px-4 py-2">University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  Institute of Eminence
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Dr. Radhakrishnan Delhibabu</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2">2</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Indira Gandhi Delhi Technical University for
+                                  Women, Kashmere Gate
                                 </td>
-                                <td className="px-4 py-2">University</td>
+                                <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Dr. (Mrs.) Amita Dev</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  New Delhi
+                                </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2">3</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Acharya Nagarjuna University
                                 </td>
-                                <td className="px-4 py-2">University</td>
+                                <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Edara Sreenivasa Reddy</li>
+                                    <li>Konda Chaitanya</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2">4</td>
+                                <td className="px-4 py-2 font-medium">
+                                  J. C. Bose University of Science and
+                                  Technology, YMCA, Faridabad
                                 </td>
-                                <td className="px-4 py-2">University</td>
+                                <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Amita Arora</li>
+                                    <li>Payal Gulati</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Haryana
+                                </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2">5</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sant Gadge Baba Amravati University, Amravati
                                 </td>
-                                <td className="px-4 py-2">University</td>
+                                <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Dr. Mohammad Atique</li>
+                                    <li>Dr. Swati Sherekar</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2">6</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Makhanlal Chaturvedi National University of
+                                  Journalism and Communication, Bhopal
                                 </td>
-                                <td className="px-4 py-2">University</td>
+                                <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
+                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                    <li>Dr Chaitanya P. Agrawal</li>
+                                    <li>Dr Sunita Dwivedi</li>
                                   </ol>
                                 </td>
-                                <td className="px-4 py-2">Delhi</td>
-                              </tr>
-                              <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">1</td>
-                                <td className="px-4 py-2">
-                                  Indira Gandhi Technical University for Women
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
                                 </td>
-                                <td className="px-4 py-2">University</td>
-                                <td className="px-4 py-2">
-                                  <ol className="list-disc list-inside">
-                                    <li>Mrs Nancy James</li>
-                                    <li>Mrs Thomas Varghese</li>
-                                  </ol>
-                                </td>
-                                <td className="px-4 py-2">Delhi</td>
                               </tr>
                             </tbody>
                           </table>
@@ -1009,7 +956,7 @@ export default function Home() {
                       id="welcome-kit"
                       className="text-xl lg:text-2xl text-secondary-500 font-semibold"
                     >
-                      Welcome KIT
+                      LITE Welcome Kit
                     </h3>
                     <p className="pt-2 text-sm lg:text-lg">
                       The welcome kit for leadership in heads of institutions of
