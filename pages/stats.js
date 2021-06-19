@@ -127,7 +127,7 @@ export default function Home() {
                   <p>Download Welcome Kit</p>
                 </button>
               </div>
-              <div className="grid grid-cols-4 gap-3 pt-8">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 pt-8">
                 <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-4 text-center">
                   <p className="text-3xl text-primary-700 font-bold">28</p>
                   <p className="text-sm font-medium">States/UT Applied</p>
@@ -810,7 +810,7 @@ export default function Home() {
                     <div class="overflow-x-auto">
                       <div class="py-2 align-middle inline-block min-w-full">
                         <div class="shadow overflow-hidden border border-gray-200 sm:rounded-lg">
-                          <table className="min-w-full divide-y divide-gray-200">
+                          <table className="tabel-auto divide-y divide-gray-200">
                             <thead>
                               <tr className="text-left divide-x divide-primary-300 bg-gradient-to-r from-secondary-500 to-primary-500 whitespace-pre">
                                 <th
@@ -855,7 +855,7 @@ export default function Home() {
                                   Institute of Eminence
                                 </td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                  <ol className="list-disc pl-3">
                                     <li>Dr. Radhakrishnan Delhibabu</li>
                                   </ol>
                                 </td>
@@ -866,27 +866,11 @@ export default function Home() {
                               <tr className="divide-x divide-gray-200">
                                 <td className="px-4 py-2">2</td>
                                 <td className="px-4 py-2 font-medium">
-                                  Indira Gandhi Delhi Technical University for
-                                  Women, Kashmere Gate
-                                </td>
-                                <td className="px-4 py-2">State University</td>
-                                <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
-                                    <li>Dr. (Mrs.) Amita Dev</li>
-                                  </ol>
-                                </td>
-                                <td className="px-4 py-2 whitespace-nowrap">
-                                  New Delhi
-                                </td>
-                              </tr>
-                              <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">3</td>
-                                <td className="px-4 py-2 font-medium">
                                   Acharya Nagarjuna University
                                 </td>
                                 <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                  <ol className="list-disc pl-3">
                                     <li>Edara Sreenivasa Reddy</li>
                                     <li>Konda Chaitanya</li>
                                   </ol>
@@ -896,14 +880,14 @@ export default function Home() {
                                 </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">4</td>
+                                <td className="px-4 py-2">3</td>
                                 <td className="px-4 py-2 font-medium">
                                   J. C. Bose University of Science and
                                   Technology, YMCA, Faridabad
                                 </td>
                                 <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
+                                  <ol className="list-disc pl-3">
                                     <li>Amita Arora</li>
                                     <li>Payal Gulati</li>
                                   </ol>
@@ -913,15 +897,33 @@ export default function Home() {
                                 </td>
                               </tr>
                               <tr className="divide-x divide-gray-200">
-                                <td className="px-4 py-2">5</td>
+                                <td className="px-4 py-2">4</td>
                                 <td className="px-4 py-2 font-medium">
-                                  Sant Gadge Baba Amravati University, Amravati
+                                  Makhanlal Chaturvedi National University of
+                                  Journalism and Communication, Bhopal
                                 </td>
                                 <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
-                                    <li>Dr. Mohammad Atique</li>
-                                    <li>Dr. Swati Sherekar</li>
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr Chaitanya P. Agrawal</li>
+                                    <li>Dr Sunita Dwivedi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">5</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Janaki Devi Bajaj Institute of Management
+                                  Studies And Research (Constituent Institute of
+                                  S.N.D.T. Women’s University)
+                                </td>
+                                <td className="px-4 py-2">State University</td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Pravin Subhash Gosavi</li>
                                   </ol>
                                 </td>
                                 <td className="px-4 py-2 whitespace-nowrap">
@@ -931,18 +933,2334 @@ export default function Home() {
                               <tr className="divide-x divide-gray-200">
                                 <td className="px-4 py-2">6</td>
                                 <td className="px-4 py-2 font-medium">
-                                  Makhanlal Chaturvedi National University of
-                                  Journalism and Communication, Bhopal
+                                  Sant Gadge Baba Amravati University, Amravati
                                 </td>
                                 <td className="px-4 py-2">State University</td>
                                 <td className="px-4 py-2">
-                                  <ol className="list-disc pl-3 whitespace-nowrap">
-                                    <li>Dr Chaitanya P. Agrawal</li>
-                                    <li>Dr Sunita Dwivedi</li>
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Mohammad Atique</li>
+                                    <li>Dr. Swati Sherekar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">7</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Indira Gandhi Delhi Technical University for
+                                  Women, Kashmere Gate
+                                </td>
+                                <td className="px-4 py-2">State University</td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. (Mrs.) Amita Dev</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  New Delhi
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">8</td>
+                                <td className="px-4 py-2 font-medium">
+                                  GITAM University, Visakhapatnam
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Amarnadh Surada</li>
+                                    <li>Suraj Aravind Bollapragada</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">9</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Manav Rachna International Institute of
+                                  Research and Studies, Faridabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Suresh Kumar</li>
+                                    <li>Dr. Poonam Tanwar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Haryana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">10</td>
+                                <td className="px-4 py-2 font-medium">
+                                  GITAM University, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Vidya J</li>
+                                    <li>Yathish D P</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">11</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Aarupadai Veedu Institute of Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Muthuselvan S</li>
+                                    <li>Subapriya V</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">12</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Bharath Institute of Higher Education and
+                                  Research
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ramesh kumar K</li>
+                                    <li>Dr. Anitha Karthi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">13</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Noorul Islam Centre for Higher Education
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>R Chitra</li>
+                                    <li>Dr. J.R.Jeba</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">14</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Periyar Maniammai Institute of Science and
+                                  Technology, Thanjavur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ilangovan P</li>
+                                    <li>R Poonguzhali</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">15</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sathyabama Institute of Science and
+                                  Technology, Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. S Vigneshwari</li>
+                                    <li>Dr. S Revathy</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">16</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SRM Institute of Science and Technology,
+                                  Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. M S Abirami</li>
+                                    <li>Dr. M B Mukesh Krishnan</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">17</td>
+                                <td className="px-4 py-2 font-medium">
+                                  GITAM University, Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Deemed/Deemed to-be University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ravi Teja Bhima</li>
+                                    <li>Koti Neha</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">18</td>
+                                <td className="px-4 py-2 font-medium">
+                                  The Assam Royal Global University
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Aniruddha Deka</li>
+                                    <li>Saurabh Sutradhar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Assam
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">19</td>
+                                <td className="px-4 py-2 font-medium">
+                                  REVA University, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shantala Devi Patil</li>
+                                    <li>Dr. Kumar Raja D R</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">20</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sanjay Ghodawat University, Kolhapur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Sangram Patil</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">21</td>
+                                <td className="px-4 py-2 font-medium">
+                                  C V Raman Global University, Bhubaneswar
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Rojalina Priyadarshini</li>
+                                    <li>Madhusmita Sahu</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Odisha
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">22</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Manipal University, Jaipur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Satyabrata Roy</li>
+                                    <li>Vivek Kumar Verma</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Rajasthan
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">23</td>
+                                <td className="px-4 py-2 font-medium">
+                                  University of Engineering and Management,
+                                  Jaipur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Saroj Kumar</li>
+                                    <li>Krishnendu Kundu</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Rajasthan
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">24</td>
+                                <td className="px-4 py-2 font-medium">
+                                  University of Engineering and Management,
+                                  Kolkata
+                                </td>
+                                <td className="px-4 py-2">
+                                  Private University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Anay Ghosh</li>
+                                    <li>Sumit Anand</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  West Bengal
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">25</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Godavari Institute of Engineering and
+                                  Technology, Rajahmundry
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Shrija Madhu</li>
+                                    <li>R Tamilkodi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">26</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Pragati Engineering College, Surampalem
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. S Rao Chintalapudi</li>
+                                    <li>Dr. M Radhika Mani</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">27</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Raghu Engineering College, Visakhapatnam
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Bhavani Sankar Panda</li>
+                                    <li>S Satyanarayana</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">28</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Raghu Institute of Technology, Visakhapatnam
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. K N Brahmaji Rao</li>
+                                    <li>Bhamidipati Ravi Teja</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">29</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sri Venkateswara College of Engineering and
+                                  Technology, Chittoor
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Padavala Sai Prasad</li>
+                                    <li>Dr. Velmurugan J</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">30</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Velagapudi Ramakrishna Siddhartha Engineering
+                                  College, Vijayawada
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Mukesh Chinta</li>
+                                    <li>Dr Ramesh Kumar Panneerselvam</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">31</td>
+                                <td className="px-4 py-2 font-medium">
+                                  National Institute of Technical Teachers
+                                  Training and Research (NITTTR), Chandigarh
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Srinivasa K G</li>
+                                    <li>Prof. Maitreyee Dutta</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Chandigarh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">32</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Shri Shankaracharya Technical Campus (SSTC),
+                                  Bhilai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Madhuri Gupta</li>
+                                    <li>Neha Taori</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Chandigarh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">33</td>
+                                <td className="px-4 py-2 font-medium">
+                                  BMS Institute of Technology &amp; Management,
+                                  Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Arunakumari B N</li>
+                                    <li>Dr. Veena N</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">34</td>
+                                <td className="px-4 py-2 font-medium">
+                                  ISBR Business School, Bangalore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Sheetal Mahendher</li>
+                                    <li>Dr. Raghavi K Bhujang</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">35</td>
+                                <td className="px-4 py-2 font-medium">
+                                  NMAM Institute of Technology, Nitte, Udupi
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shashank Shetty</li>
+                                    <li>Prathyakshini</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">36</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Siddaganga Institute of Technology, Tumkuru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Pramod TC</li>
+                                    <li>Sushma S A</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">37</td>
+                                <td className="px-4 py-2 font-medium">
+                                  St. Joseph Engineering College, Mangaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sona Mundody</li>
+                                    <li>Dr. Harivinod N</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">38</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vidyavardhaka College of Engineering, Mysuru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Hamsaveni M</li>
+                                    <li>Shashank N</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">39</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Madhav Institute of Technology &amp; Science
+                                  (MITS), Gwalior
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Prabhakar Sharma</li>
+                                    <li>Dr. Manish Dixit</li>
                                   </ol>
                                 </td>
                                 <td className="px-4 py-2 whitespace-nowrap">
                                   Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">40</td>
+                                <td className="px-4 py-2 font-medium">
+                                  G H Raisoni College of Engineering, Nagpur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Pranay Deepak Saraf</li>
+                                    <li>Dipti Theng</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">41</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Government College of Engineering, Aurangabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Prashant Digambar Pathak</li>
+                                    <li>Vivek Kshirsagar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">42</td>
+                                <td className="px-4 py-2 font-medium">
+                                  KIT's College of Engineering (Autonomous),
+                                  Kolhapur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Bhagyashri Abhay Kelkar</li>
+                                    <li>Sameer Bhimrao Patil</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">43</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Pimpri Chinchwad College of Engineering
+                                  (PCCoE), Pune
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shailesh Hule</li>
+                                    <li>Savita Ajay Kumbhare</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">44</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vishwakarma Institute of Technology, Pune
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Manikrao Laxmanrao Dhore</li>
+                                    <li>Prof. (Mr.) Rahul B Diwate</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">45</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Excel Engineering College, Namakkal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ashokkumar L</li>
+                                    <li>Dr. T Ravichandran</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">46</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Hindusthan College of Engineering and
+                                  Technology, Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Jayaraj R</li>
+                                    <li>P Anitha</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">47</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Hindusthan Institute of Technology, Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Jameer Basha A</li>
+                                    <li>Lokesh S</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">48</td>
+                                <td className="px-4 py-2 font-medium">
+                                  K.S.Rangasamy College of Technology,
+                                  Tiruchengode
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Kanagaraju P</li>
+                                    <li>S Madhavi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">49</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Kamaraj College of Engineering and Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. R Arthy</li>
+                                    <li>T Mahara Jothi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">50</td>
+                                <td className="px-4 py-2 font-medium">
+                                  KPR Institute of Engineering and Technology,
+                                  Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>R Sivaramakrishnan</li>
+                                    <li>Premkumar M</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">51</td>
+                                <td className="px-4 py-2 font-medium">
+                                  R.M.K. Engineering College, Kavaraipettai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. K Chidambarathanu</li>
+                                    <li>Dr. B Prathusha Laxmi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">52</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Rajalakshmi Engineering College, Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. P Kumar</li>
+                                    <li>Jananee v</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">53</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sethu Institute of Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>B Pandeeswari</li>
+                                    <li>Dr. M Poomani Alias Punitha</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">54</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SNS College of Technology, Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sangeetha S</li>
+                                    <li>V Savitha</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">55</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sri Krishna College of Engineering and
+                                  Technology, Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr S Balakrishnan</li>
+                                    <li>Dr. S Venkata Lakshmi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">56</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sri Krishna College of Technology, Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Kalpana</li>
+                                    <li>Kavitha Margret M</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">57</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vel Tech High Tech Dr. Rangarajan Dr.
+                                  Sakunthala Engineering College
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>S Shanmugapriya</li>
+                                    <li>Dr. S Durga Devi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">58</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Chaitanya Bharathi Institute of Technology,
+                                  Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>S Durga Devi</li>
+                                    <li>Srikanth R</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">59</td>
+                                <td className="px-4 py-2 font-medium">
+                                  G.Narayanamma Institute of Technology and
+                                  Science For Women, JNTUH, Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>M Lalitha</li>
+                                    <li>Manthena Deepthi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">60</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Institute of Aeronautical Engineering,
+                                  Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>E Krishna Rao Patro</li>
+                                    <li>B Padmaja</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">61</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vardhaman College of Engineering, Shamshabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Autonomous College
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Prajwal Maredukonda</li>
+                                    <li>Ganesh Deshmukh</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">62</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Andhra Loyola Institute of Engineering and
+                                  Technology, Vijayawada
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Rajendra Babu Chikkala</li>
+                                    <li>Koteswara Rao Addepalli</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">63</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Ramachandra College of Engineering, Eluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>P V Kishore Kumar</li>
+                                    <li>Nagendra Kumar Yakkala</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">64</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sri Venkateswara College of Engineering,
+                                  Tirupati
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. R Swathi</li>
+                                    <li>P Liyas</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">65</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SVEC Tirupati
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Boddepalli Kiran Kumar</li>
+                                    <li>Sainath</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Andhra Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">66</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Goa College of Engineering, Ponda, Goa
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Nilesh B Fal Dessai</li>
+                                    <li>Megha Nayak</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Goa
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">67</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Faculty of Technology, Marwadi University,
+                                  Rajkot
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Damodharan Palaniappan</li>
+                                    <li>Tejas Chauhan</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Gujarat
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">68</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sankalchand Patel College of Engineering,
+                                  Visnagar
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Modi Kiritkumar Jayantilal</li>
+                                    <li>Patel Mehulkumar Shankarlal</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Gujarat
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">69</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Satyug Darshan Institute of Engineering and
+                                  Technology, Faridabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shree Harsh Attri</li>
+                                    <li>Parul Dhingra</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Haryana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">70</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Iqbal Institute of Technology and Management,
+                                  Srinagar
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Qurat ul ain ashraf</li>
+                                    <li>Ambreena Muneer</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Jammu &amp; Kashmir
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">71</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Bapuji Institute of Engineering and
+                                  Technology, Davangere
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Nirmala C R</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">72</td>
+                                <td className="px-4 py-2 font-medium">
+                                  BLDEA's V.P.Dr.P.G.Halakatti College of
+                                  Engineering and Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Veena Anand Patil</li>
+                                    <li>Pavan Mahendrakar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">73</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Cambridge Institute of Technology, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Vinayaka S P</li>
+                                    <li>Bhavana P</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">74</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Dr. T Thimmaiah Institute of Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Mercy Flora Pritheba A</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">75</td>
+                                <td className="px-4 py-2 font-medium">
+                                  GM Institute of Technology, Davangere
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Mouneshachari S</li>
+                                    <li>Keerthi Prasad G</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">76</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Nitte Meenakshi Institute of Technology,
+                                  Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Thippeswamy M N</li>
+                                    <li>Jagadevi N Kalshetty</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">77</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Nitte School of Architecture, Planning and
+                                  Design, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Asha H V</li>
+                                    <li>Sowmya M R</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">78</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sahyadri College of Engineering and
+                                  Management, Mangalore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Duddela Sai Prashanth</li>
+                                    <li>Srinath K S</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">79</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sai Vidya Institute of Technology, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Abhijit Das</li>
+                                    <li>Abhijith H V</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">80</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SJCE, Mysuru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>D S Vinod</li>
+                                    <li>Dr. M A Anusuya</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">81</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SKSVMACET, Laxmeshwar
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Rajeshwari S Gamanagatti</li>
+                                    <li>Shivarajkumar Hiremath</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">82</td>
+                                <td className="px-4 py-2 font-medium">
+                                  T. John Institute of Technology, Bengaluru
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Suma R</li>
+                                    <li>Dr. H P Srinivasa</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Karnataka
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">83</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Adi Shankara Institute of Engineering and
+                                  Technology, Kalady
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ramesh R</li>
+                                    <li>Dr. Deepika MP</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">84</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Amal Jyothi College of Engineering, Kottayam
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Fr. Dr. Rubin Thottupurathu Jose</li>
+                                    <li>Juby Mathew</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">85</td>
+                                <td className="px-4 py-2 font-medium">
+                                  College of Engineering, Chengannur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Ahammed Siraj K K</li>
+                                    <li>Vinod P R</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">86</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Jawaharlal College of Engineering and
+                                  Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sreelakshmi S</li>
+                                    <li>Vijitha G</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">87</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Royal College of Engineering and Technology,
+                                  Thrissur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Venitha Viswanathan</li>
+                                    <li>Apsara Panicker</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">88</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vedavyasa Institute of Technology, Malappuram
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>S Kavitha Murugesan</li>
+                                    <li>Divya R K</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Kerala
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">89</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Lakshmi Narain College of Technology, Bhopal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Aditya patel</li>
+                                    <li>Dr. Vivek Richhariya</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">90</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Oriental College of Technology, Bhopal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Mrs. Roopali Soni</li>
+                                    <li>Dr. Sanjay kumar Sharma</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">91</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Oriental Institute of Science and Technology,
+                                  Bhopal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Pankaj Pandey</li>
+                                    <li>Atul Barve</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">92</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Oriental Institute of Science and Technology,
+                                  Bhopal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Dipti Chauhan</li>
+                                    <li>Ankit Chopra</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">93</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Prestige Institute of Management Dewas, Vikram
+                                  University, Ujjain
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Megha Joshi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">94</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Trinity Institute of Technology and Research,
+                                  Bhopal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Urmila Mahor</li>
+                                    <li>Vandna Gautam</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Madhya Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">95</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Deogiri Institute of Engineering and
+                                  Management Studies, Aurangabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sugandha Nandedkar</li>
+                                    <li>Manisha Ramesh Mundhe</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">96</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Jaihind College of Engineering, Kuran, Pune
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Arya Chandrapal Singh</li>
+                                    <li>Khatri Anand Ashok</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">97</td>
+                                <td className="px-4 py-2 font-medium">
+                                  K.C. College of Engineering and Management
+                                  Studies and Research, Thane
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Kirti Rupesh Parthe</li>
+                                    <li>Keerti D Kharatmol</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">98</td>
+                                <td className="px-4 py-2 font-medium">
+                                  K.C.E.S's Institute of Management and
+                                  Research, Jalgaon
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shweta Omprakash Ramani</li>
+                                    <li>Ankita Kailash Kothari</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">99</td>
+                                <td className="px-4 py-2 font-medium">
+                                  MVPS's KBT College of Engineering, Nashik
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Talekar Sopan Ashok</li>
+                                    <li>Madhuri Vishnu Malode</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">100</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Rizvi College of Engineering, University of
+                                  Mumbai, Mumbai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Shiburaj Rajendrababu Pappu</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">101</td>
+                                <td className="px-4 py-2 font-medium">
+                                  SVERIs College of Engineering, Pandharpur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Somnath Thigale</li>
+                                    <li>Mr. Vinayak Macchindra Sale</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">102</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Trinity Academy of Engineering, Pune
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Nilesh Uke</li>
+                                    <li>Dr. Nikita Kulkarni</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">103</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Guru Tegh Bahadur Institute of Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Aashish Bhardwaj</li>
+                                    <li>Dr. Rajiv Chopra</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  New Delhi
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">104</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Synergy Institute of Engineering and
+                                  Technology, Dhenkanal
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Subhashree Abinash</li>
+                                    <li>Ipsita Panda</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Odisha
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">105</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Synergy Institute of Technology, Bhubaneswar
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sandigdha Acharya</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Odisha
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">106</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Manakula Vinayagar Institute of Technology,
+                                  Puducherry
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Poonguzhali N</li>
+                                    <li>Dr. P Sivakumar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Puducherry
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">107</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Baba Farid College of Engineering and
+                                  Technology, Bathinda
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Charandeep Singh bedi</li>
+                                    <li>Ashu Bansal</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Punjab
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">108</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Pyramid College of Business & Technology,
+                                  Phagwara
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Kulwinder Singh</li>
+                                    <li>Navjot Kaur</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Punjab
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">109</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Engineering College Ajmer
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Satya Narayan</li>
+                                    <li>Dr. Neetu Sharma</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Rajasthan
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">110</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Aalim Muhammed Salegh College of Engineering,
+                                  Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>K Khaja Mohideen</li>
+                                    <li>Bakiyalakshmi S</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">111</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Annapoorana Engineering College, Salem
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. T Buvaneswari</li>
+                                    <li>T P Udhayasankar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">112</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Dhirajlal Gandhi College of Technology, Salem
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>B Narmada</li>
+                                    <li>Arunkumar B</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">113</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Karpagam Institute of Technology, Coimbatore
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Karthikeyan</li>
+                                    <li>Sriram Kumar K</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">114</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Knowledge Institute Of Technology, Salem
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Sakthivel P</li>
+                                    <li>Sekar A</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">115</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Loyola ICAM College of Engineering and
+                                  Technology, Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Kavitha V</li>
+                                    <li>B R Sathish</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">116</td>
+                                <td className="px-4 py-2 font-medium">
+                                  New Prince shri Bhavani College of Engineering
+                                  and Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. T Saravanan</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">117</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Peri Institute of Technology, Chennai
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Vijayanarayanan</li>
+                                    <li>K Varalakshmi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">118</td>
+                                <td className="px-4 py-2 font-medium">
+                                  PSG Institute of Technology and Applied
+                                  Research
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr R Manimegalai</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Tamil Nadu
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">119</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Hyderabad Institute of Technology and
+                                  Management, Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Hema Mahajan</li>
+                                    <li>Vadla Navakishor</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">120</td>
+                                <td className="px-4 py-2 font-medium">
+                                  KG Reddy College of Engineering and
+                                  Technology, JNTU Hyderabad, Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Naresh Kumar Pegada</li>
+                                    <li>Ramakrishna Reddy K</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">121</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Malla Reddy College of Engineering and
+                                  Technology, Hyderabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Roopa Chandrika R</li>
+                                    <li>Dr. N S Gowri Ganesh</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">122</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Sreyas Institute of Engineering and Technology
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Joshi Padma Narasimhachari</li>
+                                    <li>N Santhosh Ramchander</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Telangana
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">123</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Ajay Kumar Garg Engineering College, Ghaziabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr Shashank Sahu</li>
+                                    <li>Narendra Kumar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Uttar Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">124</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Ajay Kumar Garg Engineering College, Ghaziabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Avdhesh Gupta</li>
+                                    <li>Shruti Keshari</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Uttar Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">125</td>
+                                <td className="px-4 py-2 font-medium">
+                                  KIET Group of Institutions, Ghaziabad
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Vineet Kumar Sharma</li>
+                                    <li>Annu Dhankhar</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Uttar Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">126</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Vision Institute of Technology, Kanpur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Mohd Rehan</li>
+                                    <li>Gaurav Tiwari</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Uttar Pradesh
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">127</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Tula's Institute, Dehradun
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Brajendra Kumar Sharma</li>
+                                    <li>Preeti Raturi</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Uttarakhand
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">128</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Dr. B. C. Roy Engineering College, Durgapur
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Abhijit Banerjee</li>
+                                    <li>Dr Raj Kumar Samanta</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  West Bengal
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">129</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Gargi Memorial Institute of Technology,
+                                  Kolkata
+                                </td>
+                                <td className="px-4 py-2">
+                                  Affiliated College to University
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Siddhartha Chatterjee</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  West Bengal
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">130</td>
+                                <td className="px-4 py-2 font-medium">
+                                  IIEBM, Indus Business School, Pune
+                                </td>
+                                <td className="px-4 py-2">
+                                  Standalone Institution
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Megha Dattaray Mane</li>
+                                    <li>Dr. Amresh Nikam</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">131</td>
+                                <td className="px-4 py-2 font-medium">
+                                  Premlila Vithaldas Polytechnic, Mumbai -
+                                  Conducted College of SNDT Women's University,
+                                  Mumbai
+                                </td>
+                                <td className="px-4 py-2">Others</td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Surekha Namdeo More</li>
+                                    <li>Asawari Mandar Arote</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Maharashtra
+                                </td>
+                              </tr>
+                              <tr className="divide-x divide-gray-200">
+                                <td className="px-4 py-2">132</td>
+                                <td className="px-4 py-2 font-medium">
+                                  BHAVAN'S CENTRE FOR COMMUNICATION &amp;
+                                  MANAGEMENT, BHUBANESWAR
+                                </td>
+                                <td className="px-4 py-2">
+                                  Standalone Institution
+                                </td>
+                                <td className="px-4 py-2">
+                                  <ol className="list-disc pl-3">
+                                    <li>Dr. Madhusmita Mohanty</li>
+                                    <li>Sridevi Tanuku</li>
+                                  </ol>
+                                </td>
+                                <td className="px-4 py-2 whitespace-nowrap">
+                                  Odisha
                                 </td>
                               </tr>
                             </tbody>
