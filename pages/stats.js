@@ -882,6 +882,14 @@ export default function Home() {
                                 </tr>
                               </thead>
                               <tbody className="border bg-white divide-y divide-gray-200 text-sm">
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-green-200 text-green-800 font-medium"
+                                    colspan="5"
+                                  >
+                                    Institute of Eminence
+                                  </td>
+                                </tr>
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">1</td>
                                   <td className="px-4 py-2 font-medium">
@@ -897,6 +905,18 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2 whitespace-nowrap">
                                     Tamil Nadu
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-blue-100 text-blue-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    State University
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
@@ -1009,6 +1029,18 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2 whitespace-nowrap">
                                     New Delhi
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-yellow-100 text-yellow-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    Deemed/Deemed to-be University
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
@@ -1196,6 +1228,18 @@ export default function Home() {
                                     Telangana
                                   </td>
                                 </tr>
+
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-purple-100 text-purple-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    Private University
+                                  </td>
+                                </tr>
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">18</td>
                                   <td className="px-4 py-2 font-medium">
@@ -1321,6 +1365,18 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2 whitespace-nowrap">
                                     West Bengal
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-pink-100 text-pink-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    Autonomous College
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
@@ -2010,6 +2066,17 @@ export default function Home() {
                                   </td>
                                 </tr>
 
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-indigo-100 text-indigo-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    Affiliated College to University
+                                  </td>
+                                </tr>
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">62</td>
                                   <td className="px-4 py-2 font-medium">
@@ -3263,6 +3330,18 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2 whitespace-nowrap">
                                     West Bengal
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td colspan="5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    className="px-3 py-1 bg-green-100 text-green-700 font-medium"
+                                    colspan="5"
+                                  >
+                                    Standalone Institution/Others
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
