@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
 body {
   @apply font-inter;
   -webkit-font-smoothing: antialiased;
@@ -167,4 +170,8 @@ h4 {
   border-left-color: #e6defd;
   border-width: 10px;
   margin-top: -10px;
+}
+
+.stats__side-nav-item--active {
+  @apply bg-primary-200 bg-opacity-50 text-secondary-600;
 }
