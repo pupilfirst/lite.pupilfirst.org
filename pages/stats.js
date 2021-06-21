@@ -3454,7 +3454,7 @@ export default function Home() {
                           <span className="font-medium"> Col. B. Venkat,</span>{" "}
                           Director, Faculty Development Cell (AICTE) at
                           <a
-                            href="mailto:director.fdc@aicte-india.org"
+                            href="mailto:director.fdc@aicte-india.org?cc=wd@pupilfirst.org"
                             className={
                               "text-secondary-600 underline pl-1 tracking-wide font-medium"
                             }
@@ -3463,14 +3463,9 @@ export default function Home() {
                           </a>{" "}
                           <br />
                           with cc to
-                          <a
-                            href="mailto:wd@pupilfirst.org"
-                            className={
-                              "text-secondary-600 underline pl-1 tracking-wide font-medium"
-                            }
-                          >
+                          <span className="text-secondary-600 pl-1 tracking-wide font-medium">
                             wd@pupilfirst.org
-                          </a>
+                          </span>
                         </p>
                       </div>
                     </div>
