@@ -111,7 +111,11 @@ export default function Home() {
                   50 Institutions shall form the founding batch of the LITE
                   programme.
                 </p>
-                <button className="mt-4 px-4 py-3 flex items-center space-x-2.5 bg-gradient-to-br from-yellow-500 to-primary-600 text-white font-semibold rounded-lg shadow transition hover:shadow-xl ">
+                <a
+                  href="https://drive.google.com/drive/folders/19sa4KQHw7FyU3ez1l7IFbt5czNU0t84h?usp=sharing"
+                  target="_blank"
+                  className="mt-4 px-4 py-3 inline-flex items-center space-x-2.5 bg-gradient-to-br from-yellow-500 to-primary-600 text-white font-semibold rounded-lg shadow transition hover:shadow-xl "
+                >
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -121,12 +125,12 @@ export default function Home() {
                       className="w-6 h-6"
                       viewBox="0 0 16 16"
                     >
-                      <path d="M5.5 9.438V8.5h1v.938a1 1 0 0 0 .03.243l.4 1.598-.93.62-.93-.62.4-1.598a1 1 0 0 0 .03-.243z" />
-                      <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-4-.5V2h-1V1H6v1h1v1H6v1h1v1H6v1h1v1H5.5V6h-1V5h1V4h-1V3h1zm0 4.5h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.109 0l-.93-.62a1 1 0 0 1-.415-1.074l.4-1.599V8.5a1 1 0 0 1 1-1z" />
+                      <path d="m11.798 8.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z" />
+                      <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm.694 2.09A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09l-.636 7a1 1 0 0 1-.996.91H2.826a1 1 0 0 1-.995-.91l-.637-7zM6.172 2a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z" />
                     </svg>
                   </div>
                   <p>Download Welcome Kit</p>
-                </button>
+                </a>
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 pt-8">
                 <div className="bg-primary-100 bg-opacity-50 border border-primary-300 rounded-lg px-3 py-4 text-center">
@@ -622,8 +626,8 @@ export default function Home() {
                               className="w-5 h-5"
                               viewBox="0 0 16 16"
                             >
-                              <path d="M5.5 9.438V8.5h1v.938a1 1 0 0 0 .03.243l.4 1.598-.93.62-.93-.62.4-1.598a1 1 0 0 0 .03-.243z" />
-                              <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-4-.5V2h-1V1H6v1h1v1H6v1h1v1H6v1h1v1H5.5V6h-1V5h1V4h-1V3h1zm0 4.5h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.109 0l-.93-.62a1 1 0 0 1-.415-1.074l.4-1.599V8.5a1 1 0 0 1 1-1z" />
+                              <path d="m11.798 8.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z" />
+                              <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm.694 2.09A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09l-.636 7a1 1 0 0 1-.996.91H2.826a1 1 0 0 1-.995-.91l-.637-7zM6.172 2a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z" />
                             </svg>
                             <p>LITE Welcome Kit</p>
                           </a>
@@ -885,7 +889,7 @@ export default function Home() {
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-green-200 text-green-800 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Institute of Eminence
                                   </td>
@@ -909,12 +913,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-blue-100 text-blue-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     State University
                                   </td>
@@ -1033,12 +1037,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-yellow-100 text-yellow-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Deemed/Deemed to-be University
                                   </td>
@@ -1230,12 +1234,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-purple-100 text-purple-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Private University
                                   </td>
@@ -1369,12 +1373,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-pink-100 text-pink-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Autonomous College
                                   </td>
@@ -2067,12 +2071,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-indigo-100 text-indigo-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Affiliated College to University
                                   </td>
@@ -3334,12 +3338,12 @@ export default function Home() {
                                 </tr>
 
                                 <tr>
-                                  <td colspan="5">&nbsp;</td>
+                                  <td colSpan="5">&nbsp;</td>
                                 </tr>
                                 <tr>
                                   <td
                                     className="px-3 py-1 bg-green-100 text-green-700 font-medium"
-                                    colspan="5"
+                                    colSpan="5"
                                   >
                                     Standalone Institution/Others
                                   </td>
@@ -3418,7 +3422,11 @@ export default function Home() {
                       selected and qualified institutions containing
                       instructions on next steps can be downloaded here.
                     </p>
-                    <button className="mt-4 px-4 py-3 flex items-center space-x-2.5 bg-gradient-to-br from-yellow-500 to-primary-600 text-white font-semibold rounded-lg shadow transition hover:shadow-xl ">
+                    <a
+                      href="https://drive.google.com/drive/folders/19sa4KQHw7FyU3ez1l7IFbt5czNU0t84h?usp=sharing"
+                      target="_blank"
+                      className="mt-4 px-4 py-3 inline-flex items-center space-x-2.5 bg-gradient-to-br from-yellow-500 to-primary-600 text-white font-semibold rounded-lg shadow transition hover:shadow-xl "
+                    >
                       <div>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -3428,12 +3436,12 @@ export default function Home() {
                           className="w-6 h-6"
                           viewBox="0 0 16 16"
                         >
-                          <path d="M5.5 9.438V8.5h1v.938a1 1 0 0 0 .03.243l.4 1.598-.93.62-.93-.62.4-1.598a1 1 0 0 0 .03-.243z" />
-                          <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-4-.5V2h-1V1H6v1h1v1H6v1h1v1H6v1h1v1H5.5V6h-1V5h1V4h-1V3h1zm0 4.5h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.109 0l-.93-.62a1 1 0 0 1-.415-1.074l.4-1.599V8.5a1 1 0 0 1 1-1z" />
+                          <path d="m11.798 8.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z" />
+                          <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm.694 2.09A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09l-.636 7a1 1 0 0 1-.996.91H2.826a1 1 0 0 1-.995-.91l-.637-7zM6.172 2a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z" />
                         </svg>
                       </div>
                       <p>Download Welcome Kit</p>
-                    </button>
+                    </a>
                   </section>
                   <div className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                     <div className="bg-primary-100 rounded-lg">
