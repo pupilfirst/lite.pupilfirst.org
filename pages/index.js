@@ -1026,9 +1026,11 @@ export default function Home() {
                       </span>
                     </p>
                   </div>
-                  <p className="col-span-3 text-xs lg:text-base text-secondary-500 font-medium">
+                  <div>
+                   <p className="col-span-3 text-xs lg:text-base text-secondary-500 font-medium">
                           <sup>*</sup><i>Date subject to change</i>
-                        </p>
+                   </p>
+                  </div>
                 </div>
               </div>
             </div>
