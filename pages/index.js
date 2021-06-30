@@ -487,11 +487,9 @@ export default function Home() {
                               </span>
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
-                              <sup>*</sup><i>Date subject to change</i>
-                            </p>
-                          </div>
+                         <p className="text-xs mt-4 text-secondary-500">
+                          <sup>*</sup><i>Date subject to change</i>
+                        </p>
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <div
@@ -1028,11 +1026,9 @@ export default function Home() {
                       </span>
                     </p>
                   </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                     <sup>*</sup><i>Date subject to change</i>
-                    </p>
-                  </div>
+                  <p className="text-xs mt-4 text-secondary-500">
+                          <sup>*</sup><i>Date subject to change</i>
+                        </p>
                 </div>
               </div>
             </div>
