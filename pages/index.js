@@ -421,7 +421,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 21, 2021
+                              Jun 21, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>AICTE to Announce
@@ -430,7 +430,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 28, 2021
+                              Jun 28, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Institutions to
@@ -439,7 +439,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 30, 2021
+                              Jun 30, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Faculty Training
@@ -448,7 +448,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 14, 2021
+                              Aug 14, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Faculty Training
@@ -457,7 +457,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 16, 2021
+                              Aug 16, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Institutions inform
@@ -467,7 +467,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 17, 2021
+                              Aug 17, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Course integration
@@ -487,6 +487,9 @@ export default function Home() {
                               </span>
                             </p>
                           </div>
+                         <p className="text-xs mt-4 text-secondary-500">
+                          <sup>*</sup><i>Date is subject to change</i>
+                        </p>
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <div
@@ -961,7 +964,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 21, 2021
+                      June 21, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> AICTE to Announce Selected
@@ -970,7 +973,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 28, 2021
+                      June 28, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Institutions to send back
@@ -979,7 +982,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 30, 2021
+                      June 30, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Faculty Training Starts.
@@ -987,7 +990,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 14, 2021
+                      August 14, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Faculty Training Ends.
@@ -995,7 +998,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 16, 2021
+                      August 16, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Institutions inform AICTE
@@ -1004,7 +1007,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 17, 2021
+                      August 17, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Course integration Starts
@@ -1023,6 +1026,13 @@ export default function Home() {
                       </span>
                     </p>
                   </div>
+              
+                 <div class="md:grid md:grid-cols-12 p-4">
+                  <p class="col-span-3 text-xs text-secondary-500 text-right">
+                <sup>*</sup><i>Date is subject to change</i>
+                </p>
+                </div>
+             
                 </div>
               </div>
             </div>
