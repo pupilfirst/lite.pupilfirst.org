@@ -488,7 +488,7 @@ export default function Home() {
                             </p>
                           </div>
                          <p className="text-xs mt-4 text-secondary-500">
-                          <sup>*</sup><i>Date subject to change</i>
+                          <sup>*</sup><i>Date is subject to change</i>
                         </p>
                         </div>
                         <div className="pt-4 lg:pt-6">
@@ -1027,9 +1027,11 @@ export default function Home() {
                     </p>
                   </div>
               
-                   <p className="text-xs mt-4 text-secondary-500">
-                          <sup>*</sup><i>Date subject to change</i>
-                   </p>
+                 <div class="md:grid md:grid-cols-12 p-4">
+                  <p class="col-span-3 text-xs text-secondary-500 text-right">
+                <sup>*</sup><i>Date subject to change</i>
+                </p>
+                </div>
              
                 </div>
               </div>
