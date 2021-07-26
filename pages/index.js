@@ -12,7 +12,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       </div>
       <p className={"text-lg font-semibold pt-2"}>{name}</p>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>{caption}</p>
-      <p className="text-sm leading-snug italic mt-3">{role}</p>
+      <p>{role}</p>
     </div>
   );
 }
@@ -117,7 +117,7 @@ export default function Home() {
                 leadership in teaching excellence.
               </p>
               <div className="pt-4 md:pt-8">
-                <div className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white text-base lg:text-lg text-center bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md shadow-lg">
+                <div className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-gray-800 bg-gray-200 rounded text-base lg:text-lg text-center font-semibold ">
                   Application Closed
                 </div>
               </div>
@@ -405,7 +405,7 @@ export default function Home() {
                             <p className="col-span-2 text-secondary-500 font-medium">
                               May 26, 2021
                             </p>
-                            <p className="col-span-5 flex font-bold">
+                            <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Applications Open
                             </p>
                           </div>
@@ -413,7 +413,7 @@ export default function Home() {
                             <p className="col-span-2 text-secondary-500 font-medium">
                               Jun 15, 2021
                             </p>
-                            <p className="col-span-5 flex font-bold">
+                            <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Deadline for
                               Institution registrations and Faculty
                               applications.
@@ -421,16 +421,16 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 21, 2021<sup>*</sup>
+                              Jul 27, 2021<sup>*</sup>
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-5 flex font-bold">
                               <span className="pr-3">-</span>AICTE to Announce
                               Selected Institutions and Faculty members.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 28, 2021<sup>*</sup>
+                              Aug 06, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Institutions to
@@ -439,39 +439,11 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jun 30, 2021<sup>*</sup>
+                              Aug 13, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Faculty Training
                               Starts.
-                            </p>
-                          </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 14, 2021<sup>*</sup>
-                            </p>
-                            <p className="col-span-5 flex">
-                              <span className="pr-3">-</span>Faculty Training
-                              Ends.
-                            </p>
-                          </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 16, 2021<sup>*</sup>
-                            </p>
-                            <p className="col-span-5 flex">
-                              <span className="pr-3">-</span>Institutions inform
-                              AICTE of Course Launch Schedule for Academic Year
-                              2021.
-                            </p>
-                          </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 17, 2021<sup>*</sup>
-                            </p>
-                            <p className="col-span-5 flex">
-                              <span className="pr-3">-</span>Course integration
-                              Starts at Universities.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
@@ -487,18 +459,16 @@ export default function Home() {
                               </span>
                             </p>
                           </div>
-                         <p className="text-xs mt-4 text-secondary-500">
-                          <sup>*</sup><i>Date is subject to change</i>
-                        </p>
+                          <p className="text-xs mt-4 text-secondary-500">
+                            <sup>*</sup>
+                            <i>Date is subject to change</i>
+                          </p>
                         </div>
-                        <div className="pt-4 lg:pt-6">
-                          <div
-                            className="block px-10 py-3 text-center text-white bg-gradient-to-r from-yellow-500 to-primary-500 border font-semibold rounded-md"
-                            target="_blank"
-                          >
+                        {/* <div className="pt-4 lg:pt-6">
+                          <div className="block px-10 py-3 text-center text-gray-800 bg-gray-200 rounded font-semibold">
                             Application Closed
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -862,7 +832,7 @@ export default function Home() {
                     name="Hari Gopal"
                     caption={<p>Chief Technology Officer, Pupilfirst</p>}
                     role={
-                      <div>
+                      <div className="text-sm leading-snug italic mt-3">
                         <div className="pb-2 font-semibold">
                           Course Author &amp; Coach
                         </div>{" "}
@@ -877,22 +847,22 @@ export default function Home() {
                   />
                   <ImageWithDescription
                     name="Prashanth Reddy Koteru"
-                    caption={<>Coach-Web Development, Pupilfirst</>}
+                    caption={<p>Coach-Web Development, Pupilfirst</p>}
                     role={
-                      <>
+                      <div className="text-sm leading-snug italic mt-3">
                         <div className="pb-2 font-semibold">Course Coach</div>{" "}
                         Prashanth is a full-stack web developer and product
                         engineer with five years of experience. He's an active
                         evangelist in the Indian developer community.
-                      </>
+                      </div>
                     }
                     imgSrc="people/prashanth-reddy.png"
                   />
                   <ImageWithDescription
                     name="Vinil Bhandari"
-                    caption={<>Director of Engineering, NYSE</>}
+                    caption={<p>Director of Engineering, NYSE</p>}
                     role={
-                      <>
+                      <div className="text-sm leading-snug italic mt-3">
                         <div className="pb-2 font-semibold">
                           Industry Mentor
                         </div>{" "}
@@ -906,7 +876,7 @@ export default function Home() {
                           to orient students to become part of high performance
                           engineering teams.
                         </p>
-                      </>
+                      </div>
                     }
                     imgSrc="people/vinil-bhandari.png"
                   />
@@ -914,7 +884,7 @@ export default function Home() {
                     name="Bellam Vamsi Krishna"
                     caption={<>Teaching Assistant, Pupilfirst</>}
                     role={
-                      <>
+                      <div className="text-sm leading-snug italic mt-3">
                         <div className="pb-2 font-semibold">
                           8<sup>th</sup> semester student, CSE SASTRA
                           University.
@@ -924,7 +894,7 @@ export default function Home() {
                         software development firm in Chennai. He has also been a
                         teaching assistant for web development courses, starting
                         from 2020.
-                      </>
+                      </div>
                     }
                     imgSrc="people/bellam-vamsi.png"
                   /> */}
@@ -964,7 +934,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 21, 2021<sup>*</sup>
+                      July 27, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> AICTE to Announce Selected
@@ -973,7 +943,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 28, 2021<sup>*</sup>
+                      August 06, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Institutions to send back
@@ -982,36 +952,10 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      June 30, 2021<sup>*</sup>
+                      August 13, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Faculty Training Starts.
-                    </p>
-                  </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 14, 2021<sup>*</sup>
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Faculty Training Ends.
-                    </p>
-                  </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 16, 2021<sup>*</sup>
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Institutions inform AICTE
-                      of Course Launch Schedule for Academic Year 2021.
-                    </p>
-                  </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 17, 2021<sup>*</sup>
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Course integration Starts
-                      at Universities.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
@@ -1026,13 +970,13 @@ export default function Home() {
                       </span>
                     </p>
                   </div>
-              
-                 <div class="md:grid md:grid-cols-12 p-4">
-                  <p class="col-span-3 text-xs text-secondary-500 text-right">
-                <sup>*</sup><i>Date is subject to change</i>
-                </p>
-                </div>
-             
+
+                  <div class="md:grid md:grid-cols-12 p-4">
+                    <p class="col-span-3 text-xs text-secondary-500 text-right">
+                      <sup>*</sup>
+                      <i>Date is subject to change</i>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1142,7 +1086,7 @@ export default function Home() {
                     Teaching Excellence Program
                   </h4>
                   <div className="mt-4 flex justify-center">
-                    <div className="block text-center px-10 font-semibold py-3 bg-white text-primary-800 border border-primary-400 rounded-md shadow-md">
+                    <div className="block text-center px-10 font-semibold py-3 text-gray-800 bg-primary-300 bg-opacity-50 rounded text-base lg:text-lg">
                       Application Closed
                     </div>
                   </div>
