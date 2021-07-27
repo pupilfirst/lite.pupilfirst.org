@@ -95,19 +95,18 @@ export default function Home() {
               <div className="text-sm md:text-base">
                 <p className="pt-4">
                   495 Academic Institutions from 28 states applied for the LITE
-                  program. From this group, 132 Institutions across 22 States
+                  program. From this group, 136 Institutions across 22 States
                   have qualified the selection process.
                 </p>
-                <p className="pt-2">
+                <p className="pt-3">
                   All qualified institutions may download the AICTE Welcome Kit
                   and follow instructions to send back the signed and scanned
-                  copy of MOU by the Head of Institute before
+                  copy of MOU by the Head of Institute before{" "}
                   <strong>
-                    &nbsp;28<sup>th</sup> June 2021
+                    06<sup>th</sup> August 2021.
                   </strong>
-                  .
                 </p>
-                <p className="pt-2">
+                <p className="pt-3">
                   50 Institutions shall form the founding batch of the LITE
                   programme.
                 </p>
@@ -142,11 +141,11 @@ export default function Home() {
                   <p className="text-sm font-medium">States/UT Qualified</p>
                 </div>
                 <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
-                  <p className="text-3xl text-secondary-500 font-bold">475</p>
+                  <p className="text-3xl text-secondary-500 font-bold">495</p>
                   <p className="text-sm font-medium">Institutes Applied</p>
                 </div>
                 <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
-                  <p className="text-3xl text-secondary-500 font-bold">132</p>
+                  <p className="text-3xl text-secondary-500 font-bold">136</p>
                   <p className="text-sm font-medium">Institutes Qualified</p>
                 </div>
               </div>
