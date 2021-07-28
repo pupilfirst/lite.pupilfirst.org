@@ -833,7 +833,7 @@ export default function Home() {
                       List of Provisionally Selected Institutions
                     </h3>
                     <p className="pt-2 text-sm lg:text-lg">
-                      The list of institutions provisionally selected for Academic
+                      The list of institutions selected on a provisional basis for the Academic
                       Year 2021-22 along with names of two faculty members from
                       the institute are published. Training would be given for
                       both the faculty members and performance and successful
@@ -3490,8 +3490,8 @@ export default function Home() {
                       LITE Welcome Kit
                     </h3>
                     <p className="pt-2 text-sm lg:text-lg">
-                      The welcome kit for leadership in heads of institutions of
-                      selected and qualified institutions containing
+                      The welcome kit for leadership in heads of
+                      provisionally selected institutions containing
                       instructions on next steps can be downloaded here.
                     </p>
                     <a
