@@ -89,14 +89,14 @@ export default function Home() {
                 </p>
               </div>
               <h1 className="hero__title-gradient text-lg md:text-3xl lg:pt-4 font-extrabold md:leading-tight">
-                AICTE is pleased to announce the List of Selected Institutions
+                AICTE is pleased to announce the List of Provisionally Selected Institutions
                 for Leadership in Teaching Excellence (LITE) program.
               </h1>
               <div className="text-sm md:text-base">
                 <p className="pt-4">
                   495 Academic Institutions from 28 states applied for the LITE
                   program. From this group, 136 Institutions across 22 States
-                  have qualified the selection process.
+                  have qualified the selection process provisionally.
                 </p>
                 <p className="pt-3">
                   All qualified institutions may download the AICTE Welcome Kit
@@ -609,7 +609,7 @@ export default function Home() {
                             >
                               <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
                             </svg>
-                            <p>List of Selected Institutions</p>
+                            <p>List of Provisionally Selected Institutions</p>
                           </a>
                         </div>
                         <div className="stats__side-nav-item rounded-lg hover:bg-primary-100 hover:text-secondary-500 transition ">
@@ -830,10 +830,10 @@ export default function Home() {
                     className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
                   >
                     <h3 className="text-xl lg:text-2xl text-secondary-500 font-semibold">
-                      List of Selected Institutions
+                      List of Provisionally Selected Institutions
                     </h3>
                     <p className="pt-2 text-sm lg:text-lg">
-                      The list of selected institutions selected for Academic
+                      The list of institutions provisionally selected for Academic
                       Year 2021-22 along with names of two faculty members from
                       the institute are published. Training would be given for
                       both the faculty members and performance and successful
