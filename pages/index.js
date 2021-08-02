@@ -119,9 +119,12 @@ export default function Home() {
                 leadership in teaching excellence.
               </p>
               <div className="pt-4 md:pt-8">
-                <div className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-gray-800 bg-gray-200 rounded text-base lg:text-lg text-center font-semibold ">
-                  Application Closed
-                </div>
+                <a
+                  href="/announcement"
+                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold hover:shadow-xl transition "
+                >
+                  Result announced
+                </a>
               </div>
             </div>
           </div>
@@ -423,16 +426,16 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Jul 27, 2021<sup>*</sup>
+                              Aug 02, 2021
                             </p>
-                            <p className="col-span-5 flex font-bold">
-                              <span className="pr-3">-</span>AICTE to Announce
+                            <p className="col-span-5 flex">
+                              <span className="pr-3">-</span>Announcement of
                               Selected Institutions and Faculty members.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 06, 2021<sup>*</sup>
+                              Aug 13, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Institutions to
@@ -441,7 +444,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 13, 2021<sup>*</sup>
+                              Aug 23, 2021<sup>*</sup>
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Faculty Training
@@ -466,11 +469,14 @@ export default function Home() {
                             <i>Date is subject to change</i>
                           </p>
                         </div>
-                        {/* <div className="pt-4 lg:pt-6">
-                          <div className="block px-10 py-3 text-center text-gray-800 bg-gray-200 rounded font-semibold">
-                            Application Closed
-                          </div>
-                        </div> */}
+                        <div className="pt-4 lg:pt-6">
+                          <a
+                            href="/announcement"
+                            className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
+                          >
+                            Result announced
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -936,16 +942,16 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      July 27, 2021<sup>*</sup>
+                      August 02, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> AICTE to Announce Selected
+                      <span className="pr-3">-</span>Announcement of Selected
                       Institutions and Faculty members.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 06, 2021<sup>*</sup>
+                      August 13, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Institutions to send back
@@ -954,7 +960,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 13, 2021<sup>*</sup>
+                      August 23, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Faculty Training Starts.
@@ -1087,10 +1093,13 @@ export default function Home() {
                     AICTE Leadership in <br />
                     Teaching Excellence Program
                   </h4>
-                  <div className="mt-4 flex justify-center">
-                    <div className="block text-center px-10 font-semibold py-3 text-gray-800 bg-primary-300 bg-opacity-50 rounded text-base lg:text-lg">
-                      Application Closed
-                    </div>
+                  <div className="mt-6 flex justify-center">
+                    <a
+                      href="/announcement"
+                      className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-primary-700 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+                    >
+                      Result announced
+                    </a>
                   </div>
                 </div>
               </div>
