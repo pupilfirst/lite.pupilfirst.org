@@ -447,8 +447,7 @@ export default function Home() {
                               Aug 23, 2021
                             </p>
                             <p className="col-span-8 flex">
-                              <span className="pr-3">-</span>Faculty Training
-                              Starts.
+                              <span className="pr-3">-</span>Online Training of Faculty begins.
                             </p>
                           </div>
                         </div>
@@ -946,7 +945,7 @@ export default function Home() {
                       August 23, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Faculty Training Starts.
+                      <span className="pr-3">-</span> Online Training of Faculty begins.
                     </p>
                   </div>
                 </div>
