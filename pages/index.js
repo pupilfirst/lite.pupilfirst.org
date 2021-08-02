@@ -303,7 +303,7 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg ">
                         Selected institutions shall sign MoUs and start faculty
-                        training under AICTE guidance from June 30 2021.
+                        training under AICTE guidance from August 23 2021.
                       </p>
                     </div>
                     <div>

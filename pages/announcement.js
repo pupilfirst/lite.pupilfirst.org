@@ -106,7 +106,7 @@ export default function Home() {
                   and follow instructions to send back the signed and scanned
                   copy of MOU by the Head of Institute before{" "}
                   <strong>
-                    06<sup>th</sup> August 2021.
+                    13<sup>th</sup> August 2021.
                   </strong>
                 </p>
                 <p className="pt-3">
