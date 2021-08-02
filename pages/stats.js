@@ -91,13 +91,13 @@ export default function Home() {
                 </p>
               </div>
               <h1 className="hero__title-gradient text-lg md:text-3xl lg:pt-4 font-extrabold md:leading-tight">
-                AICTE is pleased to announce the List of Provisionally Selected
+                AICTE has approved the List of Provisionally Selected
                 Institutions for Leadership in Teaching Excellence (LITE)
                 program.
               </h1>
               <div className="text-sm md:text-base">
                 <p className="pt-4">
-                  495 Academic Institutions from 28 states applied for the LITE
+                  475 Academic Institutions from 28 states applied for the LITE
                   program. From this group, 136 Institutions across 22 States
                   have qualified the selection process provisionally.
                 </p>
@@ -144,7 +144,7 @@ export default function Home() {
                   <p className="text-sm font-medium">States/UT Qualified</p>
                 </div>
                 <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
-                  <p className="text-3xl text-secondary-500 font-bold">495</p>
+                  <p className="text-3xl text-secondary-500 font-bold">475</p>
                   <p className="text-sm font-medium">Institutes Applied</p>
                 </div>
                 <div className="bg-secondary-100 bg-opacity-50 border border-secondary-300 rounded-lg px-3 py-4 text-center">
