@@ -398,7 +398,7 @@ export default function Home() {
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                       </div>
-                      <div className="p-2 md:p-4 lg:p-5 2xl:p-6">
+                      <div className="p-2 md:p-4 lg:p-5">
                         <p className="text-xl font-semibold leading-tight">
                           Leadership in Teaching Excellence (LITE)
                         </p>
@@ -406,52 +406,51 @@ export default function Home() {
                           Important Dates
                         </p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
+                          <div className="grid grid-cols-12 gap-2 md:gap-3">
+                            <p className="col-span-4 text-secondary-500 font-medium">
                               May 26, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-8 flex">
                               <span className="pr-3">-</span>Applications Open
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
+                          <div className="grid grid-cols-12 gap-2 md:gap-3">
+                            <p className="col-span-4 text-secondary-500 font-medium">
                               Jun 15, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-8 flex">
                               <span className="pr-3">-</span>Deadline for
                               Institution registrations and Faculty
                               applications.
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
+                          <div className="grid grid-cols-12 gap-2 md:gap-3">
+                            <p className="col-span-4 text-secondary-500 font-medium">
                               Aug 02, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-8 flex">
                               <span className="pr-3">-</span>Announcement of
                               Selected Institutions and Faculty members.
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
+                          <div className="grid grid-cols-12 gap-2 md:gap-3">
+                            <p className="col-span-4 text-secondary-500 font-medium">
                               Aug 02-13, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-8 flex">
                               <span className="pr-3">-</span>Institutions to
                               send back signed MOUs.
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
+                          <div className="grid grid-cols-12 gap-2 md:gap-3">
+                            <p className="col-span-4 text-secondary-500 font-medium">
                               Aug 23, 2021
                             </p>
-                            <p className="col-span-5 flex">
+                            <p className="col-span-8 flex">
                               <span className="pr-3">-</span>Faculty Training
                               Starts.
                             </p>
                           </div>
-                        
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
@@ -950,7 +949,6 @@ export default function Home() {
                       <span className="pr-3">-</span> Faculty Training Starts.
                     </p>
                   </div>
-                 
                 </div>
               </div>
             </div>
