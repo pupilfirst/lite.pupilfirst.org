@@ -123,7 +123,7 @@ export default function Home() {
                   href="/announcement"
                   className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold hover:shadow-xl transition "
                 >
-                  Result announced
+                  Results announced
                 </a>
               </div>
             </div>
@@ -435,7 +435,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 13, 2021<sup>*</sup>
+                              Aug 2-13, 2021
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Institutions to
@@ -444,37 +444,21 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-secondary-500 font-medium">
-                              Aug 23, 2021<sup>*</sup>
+                              Aug 23, 2021
                             </p>
                             <p className="col-span-5 flex">
                               <span className="pr-3">-</span>Faculty Training
                               Starts.
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-secondary-500 font-medium">
-                              Ongoing
-                            </p>
-                            <p className="col-span-5 flex">
-                              <span className="pr-3">-</span>
-                              <span>
-                                <span className="italic">In Situ</span>
-                                &nbsp;faculty training continues along with
-                                course deployment.
-                              </span>
-                            </p>
-                          </div>
-                          <p className="text-xs mt-4 text-secondary-500">
-                            <sup>*</sup>
-                            <i>Date is subject to change</i>
-                          </p>
+                        
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
                             href="/announcement"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                            Result announced
+                            Results announced
                           </a>
                         </div>
                       </div>
@@ -951,7 +935,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 13, 2021<sup>*</sup>
+                      August 2-13, 2021<sup>*</sup>
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Institutions to send back
@@ -960,31 +944,13 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      August 23, 2021<sup>*</sup>
+                      August 23, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
                       <span className="pr-3">-</span> Faculty Training Starts.
                     </p>
                   </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-secondary-500 font-medium lg:text-right">
-                      Ongoing
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span>{" "}
-                      <span>
-                        <span className="italic">In Situ</span>&nbsp;faculty
-                        training continues along with course deployment.
-                      </span>
-                    </p>
-                  </div>
-
-                  <div class="md:grid md:grid-cols-12 p-4">
-                    <p class="col-span-3 text-xs text-secondary-500 text-right">
-                      <sup>*</sup>
-                      <i>Date is subject to change</i>
-                    </p>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -1098,7 +1064,7 @@ export default function Home() {
                       href="/announcement"
                       className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-primary-700 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
                     >
-                      Result announced
+                      Results announced
                     </a>
                   </div>
                 </div>
