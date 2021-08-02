@@ -3305,8 +3305,7 @@ export default function Home() {
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">128</td>
                                   <td className="px-4 py-2 font-medium">
-                                    Ajay Kumar Garg Engineering College,
-                                    Ghaziabad
+                                    IMS Engineering College, Ghaziabad
                                   </td>
                                   <td className="px-4 py-2">
                                     Affiliated College to University
