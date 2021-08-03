@@ -1607,8 +1607,29 @@ export default function Home() {
                                     Karnataka
                                   </td>
                                 </tr>
-                                <tr className="divide-x divide-gray-200">
+
+                          <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">37</td>
+                                  <td className="px-4 py-2 font-medium">
+                                    Nitte Meenakshi Institute of Technology,
+                                    Bengaluru
+                                  </td>
+                                  <td className="px-4 py-2">
+                                    Autonomous College
+                                  </td>
+                                  <td className="px-4 py-2">
+                                    <ol className="list-disc pl-3">
+                                      <li>Dr. Thippeswamy M N</li>
+                                      <li>Jagadevi N Kalshetty</li>
+                                    </ol>
+                                  </td>
+                                  <td className="px-4 py-2 whitespace-nowrap">
+                                    Karnataka
+                                  </td>
+                                </tr>
+
+                                <tr className="divide-x divide-gray-200">
+                                  <td className="px-4 py-2">38</td>
                                   <td className="px-4 py-2 font-medium">
                                     NMAM Institute of Technology, Nitte, Udupi
                                   </td>
@@ -1626,7 +1647,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">38</td>
+                                  <td className="px-4 py-2">39</td>
                                   <td className="px-4 py-2 font-medium">
                                     Siddaganga Institute of Technology, Tumkuru
                                   </td>
@@ -1644,7 +1665,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">39</td>
+                                  <td className="px-4 py-2">40</td>
                                   <td className="px-4 py-2 font-medium">
                                     St. Joseph Engineering College, Mangaluru
                                   </td>
@@ -1662,7 +1683,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">40</td>
+                                  <td className="px-4 py-2">41</td>
                                   <td className="px-4 py-2 font-medium">
                                     Vidyavardhaka College of Engineering, Mysuru
                                   </td>
@@ -1680,7 +1701,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">41</td>
+                                  <td className="px-4 py-2">42</td>
                                   <td className="px-4 py-2 font-medium">
                                     Madhav Institute of Technology &amp; Science
                                     (MITS), Gwalior
@@ -1699,7 +1720,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">42</td>
+                                  <td className="px-4 py-2">43</td>
                                   <td className="px-4 py-2 font-medium">
                                     G H Raisoni College of Engineering, Nagpur
                                   </td>
@@ -1717,7 +1738,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">43</td>
+                                  <td className="px-4 py-2">44</td>
                                   <td className="px-4 py-2 font-medium">
                                     Government College of Engineering,
                                     Aurangabad
@@ -1736,7 +1757,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">44</td>
+                                  <td className="px-4 py-2">45</td>
                                   <td className="px-4 py-2 font-medium">
                                     KIT's College of Engineering (Autonomous),
                                     Kolhapur
@@ -1755,7 +1776,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">45</td>
+                                  <td className="px-4 py-2">46</td>
                                   <td className="px-4 py-2 font-medium">
                                     Pimpri Chinchwad College of Engineering
                                     (PCCoE), Pune
@@ -1774,7 +1795,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">46</td>
+                                  <td className="px-4 py-2">47</td>
                                   <td className="px-4 py-2 font-medium">
                                     Vishwakarma Institute of Technology, Pune
                                   </td>
@@ -1792,7 +1813,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">47</td>
+                                  <td className="px-4 py-2">48</td>
                                   <td className="px-4 py-2 font-medium">
                                     Excel Engineering College, Namakkal
                                   </td>
@@ -1810,7 +1831,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">48</td>
+                                  <td className="px-4 py-2">49</td>
                                   <td className="px-4 py-2 font-medium">
                                     Hindusthan College of Engineering and
                                     Technology, Coimbatore
@@ -1829,7 +1850,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">49</td>
+                                  <td className="px-4 py-2">50</td>
                                   <td className="px-4 py-2 font-medium">
                                     Hindusthan Institute of Technology, Chennai
                                   </td>
@@ -1847,7 +1868,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">50</td>
+                                  <td className="px-4 py-2">51</td>
                                   <td className="px-4 py-2 font-medium">
                                     K.S.Rangasamy College of Technology,
                                     Tiruchengode
@@ -1866,7 +1887,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">51</td>
+                                  <td className="px-4 py-2">52</td>
                                   <td className="px-4 py-2 font-medium">
                                     Kamaraj College of Engineering and
                                     Technology
@@ -1885,7 +1906,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">52</td>
+                                  <td className="px-4 py-2">53</td>
                                   <td className="px-4 py-2 font-medium">
                                     KPR Institute of Engineering and Technology,
                                     Coimbatore
@@ -1904,7 +1925,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">53</td>
+                                  <td className="px-4 py-2">54</td>
                                   <td className="px-4 py-2 font-medium">
                                     R.M.K. Engineering College, Kavaraipettai
                                   </td>
@@ -1922,7 +1943,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">54</td>
+                                  <td className="px-4 py-2">55</td>
                                   <td className="px-4 py-2 font-medium">
                                     Rajalakshmi Engineering College, Chennai
                                   </td>
@@ -1940,7 +1961,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">55</td>
+                                  <td className="px-4 py-2">56</td>
                                   <td className="px-4 py-2 font-medium">
                                     Sethu Institute of Technology
                                   </td>
@@ -1958,7 +1979,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">56</td>
+                                  <td className="px-4 py-2">57</td>
                                   <td className="px-4 py-2 font-medium">
                                     SNS College of Technology, Coimbatore
                                   </td>
@@ -1976,7 +1997,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">57</td>
+                                  <td className="px-4 py-2">58</td>
                                   <td className="px-4 py-2 font-medium">
                                     Sri Krishna College of Engineering and
                                     Technology, Coimbatore
@@ -1995,7 +2016,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">58</td>
+                                  <td className="px-4 py-2">59</td>
                                   <td className="px-4 py-2 font-medium">
                                     Sri Krishna College of Technology,
                                     Coimbatore
@@ -2014,7 +2035,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">59</td>
+                                  <td className="px-4 py-2">60</td>
                                   <td className="px-4 py-2 font-medium">
                                     Vel Tech High Tech Dr. Rangarajan Dr.
                                     Sakunthala Engineering College
@@ -2033,7 +2054,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">60</td>
+                                  <td className="px-4 py-2">61</td>
                                   <td className="px-4 py-2 font-medium">
                                     ACE Engineering College, Hyderabad
                                   </td>
@@ -2051,7 +2072,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">61</td>
+                                  <td className="px-4 py-2">62</td>
                                   <td className="px-4 py-2 font-medium">
                                     Chaitanya Bharathi Institute of Technology,
                                     Hyderabad
@@ -2070,7 +2091,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">62</td>
+                                  <td className="px-4 py-2">63</td>
                                   <td className="px-4 py-2 font-medium">
                                     G.Narayanamma Institute of Technology and
                                     Science For Women, JNTUH, Hyderabad
@@ -2089,7 +2110,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">63</td>
+                                  <td className="px-4 py-2">64</td>
                                   <td className="px-4 py-2 font-medium">
                                     Institute of Aeronautical Engineering,
                                     Hyderabad
@@ -2108,7 +2129,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">64</td>
+                                  <td className="px-4 py-2">65</td>
                                   <td className="px-4 py-2 font-medium">
                                     Vardhaman College of Engineering, Shamshabad
                                   </td>
@@ -2126,7 +2147,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">65</td>
+                                  <td className="px-4 py-2">66</td>
                                   <td className="px-4 py-2 font-medium">
                                     VNR Vignana Jyothi Institute of Engineering
                                     and Technology, Hyderabad
@@ -2157,7 +2178,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">66</td>
+                                  <td className="px-4 py-2">67</td>
                                   <td className="px-4 py-2 font-medium">
                                     Andhra Loyola Institute of Engineering and
                                     Technology, Vijayawada
@@ -2176,7 +2197,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">67</td>
+                                  <td className="px-4 py-2">68</td>
                                   <td className="px-4 py-2 font-medium">
                                     Ramachandra College of Engineering, Eluru
                                   </td>
@@ -2194,7 +2215,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">68</td>
+                                  <td className="px-4 py-2">69</td>
                                   <td className="px-4 py-2 font-medium">
                                     Sri Venkateswara College of Engineering,
                                     Tirupati
@@ -2213,7 +2234,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">69</td>
+                                  <td className="px-4 py-2">70</td>
                                   <td className="px-4 py-2 font-medium">
                                     SVEC Tirupati
                                   </td>
@@ -2231,7 +2252,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">70</td>
+                                  <td className="px-4 py-2">71</td>
                                   <td className="px-4 py-2 font-medium">
                                     Goa College of Engineering, Ponda, Goa
                                   </td>
@@ -2249,7 +2270,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">71</td>
+                                  <td className="px-4 py-2">72</td>
                                   <td className="px-4 py-2 font-medium">
                                     Faculty of Technology, Marwadi University,
                                     Rajkot
@@ -2268,7 +2289,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">72</td>
+                                  <td className="px-4 py-2">73</td>
                                   <td className="px-4 py-2 font-medium">
                                     Sankalchand Patel College of Engineering,
                                     Visnagar
@@ -2287,7 +2308,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">73</td>
+                                  <td className="px-4 py-2">74</td>
                                   <td className="px-4 py-2 font-medium">
                                     Satyug Darshan Institute of Engineering and
                                     Technology, Faridabad
@@ -2306,7 +2327,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">74</td>
+                                  <td className="px-4 py-2">75</td>
                                   <td className="px-4 py-2 font-medium">
                                     Iqbal Institute of Technology and
                                     Management, Srinagar
@@ -2325,7 +2346,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">75</td>
+                                  <td className="px-4 py-2">76</td>
                                   <td className="px-4 py-2 font-medium">
                                     Bapuji Institute of Engineering and
                                     Technology, Davangere
@@ -2343,7 +2364,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">76</td>
+                                  <td className="px-4 py-2">77</td>
                                   <td className="px-4 py-2 font-medium">
                                     BLDEA's V.P.Dr.P.G.Halakatti College of
                                     Engineering and Technology
@@ -2362,7 +2383,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">77</td>
+                                  <td className="px-4 py-2">78</td>
                                   <td className="px-4 py-2 font-medium">
                                     Cambridge Institute of Technology, Bengaluru
                                   </td>
@@ -2380,7 +2401,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">78</td>
+                                  <td className="px-4 py-2">79</td>
                                   <td className="px-4 py-2 font-medium">
                                     Dr. T Thimmaiah Institute of Technology
                                   </td>
@@ -2397,7 +2418,7 @@ export default function Home() {
                                   </td>
                                 </tr>
                                 <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">79</td>
+                                  <td className="px-4 py-2">80</td>
                                   <td className="px-4 py-2 font-medium">
                                     GM Institute of Technology, Davangere
                                   </td>
@@ -2414,25 +2435,7 @@ export default function Home() {
                                     Karnataka
                                   </td>
                                 </tr>
-                                <tr className="divide-x divide-gray-200">
-                                  <td className="px-4 py-2">80</td>
-                                  <td className="px-4 py-2 font-medium">
-                                    Nitte Meenakshi Institute of Technology,
-                                    Bengaluru
-                                  </td>
-                                  <td className="px-4 py-2">
-                                    Affiliated College to University
-                                  </td>
-                                  <td className="px-4 py-2">
-                                    <ol className="list-disc pl-3">
-                                      <li>Dr. Thippeswamy M N</li>
-                                      <li>Jagadevi N Kalshetty</li>
-                                    </ol>
-                                  </td>
-                                  <td className="px-4 py-2 whitespace-nowrap">
-                                    Karnataka
-                                  </td>
-                                </tr>
+                                
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">81</td>
                                   <td className="px-4 py-2 font-medium">
