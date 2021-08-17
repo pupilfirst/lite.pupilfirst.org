@@ -83,7 +83,7 @@ export default function Home() {
             </div>
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl mx-auto px-4 xl:px-0">
-            <div className="text-center mx-auto pb-12">
+            <div className="text-center mx-auto pb-10 md:pb-24">
               <h1 className="hero__title-gradient text-lg md:text-6xl text-center lg:pt-4 font-extrabold md:leading-tight">
                 AICTE LITE Batch #1
               </h1>
@@ -96,7 +96,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute inset-0 md:top-8 z-0">
+          <div className="absolute inset-0 z-0">
             <img
               className="h-full w-full object-cover relative"
               src="hero/stats-hero-bg.png"
@@ -108,9 +108,9 @@ export default function Home() {
         <section className="relative border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="mx-4 xl:mx-0">
-              <section id="overall-application-stats" className="pt-10">
+              <section className="pt-10">
                 <div>
-                  <h3 className="text-xl lg:text-2xl text-secondary-500 font-semibold">
+                  <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                     50 Institutions
                   </h3>
                   <p className="pt-2 text-sm lg:text-lg max-w-4xl">
@@ -121,12 +121,19 @@ export default function Home() {
                     and Stand-Alone Institutions are represented.
                   </p>
                 </div>
+                <div className="">
+                  <img
+                    className="h-full w-full object-cover relative"
+                    src="stats-map/first-batch-states.png"
+                    alt="LITE - hero background image"
+                  />
+                </div>
               </section>
               <section
                 id="selected-institutions"
                 className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
               >
-                <h3 className="text-xl lg:text-2xl text-secondary-500 font-semibold">
+                <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   List of 50 Selected Institutions
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
@@ -1081,7 +1088,7 @@ export default function Home() {
                 id="welcome-kit"
                 className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
               >
-                <h3 className="text-xl lg:text-2xl text-secondary-500 font-semibold">
+                <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   State Public Affiliating Universities Represented
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
@@ -1090,7 +1097,7 @@ export default function Home() {
                   13, 2021.
                 </p>
               </section>
-              <div className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
+              <div className="border-t border-gray-300 mt-8 py-6 lg:mt-16 lg:py-12">
                 <div className="bg-primary-100 rounded-lg">
                   <div className="p-6">
                     <h3 className="text-xl lg:text-2xl text-secondary-500 font-semibold">
