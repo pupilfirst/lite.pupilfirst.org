@@ -82,16 +82,17 @@ export default function Home() {
               />
             </div>
           </header>
-          <div className="relative max-w-6xl 2xl:max-w-7xl mx-auto px-4 xl:px-0">
+          <div className="relative max-w-6xl 2xl:max-w-7xl mx-auto px-4 xl:px-0 z-10">
             <div className="text-center mx-auto pb-10 md:pb-24">
-              <h1 className="hero__title-gradient text-lg md:text-6xl text-center lg:pt-4 font-extrabold md:leading-tight">
-                AICTE LITE Batch #1
+              <h1 className="hero__title-gradient text-3xl md:text-6xl max-w-3xl mx-auto text-center lg:pt-4 font-extrabold md:leading-tight">
+                Leadership in <br />
+                Teaching Excellence
+                <p className="text-base md:text-2xl pt-2">AY 2021-22</p>
               </h1>
               <div className="text-sm md:text-lg max-w-xl text-center mx-auto">
                 <p className="pt-4">
-                  475 Academic Institutions from 28 states applied for the LITE
-                  program. From this group, 136 Institutions across 22 States
-                  have qualified the selection process provisionally.
+                  From amongst the 475 applications across 28 states, 136
+                  institutes have qualified for the LITE programme.
                 </p>
               </div>
             </div>
@@ -111,20 +112,21 @@ export default function Home() {
               <section className="pt-10">
                 <div>
                   <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
-                    50 Institutions
+                    LITE 50 - Higher Education
                   </h3>
                   <p className="pt-2 text-sm lg:text-lg max-w-4xl">
-                    AICTE is gratified and pleased that there is representation
-                    from all categories of Institutions from Institute of
-                    Eminence, Central University, State University, Private
-                    University, Deemed to be University, Autonomous, Affiliated
-                    and Stand-Alone Institutions are represented.
+                    The first batch of 50 institutions for the Leadership in
+                    Teaching Excellence programme represent 16 states and
+                    comprises 1 Institute of Eminence, 2 State Universities, 3
+                    Deemed to be Universities, 2 Private Universities, 26
+                    Autonomous Colleges, 15 Affiliated Colleges and 1 standalone
+                    institution.
                   </p>
                 </div>
-                <div className="">
+                <div>
                   <img
                     className="h-full w-full object-cover relative"
-                    src="stats-map/first-batch-states.png"
+                    src="stats-map/LITE-50-Faculty-List.png"
                     alt="LITE - hero background image"
                   />
                 </div>
@@ -134,16 +136,15 @@ export default function Home() {
                 className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
               >
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
-                  List of 50 Selected Institutions
+                  LITE 50 - Faculty List
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
-                  The list of institutions selected on a provisional basis for
-                  the Academic Year 2021-22 along with names of two faculty
-                  members from the institute are published. Training would be
-                  given for both the faculty members and performance and
-                  successful course completion will decide on final faculty
-                  selection as the “Faculty Coordinator” for the course along
-                  with the Head of Institute.
+                  The names of two faculty members from the institutions
+                  selected for training under the LITE programme are published
+                  below.. Training would be given for both the faculty members
+                  and based on performance and successful course completion, one
+                  faculty per institute would be selected as the “Faculty
+                  Coordinator” for implementation of Minor Degree.
                 </p>
 
                 <div className="mt-4">
@@ -179,6 +180,12 @@ export default function Home() {
                                 scope="col"
                                 className="px-4 py-3 font-semibold text-primary-50 text-xs uppercase tracking-wide"
                               >
+                                Head of Institute
+                              </th>
+                              <th
+                                scope="col"
+                                className="px-4 py-3 font-semibold text-primary-50 text-xs uppercase tracking-wide"
+                              >
                                 Names of Faculty
                               </th>
                               <th
@@ -193,7 +200,7 @@ export default function Home() {
                             <tr>
                               <td
                                 className="px-3 py-1 bg-green-200 text-green-800 font-medium"
-                                colSpan="5"
+                                colSpan="6"
                               >
                                 34 Universities and Autonomous Colleges have the
                                 maximum flexibility to integrate Minor Degree
@@ -207,6 +214,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Institute of Eminence
                               </td>
+                              <td className="px-4 py-2">Dr Rambabu Kodali</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Radhakrishnan Delhibabu</li>
@@ -223,6 +231,7 @@ export default function Home() {
                                 YMCA, Faridabad
                               </td>
                               <td className="px-4 py-2">State University</td>
+                              <td className="px-4 py-2">Dr Dinesh Kumar</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Amita Arora</li>
@@ -240,6 +249,7 @@ export default function Home() {
                                 Women, Kashmere Gate
                               </td>
                               <td className="px-4 py-2">State University</td>
+                              <td className="px-4 py-2">Dr Amita Dev</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. (Mrs.) Amita Dev</li>
@@ -260,6 +270,9 @@ export default function Home() {
                                 Deemed/Deemed to-be University
                               </td>
                               <td className="px-4 py-2">
+                                Dr Sanjay Srivastava
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Suresh Kumar</li>
                                   <li>Dr. Poonam Tanwar</li>
@@ -276,7 +289,10 @@ export default function Home() {
                                 Research
                               </td>
                               <td className="px-4 py-2">
-                                Deemed/Deemed to-be University
+                                Prof K Vijaya Bhaskar Raju
+                              </td>
+                              <td className="px-4 py-2">
+                                Dr Sanjay Srivastava
                               </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
@@ -296,6 +312,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Deemed/Deemed to-be University
                               </td>
+                              <td className="px-4 py-2">Dr A K Kumaraguru</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>R Chitra</li>
@@ -313,6 +330,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Private University</td>
                               <td className="px-4 py-2">
+                                Dr Biswajoy Chatterjee
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Saroj Kumar</li>
                                   <li>Krishnendu Kundu</li>
@@ -327,9 +347,8 @@ export default function Home() {
                               <td className="px-4 py-2 font-medium">
                                 Marwadi University, Rajkot
                               </td>
-                              <td className="px-4 py-2">
-                                Affiliated College to University
-                              </td>
+                              <td className="px-4 py-2">Private University</td>
+                              <td className="px-4 py-2">Dr Sandeep Sancheti</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Damodharan Palaniappan</li>
@@ -348,6 +367,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr. P.M.M. Subrahmanya Sarma
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Shrija Madhu</li>
                                   <li>R Tamilkodi</li>
@@ -363,6 +385,7 @@ export default function Home() {
                                 Raghu Engineering College, Visakhapatnam
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr. C.H. Srinivasu</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Bhavani Sankar Panda</li>
@@ -379,6 +402,7 @@ export default function Home() {
                                 Raghu Institute of Technology, Visakhapatnam
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr. S.Satyanarayana</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. K N Brahmaji Rao</li>
@@ -397,6 +421,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr. Matam Mohan Babu
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Padavala Sai Prasad</li>
                                   <li>Dr. Velmurugan J</li>
@@ -413,6 +440,7 @@ export default function Home() {
                                 Bhilai
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr. P B Deshmukh</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Madhuri Gupta</li>
@@ -430,6 +458,7 @@ export default function Home() {
                                 Bengaluru
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr Mohanbabu G GN</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Arunakumari B N</li>
@@ -446,6 +475,7 @@ export default function Home() {
                                 Siddaganga Institute of Technology, Tumkuru
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr S V Dinesh</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Pramod TC</li>
@@ -462,6 +492,7 @@ export default function Home() {
                                 St. Joseph Engineering College, Mangaluru
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr Rio D'Souza</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Sona Mundody</li>
@@ -479,6 +510,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr B Sadashive Gowda
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Hamsaveni M</li>
                                   <li>Shashank N</li>
@@ -494,6 +528,7 @@ export default function Home() {
                                 G H Raisoni College of Engineering, Nagpur
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr Sachin Untawale</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Pranay Deepak Saraf</li>
@@ -511,6 +546,7 @@ export default function Home() {
                                 Kolhapur
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr Vilas V Karjinni</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Bhagyashri Abhay Kelkar</li>
@@ -529,6 +565,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr Govind Narayan Kulkarni
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Shailesh Hule</li>
                                   <li>Savita Ajay Kumbhare</li>
@@ -544,6 +583,7 @@ export default function Home() {
                                 Excel Engineering College, Namakkal
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr K Bommanna Raja</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Ashokkumar L</li>
@@ -561,6 +601,7 @@ export default function Home() {
                                 Technology, Coimbatore
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr J Jaya</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Jayaraj R</li>
@@ -577,6 +618,7 @@ export default function Home() {
                                 Hindusthan Institute of Technology, Chennai
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr C Natarajan</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Jameer Basha A</li>
@@ -594,6 +636,7 @@ export default function Home() {
                                 Tiruchengode
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr R Gopalakrishnan</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Kanagaraju P</li>
@@ -610,6 +653,7 @@ export default function Home() {
                                 Kamaraj College of Engineering and Technology
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr Anant Achary</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. R Arthy</li>
@@ -627,6 +671,7 @@ export default function Home() {
                                 Coimbatore
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr M Akila</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>R Sivaramakrishnan</li>
@@ -644,6 +689,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr K A Muhamed Junaid
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. K Chidambarathanu</li>
                                   <li>Dr. B Prathusha Laxmi</li>
@@ -660,6 +708,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr S Chenthur Pandian
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Sangeetha S</li>
                                   <li>V Savitha</li>
@@ -675,6 +726,7 @@ export default function Home() {
                                 ACE Engineering College, Hyderabad
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr B L Raju</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Pinagadi Venkateswara Rao</li>
@@ -692,6 +744,7 @@ export default function Home() {
                                 Hyderabad
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr P Ravinder Reddy</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>S Durga Devi</li>
@@ -706,9 +759,10 @@ export default function Home() {
                               <td className="px-4 py-2">31</td>
                               <td className="px-4 py-2 font-medium">
                                 G.Narayanamma Institute of Technology and
-                                Science For Women, JNTUH, Hyderabad
+                                Science For Women, Hyderabad
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr K Ramesh Reddy</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>M Lalitha</li>
@@ -726,6 +780,9 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
                               <td className="px-4 py-2">
+                                Dr L V Narasimha Prasad
+                              </td>
+                              <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>E Krishna Rao Patro</li>
                                   <li>B Padmaja</li>
@@ -741,6 +798,7 @@ export default function Home() {
                                 Vardhaman College of Engineering, Shamshabad
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr J V R Ravindra</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Prajwal Maredukonda</li>
@@ -758,6 +816,7 @@ export default function Home() {
                                 Technology, Hyderabad
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
+                              <td className="px-4 py-2">Dr C D Naidu</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Nayamtulla Khan</li>
@@ -769,12 +828,12 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr>
-                              <td colSpan="5">&nbsp;</td>
+                              <td colSpan="6">&nbsp;</td>
                             </tr>
                             <tr>
                               <td
                                 className="px-3 py-1 bg-indigo-100 text-indigo-700 font-medium"
-                                colSpan="5"
+                                colSpan="6"
                               >
                                 16 Affiliated Colleges Representing 15
                                 Universities in 14 States have been selected for
@@ -790,6 +849,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr O Mahesh</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Rajendra Babu Chikkala</li>
@@ -808,6 +868,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Rajesh B Lohani</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Nilesh B Fal Dessai</li>
@@ -827,6 +888,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr D J Shah</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Modi Kiritkumar Jayantilal</li>
@@ -846,6 +908,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Sangeeta Trehan</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Shree Harsh Attri</li>
@@ -865,6 +928,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Mir Zaffar Hussain</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Qurat ul ain ashraf</li>
@@ -878,11 +942,32 @@ export default function Home() {
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">40</td>
                               <td className="px-4 py-2 font-medium">
+                                Sahyadri College of Engineering and Management,
+                                Mangalore
+                              </td>
+                              <td className="px-4 py-2">
+                                Affiliated College to University
+                              </td>
+                              <td className="px-4 py-2">Dr Rajesha S</td>
+                              <td className="px-4 py-2">
+                                <ol className="list-disc pl-3">
+                                  <li>Duddela Sai Prashanth</li>
+                                  <li>Srinath K S</li>
+                                </ol>
+                              </td>
+                              <td className="px-4 py-2 whitespace-nowrap">
+                                Karnataka
+                              </td>
+                            </tr>
+                            <tr className="divide-x divide-gray-200">
+                              <td className="px-4 py-2">41</td>
+                              <td className="px-4 py-2 font-medium">
                                 Amal Jyothi College of Engineering, Kottayam
                               </td>
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Z V Lakaparampil</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Fr. Dr. Rubin Thottupurathu Jose</li>
@@ -894,13 +979,14 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">41</td>
+                              <td className="px-4 py-2">42</td>
                               <td className="px-4 py-2 font-medium">
                                 College of Engineering, Chengannur
                               </td>
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Jacob Thomas V</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Ahammed Siraj K K</li>
@@ -912,13 +998,14 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">42</td>
+                              <td className="px-4 py-2">43</td>
                               <td className="px-4 py-2 font-medium">
                                 Lakshmi Narain College of Technology, Bhopal
                               </td>
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Vinay Kumar Sahu</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Aditya patel</li>
@@ -930,7 +1017,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">43</td>
+                              <td className="px-4 py-2">44</td>
                               <td className="px-4 py-2 font-medium">
                                 K.C. College of Engineering and Management
                                 Studies and Research, Thane
@@ -938,6 +1025,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Vilas Nitnaware</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Kirti Rupesh Parthe</li>
@@ -949,7 +1037,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">44</td>
+                              <td className="px-4 py-2">45</td>
                               <td className="px-4 py-2 font-medium">
                                 Deogiri Institute of Engineering and Management
                                 Studies, Aurangabad
@@ -957,6 +1045,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Ulhas D Shiurkar</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Sugandha Nandedkar</li>
@@ -968,7 +1057,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">45</td>
+                              <td className="px-4 py-2">46</td>
                               <td className="px-4 py-2 font-medium">
                                 Manakula Vinayagar Institute of Technology,
                                 Puducherry
@@ -976,6 +1065,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr S Malarkkan</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Poonguzhali N</li>
@@ -986,25 +1076,7 @@ export default function Home() {
                                 Puducherry
                               </td>
                             </tr>
-                            <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">46</td>
-                              <td className="px-4 py-2 font-medium">
-                                Baba Farid College of Engineering and
-                                Technology, Bathinda
-                              </td>
-                              <td className="px-4 py-2">
-                                Affiliated College to University
-                              </td>
-                              <td className="px-4 py-2">
-                                <ol className="list-disc pl-3">
-                                  <li>Charandeep Singh bedi</li>
-                                  <li>Ashu Bansal</li>
-                                </ol>
-                              </td>
-                              <td className="px-4 py-2 whitespace-nowrap">
-                                Punjab
-                              </td>
-                            </tr>
+
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">47</td>
                               <td className="px-4 py-2 font-medium">
@@ -1013,6 +1085,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr Rekha Mehra</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Satya Narayan</li>
@@ -1031,6 +1104,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr G Chandramohan</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr R Manimegalai</li>
@@ -1043,30 +1117,12 @@ export default function Home() {
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">49</td>
                               <td className="px-4 py-2 font-medium">
-                                KG Reddy College of Engineering and Technology,
-                                JNTU Hyderabad, Hyderabad
-                              </td>
-                              <td className="px-4 py-2">
-                                Affiliated College to University
-                              </td>
-                              <td className="px-4 py-2">
-                                <ol className="list-disc pl-3">
-                                  <li>Naresh Kumar Pegada</li>
-                                  <li>Ramakrishna Reddy K</li>
-                                </ol>
-                              </td>
-                              <td className="px-4 py-2 whitespace-nowrap">
-                                Telangana
-                              </td>
-                            </tr>
-                            <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">50</td>
-                              <td className="px-4 py-2 font-medium">
                                 Dr. B. C. Roy Engineering College, Durgapur
                               </td>
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
+                              <td className="px-4 py-2">Dr N N Pathak</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Abhijit Banerjee</li>
@@ -1075,6 +1131,37 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2 whitespace-nowrap">
                                 West Bengal
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colSpan="6">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td
+                                className="px-3 py-1 bg-yellow-100 text-yellow-700 font-medium"
+                                colSpan="6"
+                              >
+                                1 Stand Alone Institute has been selected for
+                                integration with management courses
+                              </td>
+                            </tr>
+                            <tr className="divide-x divide-gray-200">
+                              <td className="px-4 py-2">50</td>
+                              <td className="px-4 py-2 font-medium">
+                                IIEBM, Indus Business School, Pune
+                              </td>
+                              <td className="px-4 py-2">
+                                Standalone Institution
+                              </td>
+                              <td className="px-4 py-2">Dr Jai Singh</td>
+                              <td className="px-4 py-2">
+                                <ol className="list-disc pl-3">
+                                  <li>Megha Dattaray Mane</li>
+                                  <li>Dr. Amresh Nikam</li>
+                                </ol>
+                              </td>
+                              <td className="px-4 py-2 whitespace-nowrap">
+                                Maharashtra
                               </td>
                             </tr>
                           </tbody>
@@ -1089,13 +1176,22 @@ export default function Home() {
                 className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
               >
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
-                  State Public Affiliating Universities Represented
+                  State Affiliating Universities Represented
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
-                  The Welcome Kit has details on the next steps for
-                  Institutions. Please download and do the needful before August
-                  13, 2021.
+                  21 State Affiliating Universities are represented in the LITE
+                  50 - Higher Education list for AY 2021-22 enabling these
+                  universities to leverage the showcase LITE 50 institutions as
+                  model institutions and expand the programme to more affiliated
+                  institutions under the University from AY 2022-23 onwards.
                 </p>
+                <div>
+                  <img
+                    className="h-full w-full object-cover relative"
+                    src="stats-map/State-Affiliating-Universities-Represented.png"
+                    alt="LITE - hero background image"
+                  />
+                </div>
               </section>
               <div className="border-t border-gray-300 mt-8 py-6 lg:mt-16 lg:py-12">
                 <div className="bg-primary-100 rounded-lg">
