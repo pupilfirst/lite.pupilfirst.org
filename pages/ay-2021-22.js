@@ -142,7 +142,7 @@ export default function Home() {
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
                   The names of two faculty members from the institutions
                   selected for training under the LITE programme are published
-                  below.. Training would be given for both the faculty members
+                  below. Training would be given for both the faculty members
                   and based on performance and successful course completion, one
                   faculty per institute would be selected as the “Faculty
                   Coordinator” for implementation of Minor Degree.
