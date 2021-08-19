@@ -91,8 +91,9 @@ export default function Home() {
               </h1>
               <div className="text-sm md:text-lg max-w-xl text-center mx-auto">
                 <p className="pt-4">
-                  From amongst the 475 applications across 28 states, 136
-                  institutes have qualified for the LITE programme.
+                  From amongst the 475 applications across 28 states, 136 higher
+                  educational institutes across 16 states have qualified for the
+                  LITE programme for Academic Year 2021-22.
                 </p>
               </div>
             </div>
@@ -119,7 +120,7 @@ export default function Home() {
                     Teaching Excellence programme represent 16 states and
                     comprises 1 Institute of Eminence, 2 State Universities, 3
                     Deemed to be Universities, 2 Private Universities, 26
-                    Autonomous Colleges, 15 Affiliated Colleges and 1 standalone
+                    Autonomous Colleges, 15 Affiliated Colleges and 1 Standalone
                     institution.
                   </p>
                 </div>
@@ -1171,19 +1172,17 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-              <section
-                id="welcome-kit"
-                className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12"
-              >
+              <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   State Affiliating Universities Represented
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
                   21 State Affiliating Universities are represented in the LITE
-                  50 - Higher Education list for AY 2021-22 enabling these
-                  universities to leverage the showcase LITE 50 institutions as
-                  model institutions and expand the programme to more affiliated
-                  institutions under the University from AY 2022-23 onwards.
+                  50 - Higher Education list for AY 2021-22. The LITE 50
+                  institutions are AICTE’s Brand Ambassadors of Change who serve
+                  as model institutions enabling State Universities to expand
+                  the programme to more affiliated institutions from AY 2022-23
+                  onwards.
                 </p>
                 <div>
                   <img
@@ -1192,6 +1191,16 @@ export default function Home() {
                     alt="LITE - hero background image"
                   />
                 </div>
+              </section>
+              <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
+                <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
+                  LITE Batch#2
+                </h3>
+                <p className="pt-2 text-sm lg:text-lg max-w-4xl">
+                  The institutions who have qualified for the LITE programme but
+                  have not featured in the first batch would be onboarded for
+                  Batch#2 of LITE.
+                </p>
               </section>
               <div className="border-t border-gray-300 mt-8 py-6 lg:mt-16 lg:py-12">
                 <div className="bg-primary-100 rounded-lg">
