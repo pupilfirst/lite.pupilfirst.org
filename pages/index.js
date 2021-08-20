@@ -119,12 +119,22 @@ export default function Home() {
                 leadership in teaching excellence.
               </p>
               <div className="pt-4 md:pt-8">
-                <a
-                  href="/announcement"
-                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold hover:shadow-xl transition "
-                >
-                  Results announced
-                </a>
+                <div>
+                  <a
+                    href="/ay-2021-22"
+                    className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-indigo-400 to-indigo-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+                  >
+                    Batch 1 Results Announced: AY 2021-22
+                  </a>
+                </div>
+                <div className="pt-4">
+                  <a
+                    href="/announcement"
+                    className="inline-block  underline font-medium text-indigo-700 px-3 py-2 hover:bg-indigo-100 hover:text-indigo-800 focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
+                  >
+                    List of Provisionally Selected Institutions
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -447,7 +457,8 @@ export default function Home() {
                               Aug 23, 2021
                             </p>
                             <p className="col-span-8 flex">
-                              <span className="pr-3">-</span>Online Training of Faculty begins.
+                              <span className="pr-3">-</span>Online Training of
+                              Faculty begins.
                             </p>
                           </div>
                         </div>
@@ -945,7 +956,8 @@ export default function Home() {
                       August 23, 2021
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 flex">
-                      <span className="pr-3">-</span> Online Training of Faculty begins.
+                      <span className="pr-3">-</span> Online Training of Faculty
+                      begins.
                     </p>
                   </div>
                 </div>
