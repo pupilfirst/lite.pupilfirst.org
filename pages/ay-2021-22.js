@@ -290,10 +290,10 @@ export default function Home() {
                                 Research
                               </td>
                               <td className="px-4 py-2">
-                                Prof K Vijaya Bhaskar Raju
+                                Deemed/Deemed to-be University
                               </td>
                               <td className="px-4 py-2">
-                                Dr Sanjay Srivastava
+                                Prof K Vijaya Bhaskar Raju
                               </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
