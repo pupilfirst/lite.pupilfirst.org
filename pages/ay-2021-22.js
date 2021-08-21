@@ -1029,8 +1029,8 @@ export default function Home() {
                               <td className="px-4 py-2">Dr Vilas Nitnaware</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
-                                  <li>Kirti Rupesh Parthe</li>
-                                  <li>Keerti D Kharatmol</li>
+                                  <li>Sulochana Madchane</li>
+                                  <li>Keerti D. Kharatmol</li>
                                 </ol>
                               </td>
                               <td className="px-4 py-2 whitespace-nowrap">

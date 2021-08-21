@@ -130,7 +130,7 @@ export default function Home() {
                 <div className="pt-4">
                   <a
                     href="/announcement"
-                    className="inline-block  underline font-medium text-indigo-700 px-3 py-2 hover:bg-indigo-100 hover:text-indigo-800 focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
+                    className="inline-block  underline font-medium text-indigo-700 px-3 py-2 rounded-md hover:bg-indigo-100 hover:text-indigo-800 focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
                   >
                     List of Provisionally Selected Institutions
                   </a>

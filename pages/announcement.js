@@ -1608,7 +1608,7 @@ export default function Home() {
                                   </td>
                                 </tr>
 
-                          <tr className="divide-x divide-gray-200">
+                                <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">37</td>
                                   <td className="px-4 py-2 font-medium">
                                     Nitte Meenakshi Institute of Technology,
@@ -2435,7 +2435,7 @@ export default function Home() {
                                     Karnataka
                                   </td>
                                 </tr>
-                                
+
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">81</td>
                                   <td className="px-4 py-2 font-medium">
@@ -2817,8 +2817,8 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2">
                                     <ol className="list-disc pl-3">
-                                      <li>Kirti Rupesh Parthe</li>
-                                      <li>Keerti D Kharatmol</li>
+                                      <li>Sulochana Madchane</li>
+                                      <li>Keerti D. Kharatmol</li>
                                     </ol>
                                   </td>
                                   <td className="px-4 py-2 whitespace-nowrap">
@@ -3495,7 +3495,9 @@ export default function Home() {
                       LITE Welcome Kit
                     </h3>
                     <p className="pt-2 text-sm lg:text-lg">
-                      The Welcome Kit has details on the next steps for Institutions. Please download and do the needful before August 13, 2021.
+                      The Welcome Kit has details on the next steps for
+                      Institutions. Please download and do the needful before
+                      August 13, 2021.
                     </p>
                     <a
                       href="https://drive.google.com/drive/folders/19sa4KQHw7FyU3ez1l7IFbt5czNU0t84h?usp=sharing"
