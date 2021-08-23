@@ -1674,7 +1674,7 @@ export default function Home() {
                                   </td>
                                   <td className="px-4 py-2">
                                     <ol className="list-disc pl-3">
-                                      <li>Sona Mundody</li>
+                                      <li>Anusha M M</li>
                                       <li>Dr. Harivinod N</li>
                                     </ol>
                                   </td>
@@ -1852,7 +1852,8 @@ export default function Home() {
                                 <tr className="divide-x divide-gray-200">
                                   <td className="px-4 py-2">50</td>
                                   <td className="px-4 py-2 font-medium">
-                                    Hindusthan Institute of Technology, Chennai
+                                    Hindusthan Institute of Technology,
+                                    Coimbatore
                                   </td>
                                   <td className="px-4 py-2">
                                     Autonomous College
