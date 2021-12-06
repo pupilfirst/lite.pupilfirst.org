@@ -171,6 +171,32 @@ export default function Home() {
               <section className="pt-10">
                 <div className="max-w-4xl">
                   <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
+                    AICTE’s Brand Ambassadors of Change
+                  </h3>
+                  <p className="pt-2 text-sm lg:text-lg">
+                    AICTE has selected 28 institutions for becoming national
+                    showcase institutions of National Educational Policy (2020)
+                    through the Leadership in Teaching Excellence (LITE)
+                    program.
+                  </p>
+                  <p className="pt-2 text-sm lg:text-lg">
+                    This list has 1 Institute of Eminence, 1 State University, 1
+                    Private University, 18 Autonomous Colleges and 7 Affiliated
+                    Colleges. The map showing the distribution is given below.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    className="h-full w-full object-cover relative"
+                    src="stats-map/LITE-first-batch-completed-states-institutes.png"
+                    alt="LITE - hero background image"
+                  />
+                </div>
+              </section>
+
+              <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
+                <div className="max-w-4xl">
+                  <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                     LITE - Heads of Institutions
                   </h3>
                   <p className="pt-2 text-sm lg:text-lg">
@@ -190,15 +216,15 @@ export default function Home() {
                 <div className="mx-auto relative z-10 pl-4 lg:pl-0 pt-8 space-y-4 sm:grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-8 sm:space-y-0 lg:gap-10">
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
-                      <div className="w-48 h-48 mx-auto rounded-full flex items-center border-2 text-sm text-center border-primary-300 bg-gray-100">
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
-                          className="object-contain rounded-full"
-                          src="people/students/Abhinandan.png"
-                          alt="Photograph of Dr. Radhakrishnan Delhibabu"
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-K-Sathiyanarayanan.png"
+                          alt="Photograph of Dr. K. Sathiyanarayanan"
                         />
                       </div>
-                      <p className="text-xl font-semibold pt-3 text-secondary-500">
-                        Dr. Radhakrishnan Delhibabu
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. K Sathiyanarayanan
                       </p>
                     </div>
                     <div className="border-t mt-3">
@@ -208,13 +234,593 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
                     </div>
                   </div>
-                </div>
-                <div>
-                  <img
-                    className="h-full w-full object-cover relative"
-                    src="stats-map/LITE-50-Faculty-List.png"
-                    alt="LITE - hero background image"
-                  />
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-Sunil-Kumar-Garg.png"
+                          alt="Photograph of Dr. Sunil Kumar Garg"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Sunil Kumar Garg
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        J. C. Bose University of Science and Technology, YMCA,
+                        Faridabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Haryana</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Naresh-Jadeja.png"
+                          alt="Photograph of Mr. Naresh Jadeja"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Mr. Naresh Jadeja
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Marwadi University
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Gujarat</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Fr-Dr-A-Francis-Xavier.png"
+                          alt="Photograph of Fr. Dr. A Francis Xavier"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Fr. Dr. A Francis Xavier
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Andhra Loyola Institute of Engineering and Technology,
+                        Vijayawada
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Andhra Pradesh
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-Z-V-Lakaparampil.png"
+                          alt="Photograph of Dr. Z V Lakaparampil"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Z V Lakaparampil
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Amal Jyothi College of Engineering, Kottayam
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Kerala</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-Mohanbabu-G-N.png"
+                          alt="Photograph of Dr. Mohanbabu G N"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Mohanbabu G N
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        BMS Institute of Technology & Management, Bengaluru
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Karnataka</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-P-Ravinder-Reddy.png"
+                          alt="Photograph of Dr. P. Ravinder Reddy"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. P. Ravinder Reddy
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Chaitanya Bharathi Institute of Technology, Hyderabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr-V-Jacob-Thomas.png"
+                          alt="Photograph of Dr. V. Jacob Thomas"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. V. Jacob Thomas
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        College of Engineering, Chengannur
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Kerala</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-contain object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Prof-(Dr.).N.N.Pathak-Institute HEad.png"
+                          alt="Photograph of Prof.(Dr.).N.N.Pathak"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Prof.(Dr.) N N Pathak
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Dr. B. C. Roy Engineering College, Durgapur
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        West Bengal
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Rekha Mehra-Institute Head.png"
+                          alt="Photograph of Dr. Rekha Mehra"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Rekha Mehra
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Engineering College Ajmer
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Rajasthan</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. K. Bommanna Raja-Institute Head.png"
+                          alt="Photograph of Dr. K. Bommanna Raja"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. K. Bommanna Raja
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Excel Engineering College, Namakkal
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Sachin Untawale-Institute Head.jpeg"
+                          alt="Photograph of Dr. Sachin Untawale"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Sachin Untawale
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        G H Raisoni College of Engineering
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Maharashtra
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Kolli Ramesh Reddy-Institute Head.png"
+                          alt="Photograph of Dr. Kolli Ramesh Reddy"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Kolli Ramesh Reddy
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        G.Narayanamma Institute of Technology and Science For
+                        Women,Hyderabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr.R.B Lohani-Institute Head.png"
+                          alt="Photograph of Dr.R.B Lohani"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr.R.B Lohani
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Goa College of Engineering, Ponda
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Goa</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. P. M. M. S. Sarma-Institute Head.png"
+                          alt="Photograph of Dr. P. M. M. S. Sarma"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. P. M. M. S. Sarma
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Godavari Institute of Engineering and Technology,
+                        Rajahmundry
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Andhra Pradesh
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr.J.Jaya-Institute Head.png"
+                          alt="Photograph of Dr.J.Jaya"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr J Jaya
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Hindusthan College of Engineering and Technology,
+                        Coimbatore
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Natarajan C-Institute Head.png"
+                          alt="Photograph of Dr. Natarajan C"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Natarajan C
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Hindusthan Institute of Technology
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. L V Narasimha Prasad-Institute Head.png"
+                          alt="Photograph of Dr. L V Narasimha Prasad"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. L V Narasimha Prasad
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Institute of Aeronautical Engineering, Hyderabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Gopalakrishnan R-Institute Head.png"
+                          alt="Photograph of Dr. Gopalakrishnan R"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Gopalakrishnan R
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        K.S.Rangasamy College of Technology, Tiruchengode
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Vilas Vijaya Karjinni-Institute Head.png"
+                          alt="Photograph of Dr. Vilas Vijaya Karjinni"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Vilas Vijaya Karjinni
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        KIT's College of Engineering (Autonomous), Kolhapur
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Maharashtra
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Govind Narayan Kulkarni-Institute Head.jpeg"
+                          alt="Photograph of Dr. Govind Narayan Kulkarni"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Govind Narayan Kulkarni
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Pimpri Chinchwad College of Engineering (PCCoE), Pune
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Maharashtra
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. K. A. Mohamed Junaid-Institute Head.png"
+                          alt="Photograph of Dr. K. A. Mohamed Junaid"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. K. A. Mohamed Junaid
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        R.M.K. Engineering College, Kavaraipettai
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Ch Srinivasu-Institute Head.png"
+                          alt="Photograph of Dr. Ch Srinivasu"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Ch Srinivasu
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Raghu Engineering College, Visakhapatnam
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Andhra Pradesh
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Dharmesh J. Shah-Institute Head.png"
+                          alt="Photograph of Dr. Dharmesh J. Shah"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Dharmesh J. Shah
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Sankalchand Patel College of Engineering, Visnagar
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Gujarat</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Dinesh S V-Institute Head.png"
+                          alt="Photograph of Dr. Dinesh S V"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Dinesh S V
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Siddaganga Institute of Technology, Tumkuru
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Karnataka</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Rio D'Souza-Institute Head.png"
+                          alt="Photograph of Dr. Rio D'Souza"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Rio D'Souza
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        St. Joseph Engineering College, Mangaluru
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Karnataka</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. Ravindra J V R-Institute Head.png"
+                          alt="Photograph of Dr. Ravindra J V R"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. Ravindra J V R
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Vardhaman College of Engineering, Shamshabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Dr. C. D. Naidu-Institute Head.png"
+                          alt="Photograph of Dr. C. D. Naidu"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Dr. C. D. Naidu
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        VNR Vignana Jyothi Institute of Engineering and
+                        Technology, Hyderabad
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
+                    </div>
+                  </div>
                 </div>
               </section>
               <section
@@ -851,7 +1457,7 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-              <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
+              {/* <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <div className="mx-auto relative z-10 pl-4 lg:pl-0 space-y-4 sm:grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-8 sm:space-y-0 lg:gap-10">
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
@@ -1741,7 +2347,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
               <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   State Affiliating Universities Represented
