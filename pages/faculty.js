@@ -119,19 +119,19 @@ export default function Home() {
               <div className="md:w-7/12">
                 <div className="mt-4 md:mt-8 max-w-xl space-y-4 text-lg">
                   <p>
-                    "We have nearly 5 Lakh faculty members who are teaching
-                    under the Council but the real question is how many are
-                    teaching with excellence.
-                  </p>
-                  <p>
-                    The Leadership in Teaching Excellence (LITE) is one of the
+                    "The Leadership in Teaching Excellence (LITE) is one of the
                     finest leadership development programmes I have ever
                     witnessed.
                   </p>
                   <p>
-                    We are starting small but over the next few years, this
-                    programme would expand to tens of thousands of faculty
-                    members under the Council.”
+                    We have nearly 5 Lakh faculty members who are teaching under
+                    the Council but the real question is how many are teaching
+                    with excellence.
+                  </p>
+                  <p>
+                    We are starting with a small group but over the next few
+                    years, this programme would expand to tens of thousands of
+                    faculty members under the Council”
                   </p>
                 </div>
                 <p className="font-semibold mt-6 text-lg">
@@ -171,19 +171,43 @@ export default function Home() {
               <section className="pt-10">
                 <div className="max-w-4xl">
                   <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
-                    AICTE’s Brand Ambassadors of Change
+                    LITE - Heads of Institutions
                   </h3>
                   <p className="pt-2 text-sm lg:text-lg">
-                    AICTE has selected 28 institutions for becoming national
-                    showcase institutions of National Educational Policy (2020)
-                    through the Leadership in Teaching Excellence (LITE)
-                    program.
+                    AICTE LITE aims to prepare the next generation of Indian
+                    students to bring advanced levels of engineering skills to
+                    the industry.
                   </p>
                   <p className="pt-2 text-sm lg:text-lg">
-                    This list has 1 Institute of Eminence, 1 State University, 1
-                    Private University, 18 Autonomous Colleges and 7 Affiliated
-                    Colleges.
+                    The following visionary heads of institutions shall attempt
+                    to create a paradigm shift in classroom teaching-learning
+                    methodologies using educational technology, deploy advanced
+                    curriculums and create high quality learning outcomes for
+                    students at their institutions through AICTE trained
+                    faculty.
                   </p>
+                </div>
+                <div className="mx-auto relative z-10 pl-4 lg:pl-0 pt-8 space-y-4 sm:grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-8 sm:space-y-0 lg:gap-10">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center border-2 text-sm text-center border-primary-300 bg-gray-100">
+                        <img
+                          className="object-contain rounded-full"
+                          src="people/students/Abhinandan.png"
+                          alt="Photograph of Dr. Radhakrishnan Delhibabu"
+                        />
+                      </div>
+                      <p className="text-xl font-semibold pt-3 text-secondary-500">
+                        Dr. Radhakrishnan Delhibabu
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        VIT Vellore
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
+                    </div>
+                  </div>
                 </div>
                 <div>
                   <img
@@ -1745,7 +1769,7 @@ export default function Home() {
                 <div>
                   <img
                     className="h-full w-full object-cover relative"
-                    src="stats-map/State-Affiliating-Universities-Represented.png"
+                    src="stats-map/State-Affiliating-Universities-Represented-batch-1-completed.png"
                     alt="LITE - hero background image"
                   />
                 </div>
@@ -1761,6 +1785,13 @@ export default function Home() {
                   coordinators. A copy of the certificate issued is given below
                   for reference of institutions, faculty members and students.
                 </p>
+                <div className="p-4 md:p-6 mt-8 border-8 border-primary-500 border-opacity-10 rounded-2xl shadow bg-white max-w-4xl">
+                  <img
+                    className="h-full w-full object-cover relative"
+                    src="sample-certificate/LITE-Faculty-Certificate-Sample.png"
+                    alt="LITE Faculty Certificate Sample"
+                  />
+                </div>
               </section>
               <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
