@@ -338,7 +338,7 @@ export default function Home() {
                     </div>
                     <div className="border-t mt-3">
                       <p className="text-gray-800 pt-3 font-semibold leading-tight">
-                        BMS Institute of Technology & Management, Bengaluru
+                        BMS Institute of Technology &amp; Management, Bengaluru
                       </p>
                       <p className="text-gray-700 pt-0.5 text-sm">Karnataka</p>
                     </div>
@@ -907,7 +907,9 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Institute of Eminence
                               </td>
-                              <td className="px-4 py-2">Dr. Rambabu Kodali</td>
+                              <td className="px-4 py-2">
+                                Dr. K Sathiyanarayanan
+                              </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Radhakrishnan Delhibabu</li>
@@ -935,7 +937,9 @@ export default function Home() {
                                 YMCA, Faridabad
                               </td>
                               <td className="px-4 py-2">State University</td>
-                              <td className="px-4 py-2">Dr. Dinesh Kumar</td>
+                              <td className="px-4 py-2">
+                                Dr. Sunil Kumar Garg
+                              </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Amita Arora</li>
@@ -963,9 +967,7 @@ export default function Home() {
                                 Marwadi University, Rajkot
                               </td>
                               <td className="px-4 py-2">Private University</td>
-                              <td className="px-4 py-2">
-                                Dr. Sandeep Sancheti
-                              </td>
+                              <td className="px-4 py-2">Mr. Naresh Jadeja</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Tejas Chauhan</li>
@@ -1029,7 +1031,7 @@ export default function Home() {
                                 Bengaluru
                               </td>
                               <td className="px-4 py-2">Autonomous College</td>
-                              <td className="px-4 py-2">Dr. Mohanbabu G GN</td>
+                              <td className="px-4 py-2">Dr. Mohanbabu G N</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Arunakumari B N</li>
@@ -1327,7 +1329,9 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
-                              <td className="px-4 py-2">Dr. O Mahesh</td>
+                              <td className="px-4 py-2">
+                                Fr. Dr. A. Francis Xavier
+                              </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Koteswara Rao Addepalli</li>
