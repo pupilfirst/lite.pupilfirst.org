@@ -2371,7 +2371,7 @@ export default function Home() {
                     institutions from AY 2022-23 onwards.
                   </p>
                   <p>
-                    12 State Affiliating Universities are represented in the
+                    13 State Affiliating Universities are represented in the
                     Leadership in Teaching Excellence (LITE) programme where
                     there are trained faculty coordinators.
                   </p>
