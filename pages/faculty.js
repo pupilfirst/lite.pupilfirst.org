@@ -216,7 +216,7 @@ export default function Home() {
                 <div className="mx-auto relative z-10 pl-4 lg:pl-0 pt-8 space-y-4 sm:grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-8 sm:space-y-0 lg:gap-10">
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
-                    
+                    <! ---
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
@@ -224,7 +224,7 @@ export default function Home() {
                           alt="Photograph of Dr. K. Sathiyanarayanan"
                         />
                       </div>
-                 
+                    --->
                       <p className="text-lg font-semibold pt-3 text-secondary-500">
                         Dr. K Sathiyanarayanan
                       </p>
