@@ -242,7 +242,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr-Sunil-Kumar-Garg.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Sunil Kumar Garg"
                         />
                       </div>
@@ -264,7 +264,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Naresh-Jadeja.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Mr. Naresh Jadeja"
                         />
                       </div>
@@ -287,7 +287,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr-Z-V-Lakaparampil.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Z V Lakaparampil"
                         />
                       </div>
@@ -308,7 +308,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr-Mohanbabu-G-N.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Mohanbabu G N"
                         />
                       </div>
@@ -350,7 +350,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr-V-Jacob-Thomas.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. V. Jacob Thomas"
                         />
                       </div>
@@ -371,12 +371,12 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-contain object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Prof-(Dr.).N.N.Pathak-Institute HEad.png"
-                          alt="Photograph of Prof.(Dr.).N.N.Pathak"
+                          src="people/head-of-institutions/Sanjay_S_Pawar.png"
+                          alt="Photograph of Prof. (Dr) Sanjay S Pawar"
                         />
                       </div>
                       <p className="text-lg font-semibold pt-3 text-secondary-500">
-                        Prof.(Dr.) N N Pathak
+                        Prof. (Dr) Sanjay S Pawar
                       </p>
                     </div>
                     <div className="border-t mt-3">
@@ -394,7 +394,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Rekha Mehra-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Rekha Mehra"
                         />
                       </div>
@@ -415,7 +415,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. K. Bommanna Raja-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. K. Bommanna Raja"
                         />
                       </div>
@@ -481,7 +481,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr.R.B Lohani-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr.R.B Lohani"
                         />
                       </div>
@@ -526,7 +526,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr.J.Jaya-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr.J.Jaya"
                         />
                       </div>
@@ -590,7 +590,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Gopalakrishnan R-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Gopalakrishnan R"
                         />
                       </div>
@@ -611,7 +611,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Vilas Vijaya Karjinni-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Vilas Vijaya Karjinni"
                         />
                       </div>
@@ -634,7 +634,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Govind Narayan Kulkarni-Institute Head.jpeg"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Govind Narayan Kulkarni"
                         />
                       </div>
@@ -678,7 +678,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Ch Srinivasu-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Ch Srinivasu"
                         />
                       </div>
@@ -701,7 +701,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Dharmesh J. Shah-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Dharmesh J. Shah"
                         />
                       </div>
@@ -722,7 +722,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Dinesh S V-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Dinesh S V"
                         />
                       </div>
@@ -743,7 +743,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Rio D'Souza-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Rio D'Souza"
                         />
                       </div>
@@ -764,7 +764,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr. Ravindra J V R-Institute Head.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. Ravindra J V R"
                         />
                       </div>
@@ -1302,7 +1302,7 @@ export default function Home() {
                             </tr>
                        
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">23</td>
+                              <td className="px-4 py-2">22</td>
                               <td className="px-4 py-2 font-medium">
                                 Goa College of Engineering, Ponda, Goa
                               </td>
@@ -1321,7 +1321,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">24</td>
+                              <td className="px-4 py-2">23</td>
                               <td className="px-4 py-2 font-medium">
                                 Sankalchand Patel College of Engineering,
                                 Visnagar
@@ -1340,7 +1340,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">25</td>
+                              <td className="px-4 py-2">24</td>
                               <td className="px-4 py-2 font-medium">
                                 Amal Jyothi College of Engineering, Kottayam
                               </td>
@@ -1360,7 +1360,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">26</td>
+                              <td className="px-4 py-2">25</td>
                               <td className="px-4 py-2 font-medium">
                                 College of Engineering, Chengannur
                               </td>
@@ -1378,7 +1378,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">27</td>
+                              <td className="px-4 py-2">26</td>
                               <td className="px-4 py-2 font-medium">
                                 Engineering College Ajmer
                               </td>
