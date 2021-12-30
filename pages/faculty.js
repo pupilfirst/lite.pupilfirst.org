@@ -220,7 +220,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Dr-K-Sathiyanarayanan.png"
+                          src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. K. Sathiyanarayanan"
                         />
                       </div>
@@ -280,29 +280,7 @@ export default function Home() {
                     </div>
                   </div>
               
-                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
-                    <div>
-                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
-                        <img
-                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/Fr-Dr-A-Francis-Xavier.png"
-                          alt="Photograph of Fr. Dr. A Francis Xavier"
-                        />
-                      </div>
-                      <p className="text-lg font-semibold pt-3 text-secondary-500">
-                        Fr. Dr. A Francis Xavier
-                      </p>
-                    </div>
-                    <div className="border-t mt-3">
-                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
-                        Andhra Loyola Institute of Engineering and Technology,
-                        Vijayawada
-                      </p>
-                      <p className="text-gray-700 pt-0.5 text-sm">
-                        Andhra Pradesh
-                      </p>
-                    </div>
-                  </div>
+               
                  
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
@@ -1322,27 +1300,7 @@ export default function Home() {
                                 Affiliated Colleges
                               </td>
                             </tr>
-                            <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">22</td>
-                              <td className="px-4 py-2 font-medium">
-                                Andhra Loyola Institute of Engineering and
-                                Technology, Vijayawada
-                              </td>
-                              <td className="px-4 py-2">
-                                Affiliated College to University
-                              </td>
-                              <td className="px-4 py-2">
-                                Fr. Dr. A. Francis Xavier
-                              </td>
-                              <td className="px-4 py-2">
-                                <ol className="list-disc pl-3">
-                                  <li>Koteswara Rao Addepalli</li>
-                                </ol>
-                              </td>
-                              <td className="px-4 py-2 whitespace-nowrap">
-                                Andhra Pradesh
-                              </td>
-                            </tr>
+                       
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">23</td>
                               <td className="px-4 py-2 font-medium">
