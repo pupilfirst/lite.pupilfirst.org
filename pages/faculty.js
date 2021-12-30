@@ -743,7 +743,7 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/LITE-avatar.svg"
+                          src="people/head-of-institutions/Dr. Rio D'Souza-Institute Head.png"
                           alt="Photograph of Dr. Rio D'Souza"
                         />
                       </div>
