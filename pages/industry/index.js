@@ -190,32 +190,32 @@ export default function industry() {
                   <People
                     name="Prof Anil Sahasrabudhe"
                     role="Chairman, All India Council for Technical Education"
-                    imgSrc="/people/Prof-Anil-Sahasrabudhe.png"
+                    imgSrc="/people/Prof-Anil-Sahasrabudhe.jpg"
                   />
                   <People
                     name="Mekin Maheshwari"
                     role="Founder, Udhyam.org ex-CTO, Flipkart"
-                    imgSrc="/people/mekin-maheshwari.png"
+                    imgSrc="/people/mekin-maheshwari.jpg"
                   />
                   <People
                     name="Shekhar Kirani"
                     role="Partner Accel"
-                    imgSrc="/people/shekhar-kirani.png"
+                    imgSrc="/people/shekhar-kirani.jpg"
                   />
                   <People
                     name="Sandeep Singhal"
                     role="Senior Advisor, Nexus Venture Partners"
-                    imgSrc="/people/sandeep-singhal.png"
+                    imgSrc="/people/sandeep-singhal.jpg"
                   />
                   <People
                     name="Nachiket Mor"
                     role="Visiting scientist, balm"
-                    imgSrc="/people/nachiket-mor.png"
+                    imgSrc="/people/nachiket-mor.jpg"
                   />
                   <People
                     name="Dr. Ajay Nair"
                     role="CEO, Swasth.app"
-                    imgSrc="/people/ajay-nair.png"
+                    imgSrc="/people/ajay-nair.jpg"
                   />
                 </div>
               </div>

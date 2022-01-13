@@ -111,7 +111,7 @@ export default function Home() {
                 <div className="p-4 md:p-3 rounded-full border-2 bg-primary-100 border-primary-200 shadow-sm">
                   <img
                     className="h-72 w-72 lg:h-96 lg:w-96 object-cover rounded-full"
-                    src="people/Prof-Anil-Sahasrabudhe.png"
+                    src="people/Prof-Anil-Sahasrabudhe.jpg"
                     alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
                   />
                 </div>
@@ -214,7 +214,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="mx-auto relative z-10 pl-4 lg:pl-0 pt-8 space-y-4 sm:grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-8 sm:space-y-0 lg:gap-10">
-                 <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
@@ -235,7 +235,7 @@ export default function Home() {
                     </div>
                   </div>
 
-               <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
@@ -258,7 +258,7 @@ export default function Home() {
                     </div>
                   </div>
 
-<div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
@@ -368,7 +368,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
@@ -410,7 +410,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
@@ -432,11 +432,8 @@ export default function Home() {
                     </div>
                   </div>
 
-
-                  
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
-                
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
@@ -444,7 +441,7 @@ export default function Home() {
                           alt="Photograph of Dr. K. Sathiyanarayanan"
                         />
                       </div>
-                  
+
                       <p className="text-lg font-semibold pt-3 text-secondary-500">
                         Dr. K Sathiyanarayanan
                       </p>
@@ -499,9 +496,7 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Gujarat</p>
                     </div>
                   </div>
-              
-               
-                 
+
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
@@ -544,8 +539,6 @@ export default function Home() {
                     </div>
                   </div>
 
-                  
-
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
@@ -566,8 +559,6 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Kerala</p>
                     </div>
                   </div>
-
-                 
 
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
@@ -611,8 +602,6 @@ export default function Home() {
                     </div>
                   </div>
 
-                  
-
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
@@ -633,8 +622,6 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Goa</p>
                     </div>
                   </div>
-
-                  
 
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
@@ -657,8 +644,6 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Tamil Nadu</p>
                     </div>
                   </div>
-
-                  
 
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
@@ -727,8 +712,6 @@ export default function Home() {
                     </div>
                   </div>
 
-                 
-
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
@@ -794,7 +777,6 @@ export default function Home() {
                     </div>
                   </div>
 
-            
                   <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
                     <div>
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
@@ -815,8 +797,6 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
                     </div>
                   </div>
-
-                  
                 </div>
               </section>
               <section
@@ -1316,7 +1296,7 @@ export default function Home() {
                                 Affiliated Colleges
                               </td>
                             </tr>
-                       
+
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">22</td>
                               <td className="px-4 py-2 font-medium">
