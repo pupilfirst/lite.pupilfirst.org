@@ -59,12 +59,12 @@ export default function industry() {
             <div className="absolute inset-0"></div>
           </div>
         </section>
-        <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto rounded-xl shadow-md bg-gradient-to-br from-yellow-500 to-primary-500 px-8 pt-8">
-          <h2 className="text-white text-4xl pb-4">
+        <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto md:rounded-xl shadow-md bg-gradient-to-br from-yellow-500 to-primary-500 px-4 md:px-8 pt-8 pb-4 md:pb-0">
+          <h2 className="text-white text-3xl md:text-4xl pb-4">
             LITE Industry Hiring Network
           </h2>
           <div className="md:grid grid-cols-12 border-t border-primary-200">
-            <div className="col-span-6 md:pr-5">
+            <div className="col-span-6 md:pr-6">
               <p className="pt-6 text-white">
                 The Indian Higher Education Regulator, AICTE has approved
                 integrating the full stack developer course co-created by
@@ -72,11 +72,23 @@ export default function industry() {
                 states.
               </p>
               <a
-                className="inline-block py-2 pr-2 text-lg underline focus:outline-none focus:ring focus:ring-indigo-500 text-white font-semibold"
+                className="inline-flex space-x-3 items-center py-2 pr-2 text-lg underline focus:outline-none focus:ring focus:ring-indigo-500 text-white font-semibold"
                 target="_blank"
                 href="https://lite.pupilfirst.org/faculty"
               >
-                See the List of institutions
+                <span>See the List of institutions</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                  </svg>
+                </span>
               </a>
               <p className="pt-4 pb-8 text-white">
                 Engineering students would get the opportunity to learn the{" "}
@@ -90,8 +102,10 @@ export default function industry() {
                 with a path for internship based hiring by the industry.
               </p>
             </div>
-            <div className="col-span-6 border-l border-primary-200 p-6">
-              <h3 className="text-white text-3xl">Become an early adopter.</h3>
+            <div className="col-span-6 border-t border-dashed md:border-t-0 md:border-solid md:border-l border-primary-200 py-2 md:py-6 md:px-8">
+              <h3 className="text-white text-2xl md:text-3xl">
+                Become an early adopter.
+              </h3>
               <p className="pt-4 text-xl text-white">
                 Organizations interested in considering full stack student
                 developers for hiring through an internship based model may
@@ -100,16 +114,29 @@ export default function industry() {
               <a
                 target="_blank"
                 href="industry/early-adopter"
-                className="inline-block mt-6 w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-primary-700 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+                className="inline-flex space-x-3 justify-between items-center mt-6 w-full md:w-auto p-3 lg:px-5 lg:py-3.5 text-primary-600 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition "
               >
-                See details
+                <span>See details</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="w-8 h-8"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
               </a>
             </div>
           </div>
         </section>
 
-        <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto rounded-xl shadow-md bg-gradient-to-br from-secondary-500 to-secondary-700 px-8 pt-8 mt-12 lg:mt-16">
-          <h2 className="text-white text-4xl pb-4">
+        <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto md:rounded-xl shadow-md bg-gradient-to-br from-secondary-500 to-secondary-700 px-4 md:px-8 pt-8 pb-4 md:pb-0 mt-12 lg:mt-16">
+          <h2 className="text-white text-3xl md:text-4xl pb-4">
             LITE Industry Teaching Fellowship
           </h2>
           <div className="md:grid grid-cols-12 border-t border-secondary-300">
@@ -143,7 +170,7 @@ export default function industry() {
                 department or their reporting manager.
               </p>
             </div>
-            <div className="col-span-6 border-l border-secondary-300 p-6">
+            <div className="col-span-6 border-t border-dashed md:border-t-0 md:border-solid md:border-l border-secondary-300 py-2 md:py-6 md:px-8">
               <h3 className="text-white text-3xl">Important Dates</h3>
               <div className="text-white space-y-2 mt-4 text-lg">
                 <p>
@@ -174,9 +201,22 @@ export default function industry() {
               <a
                 target="_blank"
                 href="/teaching-fellowship"
-                className="inline-block mt-6 w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-secondary-700 text-secondary-500 bg-gradient-to-br from-secondary-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+                className="inline-flex space-x-3 justify-between items-center mt-6 w-full md:w-auto p-3 lg:px-5 lg:py-3.5 text-secondary-600 bg-gradient-to-br from-white to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition "
               >
-                See details
+                <span>See details</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="w-8 h-8"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
               </a>
             </div>
           </div>
