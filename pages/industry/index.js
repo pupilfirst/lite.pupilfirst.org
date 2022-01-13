@@ -98,7 +98,8 @@ export default function industry() {
                 sign-up below.
               </p>
               <a
-                href="#"
+                target="_blank"
+                href="industry/early-adopter"
                 className="inline-block mt-6 w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-primary-700 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
               >
                 See details
@@ -171,7 +172,8 @@ export default function industry() {
                 </p>
               </div>
               <a
-                href="#"
+                target="_blank"
+                href="/teaching-fellowship"
                 className="inline-block mt-6 w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 border border-secondary-700 text-secondary-500 bg-gradient-to-br from-secondary-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
               >
                 See details
@@ -468,7 +470,7 @@ export default function industry() {
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
                       target="_blank"
-                      href="#"
+                      href="industry/early-adopter"
                     >
                       Apply for Industry Network
                     </a>
@@ -479,7 +481,7 @@ export default function industry() {
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
                       target="_blank"
-                      href="#"
+                      href="teaching-fellowship"
                     >
                       Apply for Fellowships
                     </a>
