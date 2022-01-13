@@ -1,4 +1,4 @@
-/** @format */
+import Head from "next/head";
 import DescriptionList from "../../components/DescriptionList";
 import Heading from "../../components/Heading";
 import NumberListItem from "../../components/NumberListItem";
@@ -6,6 +6,56 @@ import NumberListItem from "../../components/NumberListItem";
 export default function earlyAdopter() {
   return (
     <div>
+      <Head>
+        <title>LITE Industry Network</title>
+        <meta
+          name="description"
+          content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
+        ></meta>
+        <meta
+          name="keywords"
+          content="LITE Industry Hiring Network, Hire software engineer interns, Apply for LITE industry network"
+        ></meta>
+        <meta name="author" content="pupilfirst.org"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <meta name="theme-color" content="#FDFAF7" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+        <meta property="og:title" content="LITE Industry Network" />
+        <meta
+          property="og:description"
+          content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
+        />
+        <meta property="og:image" content="/lite-industry-network.jpg" />
+        <meta
+          property="og:url"
+          content="https://lite.pupilfirst.org/industry/early-adopter"
+        />
+        <meta name="twitter:card" content="/lite-industry-network.jpg" />
+        <meta property="og:site_name" content="LITE Industry Network" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-6H1NS1GQNW');
+              `,
+          }}
+        />
+      </Head>
       <main className="bg-primary-50 mx-auto">
         <section className="hero__bg-pattern relative">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
@@ -249,7 +299,7 @@ export default function earlyAdopter() {
                   <p className="mt-4 text-sm lg:text-lg">
                     The open-source contributions made for{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="https://coronasafe.network/"
                       target="_blank"
                     >
@@ -261,7 +311,7 @@ export default function earlyAdopter() {
                   <p className="mt-4 text-sm lg:text-lg">
                     The{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="https://rocket.pupilfirst.org/"
                       target="_blank"
                     >
@@ -321,7 +371,7 @@ export default function earlyAdopter() {
                       <span>
                         To place your logo on the{" "}
                         <a
-                          className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                           href="https://wd.pupilfirst.org/"
                           target="_blank"
                         >
@@ -385,14 +435,14 @@ export default function earlyAdopter() {
                     If you have any questions, please feel free to contact Suma
                     Sundararajan, Co-founder Pupilfirst at{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:suma@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
                       suma@pupilfirst.org{" "}
                     </a>
                     with CC to Neetha Joy at ACT Grants at{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:neetha.joy@uwbengaluru.org"
                     >
                       {" "}
