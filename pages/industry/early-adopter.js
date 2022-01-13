@@ -1,6 +1,7 @@
 import Head from "next/head";
 import DescriptionList from "../../components/DescriptionList";
 import Heading from "../../components/Heading";
+import People from "../../components/People";
 import NumberListItem from "../../components/NumberListItem";
 
 export default function earlyAdopter() {
@@ -82,7 +83,8 @@ export default function earlyAdopter() {
                 </p>
               </div>
               <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
-                LITE Industry Network
+                LITE Industry <br />
+                Hiring Network
               </h1>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
                 AICTE Leadership in Teaching Excellence (LITE) Industry Network
@@ -218,6 +220,47 @@ export default function earlyAdopter() {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="border-t border-gray-200">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
+              <Heading heading="An initiative supported by" />
+              <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
+                <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2 gap-10 mt-10">
+                  <People
+                    name="Prof Anil Sahasrabudhe"
+                    role="Chairman, All India Council for Technical Education"
+                    imgSrc="/people/Prof-Anil-Sahasrabudhe.png"
+                  />
+                  <People
+                    name="Mekin Maheshwari"
+                    role="Founder, Udhyam.org ex-CTO, Flipkart"
+                    imgSrc="/people/mekin-maheshwari.png"
+                  />
+                  <People
+                    name="Shekhar Kirani"
+                    role="Partner Accel"
+                    imgSrc="/people/shekhar-kirani.png"
+                  />
+                  <People
+                    name="Sandeep Singhal"
+                    role="Senior Advisor, Nexus Venture Partners"
+                    imgSrc="/people/sandeep-singhal.png"
+                  />
+                  <People
+                    name="Nachiket Mor"
+                    role="Visiting scientist, balm"
+                    imgSrc="/people/nachiket-mor.png"
+                  />
+                  <People
+                    name="Dr. Ajay Nair"
+                    role="CEO, Swasth.app"
+                    imgSrc="/people/ajay-nair.png"
+                  />
                 </div>
               </div>
             </div>
