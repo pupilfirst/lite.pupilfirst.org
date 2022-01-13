@@ -1,12 +1,72 @@
-/** @format */
-
+import Head from "next/head";
 import Heading from "../../components/Heading";
 import People from "../../components/People";
-import React from "react";
 
 export default function industry() {
   return (
     <div>
+      <Head>
+        <title>LITE - Industry Network &amp; Teaching Fellowships</title>
+        <meta
+          name="description"
+          content="LITE industry Network and Fellowships is a call by ACT Grants to the technology industry for partnering with the All India Council for Technical Education (AICTE) for hiring software engineers who meet global industry standards."
+        ></meta>
+        <meta
+          name="keywords"
+          content="LITE Industry Hiring Network, LITE Teaching fellowship, AICTE's Teaching fellowship, Catalysed by ACT Grants, Hiring software engineers."
+        ></meta>
+        <meta name="author" content="pupilfirst.org"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <meta name="theme-color" content="#FDFAF7" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+        <meta
+          property="og:title"
+          content="LITE - Industry Network & Teaching Fellowships"
+        />
+        <meta
+          property="og:description"
+          content="LITE industry Network and Fellowships is a call by ACT Grants to the technology industry for partnering with the All India Council for Technical Education (AICTE) for hiring software engineers who meet global industry standards."
+        />
+        <meta
+          property="og:image"
+          content="/lite-industry-network-and-teaching-fellowships.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://lite.pupilfirst.org/industry"
+        />
+        <meta
+          name="twitter:card"
+          content="/lite-industry-network-and-teaching-fellowships.jpg"
+        />
+        <meta
+          property="og:site_name"
+          content="LITE - Industry Network & Teaching Fellowships"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-6H1NS1GQNW');
+              `,
+          }}
+        />
+      </Head>
       <main className="bg-primary-50 mx-auto">
         <section className="hero__bg-pattern relative">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
@@ -42,21 +102,26 @@ export default function industry() {
               <p className="text-2xl">Catalysed by Act Grants</p>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
                 LITE industry Network and Fellowships is a call by{" "}
-                <a href="https://actgrants.in/">ACT Grants</a> to the technology
-                industry for partnering with the All India Council for Technical
-                Education (AICTE) for hiring software engineers who meet global
-                industry standards.
+                <a
+                  className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                  target="_blank"
+                  href="https://actgrants.in/"
+                >
+                  ACT Grants
+                </a>{" "}
+                to the technology industry for partnering with the All India
+                Council for Technical Education (AICTE) for hiring software
+                engineers who meet global industry standards.
               </p>
             </div>
           </div>
-          <div className="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
+          <div className="absolute inset-0 md:inset-x-0  2xl:inset-0 z-0">
             <img
               aria-hidden="true"
               className="h-full w-full object-cover relative"
               src="/hero/hero-bg.png"
               alt="LITE - hero background image"
             />
-            <div className="absolute inset-0"></div>
           </div>
         </section>
         <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto md:rounded-xl shadow-md bg-gradient-to-br from-yellow-500 to-primary-500 px-4 md:px-8 pt-8 pb-4 md:pb-0">
@@ -93,7 +158,7 @@ export default function industry() {
               <p className="pt-4 pb-8 text-white">
                 Engineering students would get the opportunity to learn the{" "}
                 <a
-                  className="inline-block underline focus:outline-none focus:ring focus:ring-indigo-500 text-white font-semibold"
+                  className="inline-block underline focus:outline-none focus-visible:ring focus-visible:ring-white text-white font-semibold rounded"
                   target="_blank"
                   href="https://lite.pupilfirst.org/faculty"
                 >
@@ -230,32 +295,32 @@ export default function industry() {
                   <People
                     name="Prof Anil Sahasrabudhe"
                     role="Chairman, All India Council for Technical Education"
-                    imgSrc="/people/Prof-Anil-Sahasrabudhe.png"
+                    imgSrc="/people/Prof-Anil-Sahasrabudhe.jpg"
                   />
                   <People
                     name="Mekin Maheshwari"
                     role="Founder, Udhyam.org ex-CTO, Flipkart"
-                    imgSrc="/people/mekin-maheshwari.png"
+                    imgSrc="/people/mekin-maheshwari.jpg"
                   />
                   <People
                     name="Shekhar Kirani"
                     role="Partner Accel"
-                    imgSrc="/people/shekhar-kirani.png"
+                    imgSrc="/people/shekhar-kirani.jpg"
                   />
                   <People
                     name="Sandeep Singhal"
                     role="Senior Advisor, Nexus Venture Partners"
-                    imgSrc="/people/sandeep-singhal.png"
+                    imgSrc="/people/sandeep-singhal.jpg"
                   />
                   <People
                     name="Nachiket Mor"
                     role="Visiting scientist, balm"
-                    imgSrc="/people/nachiket-mor.png"
+                    imgSrc="/people/nachiket-mor.jpg"
                   />
                   <People
                     name="Dr. Ajay Nair"
                     role="CEO, Swasth.app"
-                    imgSrc="/people/ajay-nair.png"
+                    imgSrc="/people/ajay-nair.jpg"
                   />
                 </div>
               </div>
@@ -273,7 +338,7 @@ export default function industry() {
                 <p className="mt-8 text-sm lg:text-lg">
                   AICTE's{" "}
                   <a
-                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                     target="_blank"
                     href="https://lite.pupilfirst.org/"
                   >
@@ -291,7 +356,7 @@ export default function industry() {
                 <p className="mt-4 text-sm lg:text-lg">
                   Learn More at:{" "}
                   <a
-                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                     target="_blank"
                     href="https://pupilfirst.org/"
                   >
@@ -299,7 +364,7 @@ export default function industry() {
                   </a>{" "}
                   and{" "}
                   <a
-                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                     target="_blank"
                     href="https://actgrants.in/"
                   >
@@ -310,8 +375,8 @@ export default function industry() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto border-t border-gray-200">
+        <section className="border-t border-gray-200">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
               <Heading heading="The Background Story" />
               <div class="mt-12">
@@ -338,10 +403,24 @@ export default function industry() {
                       <p className="mt-4">
                         Freshworks's RoR fresher training curriculum was
                         integrated into Sastra University's engineering
-                        curriculum along with the development of open-source
-                        tools and operating processes that enabled faculty to
-                        successfully deliver industry designed courses to
-                        students.
+                        curriculum along with the development of{" "}
+                        <a
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          target="_blank"
+                          href="https://github.com/pupilfirst/pupilfirst/projects/1"
+                        >
+                          open-source tools
+                        </a>{" "}
+                        and{" "}
+                        <a
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          target="_blank"
+                          href="https://rocket.pupilfirst.org/"
+                        >
+                          operating processes
+                        </a>{" "}
+                        that enabled faculty to successfully deliver industry
+                        designed courses to students.
                       </p>
                     </div>
                   </div>
@@ -380,11 +459,18 @@ export default function industry() {
                         In 2020,
                       </span>
                       <p>
-                        CoronaSafe Network, an open-source pandemic war-room
-                        software was created by 300+ engineers with the support
-                        of ACT Grants. To support continuous development, ACT
-                        Grants enabled a student fellowship program to select
-                        and train 30 students as full-stack developers.
+                        <a
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          target="_blank"
+                          href="https://coronasafe.network/"
+                        >
+                          CoronaSafe Network
+                        </a>
+                        , an open-source pandemic war-room software was created
+                        by 300+ engineers with the support of ACT Grants. To
+                        support continuous development, ACT Grants enabled a
+                        student fellowship program to select and train 30
+                        students as full-stack developers.
                       </p>
                     </div>
                   </div>
@@ -425,10 +511,16 @@ export default function industry() {
                         In May 2021,
                       </span>
                       <p>
-                        To fix the gap, AICTE launched the Leadership in
-                        Teaching Excellence (LITE) programme to train 100,000
-                        faculty and 24M students in modern software engineering
-                        curriculums.
+                        To fix the gap, AICTE launched the{" "}
+                        <a
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          target="_blank"
+                          href="https://lite.pupilfirst.org/letter-from-VCM/Letter-from-the-VCM-AICTE.pdf"
+                        >
+                          Leadership in Teaching Excellence (LITE)
+                        </a>{" "}
+                        programme to train 100,000 faculty and 24M students in
+                        modern software engineering curriculums.
                       </p>
                     </div>
                   </div>
@@ -450,7 +542,13 @@ export default function industry() {
                         The United Nations approved CoronaSafe as the 50th
                         Digital Public Good and 14 students who worked to create
                         TeleICU capabilities were recognised by AICTE as
-                        National Software Engineering Fellows.
+                        <a
+                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          target="_blank"
+                          href="https://gdc.network/#certificate"
+                        >
+                          National Software Engineering Fellows.
+                        </a>{" "}
                       </p>
                     </div>
                   </div>
@@ -508,7 +606,7 @@ export default function industry() {
                     <span className="font-semibold">Feb 07, 2022:</span> Last
                     Date to{" "}
                     <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       target="_blank"
                       href="industry/early-adopter"
                     >
@@ -519,7 +617,7 @@ export default function industry() {
                     <span className="font-semibold">Feb 07, 2022:</span> Last
                     Date to{" "}
                     <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       target="_blank"
                       href="teaching-fellowship"
                     >
@@ -535,14 +633,14 @@ export default function industry() {
                     If you have any questions, please feel free to contact Suma
                     Sundararajan, Co-founder Pupilfirst at{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:suma@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
                       suma@pupilfirst.org{" "}
                     </a>
                     with CC to Neetha Joy at ACT Grants at{" "}
                     <a
-                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:neetha.joy@uwbengaluru.org"
                     >
                       {" "}
