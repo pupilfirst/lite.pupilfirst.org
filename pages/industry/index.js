@@ -268,6 +268,250 @@ export default function industry() {
             </div>
           </div>
         </section>
+        <section>
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto border-t border-gray-200">
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
+              <Heading heading="The Background Story" />
+              <div class="mt-12">
+                <div class="flex flex-col md:grid grid-cols-12 pl-4">
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-0 text-xl text-right font-semibold whitespace-nowrap">
+                        2018
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-0 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg">
+                      <span className="md:hidden font-bold text-xl">
+                        In 2018
+                      </span>
+                      <p>
+                        Girish Mathrubootham led Freshworks partnered with
+                        Pupilfirst to solve structural issues in Indian software
+                        engineering education.
+                      </p>
+                      <p className="mt-4">
+                        Freshworks's RoR fresher training curriculum was
+                        integrated into Sastra University's engineering
+                        curriculum along with the development of open-source
+                        tools and operating processes that enabled faculty to
+                        successfully deliver industry designed courses to
+                        students.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        2019
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In 2019
+                      </span>
+                      <p>
+                        AICTE partnered with Pupilfirst to scale this model
+                        across the country.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        2020
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In 2020,
+                      </span>
+                      <p>
+                        CoronaSafe Network, an open-source pandemic war-room
+                        software was created by 300+ engineers with the support
+                        of ACT Grants. To support continuous development, ACT
+                        Grants enabled a student fellowship program to select
+                        and train 30 students as full-stack developers.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        Jan 2021
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In Jan 2021,
+                      </span>
+                      <p>
+                        Only 100 students out of the 50,482 applicants could
+                        pass the admissions filter to write code that passed
+                        automated tests, revealing the size of gap between
+                        industry expectations and academic curriculums.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        May 2021
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In May 2021,
+                      </span>
+                      <p>
+                        To fix the gap, AICTE launched the Leadership in
+                        Teaching Excellence (LITE) programme to train 100,000
+                        faculty and 24M students in modern software engineering
+                        curriculums.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        Sept 2021
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In Sept 2021,
+                      </span>
+                      <p>
+                        The United Nations approved CoronaSafe as the 50th
+                        Digital Public Good and 14 students who worked to create
+                        TeleICU capabilities were recognised by AICTE as
+                        National Software Engineering Fellows.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex md:contents">
+                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                      </div>
+                      <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
+                        Dec 2021
+                      </p>
+                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                    </div>
+                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg py-12">
+                      <span className="md:hidden font-bold text-xl">
+                        In Dec 2021,
+                      </span>
+                      <p>
+                        ACT approved support for AICTE's LITE program to not
+                        only enable students to build and maintain Digital
+                        Public Goods but also solve for quality in Indian higher
+                        education to provide trained talent for the software
+                        industry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="max-w-4xl mx-auto rounded-lg bg-primary-100 border-4 border-primary-500 p-4">
+                  <p>
+                    The LITE Industry Network and Fellowships program is a new
+                    chapter in the journey towards improving the quality of
+                    learning outcomes in software engineering education.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-white border-t border-gray-200">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
+              <Heading heading="Spread the word" />
+              <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
+                <p className="mt-8 text-sm lg:text-lg">
+                  Please share this information with organisations that are
+                  looking for skilled engineering talent or software engineers
+                  you know who have a passion for teaching and improving the
+                  quality of education in India.
+                </p>
+                <div className="inline-block mt-8 p-4 md:p-8 rounded-lg bg-primary-100">
+                  <p className="border-b border-primary-300 pb-3 text-base md:text-xl font-medium">
+                    Last Dates:
+                  </p>
+                  <p className="pt-4 text-base md:text-xl">
+                    <span className="font-semibold">Feb 07, 2022:</span> Last
+                    Date to{" "}
+                    <a
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                      target="_blank"
+                      href="#"
+                    >
+                      Apply for Industry Network
+                    </a>
+                  </p>
+                  <p className="pt-3 text-base md:text-xl">
+                    <span className="font-semibold">Feb 07, 2022:</span> Last
+                    Date to{" "}
+                    <a
+                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:ring focus:bg-indigo-500"
+                      target="_blank"
+                      href="#"
+                    >
+                      Apply for Fellowships
+                    </a>
+                  </p>
+                </div>
+                <div className="pt-10 lg:pt-10">
+                  <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
+                    Questions?
+                  </h3>
+                  <p className="pt-2">
+                    If you have any questions, please feel free to contact Suma
+                    Sundararajan, Co-founder Pupilfirst at{" "}
+                    <a
+                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      href="mailto:suma@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
+                    >
+                      suma@pupilfirst.org{" "}
+                    </a>
+                    with CC to Neetha Joy at ACT Grants at{" "}
+                    <a
+                      className="font-medium text-primary-500 hover:underline focus:outline-none focus:underline"
+                      href="mailto:neetha.joy@uwbengaluru.org"
+                    >
+                      {" "}
+                      neetha.joy@uwbengaluru.org
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
