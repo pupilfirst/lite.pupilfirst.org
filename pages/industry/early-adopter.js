@@ -3,12 +3,13 @@ import DescriptionList from "../../components/DescriptionList";
 import Heading from "../../components/Heading";
 import People from "../../components/People";
 import NumberListItem from "../../components/NumberListItem";
+import ScheduleDate from "../../components/ScheduleDate";
 
 export default function earlyAdopter() {
   return (
     <div>
       <Head>
-        <title>LITE Industry Network</title>
+        <title>LITE Industry Hiring Network</title>
         <meta
           name="description"
           content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
@@ -30,7 +31,7 @@ export default function earlyAdopter() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="LITE Industry Network" />
+        <meta property="og:title" content="LITE Industry Hiring Network" />
         <meta
           property="og:description"
           content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
@@ -151,15 +152,15 @@ export default function earlyAdopter() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <DescriptionList
                       heading="What is this?"
-                      content="An industry-designed talent pipeline from academia for hiring fresher full-stack developers."
+                      content="An industry-designed talent pipeline for hiring full-stack developers from engineering colleges across the country."
                     />
                     <DescriptionList
                       heading="Why?"
-                      content="To create a pathway for the software industry to hire engineering students with a minor degree in web development, across academic institutions. "
+                      content="To create a pathway for the software industry to hire engineering students with a Minor Degree in Web Development where Industry experts have designed the curriculum."
                     />
                     <DescriptionList
                       heading="Who is this for?"
-                      content="Startups and software companies that have a continuous requirement for fresher talent year after year."
+                      content="Startups and software companies looking to hire full-stack developers."
                     />
                     <DescriptionList
                       heading="Reduced hiring effort?"
@@ -173,10 +174,13 @@ export default function earlyAdopter() {
                       heading="Internship duration?"
                       content="Six months"
                     />
-                    <DescriptionList heading="Location?" content="Remote" />
+                    <DescriptionList
+                      heading="Location?"
+                      content="Remote or On-Site based on company policy."
+                    />
                     <DescriptionList
                       heading="Internship stipend?"
-                      content="Can be paid or free based on company policy."
+                      content="Based on company policy but paid internships are recommended."
                     />
                     <DescriptionList
                       heading="Hiring Charges?"
@@ -197,16 +201,15 @@ export default function earlyAdopter() {
                           Become an early adopter.
                         </p>
                         <p className="leading-tight text-sm mt-2">
-                          If you would like to contribute to fix the structural
-                          issues in engineering education in India and benefit
-                          from the talent network, we invite you to join as an
-                          early adopter to the LITE Industry Network.
+                          If you would like to benefit from the talent network,
+                          we invite you to join us as an early adopter to the
+                          LITE Industry Network.
                         </p>
                         <p className="p-4 mt-4 rounded-md bg-gray-100 text-sm">
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
-                            31 January 2021
+                            07 February 2022
                           </span>
                         </p>
                         <div className="pt-4">
@@ -225,7 +228,7 @@ export default function earlyAdopter() {
             </div>
           </div>
         </section>
-        <section className="border-t border-gray-200">
+        <section className="border-t border-gray-200 bg-white">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
               <Heading heading="An initiative supported by" />
@@ -266,7 +269,7 @@ export default function earlyAdopter() {
             </div>
           </div>
         </section>
-        <section className="bg-white">
+        <section className="border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
               <Heading heading="Beginner to advanced courses" />
@@ -340,7 +343,8 @@ export default function earlyAdopter() {
                 <Heading heading="Aiming for Gold Standard in Engineering Education" />
                 <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
-                    The open-source contributions made for{" "}
+                    The United Nations recognised the open-source contributions
+                    made for{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="https://coronasafe.network/"
@@ -348,43 +352,91 @@ export default function earlyAdopter() {
                     >
                       CoronaSafe Network
                     </a>{" "}
-                    by 14 engineering interns were recognised by the United
-                    Nations as the 50th Digital Public Good in the world.
+                    by 14 engineering interns who completed this program as the
+                    50th Digital Public Good globally.
                   </p>
                   <p className="mt-4 text-sm lg:text-lg">
-                    The{" "}
-                    <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="https://rocket.pupilfirst.org/"
-                      target="_blank"
-                    >
-                      detailed operational model
-                    </a>{" "}
-                    is now being scaled to 27 institutions across 11 states in
-                    the first batch of the LITE program to create a pipeline of
-                    students who demonstrate skills desired by the industry.
+                    Students in 27 institutions covering 1 Institute of
+                    Eminence, 1 State University, 1 Private University and 18
+                    Autonomous Colleges & 7 Affiliated Colleges under 13 Public
+                    Universities are being admitted to the program to create a
+                    pipeline of students who demonstrate skills desired by the
+                    industry.
                   </p>
+                  <img
+                    className="pt-8"
+                    src="/stats-map/LITE-first-batch-completed-02.jpg"
+                    alt="Map showing the universities which were admitted in the program"
+                  />
                 </div>
               </div>
-              <div className="mt-20">
-                <Heading heading="Scaling to 24M Students" />
-                <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
-                  <p className="mt-4 text-sm lg:text-lg">
-                    The LITE program has a goal to train 24M students over the
-                    next few years starting from schools to create a continuous
-                    supply of talent to industry year after year.
-                  </p>
-                </div>
+            </div>
+          </div>
+        </section>
+        <section className="border-t border-gray-200">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
+              <Heading heading="Apply your own hiring standards" />
+              <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
+                <p className="mt-4 text-sm lg:text-lg">
+                  We do not require you to bypass your existing hiring pipeline
+                  when providing internships or hiring students from the
+                  network. Instead, we encourage independent evaluation to
+                  assess the LITE program's performance.
+                </p>
               </div>
               <div className="mt-20">
-                <Heading heading="Apply your own hiring standards" />
+                <Heading heading="What we expect from you." />
                 <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
-                    We do not require you bypass your existing hiring pipeline
-                    when providing internships or hiring students from the
-                    network. In fact, we encourage independent evaluation in
-                    order to assess the performance of the LITE program.
+                    In exchange for accessing this pipeline of trained talent,
+                    we expect:
                   </p>
+                  <div className="flex flex-col gap-4 mt-6">
+                    <NumberListItem
+                      number="1"
+                      content="To work with your organisation's human resources and engineering leads to align with your internal technical hiring process."
+                    />
+                    <NumberListItem
+                      number="2"
+                      content="To publicise the LITE Teaching Fellowship program within your organisation - this program depends on continuous effort from a few interested working professionals."
+                    />
+                    <NumberListItem
+                      number="3"
+                      content={
+                        <span>
+                          To place your logo on the{" "}
+                          <a
+                            className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                            href="https://wd.pupilfirst.org/"
+                            target="_blank"
+                          >
+                            Minor Degree Curriculum Website for students
+                          </a>
+                          , expressing support for the LITE program.
+                        </span>
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
+              <Heading heading="Schedule" />
+              <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
+                <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
+                  <ScheduleDate
+                    date="January 17, 2022"
+                    content="LITE Industry Call issued by ACT"
+                  />
+                  <ScheduleDate
+                    date="February 07, 2022"
+                    content=" Last Date to Apply for Industry Network"
+                  />
+                  <ScheduleDate
+                    date="February 18, 2022"
+                    content="LITE Industry Network 2022 published"
+                  />
                 </div>
               </div>
             </div>
@@ -393,47 +445,21 @@ export default function earlyAdopter() {
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
-              <Heading heading="What we expect from you." />
+              <Heading heading="Scaling to 24M Students" />
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
-                  In exchange for accessing this pipeline of trained talent, we
-                  expect:
+                  The LITE program aims to train 24M students over the next few
+                  years, starting from schools to create a continuous supply of
+                  talent to the industry year after year.
                 </p>
-                <div className="flex flex-col gap-4 mt-6">
-                  <NumberListItem
-                    number="1"
-                    content="To work with the human resources and engineering lead at your organisation to align your internal hiring process and demand with University Academic Calendars across many states."
-                  />
-                  <NumberListItem
-                    number="2"
-                    content="To publicize the LITE Teaching Fellowship program within your organization - this program depends on continuous effort from the industry’s working professionals."
-                  />
-                  <NumberListItem
-                    number="3"
-                    content={
-                      <span>
-                        To place your logo on the{" "}
-                        <a
-                          className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                          href="https://wd.pupilfirst.org/"
-                          target="_blank"
-                        >
-                          Minor Degree Curriculum Website for students
-                        </a>
-                        , expressing support for the LITE program
-                      </span>
-                    }
-                  />
-                </div>
-                <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-20">
+                <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Become an early adopter.
                   </h4>
                   <p className="text-white text-center leading-tight mt-3">
-                    If you would like to contribute to fix the structural issues
-                    in engineering education in India and benefit from the
-                    talent network, we invite you to join as an early adopter to
-                    the LITE Industry Network.
+                    If you would like to benefit from the talent network, we
+                    invite you to join us as an early adopter to the LITE
+                    Industry Network.
                   </p>
                   <div className="mt-6 flex justify-center">
                     <a
@@ -466,8 +492,8 @@ export default function earlyAdopter() {
                     />
                   </svg>
                   <p>
-                    <span className="font-semibold">31 January 2021</span> to
-                    Apply for LITE Industry Network
+                    <span className="font-semibold">07 February 2022:</span>{" "}
+                    Last date to Apply for LITE Industry Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">

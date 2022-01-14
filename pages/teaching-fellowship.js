@@ -13,7 +13,7 @@ export default function teachingFellowship() {
         <title>LITE Teaching Fellowships</title>
         <meta
           name="description"
-          content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested to contribute time for bringing the academic curriculum in engineering colleges at par with industry standards."
+          content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested in contributing time for bringing the academic curriculum in engineering colleges at par with industry standards."
         ></meta>
         <meta
           name="keywords"
@@ -35,7 +35,7 @@ export default function teachingFellowship() {
         <meta property="og:title" content="LITE Teaching Fellowships" />
         <meta
           property="og:description"
-          content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested to contribute time for bringing the academic curriculum in engineering colleges at par with industry standards."
+          content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested in contributing time for bringing the academic curriculum in engineering colleges at par with industry standards."
         />
         <meta property="og:image" content="/lite-teaching-fellowships.jpg" />
         <meta
@@ -94,7 +94,7 @@ export default function teachingFellowship() {
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
                 AICTE LITE Teaching Fellowship is a national fellowship for
                 experienced software engineers who love teaching and are
-                interested to contribute time for bringing the academic
+                interested in contributing time for bringing the academic
                 curriculum in engineering colleges at par with industry
                 standards.
               </p>
@@ -165,11 +165,11 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Who is this for?"
-                      content="Software engineers with 3+ years of experience with an interest in teaching."
+                      content="Software engineers with 3+ years of experience with interest in teaching."
                     />
                     <DescriptionList
                       heading="When?"
-                      content="February 21, 2022, to February 20, 2023."
+                      content="February 21, 2022, to February 20, 2023"
                     />
                     <DescriptionList
                       heading="Effort?"
@@ -177,7 +177,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Stipend?"
-                      content="1500 USD per month months"
+                      content="1500 USD per month"
                     />
                     <DescriptionList heading="Location?" content="Remote" />
                     <DescriptionList
@@ -186,7 +186,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Part-time or full-time?"
-                      content="Both part-time and full-time options are available and may be indicated in your application. Full-time fellows would receive a stipend of 3000 USD per month."
+                      content="Both part-time and full-time options are available."
                     />
                     <DescriptionList
                       heading="Volunteer?"
@@ -237,32 +237,24 @@ export default function teachingFellowship() {
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <DateAndContent
                             date="January 17, 2022"
-                            content="Announcement of LITE Industry Fellowships"
+                            content="LITE Industry Call issued by ACT"
                           />
                           <DateAndContent
-                            date="January 31, 2022 "
-                            content="Last Date to Applys"
-                          />
-                          <DateAndContent
-                            date="February 04, 2022"
-                            content="Shortlisted Candidates Published"
+                            date="February 07, 2022"
+                            content="Last Date to Apply for Fellowships"
                           />
                           <DateAndContent
                             date="February 14, 2022"
-                            content="Final List Announcement"
+                            content="Shortlisted Fellowship Candidates Announced"
                           />
                           <DateAndContent
                             date="February 21, 2022"
-                            content="LITE Industry Teaching Fellowship Begins"
-                          />
-                          <DateAndContent
-                            date="February 20, 2023"
-                            content="LITE Industry Fellowship Ends"
+                            content="LITE Industry Fellows Announced"
                           />
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
-                            href="/announcement"
+                            href="/"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
                             Apply now
@@ -326,8 +318,8 @@ export default function teachingFellowship() {
                   This fellowship program is created jointly by the All India
                   Council for Technical Education (AICTE) and its partner
                   Pupilfirst with donor funding from ACT Grants to catalyse the
-                  structural changes required for solving the issue of
-                  low-quality learning outcomes at Indian engineering colleges.
+                  structural changes required to solve low-quality learning
+                  outcomes at Indian engineering colleges.
                 </p>
               </div>
               <div className="mt-20">
@@ -337,7 +329,7 @@ export default function teachingFellowship() {
                     We're looking for someone who is passionate about teaching
                     and interacting with students. You will join a team of
                     coaches and be responsible for the content of the courses
-                    that are approved by AICTE for deployment to students
+                    that AICTE approves for deployment to students.
                   </p>
                 </div>
               </div>
@@ -346,11 +338,11 @@ export default function teachingFellowship() {
                 <div className="max-w-5xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
                     At least three years of experience in the field of
-                    full-stack web development, specifically using Ruby on
-                    Rails, Django or Typescript (React).
+                    full-stack web development using Ruby on Rails, Django or
+                    Typescript (React).
                   </p>
                   <ul className="list-none mt-10">
-                    <ListItem content="Prior experience in the field of teaching technical skills; for example by conducting workshops, giving seminars, personal coaching, writing instructional articles, etc are desirable." />
+                    <ListItem content="Prior experience in teaching technical skills, such as conducting workshops, giving seminars, personal coaching, writing instructional articles, etc. are desirable." />
                     <ListItem content="Good English writing and speaking skills - you will be responsible for the education of remote students, so communication skills are critical." />
                     <ListItem content="Access to a good internet connection." />
                   </ul>
@@ -366,17 +358,17 @@ export default function teachingFellowship() {
                     iterative course development processes.
                   </p>
                   <h4 className="mt-10 text-secondary-500">
-                    Responsibilities include
+                    Your Responsibilities include
                   </h4>
                   <ul className="list-none mt-4">
-                    <ListItem content="Taking charge of the content of the web development courses that have been developed so far. This means upgrading existing course content to meet student demands, and authoring new content so that it matches industry standards." />
-                    <ListItem content="Assist in the selection of TAs from students who have already completed the course. These TAs will help you in course implementation processes." />
-                    <ListItem content="With the assistance of teaching assistants (TA), ensure that students going through a course meet the expected course outcomes. This would include doing things like answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
+                    <ListItem content="Taking charge of the content of the web development courses that have been developed so far. This means upgrading existing course content to meet student demands and authoring new content to match industry standards." />
+                    <ListItem content="Assist in selecting Teaching Assistants (TA’s) from students who have already completed the course. These TAs will help you in course implementation processes." />
+                    <ListItem content="With the assistance of teaching assistants (TA’s), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
                     <ListItem content="Mentor TAs to enable them to perform at their best in their duties." />
                     <ListItem content="Provide technical inputs for improvement of the teaching and learning process." />
                     <ListItem content="Bring in industry experts for AMA sessions during the course, evaluations of students projects and network with industry to showcase potential internship opportunities." />
                     <ListItem content="Assist in identifying more coaches when the need arises." />
-                    <ListItem content="Conduct train-the-trainer sessions when required for certain courses." />
+                    <ListItem content="Conduct train-the-trainer sessions when required for specific courses." />
                   </ul>
                 </div>
               </div>
@@ -409,27 +401,19 @@ export default function teachingFellowship() {
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
                     date="January 17, 2022"
-                    content="Announcement of LITE Industry Fellowships"
+                    content="LITE Industry Call issued by ACT"
                   />
                   <ScheduleDate
-                    date="January 31, 2022"
-                    content="Last Date to Apply"
+                    date="February 07, 2022"
+                    content="Last Date to Apply for Fellowships"
                   />
                   <ScheduleDate
-                    date="February 04, 2022"
-                    content="Shortlisted Candidates Published"
+                    date="February 14, 2022"
+                    content="Shortlisted Fellowship Candidates Announced"
                   />
                   <ScheduleDate
-                    date="February 14, 2022 "
-                    content="Final List Announcement"
-                  />
-                  <ScheduleDate
-                    date="February 21, 2022"
-                    content="LITE Industry Teaching Fellowship Begins"
-                  />
-                  <ScheduleDate
-                    date="February 20, 2023"
-                    content="LITE Industry Fellowship Ends"
+                    date="February 21, 2022 "
+                    content="LITE Industry Fellows Announced"
                   />
                 </div>
               </div>
@@ -442,11 +426,11 @@ export default function teachingFellowship() {
               <Heading heading="Rolling Evaluations" />
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
-                  All incoming applications are evaluated on a first come first
-                  serve basis and if there are enough qualified applicants, the
-                  application process would close earlier. We encourage you to
-                  apply early if you are interested in being a part of this
-                  fellowship program.
+                  All incoming applications are evaluated on a first-come,
+                  first-serve basis, and if there are enough qualified
+                  applicants, the application process will close earlier.
+                  Therefore, we encourage you to apply early if you are
+                  interested in being a part of this fellowship program.
                 </p>
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <svg
@@ -470,8 +454,8 @@ export default function teachingFellowship() {
                     />
                   </svg>
                   <p>
-                    <span className="font-semibold">31 January 2021</span> to
-                    Apply for LITE Industry Network
+                    <span className="font-semibold">07 February 2022:</span>{" "}
+                    Last date to Apply for LITE Industry Fellowships
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-10">
