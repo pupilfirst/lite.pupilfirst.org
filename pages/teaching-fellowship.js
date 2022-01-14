@@ -101,7 +101,7 @@ export default function teachingFellowship() {
               <div className="pt-4 md:pt-8">
                 <div>
                   <a
-                    href="/"
+                    href="#"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
                   >
                     Apply Now
@@ -503,7 +503,7 @@ export default function teachingFellowship() {
                   </h4>
                   <div className="mt-6 flex justify-center">
                     <a
-                      href="/"
+                      href="#"
                       className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-500 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
                     >
                       Apply Now
