@@ -1393,7 +1393,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">28</td>
+                              <td className="px-4 py-2">27</td>
                               <td className="px-4 py-2 font-medium">
                                 Dr. B. C. Roy Engineering College, Durgapur
                               </td>
