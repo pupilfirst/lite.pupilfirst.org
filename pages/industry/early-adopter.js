@@ -201,16 +201,16 @@ export default function earlyAdopter() {
                         <p className="text-xl font-semibold leading-tight">
                           Become an early adopter.
                         </p>
-                        <p className="leading-tight text-sm mt-2">
+                        <p className="leading-tight mt-2">
                           If you would like to benefit from the talent network,
                           we invite you to join us as an early adopter to the
                           LITE Industry Network.
                         </p>
-                        <p className="p-4 mt-4 rounded-md bg-gray-100 text-sm">
+                        <p className="p-4 mt-4 rounded-md bg-gray-100 text-lg">
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
-                            07 February 2022
+                            15 February 2022
                           </span>
                         </p>
                         <div className="pt-4">
@@ -401,10 +401,6 @@ export default function earlyAdopter() {
                     />
                     <NumberListItem
                       number="2"
-                      content="To publicise the LITE Teaching Fellowship program within your organisation - this program depends on continuous effort from a few interested working professionals."
-                    />
-                    <NumberListItem
-                      number="3"
                       content={
                         <span>
                           To place your logo on the{" "}
@@ -428,15 +424,15 @@ export default function earlyAdopter() {
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
-                    date="January 17, 2022"
+                    date="January 25, 2022"
                     content="LITE Industry Call issued by ACT"
                   />
                   <ScheduleDate
-                    date="February 07, 2022"
-                    content=" Last Date to Apply for Industry Network"
+                    date="February 15, 2022"
+                    content="Last Date to Apply for Industry Network"
                   />
                   <ScheduleDate
-                    date="February 18, 2022"
+                    date="February 26, 2022"
                     content="LITE Industry Network 2022 published"
                   />
                 </div>
@@ -458,7 +454,7 @@ export default function earlyAdopter() {
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Become an early adopter.
                   </h4>
-                  <p className="text-white text-center leading-tight mt-3">
+                  <p className="text-center leading-tight mt-3 text-xl text-white font-medium max-w-2xl mx-auto">
                     If you would like to benefit from the talent network, we
                     invite you to join us as an early adopter to the LITE
                     Industry Network.
@@ -467,18 +463,19 @@ export default function earlyAdopter() {
                     <a
                       href="https://pupilfirst.typeform.com/to/akBZG57E"
                       target="_blank"
-                      className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-500 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+                      className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
                     >
                       Join as early adopter
                     </a>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
+                <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <svg
                     width="24"
                     height="25"
                     viewBox="0 0 24 25"
                     fill="none"
+                    className="flex-shrink-0 w-7 h-7"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -494,8 +491,8 @@ export default function earlyAdopter() {
                       fill="#FD6400"
                     />
                   </svg>
-                  <p>
-                    <span className="font-semibold">07 February 2022:</span>{" "}
+                  <p className="text-lg">
+                    <span className="font-semibold">15 February 2022:</span>{" "}
                     Last date to Apply for LITE Industry Network
                   </p>
                 </div>
@@ -503,7 +500,7 @@ export default function earlyAdopter() {
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
                     Questions?
                   </h3>
-                  <p className="pt-2">
+                  <p className="pt-2 md:text-lg">
                     If you have any questions, please feel free to contact Suma
                     Sundararajan, Co-founder Pupilfirst at{" "}
                     <a

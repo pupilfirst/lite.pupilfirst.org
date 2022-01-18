@@ -178,7 +178,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Stipend?"
-                      content="1500 USD per month"
+                      content="3000 USD per month"
                     />
                     <DescriptionList heading="Location?" content="Remote" />
                     <DescriptionList
@@ -225,31 +225,27 @@ export default function teachingFellowship() {
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                       </div>
                       <div className="p-2 md:p-4 lg:p-5">
-                        <p className="text-lg mb-2">
-                          Leadership in Teaching Excellence
-                          <br />
-                          <span className="font-semibold">
-                            • Teaching fellowship
-                          </span>
+                        <p className="font-semibold text-lg mb-2">
+                          LITE Teaching Fellowships
                         </p>
                         <p className="text-sm mb-2 text-gray-500">
                           Important dates
                         </p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <DateAndContent
-                            date="January 17, 2022"
+                            date="January 25, 2022"
                             content="LITE Industry Call issued by ACT"
                           />
                           <DateAndContent
-                            date="February 07, 2022"
+                            date="February 15, 2022"
                             content="Last Date to Apply for Fellowships"
                           />
                           <DateAndContent
-                            date="February 14, 2022"
+                            date="February 21, 2022"
                             content="Shortlisted Fellowship Candidates Announced"
                           />
                           <DateAndContent
-                            date="February 21, 2022"
+                            date="February 28, 2022"
                             content="LITE Industry Fellows Announced"
                           />
                         </div>
@@ -402,19 +398,19 @@ export default function teachingFellowship() {
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
-                    date="January 17, 2022"
+                    date="January 25, 2022"
                     content="LITE Industry Call issued by ACT"
                   />
                   <ScheduleDate
-                    date="February 07, 2022"
+                    date="February 15, 2022"
                     content="Last Date to Apply for Fellowships"
                   />
                   <ScheduleDate
-                    date="February 14, 2022"
+                    date="February 21, 2022"
                     content="Shortlisted Fellowship Candidates Announced"
                   />
                   <ScheduleDate
-                    date="February 21, 2022 "
+                    date="February 28, 2022 "
                     content="LITE Industry Fellows Announced"
                   />
                 </div>
@@ -434,12 +430,13 @@ export default function teachingFellowship() {
                   Therefore, we encourage you to apply early if you are
                   interested in being a part of this fellowship program.
                 </p>
-                <div className="flex items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
+                <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <svg
                     width="24"
                     height="25"
                     viewBox="0 0 24 25"
                     fill="none"
+                    className="flex-shrink-0 w-7 h-7"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -455,8 +452,8 @@ export default function teachingFellowship() {
                       fill="#FD6400"
                     />
                   </svg>
-                  <p>
-                    <span className="font-semibold">07 February 2022:</span>{" "}
+                  <p className="text-lg">
+                    <span className="font-semibold">15 February 2022:</span>{" "}
                     Last date to Apply for LITE Industry Fellowships
                   </p>
                 </div>

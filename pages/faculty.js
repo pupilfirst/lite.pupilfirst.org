@@ -2359,8 +2359,6 @@ export default function Home() {
                   />
                 </div>
               </section>
-
-      
               <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   Minor Degree in Advanced Web Development
@@ -2368,7 +2366,7 @@ export default function Home() {
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
                  Institutions who have a qualified LITE Faculty Member can
                  offer a Minor Degree in Advanced Web
-                  Development to their students. 
+                  Development to their students.
                   {/*
                   Details:&nbsp;
                   <a
@@ -2382,8 +2380,6 @@ export default function Home() {
                 */}
                 </p>
               </section>
-
-          
               <div className="border-t border-gray-300 mt-8 py-6 lg:mt-16 lg:py-12">
                 <div className="bg-primary-100 rounded-lg">
                   <div className="p-6">
