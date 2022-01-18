@@ -1393,7 +1393,7 @@ export default function Home() {
                               </td>
                             </tr>
                             <tr className="divide-x divide-gray-200">
-                              <td className="px-4 py-2">28</td>
+                              <td className="px-4 py-2">27</td>
                               <td className="px-4 py-2 font-medium">
                                 Dr. B. C. Roy Engineering College, Durgapur
                               </td>
@@ -2359,14 +2359,18 @@ export default function Home() {
                   />
                 </div>
               </section>
+
+      
               <section className="border-t border-gray-300 mt-8 pt-6 lg:mt-16 lg:pt-12">
                 <h3 className="text-xl lg:text-3xl text-secondary-500 font-semibold">
                   Minor Degree in Advanced Web Development
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
-                  Institutions who have a qualified LITE Faculty Member can now
-                  onboard students to be offered a Minor Degree in Advanced Web
-                  Development in collaboration. Details:&nbsp;
+                 Institutions who have a qualified LITE Faculty Member can
+                 offer a Minor Degree in Advanced Web
+                  Development to their students. 
+                  {/*
+                  Details:&nbsp;
                   <a
                     className="text-secondary-600 font-semibold underline hover:bg-secondary-50"
                     href="https://wd.pupilfirst.org/"
@@ -2374,8 +2378,12 @@ export default function Home() {
                   >
                     https://wd.pupilfirst.org/
                   </a>
+
+                */}
                 </p>
               </section>
+
+          
               <div className="border-t border-gray-300 mt-8 py-6 lg:mt-16 lg:py-12">
                 <div className="bg-primary-100 rounded-lg">
                   <div className="p-6">
