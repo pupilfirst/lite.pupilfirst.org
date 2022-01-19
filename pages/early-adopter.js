@@ -1,9 +1,9 @@
 import Head from "next/head";
-import DescriptionList from "../../components/DescriptionList";
-import Heading from "../../components/Heading";
-import People from "../../components/People";
-import NumberListItem from "../../components/NumberListItem";
-import ScheduleDate from "../../components/ScheduleDate";
+import DescriptionList from "../components/DescriptionList";
+import Heading from "../components/Heading";
+import People from "../components/People";
+import NumberListItem from "../components/NumberListItem";
+import ScheduleDate from "../components/ScheduleDate";
 
 export default function earlyAdopter() {
   return (

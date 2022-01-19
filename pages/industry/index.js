@@ -178,7 +178,7 @@ export default function industry() {
               </p>
               <a
                 target="_blank"
-                href="industry/early-adopter"
+                href="/early-adopter"
                 className="inline-flex space-x-3 justify-between items-center mt-6 w-full md:w-auto p-3 lg:px-5 lg:py-3.5 text-primary-600 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition "
               >
                 <span>See details</span>
@@ -596,7 +596,7 @@ export default function industry() {
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       target="_blank"
-                      href="industry/early-adopter"
+                      href="/early-adopter"
                     >
                       Apply for Industry Network
                     </a>
