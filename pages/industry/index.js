@@ -239,33 +239,21 @@ export default function industry() {
               <h3 className="text-white text-3xl">Important Dates</h3>
               <div className="text-white space-y-2 mt-4 text-lg">
                 <p>
-                  <span className="font-semibold">Jan 17:</span> LITE Industry
-                  Call issued by ACT
+                  <span className="font-semibold">Jan 25:</span> LITE Industry Call issued by ACT
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 07:</span> Last Date to
-                  Apply for Industry Network
+                  <span className="font-semibold">Feb 15:</span> Last Date to Apply for Fellowships
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 07:</span> Last Date to
-                  Apply for Fellowships{" "}
+                  <span className="font-semibold">Feb 21:</span> Shortlisted Fellowship Candidates Announced
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 14:</span> Shortlisted
-                  Fellowship Candidates Announced
-                </p>
-                <p>
-                  <span className="font-semibold">Feb 18:</span> LITE Industry
-                  Network 2022 published
-                </p>
-                <p>
-                  <span className="font-semibold">Feb 21:</span> LITE Industry
-                  Fellows Announced
+                  <span className="font-semibold">Feb 28:</span> LITE Industry Fellows Announced
                 </p>
               </div>
               <a
                 target="_blank"
-                href="/teaching-fellowship"
+                href="/teaching"
                 className="inline-flex space-x-3 justify-between items-center mt-6 w-full md:w-auto p-3 lg:px-5 lg:py-3.5 text-secondary-600 bg-gradient-to-br from-white to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition "
               >
                 <span>See details</span>
@@ -603,7 +591,7 @@ export default function industry() {
                     Last Dates:
                   </p>
                   <p className="pt-4 text-base md:text-xl">
-                    <span className="font-semibold">Feb 07, 2022:</span> Last
+                    <span className="font-semibold">Feb 15, 2022:</span> Last
                     Date to{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
@@ -614,14 +602,14 @@ export default function industry() {
                     </a>
                   </p>
                   <p className="pt-3 text-base md:text-xl">
-                    <span className="font-semibold">Feb 07, 2022:</span> Last
+                    <span className="font-semibold">Feb 15, 2022:</span> Last
                     Date to{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       target="_blank"
-                      href="teaching-fellowship"
+                      href="/teaching"
                     >
-                      Apply for Fellowships
+                      Apply for Teaching Fellowships
                     </a>
                   </p>
                 </div>

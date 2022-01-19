@@ -63,13 +63,11 @@ export default function teachingFellowship() {
         <section className="hero__bg-pattern relative">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
-              <a className="block" href="/">
-                <img
-                  className="block w-20 md:w-28"
-                  src="/logos/LITE-logo.svg"
-                  alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
-                />
-              </a>
+              <img
+                className="block w-20 md:w-28"
+                src="/logos/LITE-logo.svg"
+                alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+              />
               <img
                 className="w-16 md:w-24"
                 src="/logos/aicte-logo.png"
