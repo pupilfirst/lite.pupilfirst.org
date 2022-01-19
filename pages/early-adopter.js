@@ -81,9 +81,12 @@ export default function earlyAdopter() {
                   All India Council for Technical Education.
                 </p>
               </div>
-              <h1 className="hero__title-gradient text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
-                LITE Industry <br />
-                Hiring Network
+              <h1 className="hero__title-gradient text-center text-xl md:text-3xl lg:text-4xl lg:py-4 font-medium">
+                Leadership in Teaching Excellence
+                <br />
+                <span className="text-3xl md:text-5xl lg:text-6xl font-extrabold">
+                  Industry Hiring Network
+                </span>
               </h1>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
                 AICTE Leadership in Teaching Excellence (LITE) Industry Network
