@@ -976,7 +976,8 @@ export default function Home() {
                               </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
-                                  <li>R Tamilkodi</li>
+                                  <li>Dr. R Tamilkodi</li>
+                                  <li> Dr. Shrija Madhu </li>
                                 </ol>
                               </td>
                               <td className="px-4 py-2 whitespace-nowrap">
@@ -1010,6 +1011,7 @@ export default function Home() {
                               <td className="px-4 py-2">Dr. Mohanbabu G N</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
+                                  <li> Dr. Veena N </li>
                                   <li>Dr. Arunakumari B N</li>
                                 </ol>
                               </td>
@@ -1279,6 +1281,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>M Koteswara Rao</li>
+                                  <li> Nayamtulla Khan </li>
                                 </ol>
                               </td>
                               <td className="px-4 py-2 whitespace-nowrap">
@@ -1400,7 +1403,7 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
-                              <td className="px-4 py-2">Dr. N N Pathak</td>
+                              <td className="px-4 py-2">Prof. (Dr) Sanjay S Pawar</td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Raj Kumar Samanta</li>
