@@ -10,14 +10,14 @@ export default function teachingFellowship() {
   return (
     <div>
       <Head>
-        <title>LITE Teaching Fellowships</title>
+        <title>LITE National Teaching Fellowships</title>
         <meta
           name="description"
           content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested in contributing time for bringing the academic curriculum in engineering colleges at par with industry standards."
         ></meta>
         <meta
           name="keywords"
-          content="AICTE's Teaching fellowships, National fellowships for software engineers, Teaching software engineering."
+          content="AICTE's National Teaching fellowships, National fellowships for software engineers, Teaching software engineering."
         ></meta>
         <meta name="author" content="pupilfirst.org"></meta>
         <meta
@@ -32,7 +32,10 @@ export default function teachingFellowship() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="LITE Teaching Fellowships" />
+        <meta
+          property="og:title"
+          content="LITE National Teaching Fellowships"
+        />
         <meta
           property="og:description"
           content="AICTE LITE Teaching Fellowship is a national fellowship for experienced software engineers who love teaching and are interested in contributing time for bringing the academic curriculum in engineering colleges at par with industry standards."
@@ -43,7 +46,10 @@ export default function teachingFellowship() {
           content="https://lite.pupilfirst.org/teaching-fellowship"
         />
         <meta name="twitter:card" content="/lite-teaching-fellowships.jpg" />
-        <meta property="og:site_name" content="LITE Teaching Fellowships" />
+        <meta
+          property="og:site_name"
+          content="LITE National Teaching Fellowships"
+        />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"
@@ -86,7 +92,7 @@ export default function teachingFellowship() {
                 Leadership in Teaching Excellence
                 <br />
                 <span className="text-3xl md:text-5xl lg:text-6xl font-extrabold">
-                  Teaching Fellowships
+                  National Teaching Fellowships
                 </span>
               </h1>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
@@ -224,7 +230,7 @@ export default function teachingFellowship() {
                       </div>
                       <div className="p-2 md:p-4 lg:p-5">
                         <p className="font-semibold text-lg mb-2">
-                          LITE Teaching Fellowships
+                          LITE National Teaching Fellowships
                         </p>
                         <p className="text-sm mb-2 text-gray-500">
                           Important dates

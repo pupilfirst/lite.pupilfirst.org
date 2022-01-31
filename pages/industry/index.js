@@ -6,7 +6,9 @@ export default function industry() {
   return (
     <div>
       <Head>
-        <title>LITE - Industry Network &amp; Teaching Fellowships</title>
+        <title>
+          LITE - Industry Network &amp; National Teaching Fellowships
+        </title>
         <meta
           name="description"
           content="LITE industry Network and Fellowships is a call by ACT Grants to the technology industry for partnering with the All India Council for Technical Education (AICTE) for hiring software engineers who meet global industry standards."
@@ -30,7 +32,7 @@ export default function industry() {
         />
         <meta
           property="og:title"
-          content="LITE - Industry Network & Teaching Fellowships"
+          content="LITE - Industry Network &amp; National Teaching Fellowships"
         />
         <meta
           property="og:description"
@@ -50,7 +52,7 @@ export default function industry() {
         />
         <meta
           property="og:site_name"
-          content="LITE - Industry Network & Teaching Fellowships"
+          content="LITE - Industry Network &amp; National Teaching Fellowships"
         />
         <script
           async
@@ -96,7 +98,7 @@ export default function industry() {
                 Leadership in Teaching Excellence (LITE)
                 <br />
                 <span className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-                  Industry Network &amp; Teaching Fellowships
+                  Industry Network &amp; National Teaching Fellowships
                 </span>
               </h1>
               <p className="text-2xl">Catalysed by Act Grants</p>
@@ -202,7 +204,7 @@ export default function industry() {
 
         <section className="relative max-w-6xl 2xl:max-w-7xl mx-auto md:rounded-xl shadow-md bg-gradient-to-br from-secondary-500 to-secondary-700 px-4 md:px-8 pt-8 pb-4 md:pb-0 mt-12 lg:mt-16">
           <h2 className="text-white text-3xl md:text-4xl pb-4">
-            LITE Industry Teaching Fellowship
+            LITE National Teaching Fellowship
           </h2>
           <div className="md:grid grid-cols-12 border-t border-secondary-300">
             <div className="col-span-6 md:pr-5">
@@ -239,16 +241,20 @@ export default function industry() {
               <h3 className="text-white text-3xl">Important Dates</h3>
               <div className="text-white space-y-2 mt-4 text-lg">
                 <p>
-                  <span className="font-semibold">Jan 25:</span> LITE Industry Call issued by ACT
+                  <span className="font-semibold">Jan 25:</span> LITE Industry
+                  Call issued by ACT
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 15:</span> Last Date to Apply for Fellowships
+                  <span className="font-semibold">Feb 15:</span> Last Date to
+                  Apply for Fellowships
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 21:</span> Shortlisted Fellowship Candidates Announced
+                  <span className="font-semibold">Feb 21:</span> Shortlisted
+                  Fellowship Candidates Announced
                 </p>
                 <p>
-                  <span className="font-semibold">Feb 28:</span> LITE Industry Fellows Announced
+                  <span className="font-semibold">Feb 28:</span> LITE Industry
+                  Fellows Announced
                 </p>
               </div>
               <a
@@ -609,7 +615,7 @@ export default function industry() {
                       target="_blank"
                       href="/teaching"
                     >
-                      Apply for Teaching Fellowships
+                      Apply for National Teaching Fellowships
                     </a>
                   </p>
                 </div>
