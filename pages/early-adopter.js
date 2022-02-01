@@ -211,7 +211,7 @@ export default function earlyAdopter() {
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
-                            15 February 2022
+                            March 07, 2022
                           </span>
                         </p>
                         <div className="pt-4">
@@ -421,19 +421,29 @@ export default function earlyAdopter() {
               </div>
             </div>
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
+              <Heading heading="Scaling to 24M Students" />
+              <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
+                <p className="mt-4 text-sm lg:text-lg">
+                  The LITE program aims to train 24M students over the next few
+                  years, starting from schools to create a continuous supply of
+                  talent to the industry year after year.
+                </p>
+              </div>
+            </div>
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
               <Heading heading="Schedule" />
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
-                    date="January 25, 2022"
+                    date="February 07, 2022"
                     content="LITE Industry Call issued by ACT"
                   />
                   <ScheduleDate
-                    date="February 15, 2022"
+                    date="March 07, 2022"
                     content="Last Date to Apply for Industry Network"
                   />
                   <ScheduleDate
-                    date="February 26, 2022"
+                    date="March 14, 2022"
                     content="LITE Industry Network 2022 published"
                   />
                 </div>
@@ -443,14 +453,8 @@ export default function earlyAdopter() {
         </section>
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
-              <Heading heading="Scaling to 24M Students" />
+            <div className="border-l border-gray-200 mx-4 xl:mx-0 pb-10 lg:pb-16">
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
-                <p className="mt-4 text-sm lg:text-lg">
-                  The LITE program aims to train 24M students over the next few
-                  years, starting from schools to create a continuous supply of
-                  talent to the industry year after year.
-                </p>
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Become an early adopter.
@@ -472,29 +476,20 @@ export default function earlyAdopter() {
                 </div>
                 <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <svg
-                    width="24"
-                    height="25"
-                    viewBox="0 0 24 25"
-                    fill="none"
-                    className="flex-shrink-0 w-7 h-7"
                     xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 text-primary-700"
+                    viewBox="0 0 16 16"
                   >
-                    <path
-                      d="M12.5908 11.4639C12.5641 11.3163 12.4831 11.1841 12.3638 11.0933C12.2445 11.0025 12.0955 10.9597 11.9462 10.9732C11.7969 10.9868 11.658 11.0557 11.557 11.1665C11.456 11.2773 11.4001 11.4219 11.4004 11.5719V16.9743L11.41 17.0823C11.4367 17.2298 11.5177 17.362 11.637 17.4528C11.7563 17.5436 11.9053 17.5865 12.0546 17.5729C12.2039 17.5594 12.3428 17.4904 12.4438 17.3796C12.5448 17.2688 12.6007 17.1242 12.6004 16.9743V11.5719L12.5908 11.4639Z"
-                      fill="#FD6400"
-                    />
-                    <path
-                      d="M12.9602 8.87192C12.9602 8.63323 12.8653 8.40431 12.6966 8.23553C12.5278 8.06674 12.2989 7.97192 12.0602 7.97192C11.8215 7.97192 11.5925 8.06674 11.4238 8.23553C11.255 8.40431 11.1602 8.63323 11.1602 8.87192C11.1602 9.11062 11.255 9.33954 11.4238 9.50832C11.5925 9.6771 11.8215 9.77192 12.0602 9.77192C12.2989 9.77192 12.5278 9.6771 12.6966 9.50832C12.8653 9.33954 12.9602 9.11062 12.9602 8.87192Z"
-                      fill="#FD6400"
-                    />
-                    <path
-                      d="M21.6004 12.7719C21.6004 10.2258 20.589 7.784 18.7886 5.98365C16.9883 4.1833 14.5465 3.17188 12.0004 3.17188C9.45431 3.17188 7.01251 4.1833 5.21217 5.98365C3.41182 7.784 2.40039 10.2258 2.40039 12.7719C2.40039 15.318 3.41182 17.7598 5.21217 19.5601C7.01251 21.3604 9.45431 22.3719 12.0004 22.3719C14.5465 22.3719 16.9883 21.3604 18.7886 19.5601C20.589 17.7598 21.6004 15.318 21.6004 12.7719ZM3.60039 12.7719C3.60039 11.6688 3.81766 10.5765 4.2398 9.55733C4.66194 8.5382 5.28068 7.61219 6.06069 6.83218C6.84071 6.05217 7.76671 5.43343 8.78585 5.01129C9.80498 4.58915 10.8973 4.37187 12.0004 4.37187C13.1035 4.37187 14.1958 4.58915 15.2149 5.01129C16.2341 5.43343 17.1601 6.05217 17.9401 6.83218C18.7201 7.61219 19.3388 8.5382 19.761 9.55733C20.1831 10.5765 20.4004 11.6688 20.4004 12.7719C20.4004 14.9997 19.5154 17.1363 17.9401 18.7116C16.3648 20.2869 14.2282 21.1719 12.0004 21.1719C9.77257 21.1719 7.636 20.2869 6.06069 18.7116C4.48539 17.1363 3.60039 14.9997 3.60039 12.7719Z"
-                      fill="#FD6400"
-                    />
+                    <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                    <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
                   </svg>
                   <p className="text-lg">
-                    <span className="font-semibold">15 February 2022:</span>{" "}
-                    Last date to Apply for LITE Industry Network
+                    <span className="font-semibold">07 March, 2022:</span> Last
+                    date to Apply for LITE Industry Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
