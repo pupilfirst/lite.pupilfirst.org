@@ -437,6 +437,30 @@ export default function Home() {
                       <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
                         <img
                           className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
+                          src="people/head-of-institutions/Fr-Dr-A-Francis-Xavier.png"
+                          alt="Photograph of Dr. A. Francis Xavier"
+                        />
+                      </div>
+                      <p className="text-lg font-semibold pt-3 text-secondary-500">
+                        Fr. Dr. A. Francis Xavier
+                      </p>
+                    </div>
+                    <div className="border-t mt-3">
+                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
+                        Andhra Loyola Institute of Engineering and Technology,
+                        Vijayawada
+                      </p>
+                      <p className="text-gray-700 pt-0.5 text-sm">
+                        Andhra Pradesh
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
+                    <div>
+                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
+                        <img
+                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
                           src="people/head-of-institutions/LITE-avatar.svg"
                           alt="Photograph of Dr. K. Sathiyanarayanan"
                         />
@@ -797,28 +821,6 @@ export default function Home() {
                       <p className="text-gray-700 pt-0.5 text-sm">Telangana</p>
                     </div>
                   </div>
-
-                <div className="flex flex-col justify-between bg-gray-50 p-5 rounded-xl text-center shadow">
-                    <div>
-                      <div className="w-48 h-48 mx-auto rounded-full flex items-center text-sm text-center bg-gray-100">
-                        <img
-                          className="w-48 h-48 object-cover object-top rounded-full border-2 border-primary-300"
-                          src="people/head-of-institutions/LITE-avatar.svg"
-                          alt="Photograph of Dr. Francis"
-                        />
-                      </div>
-                      <p className="text-lg font-semibold pt-3 text-secondary-500">
-                        Fr. Dr. A. Francis Xavier
-                      </p>
-                    </div>
-                    <div className="border-t mt-3">
-                      <p className="text-gray-800 pt-3 font-semibold leading-tight">
-                        Andhra Loyola Institute of Engineering and Technology, Vijayawada
-                      </p>
-                      <p className="text-gray-700 pt-0.5 text-sm">Andhra Pradesh</p>
-                    </div>
-                  </div>
-
                 </div>
               </section>
               <section
@@ -1425,7 +1427,9 @@ export default function Home() {
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
-                              <td className="px-4 py-2">Prof. (Dr) Sanjay S Pawar</td>
+                              <td className="px-4 py-2">
+                                Prof. (Dr) Sanjay S Pawar
+                              </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Dr. Raj Kumar Samanta</li>
@@ -1438,19 +1442,22 @@ export default function Home() {
                             <tr className="divide-x divide-gray-200">
                               <td className="px-4 py-2">28</td>
                               <td className="px-4 py-2 font-medium">
-                                Andhra Loyola Institute of Engineering and Technology, Vijayawada
+                                Andhra Loyola Institute of Engineering and
+                                Technology, Vijayawada
                               </td>
                               <td className="px-4 py-2">
                                 Affiliated College to University
                               </td>
-                              <td className="px-4 py-2">Fr. Dr. A. Francis Xavier</td>
+                              <td className="px-4 py-2">
+                                Fr. Dr. A. Francis Xavier
+                              </td>
                               <td className="px-4 py-2">
                                 <ol className="list-disc pl-3">
                                   <li>Koteswara Rao Addepalli</li>
                                 </ol>
                               </td>
                               <td className="px-4 py-2 whitespace-nowrap">
-                              Andhra Pradesh
+                                Andhra Pradesh
                               </td>
                             </tr>
                           </tbody>
@@ -2407,9 +2414,9 @@ export default function Home() {
                   Minor Degree in Advanced Web Development
                 </h3>
                 <p className="pt-2 text-sm lg:text-lg max-w-4xl">
-                 Institutions who have a qualified LITE Faculty Member can
-                 offer a Minor Degree in Advanced Web
-                  Development to their students.
+                  Institutions who have a qualified LITE Faculty Member can
+                  offer a Minor Degree in Advanced Web Development to their
+                  students.
                   {/*
                   Details:&nbsp;
                   <a
