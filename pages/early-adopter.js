@@ -489,7 +489,7 @@ export default function earlyAdopter() {
                   </svg>
                   <p className="text-lg">
                     <span className="font-semibold">07 March, 2022:</span> Last
-                    date to Apply for LITE Industry Network
+                    date to apply for LITE Industry Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
