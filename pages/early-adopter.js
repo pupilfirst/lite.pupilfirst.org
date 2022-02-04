@@ -497,22 +497,14 @@ export default function earlyAdopter() {
                     Questions?
                   </h3>
                   <p className="pt-2 md:text-lg">
-                    If you have any questions, please feel free to contact Suma
-                    Sundararajan, Co-founder Pupilfirst at{" "}
+                    If you have any questions, email us at{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="mailto:suma@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
+                      href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
-                      suma@pupilfirst.org{" "}
+                      <span className="font-semibold">hiring@pupilfirst.org</span>
                     </a>
-                    with CC to Neetha Joy at ACT Grants at{" "}
-                    <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="mailto:neetha.joy@uwbengaluru.org"
-                    >
-                      {" "}
-                      neetha.joy@uwbengaluru.org
-                    </a>
+                    {" "}with CC to Neetha Joy at ACT Grants at{" "} <span className="font-semibold">neetha.joy@uwbengaluru.org</span>
                   </p>
                 </div>
               </div>
