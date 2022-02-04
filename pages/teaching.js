@@ -473,22 +473,14 @@ export default function teachingFellowship() {
                     Questions?
                   </h3>
                   <p className="pt-2">
-                    If you have any questions, please feel free to contact Suma
-                    Sundararajan, Co-founder Pupilfirst at{" "}
+                    If you have any questions, email us at{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="mailto:suma@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
+                      href="mailto:teaching@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
-                      suma@pupilfirst.org{" "}
+                      <span className="font-semibold">teaching@pupilfirst.org</span>
                     </a>
-                    with CC to Neetha Joy at ACT Grants at{" "}
-                    <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="mailto:neetha.joy@uwbengaluru.org"
-                    >
-                      {" "}
-                      neetha.joy@uwbengaluru.org
-                    </a>
+                    {" "}with CC to Neetha Joy at ACT Grants at <span className="font-semibold">neetha.joy@uwbengaluru.org</span> 
                   </p>
                 </div>
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-10">
