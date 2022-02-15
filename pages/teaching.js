@@ -357,7 +357,8 @@ export default function teachingFellowship() {
                     As an industry coach for a nationally approved engineering
                     curriculum, you play an instrumental role in course
                     implementation, evaluation and providing feedback for
-                    iterative course development processes.
+                    iterative course development processes. The course implementation 
+                    happens entirely online. 
                   </p>
                   <h4 className="mt-10 text-secondary-500">
                     Your Responsibilities include
