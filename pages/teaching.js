@@ -283,12 +283,12 @@ export default function teachingFellowship() {
                   />
                   <People
                     name="Mekin Maheshwari"
-                    role="Founder, Udhyam.org ex-CTO, Flipkart"
+                    role="Founder, Udhyam.org & ex-CTO, Flipkart"
                     imgSrc="/people/mekin-maheshwari.jpg"
                   />
                   <People
                     name="Shekhar Kirani"
-                    role="Partner Accel"
+                    role="Partner, Accel"
                     imgSrc="/people/shekhar-kirani.jpg"
                   />
                   <People
@@ -298,7 +298,7 @@ export default function teachingFellowship() {
                   />
                   <People
                     name="Nachiket Mor"
-                    role="Visiting scientist, balm"
+                    role="Visiting Scientist, BALM"
                     imgSrc="/people/nachiket-mor.jpg"
                   />
                   <People
@@ -331,7 +331,8 @@ export default function teachingFellowship() {
                     We're looking for someone who is passionate about teaching
                     and interacting with students. You will join a team of
                     coaches and be responsible for the content of the courses
-                    that AICTE approves for deployment to students.
+                    that AICTE approves for deployment to students. 
+                    The course implementation happens entirely online.
                   </p>
                 </div>
               </div>
@@ -355,17 +356,17 @@ export default function teachingFellowship() {
                 <div className="max-w-5xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
                     As an industry coach for a nationally approved engineering
-                    curriculum, you play an instrumental role in course
+                    curriculum, you play an instrumental role in the online course
                     implementation, evaluation and providing feedback for
-                    iterative course development processes.
+                    iterative course development processes. 
                   </p>
                   <h4 className="mt-10 text-secondary-500">
                     Your Responsibilities include
                   </h4>
                   <ul className="list-none mt-4">
                     <ListItem content="Taking charge of the content of the web development courses that have been developed so far. This means upgrading existing course content to meet student demands and authoring new content to match industry standards." />
-                    <ListItem content="Assist in selecting Teaching Assistants (TA’s) from students who have already completed the course. These TAs will help you in course implementation processes." />
-                    <ListItem content="With the assistance of teaching assistants (TA’s), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
+                    <ListItem content="Assist in selecting Teaching Assistants (TAs) from students who have already completed the course. These TAs will help you in course implementation processes." />
+                    <ListItem content="With the assistance of teaching assistants (TAs), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
                     <ListItem content="Mentor TAs to enable them to perform at their best in their duties." />
                     <ListItem content="Provide technical inputs for improvement of the teaching and learning process." />
                     <ListItem content="Bring in industry experts for AMA sessions during the course, evaluations of students projects and network with industry to showcase potential internship opportunities." />
@@ -468,6 +469,30 @@ export default function teachingFellowship() {
                     date to apply for LITE Industry Fellowships
                   </p>
                 </div>
+                
+
+                  <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vSd6arcTuJ2eijvjeNk9fdp9rLpbi4Spi8XN_s0SFCjilNBOHY0lCoFGr4TzwxIcYFGD9i7FJBWjBFQ/pub"
+                  target="_blank"
+                  className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
+                >
+                  <span>Frequently Asked Questions</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    />
+                  </svg>
+                </a>
+
+
                 <div className="pt-10 lg:pt-10">
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
                     Questions?
