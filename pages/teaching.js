@@ -367,7 +367,7 @@ export default function teachingFellowship() {
                   <ul className="list-none mt-4">
                     <ListItem content="Taking charge of the content of the web development courses that have been developed so far. This means upgrading existing course content to meet student demands and authoring new content to match industry standards." />
                     <ListItem content="Assist in selecting Teaching Assistants (TAs) from students who have already completed the course. These TAs will help you in course implementation processes." />
-                    <ListItem content="With the assistance of teaching assistants (TAs), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
+                    <ListItem content="With the assistance of teaching assistants (TAs), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc. on a regular basis." />
                     <ListItem content="Mentor TAs to enable them to perform at their best in their duties." />
                     <ListItem content="Provide technical inputs for improvement of the teaching and learning process." />
                     <ListItem content="Bring in industry experts for AMA sessions during the course, evaluations of students projects and network with industry to showcase potential internship opportunities." />
