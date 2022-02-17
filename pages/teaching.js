@@ -178,13 +178,16 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Effort?"
-                      content="15 hours per week for 12 months."
+                      content="15 hours per week for 12 months. We expect you to put in a couple of hours of work every weekday."
                     />
                     <DescriptionList
                       heading="Stipend?"
-                      content="3000 USD per month"
+                      content="3000 USD per month."
                     />
-                    <DescriptionList heading="Location?" content="Remote" />
+                    <DescriptionList
+                      heading="Location?"
+                      content="Remote. The course implementation happens entirely online."
+                    />
                     <DescriptionList
                       heading="Required expertise?"
                       content="At least one of Django, Ruby on Rails, or React with TypeScript. You need to have in-depth proficiency in one of these stacks."
@@ -216,7 +219,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Certificate?"
-                      content="Yes. You would be awarded a National Teaching Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org"
+                      content="Yes. You would be awarded a National Teaching Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org."
                     />
                   </div>
                 </div>
@@ -331,8 +334,8 @@ export default function teachingFellowship() {
                     We're looking for someone who is passionate about teaching
                     and interacting with students. You will join a team of
                     coaches and be responsible for the content of the courses
-                    that AICTE approves for deployment to students. 
-                    The course implementation happens entirely online.
+                    that AICTE approves for deployment to students. The course
+                    implementation happens entirely online.
                   </p>
                 </div>
               </div>
@@ -356,9 +359,9 @@ export default function teachingFellowship() {
                 <div className="max-w-5xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
                     As an industry coach for a nationally approved engineering
-                    curriculum, you play an instrumental role in the online course
-                    implementation, evaluation and providing feedback for
-                    iterative course development processes. 
+                    curriculum, you play an instrumental role in the online
+                    course implementation, evaluation and providing feedback for
+                    iterative course development processes.
                   </p>
                   <h4 className="mt-10 text-secondary-500">
                     Your Responsibilities include
@@ -366,7 +369,7 @@ export default function teachingFellowship() {
                   <ul className="list-none mt-4">
                     <ListItem content="Taking charge of the content of the web development courses that have been developed so far. This means upgrading existing course content to meet student demands and authoring new content to match industry standards." />
                     <ListItem content="Assist in selecting Teaching Assistants (TAs) from students who have already completed the course. These TAs will help you in course implementation processes." />
-                    <ListItem content="With the assistance of teaching assistants (TAs), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc." />
+                    <ListItem content="With the assistance of teaching assistants (TAs), ensure that students going through a course meet the expected course outcomes. This would include answering their questions in the community (forums), reviewing student submissions and giving feedback, etc. on a regular basis." />
                     <ListItem content="Mentor TAs to enable them to perform at their best in their duties." />
                     <ListItem content="Provide technical inputs for improvement of the teaching and learning process." />
                     <ListItem content="Bring in industry experts for AMA sessions during the course, evaluations of students projects and network with industry to showcase potential internship opportunities." />
@@ -469,9 +472,8 @@ export default function teachingFellowship() {
                     date to apply for LITE Industry Fellowships
                   </p>
                 </div>
-                
 
-                  <a
+                <a
                   href="https://docs.google.com/document/d/e/2PACX-1vSd6arcTuJ2eijvjeNk9fdp9rLpbi4Spi8XN_s0SFCjilNBOHY0lCoFGr4TzwxIcYFGD9i7FJBWjBFQ/pub"
                   target="_blank"
                   className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
@@ -492,7 +494,6 @@ export default function teachingFellowship() {
                   </svg>
                 </a>
 
-
                 <div className="pt-10 lg:pt-10">
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
                     Questions?
@@ -503,9 +504,14 @@ export default function teachingFellowship() {
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:teaching@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
-                      <span className="font-semibold">teaching@pupilfirst.org</span>
-                    </a>
-                    {" "}with CC to Neetha Joy at ACT Grants at <span className="font-semibold">neetha.joy@uwbengaluru.org</span> 
+                      <span className="font-semibold">
+                        teaching@pupilfirst.org
+                      </span>
+                    </a>{" "}
+                    with CC to Neetha Joy at ACT Grants at{" "}
+                    <span className="font-semibold">
+                      neetha.joy@uwbengaluru.org
+                    </span>
                   </p>
                 </div>
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-10">
