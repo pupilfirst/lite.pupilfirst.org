@@ -182,9 +182,11 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Stipend?"
-                      content="3000 USD per month"
+                      content="3000 USD per month."
                     />
-                    <DescriptionList heading="Location?" content="Remote" />
+                    <DescriptionList 
+                      heading="Location?" 
+                      content="Remote. The course implementation happens entirely online." />
                     <DescriptionList
                       heading="Required expertise?"
                       content="At least one of Django, Ruby on Rails, or React with TypeScript. You need to have in-depth proficiency in one of these stacks."
@@ -332,7 +334,7 @@ export default function teachingFellowship() {
                     and interacting with students. You will join a team of
                     coaches and be responsible for the content of the courses
                     that AICTE approves for deployment to students. 
-                    The course implementation happens entirely online.
+                    
                   </p>
                 </div>
               </div>
