@@ -178,7 +178,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Effort?"
-                      content="15 hours per week for 12 months."
+                      content="15 hours per week for 12 months. We expect you to put in a couple of hours of work every weekday."
                     />
                     <DescriptionList
                       heading="Stipend?"
@@ -216,7 +216,7 @@ export default function teachingFellowship() {
                     />
                     <DescriptionList
                       heading="Certificate?"
-                      content="Yes. You would be awarded a National Teaching Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org"
+                      content="Yes. You would be awarded a National Teaching Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org."
                     />
                   </div>
                 </div>
