@@ -333,8 +333,7 @@ export default function teachingFellowship() {
                     We're looking for someone who is passionate about teaching
                     and interacting with students. You will join a team of
                     coaches and be responsible for the content of the courses
-                    that AICTE approves for deployment to students. 
-                    The course implementation happens entirely online.
+                    that AICTE approves for deployment to students.
                   </p>
                 </div>
               </div>
