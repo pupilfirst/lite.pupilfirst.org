@@ -105,14 +105,19 @@ export default function teachingFellowship() {
               <div className="pt-4 md:pt-8">
                 <div>
                   <a
-                    href="https://pupilfirst.typeform.com/to/U4hNfAC0"
+                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
                     target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
                   >
-                    Apply Now
+                    See list of Shortlisted Applicants
                   </a>
                 </div>
               </div>
+              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-sm pt-2">
+              Out of 1381 applications received, 43 applications have got shortlisted. 
+              We have emailed the shortlisted candidates and interviews are underway for selecting LITE teaching fellows. 
+             The list of selected fellows will be announced on March 21, 2022.
+             </p>
             </div>
           </div>
           <div className="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
@@ -516,15 +521,15 @@ export default function teachingFellowship() {
                 </div>
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-10">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
-                    Apply Now for LITE Teaching Fellowship
+                    Shortlisted Applicants for LITE Teaching Fellowship
                   </h4>
                   <div className="mt-6 flex justify-center">
                     <a
-                      href="https://pupilfirst.typeform.com/to/U4hNfAC0"
+                      href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
                       target="_blank"
                       className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-500 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
                     >
-                      Apply Now
+                      See list of Shortlisted Applicants
                     </a>
                   </div>
                 </div>
