@@ -263,11 +263,11 @@ export default function teachingFellowship() {
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
-                            href="https://pupilfirst.typeform.com/to/U4hNfAC0"
+                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
                             target="_blank"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                            Apply now
+                            List of Shortlisted Applicants
                           </a>
                         </div>
                       </div>
