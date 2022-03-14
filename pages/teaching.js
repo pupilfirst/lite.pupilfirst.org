@@ -519,6 +519,7 @@ export default function teachingFellowship() {
                     </span>
                   </p>
                 </div>
+              {/*
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-10">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Shortlisted Applicants for LITE Teaching Fellowship
@@ -533,6 +534,7 @@ export default function teachingFellowship() {
                     </a>
                   </div>
                 </div>
+                */}
               </div>
             </div>
           </div>
