@@ -114,8 +114,8 @@ export default function teachingFellowship() {
                 </div>
               </div>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-sm pt-2">
-              Out of 1381 applications received, 43 applications have got shortlisted. 
-              We have emailed the shortlisted candidates and interviews are underway for selecting LITE teaching fellows. 
+              Out of 1381 applications received, 43 applications were shortlisted. 
+              We emailed the shortlisted candidates and interviews are underway for selecting LITE teaching fellows. 
              The list of selected fellows will be announced on March 21, 2022.
              </p>
             </div>
