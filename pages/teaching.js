@@ -102,22 +102,48 @@ export default function teachingFellowship() {
                 curriculum in engineering colleges at par with industry
                 standards.
               </p>
-              <div className="pt-4 md:pt-8">
-                <div>
-                  <a
-                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
-                    target="_blank"
-                    className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
-                  >
-                    See the list of shortlisted applicants
-                  </a>
+              <div className="mt-8 bg-white rounded-lg shadow-xl bg-opacity-60 border border-primary-200">
+                <div className="flex p-6 flex-col md:flex-row md:space-x-12 space-y-8 md:space-y-0">
+                  <div className="md:w-5/12">
+                    <p className="inline-block w-full text-left text-yellow-600 text-base lg:text-2xl font-semibold ">
+                      Selection of LITE teaching fellows is complete!
+                    </p>
+                    <p className="mx-auto text-sm text-left md:text-base text-gray-700 pt-2">
+                      We have completed the selection of the LITE teaching
+                      fellows. Congratulations to the selected fellows! They
+                      are:
+                    </p>
+                  </div>
+                  <div className="text-left md:w-7/12">
+                    <ol className="list-decimal space-y-3 ml-5">
+                      <li>
+                        <p className="font-medium">Avishek Jana</p>
+                        <p className="text-sm">
+                          Co-Founder &amp; Principal Engineer, GEOGO
+                          Techsolutions Pvt. Ltd.
+                        </p>
+                      </li>
+                      <li>
+                        <p className="font-medium">Melson J Zacharias</p>
+                        <p className="text-sm">
+                          CTO/ Engineering Manager, Perleybrook Labs LLC.
+                        </p>
+                      </li>
+                      <li>
+                        <p className="font-medium">Vignesh Rajendran</p>
+                        <p className="text-sm">Principal Engineer, Oracle.</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div className="bg-primary-50 rounded-b-lg border-t p-6">
+                  <p className="text-left">
+                    We appreciate the efforts taken by applicants who did not
+                    get selected this time around. We shall email you about
+                    future opportunities.
+                  </p>
                 </div>
               </div>
-              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-sm pt-2">
-              Out of 1381 applications received, 43 applications were shortlisted. 
-              We emailed the shortlisted candidates and interviews are underway for selecting LITE teaching fellows. 
-             The list of selected fellows will be announced on March 21, 2022.
-             </p>
             </div>
           </div>
           <div className="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
@@ -129,7 +155,7 @@ export default function teachingFellowship() {
             <div className="absolute inset-0"></div>
           </div>
           <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
-            <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg max-w-3xl mx-auto">
+            <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative max-w-4xl mx-auto">
               <div className="flex flex-col items-center text-center">
                 <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-primary-100 text-gray-800 shadow-inner">
                   Supported By
@@ -263,11 +289,11 @@ export default function teachingFellowship() {
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
-                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
+                            href=""
                             target="_blank"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                            See the list of shortlisted applicants
+                            Selection of LITE teaching fellows is complete!
                           </a>
                         </div>
                       </div>
@@ -519,7 +545,7 @@ export default function teachingFellowship() {
                     </span>
                   </p>
                 </div>
-              {/*
+                {/*
                 <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-10">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Shortlisted Applicants for LITE Teaching Fellowship
