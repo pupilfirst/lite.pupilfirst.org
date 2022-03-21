@@ -109,7 +109,7 @@ export default function teachingFellowship() {
                     target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
                   >
-                    Selection of LITE teaching fellows is now complete!
+                    Selection of LITE teaching fellows is complete!
                   </a>
                 </div>
               </div>
@@ -274,7 +274,7 @@ export default function teachingFellowship() {
                             target="_blank"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                             Selection of LITE teaching fellows is now complete!
+                             Selection of LITE teaching fellows is complete!
                           </a>
                         </div>
                       </div>
