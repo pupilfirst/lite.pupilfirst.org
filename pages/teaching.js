@@ -117,9 +117,9 @@ export default function teachingFellowship() {
               We have completed the selection of the LITE teaching fellows. 
               Congratulations to the selected fellows! They are: 
               <ol>
-                   <li> Avishek Jana, Co-Founder & Principal Engineer, GEOGO Techsolutions Pvt. Ltd.</li>
-                   <li> Melson J Zacharias, CTO/ Engineering Manager, Perleybrook Labs LLC. </li>
-                   <li> Vignesh Rajendran, Principal Engineer, Oracle. </li>
+                   <li> 1. Avishek Jana, Co-Founder & Principal Engineer, GEOGO Techsolutions Pvt. Ltd.</li>
+                   <li> 2. Melson J Zacharias, CTO/ Engineering Manager, Perleybrook Labs LLC. </li>
+                   <li> 3. Vignesh Rajendran, Principal Engineer, Oracle. </li>
               </ol>
                We appreciate the efforts taken by applicants who did not get selected this time around. 
                We shall email you about future opportunities.
