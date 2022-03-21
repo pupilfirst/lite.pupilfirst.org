@@ -105,18 +105,25 @@ export default function teachingFellowship() {
               <div className="pt-4 md:pt-8">
                 <div>
                   <a
-                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
+                    href=""
                     target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
                   >
-                    See the list of shortlisted applicants
+                    Selection of LITE teaching fellows is now complete!
                   </a>
                 </div>
               </div>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-sm pt-2">
-              Out of 1381 applications received, 43 applications were shortlisted. 
-              We emailed the shortlisted candidates and interviews are underway for selecting LITE teaching fellows. 
-             The list of selected fellows will be announced on March 21, 2022.
+              We have completed the selection of the LITE teaching fellows. 
+              Congratulations to the selected fellows! They are: 
+              <ol>
+                   <li> Avishek Jana, Co-Founder & Principal Engineer, GEOGO Techsolutions Pvt. Ltd.</li>
+                   <li> Melson J Zacharias, CTO/ Engineering Manager, Perleybrook Labs LLC. </li>
+                   <li> Vignesh Rajendran, Principal Engineer, Oracle. </li>
+              </ol>
+               We appreciate the efforts taken by applicants who did not get selected this time around. 
+               We shall email you about future opportunities.
+
              </p>
             </div>
           </div>
@@ -263,11 +270,11 @@ export default function teachingFellowship() {
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
-                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5cufn-It1YZ881JTs8LKZAtPzrKgSve6ig4tOz-pVXLjZ7EGcqj7EpbtAAgTfwCbCBFNCp4oDldmz/pubhtml"
+                            href=""
                             target="_blank"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                            See the list of shortlisted applicants
+                             Selection of LITE teaching fellows is now complete!
                           </a>
                         </div>
                       </div>
