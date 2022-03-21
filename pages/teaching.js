@@ -126,7 +126,7 @@ export default function teachingFellowship() {
                       <li>
                         <p className="font-medium">Melson J Zacharias</p>
                         <p className="text-sm">
-                          CTO/ Engineering Manager, Perleybrook Labs LLC.
+                          CTO, Perleybrook Labs LLC.
                         </p>
                       </li>
                       <li>
