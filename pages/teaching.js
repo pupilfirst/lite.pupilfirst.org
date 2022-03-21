@@ -113,7 +113,7 @@ export default function teachingFellowship() {
                   </a>
                 </div>
               </div>
-              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl text-blue pt-2">
+              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-sm text-blue pt-2">
               We have completed the selection of the LITE teaching fellows. 
               Congratulations to the selected fellows! They are: 
               <ol>
