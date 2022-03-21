@@ -126,7 +126,7 @@ export default function teachingFellowship() {
                       <li>
                         <p className="font-medium">Melson J Zacharias</p>
                         <p className="text-sm">
-                          CTO/ Engineering Manager, Perleybrook Labs LLC.
+                          CTO, Perleybrook Labs LLC.
                         </p>
                       </li>
                       <li>
@@ -287,6 +287,7 @@ export default function teachingFellowship() {
                             content="LITE Industry Fellows Announced"
                           />
                         </div>
+                      {/*
                         <div className="pt-4 lg:pt-6">
                           <a
                             href=""
@@ -296,6 +297,7 @@ export default function teachingFellowship() {
                             Selection of LITE teaching fellows is complete!
                           </a>
                         </div>
+                        */}
                       </div>
                     </div>
                   </div>
