@@ -141,25 +141,46 @@ export default function Home() {
                 <p className="italic">
                   All India Council for Technical Education.
                 </p>
-                <a
-                  className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-4 md:mt-6 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
-                  href="https://vimeo.com/644637541"
-                  target="_blank"
-                >
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="w-6 h-6 text-primary-500"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                    </svg>
-                  </div>
-                  <div>Watch Video</div>
-                </a>
+                <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mt-4 md:mt-6">
+                  <a
+                    className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
+                    href="https://vimeo.com/644637541"
+                    target="_blank"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="w-6 h-6 text-primary-500"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                      </svg>
+                    </div>
+                    <p>Watch Video</p>
+                  </a>
+                  <a
+                    className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-gray-100 text-primary-800 border border-gray-300 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
+                    href="letter-from-VCM/Letter-from-AICTE-Vice-Chairman-to-Vice-Chancellors-on-January-18-2022.pdf"
+                    target="_blank"
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="w-6 h-6 text-red-500"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z" />
+                      </svg>
+                    </div>
+                    <p>Read Letter</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
