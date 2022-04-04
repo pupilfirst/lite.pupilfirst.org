@@ -121,17 +121,30 @@ export default function earlyAdopter() {
                 <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-primary-100 text-gray-800 shadow-inner">
                   Supported By
                 </p>
-                <div className="p-10 flex flex-col items-center gap-10 w-full md:flex-row md:justify-between md:flex-wrap">
-                  <img src="/logos/aicte.png" alt="aicte" />
-                  <img
-                    className="max-w-xs"
-                    src="/logos/ACT-Logo.png"
-                    alt="ACT Grants"
-                  />
-                  <img
-                    src="/logos/pupilfirst-logo-primary.svg"
-                    alt="Pupilfirst"
-                  />
+                <div className="p-10 grid grid-cols-2 md:grid-cols-12 items-center gap-8">
+                  <div className="md:col-span-4 flex items-center justify-center">
+                    <img src="/logos/aicte.png" alt="aicte" />
+                  </div>
+                  <div className="md:col-span-2 flex items-center justify-center">
+                    <img
+                      className="w-14"
+                      src="/logos/ACT-Logo.png"
+                      alt="ACT Grants"
+                    />
+                  </div>
+                  <div className="md:col-span-3 flex items-center justify-center">
+                    <img
+                      className="w-24"
+                      src="/logos/SaaSBOOMi-logo.svg"
+                      alt="SaaSBOOMi"
+                    />
+                  </div>
+                  <div className="md:col-span-3 flex items-center justify-center">
+                    <img
+                      src="/logos/pupilfirst-logo-primary.svg"
+                      alt="Pupilfirst"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -502,9 +515,14 @@ export default function earlyAdopter() {
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
                     >
-                      <span className="font-semibold">hiring@pupilfirst.org</span>
-                    </a>
-                    {" "}with CC to Neetha Joy at ACT Grants at{" "} <span className="font-semibold">neetha.joy@uwbengaluru.org</span>
+                      <span className="font-semibold">
+                        hiring@pupilfirst.org
+                      </span>
+                    </a>{" "}
+                    with CC to Neetha Joy at ACT Grants at{" "}
+                    <span className="font-semibold">
+                      neetha.joy@uwbengaluru.org
+                    </span>
                   </p>
                 </div>
               </div>
