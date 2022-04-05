@@ -82,17 +82,17 @@ export default function earlyAdopter() {
                 </p>
               </div>
               <h1 className="hero__title-gradient text-center text-xl md:text-3xl lg:text-4xl lg:py-4 font-medium">
-                Leadership in Teaching Excellence
+                Leadership in Teaching Excellence (LITE)
                 <br />
                 <span className="text-3xl md:text-5xl lg:text-6xl font-extrabold">
                   Industry Hiring Network
                 </span>
               </h1>
-              <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
-                AICTE Leadership in Teaching Excellence (LITE) Industry Network
-                is a national program to connect students trained in the
-                industry-designed full-stack web developer curriculum for
-                internship-based hiring by the software industry.
+              <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
+                AICTE Leadership in Teaching Excellence (LITE) Hiring Network
+                connects students skilled in the industry-designed full-stack
+                web developer curriculum to companies for internship-based
+                hiring.
               </p>
               <div className="pt-4 md:pt-8">
                 <div>
@@ -101,7 +101,7 @@ export default function earlyAdopter() {
                     target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition "
                   >
-                    Join as early adopter
+                    Join as an early adopter
                   </a>
                 </div>
               </div>
@@ -167,38 +167,105 @@ export default function earlyAdopter() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <DescriptionList
                       heading="What is this?"
-                      content="An industry-designed talent pipeline for hiring full-stack developers from engineering colleges across the country."
+                      content="A talent pipeline for hiring full-stack developers from engineering colleges across the country."
                     />
                     <DescriptionList
-                      heading="Why?"
-                      content="To create a pathway for the software industry to hire engineering students with a Minor Degree in Web Development where Industry experts have designed the curriculum."
+                      heading="How does it work?"
+                      content={
+                        <span>
+                          Students learn a Minor Degree in Web Development,
+                          where software engineers from the industry have{" "}
+                          <a
+                            className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                            href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
+                            target="_blank"
+                          >
+                            designed the curriculum.
+                          </a>{" "}
+                          You can onboard students as interns and transition to
+                          full-time hires as they graduate.
+                        </span>
+                      }
+                    />
+                    <DescriptionList
+                      heading="Why is it needed?"
+                      content="To substantially increase the number of students who can join as full-stack developers in the software industry."
+                    />
+                    <DescriptionList
+                      heading="What do we teach these students?"
+                      content={
+                        <div>
+                          Students are taught tools and techniques that are as
+                          close to real-world web development as possible. They
+                          use Visual Studio Code from Day 1 and are taught the
+                          importance of writing readable, well-formatted code.
+                          <p className="pt-4">
+                            They are asked to refactor their code and perform
+                            version control on GitHub. Furthermore, they're also
+                            taught how to ask technical questions, and how to
+                            research for solutions to new problems on their own.
+                          </p>
+                        </div>
+                      }
+                    />
+                    <DescriptionList
+                      heading="What stack will students be familiar with?"
+                      content={
+                        <div>
+                          <ul className="list-disc ml-5 mt-2 space-y-2">
+                            <li>
+                              <span className="font-semibold">WD101:</span>{" "}
+                              HTML, CSS, Tailwind, JavaScript.
+                            </li>
+                            <li>
+                              <span className="font-semibold">WD201:</span> Ruby
+                              &amp; Ruby-on-Rails (Batch 1 only <sup>[1]</sup>).
+                            </li>
+                            <li>
+                              <span className="font-semibold">WD301:</span>{" "}
+                              React with TypeScript.
+                            </li>
+                            <li>
+                              <span className="font-semibold">WD401:</span>
+                              <sup>[2]</sup> Jest/RSpec, CI/CD with Github
+                              Actions, Docker, Sentry (error-monitoring)
+                            </li>
+                          </ul>
+                          <p className="mt-4 text-sm">
+                            <sup>[1]</sup> The stack for Batch 2 onwards will be
+                            based around Express (JS)
+                          </p>
+
+                          <p className="text-sm mt-2">
+                            <sup>[2]</sup> Tools/Stack used in WD401 is subject
+                            to change as the curriculum is in active
+                            development.
+                          </p>
+                        </div>
+                      }
                     />
                     <DescriptionList
                       heading="Who is this for?"
                       content="Startups and software companies looking to hire full-stack developers."
                     />
                     <DescriptionList
-                      heading="Reduced hiring effort?"
-                      content="Reduce hiring efforts by interviewing students who have already demonstrated skills by building full-stack web applications."
+                      heading="How does this help my company/team?"
+                      content="Reduce your hiring efforts by interviewing students who have already demonstrated skills by building full-stack web applications."
                     />
                     <DescriptionList
-                      heading="Interview process?"
+                      heading="How can we interview these students?"
                       content="You can follow your own interview process to select students."
                     />
                     <DescriptionList
-                      heading="Internship duration?"
-                      content="Six months"
+                      heading="How long should the internship duration be?"
+                      content="It's flexible; four to six months is recommended."
                     />
                     <DescriptionList
-                      heading="Location?"
-                      content="Remote or On-Site based on company policy."
+                      heading="What should be the internship stipend?"
+                      content="Based on your company policy; paid internships are recommended."
                     />
                     <DescriptionList
-                      heading="Internship stipend?"
-                      content="Based on company policy but paid internships are recommended."
-                    />
-                    <DescriptionList
-                      heading="Hiring Charges?"
+                      heading="Are there any hiring charges?"
                       content="Nil, for early adopters."
                     />
                   </div>
@@ -349,18 +416,21 @@ export default function earlyAdopter() {
                       WD 301
                     </p>
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
-                      <span className="font-semibold">Advanced</span> - Typed
-                      Functional Programming
+                      <span className="font-semibold">Advanced</span> - React
+                      with TypeScript.
                     </p>
                   </div>
                 </div>
+                <p className="mt-4 text-sm ">
+                  WD201 RoR-based course is being replaced with a JS-based
+                  course that teaches the same concepts.
+                </p>
               </div>
               <div className="mt-20">
-                <Heading heading="Aiming for Gold Standard in Engineering Education" />
+                <Heading heading="Setting the Gold Standard in Software Engineering Education" />
                 <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                   <p className="mt-4 text-sm lg:text-lg">
-                    The United Nations recognised the open-source contributions
-                    made for{" "}
+                    Open-source contributions made for{" "}
                     <a
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                       href="https://coronasafe.network/"
@@ -368,16 +438,13 @@ export default function earlyAdopter() {
                     >
                       CoronaSafe Network
                     </a>{" "}
-                    by 14 engineering interns who completed this program as the
-                    50th Digital Public Good globally.
+                    by 14 engineering interns who completed this program has
+                    been recognised by United Nations as the 50th Digital Public
+                    Good globally.
                   </p>
                   <p className="mt-4 text-sm lg:text-lg">
-                    Students in 27 institutions covering 1 Institute of
-                    Eminence, 1 State University, 1 Private University and 18
-                    Autonomous Colleges & 7 Affiliated Colleges under 13 Public
-                    Universities are being admitted to the program to create a
-                    pipeline of students who demonstrate skills desired by the
-                    industry.
+                    Student developers from 27 institutions would be available
+                    for hire by early adopters.
                   </p>
                   <img
                     className="pt-8"
@@ -395,10 +462,10 @@ export default function earlyAdopter() {
               <Heading heading="Apply your own hiring standards" />
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
-                  We do not require you to bypass your existing hiring pipeline
-                  when providing internships or hiring students from the
-                  network. Instead, we encourage independent evaluation to
-                  assess the LITE program's performance.
+                  We do not require you to bypass your existing hiring standards
+                  when providing internships or hiring opportunities. Instead,
+                  we encourage independent evaluation to assess student
+                  performance.
                 </p>
               </div>
               <div className="mt-20">
@@ -437,9 +504,10 @@ export default function earlyAdopter() {
               <Heading heading="Scaling to 24M Students" />
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
-                  The LITE program aims to train 24M students over the next few
-                  years, starting from schools to create a continuous supply of
-                  talent to the industry year after year.
+                  The AICTE LITE program aims to train 24M students over the
+                  next six years, starting from schools to create a continuous
+                  supply of highly skilled developers to the industry year after
+                  year.
                 </p>
               </div>
             </div>
@@ -448,15 +516,15 @@ export default function earlyAdopter() {
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
-                    date="February 07, 2022"
-                    content="LITE Industry Call issued by ACT"
+                    date="April 18, 2022"
+                    content="LITE Industry Hiring Network"
                   />
                   <ScheduleDate
-                    date="March 07, 2022"
+                    date="May 18, 2022"
                     content="Last Date to Apply for Industry Network"
                   />
                   <ScheduleDate
-                    date="March 14, 2022"
+                    date="May 25, 2022"
                     content="LITE Industry Network 2022 published"
                   />
                 </div>
@@ -473,9 +541,9 @@ export default function earlyAdopter() {
                     Become an early adopter.
                   </h4>
                   <p className="text-center leading-tight mt-3 text-xl text-white font-medium max-w-2xl mx-auto">
-                    If you would like to benefit from the talent network, we
-                    invite you to join us as an early adopter to the LITE
-                    Industry Network.
+                    If you would like to benefit from the hiring network, we
+                    invite you to join us as an early adopter by filling in the
+                    Typeform.
                   </p>
                   <div className="mt-6 flex justify-center">
                     <a
@@ -483,7 +551,7 @@ export default function earlyAdopter() {
                       target="_blank"
                       className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
                     >
-                      Join as early adopter
+                      Join as an early adopter
                     </a>
                   </div>
                 </div>
@@ -500,9 +568,11 @@ export default function earlyAdopter() {
                     <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
                     <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
                   </svg>
+
                   <p className="text-lg">
-                    <span className="font-semibold">07 March, 2022:</span> Last
-                    date to apply for LITE Industry Network
+                    <span className="font-semibold">18 May, 2022:</span> The
+                    last date to apply as an early adopter for LITE Hiring
+                    Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
