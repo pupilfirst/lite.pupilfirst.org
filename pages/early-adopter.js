@@ -283,15 +283,15 @@ export default function earlyAdopter() {
                           Become an early adopter.
                         </p>
                         <p className="leading-tight mt-2">
-                          If you would like to benefit from the talent network,
-                          we invite you to join us as an early adopter to the
-                          LITE Industry Network.
+                          If you would like to benefit from the hiring network,
+                          we invite you to join us as an early adopter by
+                          filling in the Typeform.
                         </p>
                         <p className="p-4 mt-4 rounded-md bg-gray-100 text-lg">
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
-                            March 07, 2022
+                            May 18, 2022
                           </span>
                         </p>
                         <div className="pt-4">
@@ -300,7 +300,7 @@ export default function earlyAdopter() {
                             target="_blank"
                             className="inline-block w-full p-3 text-white bg-gradient-to-br from-yellow-500 to-primary-600 rounded-md text-center font-semibold hover:shadow-xl transition "
                           >
-                            Join as early adopter
+                            Join as an early adopter
                           </a>
                         </div>
                       </div>
