@@ -490,9 +490,10 @@ export default function earlyAdopter() {
                             href="https://wd.pupilfirst.org/"
                             target="_blank"
                           >
-                            Minor Degree Curriculum Website for students
-                          </a>
-                          , expressing support for the LITE program.
+                            Minor Degree Curriculum Website{" "}
+                          </a>{" "}
+                          for students to be aware of internship/hiring
+                          opportunities at your organization.
                         </span>
                       }
                     />
@@ -501,7 +502,7 @@ export default function earlyAdopter() {
               </div>
             </div>
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
-              <Heading heading="Scaling to 24M Students" />
+              <Heading heading="Scaling to 24M students" />
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
                   The AICTE LITE program aims to train 24M students over the
@@ -570,9 +571,8 @@ export default function earlyAdopter() {
                   </svg>
 
                   <p className="text-lg">
-                    <span className="font-semibold">18 May, 2022:</span> The
-                    last date to apply as an early adopter for LITE Hiring
-                    Network
+                    <span className="font-semibold">18 May 2022:</span> The last
+                    date to apply as an early adopter for LITE Hiring Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
