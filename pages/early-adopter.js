@@ -167,23 +167,23 @@ export default function earlyAdopter() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <DescriptionList
                       heading="What is this?"
-                      content="A talent pipeline for hiring full-stack developers from engineering colleges across the country."
+                      content="Access to a talent pipeline for hiring full-stack developers from engineering colleges across the country."
                     />
                     <DescriptionList
                       heading="How does it work?"
                       content={
                         <span>
-                          Students learn a Minor Degree in Web Development,
-                          where software engineers from the industry have{" "}
+                          Students learn a{" "}
                           <a
                             className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                             href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
                             target="_blank"
                           >
-                            designed the curriculum.
+                            full-stack web development curriculum
                           </a>{" "}
-                          You can onboard students as interns and transition to
-                          full-time hires as they graduate.
+                          designed by practicing software engineers. You can
+                          access these student devs as interns and seamlessly
+                          transition to full-time hires as they graduate.
                         </span>
                       }
                     />
@@ -478,7 +478,7 @@ export default function earlyAdopter() {
                   <div className="flex flex-col gap-4 mt-6">
                     <NumberListItem
                       number="1"
-                      content="To work with your organisation's human resources and engineering leads to align with your internal technical hiring process."
+                      content="To work with your organization's HR and engineering leads and align with your hiring needs."
                     />
                     <NumberListItem
                       number="2"
@@ -518,7 +518,7 @@ export default function earlyAdopter() {
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
                     date="April 18, 2022"
-                    content="LITE Industry Hiring Network"
+                    content="Launch LITE Industry Hiring Network call"
                   />
                   <ScheduleDate
                     date="May 18, 2022"
