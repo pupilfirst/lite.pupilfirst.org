@@ -436,7 +436,7 @@ export default function earlyAdopter() {
                     </svg>
                   </div>
                   <div className="w-full md:flex-1 bg-gradient-to-br bg-white border border-green-500 rounded-lg shadow-md p-3 md:p-4">
-                    <p className="text-green-500 text-xl md:text-2xl font-bold">
+                    <p className="text-red-500 text-xl md:text-2xl font-bold">
                       WD 401
                     </p>
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
