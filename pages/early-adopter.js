@@ -324,12 +324,12 @@ export default function earlyAdopter() {
                   />
                   <People
                     name="Mekin Maheshwari"
-                    role="Founder, Udhyam.org ex-CTO, Flipkart"
+                    role="Founder, Udhyam.org & ex-CTO, Flipkart"
                     imgSrc="/people/mekin-maheshwari.jpg"
                   />
                   <People
                     name="Shekhar Kirani"
-                    role="Partner Accel"
+                    role="Partner, Accel"
                     imgSrc="/people/shekhar-kirani.jpg"
                   />
                   <People
@@ -339,7 +339,7 @@ export default function earlyAdopter() {
                   />
                   <People
                     name="Nachiket Mor"
-                    role="Visiting scientist, balm"
+                    role="Visiting scientist, BALM"
                     imgSrc="/people/nachiket-mor.jpg"
                   />
                   <People
@@ -358,7 +358,7 @@ export default function earlyAdopter() {
               <Heading heading="Beginner to advanced courses" />
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
-                  This programme is designed with 3 courses such that selected
+                  This programme is designed with 4 courses such that selected
                   institutions can offer a 20 credit “Minor Degree in Advanced
                   Web Development” through their trained faculty to students.
                 </p>
@@ -418,6 +418,30 @@ export default function earlyAdopter() {
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
                       <span className="font-semibold">Advanced</span> - React
                       with TypeScript.
+                    </p>
+                  </div>
+                      <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="text-green-700"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="w-full md:flex-1 bg-gradient-to-br bg-white border border-red-500 rounded-lg shadow-md p-3 md:p-4">
+                    <p className="text-red-500 text-xl md:text-2xl font-bold">
+                      WD 401
+                    </p>
+                    <p className="font-mono tracking-tight text-black leading-snug mt-1">
+                      <span className="font-semibold"> </span> Getting ready for
+                      production.
                     </p>
                   </div>
                 </div>
@@ -490,7 +514,7 @@ export default function earlyAdopter() {
                             href="https://wd.pupilfirst.org/"
                             target="_blank"
                           >
-                            Minor Degree Curriculum Website{" "}
+                            Minor Degree in Advanced Web Development Website{" "}
                           </a>{" "}
                           for students to be aware of internship/hiring
                           opportunities at your organization.
