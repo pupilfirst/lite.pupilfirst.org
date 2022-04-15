@@ -291,7 +291,7 @@ export default function earlyAdopter() {
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
-                            May 18, 2022
+                            May 28, 2022
                           </span>
                         </p>
                         <div className="pt-4">
@@ -420,7 +420,7 @@ export default function earlyAdopter() {
                       with TypeScript.
                     </p>
                   </div>
-                      <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
+                  <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -541,15 +541,15 @@ export default function earlyAdopter() {
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
                   <ScheduleDate
-                    date="April 18, 2022"
+                    date="April 28, 2022"
                     content="Launch LITE Industry Hiring Network call"
                   />
                   <ScheduleDate
-                    date="May 18, 2022"
+                    date="May 28, 2022"
                     content="Last Date to Apply for Industry Network"
                   />
                   <ScheduleDate
-                    date="May 25, 2022"
+                    date="June 06, 2022"
                     content="LITE Industry Network 2022 published"
                   />
                 </div>
@@ -595,8 +595,9 @@ export default function earlyAdopter() {
                   </svg>
 
                   <p className="text-lg">
-                    <span className="font-semibold">18 May 2022:</span> The last
-                    date to apply as an early adopter for LITE Hiring Network
+                    <span className="font-semibold">May 28, 2022:</span> The
+                    last date to apply as an early adopter for LITE Hiring
+                    Network
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
