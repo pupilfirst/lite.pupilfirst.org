@@ -89,10 +89,8 @@ export default function earlyAdopter() {
                 </span>
               </h1>
               <p className="max-w-3xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
-                AICTE Leadership in Teaching Excellence (LITE) Hiring Network
-                connects students skilled in the industry-designed full-stack
-                web developer curriculum to companies for internship-based
-                hiring.
+                Would you like to be an early adopter to hire full-stack student
+                developers trained in a curriculum co-developed with Freshworks?
               </p>
               <div className="pt-4 md:pt-8">
                 <div>
@@ -116,7 +114,7 @@ export default function earlyAdopter() {
             <div className="absolute inset-0"></div>
           </div>
           <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
-            <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg max-w-3xl mx-auto">
+            <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg max-w-5xl mx-auto">
               <div className="flex flex-col items-center text-center">
                 <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-primary-100 text-gray-800 shadow-inner">
                   Supported By
@@ -125,7 +123,7 @@ export default function earlyAdopter() {
                   <div className="md:col-span-4 flex items-center justify-center">
                     <img src="/logos/aicte.png" alt="aicte" />
                   </div>
-                  <div className="md:col-span-2 flex items-center justify-center">
+                  <div className="md:col-span-1 flex items-center justify-center">
                     <img
                       className="w-14"
                       src="/logos/ACT-Logo.png"
@@ -134,13 +132,22 @@ export default function earlyAdopter() {
                   </div>
                   <div className="md:col-span-3 flex items-center justify-center">
                     <img
+                      className="w-40"
+                      src="/logos/freshworks-logo.svg"
+                      alt="Freshworks"
+                    />
+                  </div>
+
+                  <div className="md:col-span-2 flex items-center justify-center">
+                    <img
                       className="w-24"
                       src="/logos/SaaSBOOMi-logo.svg"
                       alt="SaaSBOOMi"
                     />
                   </div>
-                  <div className="md:col-span-3 flex items-center justify-center">
+                  <div className="md:col-span-2 flex items-center justify-center">
                     <img
+                      className="w-32"
                       src="/logos/pupilfirst-logo-primary.svg"
                       alt="Pupilfirst"
                     />
@@ -167,7 +174,7 @@ export default function earlyAdopter() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <DescriptionList
                       heading="What is this?"
-                      content="Access to a talent pipeline for hiring full-stack developers from engineering colleges across the country."
+                      content="A program to select early adopters who wish to hire full-stack student developers in a curriculum co-created with Freshworks."
                     />
                     <DescriptionList
                       heading="How does it work?"
