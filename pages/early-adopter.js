@@ -607,6 +607,27 @@ export default function earlyAdopter() {
                     Network
                   </p>
                 </div>
+                <a
+                  href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
+                  target="_blank"
+                  className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-500 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
+                >
+                  <span>Frequently Asked Questions</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    />
+                  </svg>
+                </a>
+
                 <div className="pt-10 lg:pt-16">
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
                     Questions?

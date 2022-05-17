@@ -125,9 +125,7 @@ export default function teachingFellowship() {
                       </li>
                       <li>
                         <p className="font-medium">Melson J Zacharias</p>
-                        <p className="text-sm">
-                          CTO, Perleybrook Labs LLC.
-                        </p>
+                        <p className="text-sm">CTO, Perleybrook Labs LLC.</p>
                       </li>
                       <li>
                         <p className="font-medium">Vignesh Rajendran</p>
@@ -287,7 +285,7 @@ export default function teachingFellowship() {
                             content="LITE Industry Fellows Announced"
                           />
                         </div>
-                      {/*
+                        {/*
                         <div className="pt-4 lg:pt-6">
                           <a
                             href=""
@@ -509,7 +507,7 @@ export default function teachingFellowship() {
                 <a
                   href="https://docs.google.com/document/d/e/2PACX-1vSd6arcTuJ2eijvjeNk9fdp9rLpbi4Spi8XN_s0SFCjilNBOHY0lCoFGr4TzwxIcYFGD9i7FJBWjBFQ/pub"
                   target="_blank"
-                  className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
+                  className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-600 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
                 >
                   <span>Frequently Asked Questions</span>
                   <svg
