@@ -93,7 +93,7 @@ export default function earlyAdopter() {
                 developers trained in a curriculum co-developed with Freshworks?
               </p>
               <div className="pt-4 md:pt-8">
-                <div>
+                {/* <div>
                   <a
                     href="https://pupilfirst.typeform.com/to/akBZG57E"
                     target="_blank"
@@ -101,7 +101,10 @@ export default function earlyAdopter() {
                   >
                     Join as an early adopter
                   </a>
-                </div>
+                </div> */}
+                <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
+                  Application Closed
+                </p>
               </div>
             </div>
           </div>
@@ -301,7 +304,7 @@ export default function earlyAdopter() {
                             May 28, 2022
                           </span>
                         </p>
-                        <div className="pt-4">
+                        {/* <div className="pt-4">
                           <a
                             href="https://pupilfirst.typeform.com/to/akBZG57E"
                             target="_blank"
@@ -309,7 +312,10 @@ export default function earlyAdopter() {
                           >
                             Join as an early adopter
                           </a>
-                        </div>
+                        </div> */}
+                        <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
+                          Application Closed
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -568,7 +574,7 @@ export default function earlyAdopter() {
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 pb-10 lg:pb-16">
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
-                <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
+                {/* <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Become an early adopter.
                   </h4>
@@ -586,27 +592,33 @@ export default function earlyAdopter() {
                       Join as an early adopter
                     </a>
                   </div>
-                </div>
-                <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-primary-100 mt-10">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 text-primary-700"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
-                    <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
-                  </svg>
+                </div> */}
+                <div className="flex flex-col md:flex-row  md:items-center justify-between gap-4 p-4 rounded-lg bg-primary-100 mt-10">
+                  <div className="flex items-start md:items-center space-x-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6 text-primary-700"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                      <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
+                    </svg>
 
-                  <p className="text-lg">
-                    <span className="font-semibold">May 28, 2022:</span> The
-                    last date to apply as an early adopter for LITE Hiring
-                    Network
+                    <p className="text-lg">
+                      <span className="font-semibold">May 28, 2022:</span> The
+                      last date to apply as an early adopter for LITE Hiring
+                      Network
+                    </p>
+                  </div>
+                  <p className="p-4 bg-gray-100 text-center italic text-gray-500 inline-block bg-opacity-50 text-lg">
+                    Application Closed
                   </p>
                 </div>
+
                 <a
                   href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
                   target="_blank"
