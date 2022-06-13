@@ -17,7 +17,7 @@ jobs:
       - name: Download File
         uses: wei/wget@v1
         with:
-          args: -O data/hiring-network.json https://raw.githubusercontent.com/pupilfirst/wd.pupilfirst.org/main/data/hiring-network.json
+          args: -P data/hiring-network.json https://raw.githubusercontent.com/pupilfirst/wd.pupilfirst.org/main/data/hiring-network.json
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
