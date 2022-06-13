@@ -11,8 +11,10 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
         />
       </div>
       <p className={"text-lg font-semibold pt-2"}>{name}</p>
-      <p className={"text-sm text-gray-600 leading-tight pt-1"}>{caption}</p>
-      <p>{role}</p>
+      <div className={"text-sm text-gray-600 leading-tight pt-1"}>
+        {caption}
+      </div>
+      <div>{role}</div>
     </div>
   );
 }

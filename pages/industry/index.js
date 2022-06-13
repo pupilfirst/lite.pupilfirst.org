@@ -150,7 +150,7 @@ export default function industry() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
@@ -189,11 +189,11 @@ export default function industry() {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="w-8 h-8"
+                  className="w-8 h-8"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
                   />
                 </svg>
@@ -268,11 +268,11 @@ export default function industry() {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="w-8 h-8"
+                  className="w-8 h-8"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
                   />
                 </svg>
@@ -373,19 +373,19 @@ export default function industry() {
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 py-10 lg:py-16">
               <Heading heading="The Background Story" />
-              <div class="mt-12">
-                <div class="flex flex-col md:grid grid-cols-12 pl-4">
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+              <div className="mt-12">
+                <div className="flex flex-col md:grid grid-cols-12 pl-4">
+                  <div className="flex md:contents">
+                    <div className="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div className="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div className="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-0 text-xl text-right font-semibold whitespace-nowrap">
                         2018
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-0 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div className="w-4 h-4 md:w-6 md:h-6 absolute top-0 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg">
+                    <div className="col-start-4 col-end-12 mr-auto w-full text-lg">
                       <span className="md:hidden font-bold text-xl">
                         In 2018
                       </span>
@@ -418,17 +418,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         2019
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
                       <span className="md:hidden font-bold text-xl">
                         In 2019
                       </span>
@@ -438,17 +438,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         2020
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
                       <span className="md:hidden font-bold text-xl">
                         In 2020,
                       </span>
@@ -468,17 +468,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         Jan 2021
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
                       <span className="md:hidden font-bold text-xl">
                         In Jan 2021,
                       </span>
@@ -490,17 +490,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         May 2021
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
                       <span className="md:hidden font-bold text-xl">
                         In May 2021,
                       </span>
@@ -518,17 +518,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         Sept 2021
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg pt-12">
                       <span className="md:hidden font-bold text-xl">
                         In Sept 2021,
                       </span>
@@ -546,17 +546,17 @@ export default function industry() {
                       </p>
                     </div>
                   </div>
-                  <div class="flex md:contents">
-                    <div class="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
-                      <div class="h-full w-4 md:w-6 flex items-center justify-center relative">
-                        <div class="h-full w-1 bg-primary-500 pointer-events-none"></div>
+                  <div classname="flex md:contents">
+                    <div classname="col-start-3 col-end-4 mr-4 md:mr-8 md:mx-auto relative">
+                      <div classname="h-full w-4 md:w-6 flex items-center justify-center relative">
+                        <div classname="h-full w-1 bg-primary-500 pointer-events-none"></div>
                       </div>
                       <p className="hidden md:block absolute right-12 top-12 text-xl text-right font-semibold whitespace-nowrap">
                         Dec 2021
                       </p>
-                      <div class="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
+                      <div classname="w-4 h-4 md:w-6 md:h-6 absolute top-12 mt-0.5 rounded-full bg-primary-500 shadow text-center"></div>
                     </div>
-                    <div class="col-start-4 col-end-12 mr-auto w-full text-lg py-12">
+                    <div classname="col-start-4 col-end-12 mr-auto w-full text-lg py-12">
                       <span className="md:hidden font-bold text-xl">
                         In Dec 2021,
                       </span>

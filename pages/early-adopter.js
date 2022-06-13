@@ -4,8 +4,30 @@ import Heading from "../components/Heading";
 import People from "../components/People";
 import NumberListItem from "../components/NumberListItem";
 import ScheduleDate from "../components/ScheduleDate";
+import React, { useState } from "react";
+import hiringNetworkData from "./../data/hiring-network.json";
 
-export default function earlyAdopter() {
+let hiringPartner = (index, title, url, logoSrc) => {
+  return (
+    <a
+      key={index}
+      href={url}
+      target="_blank"
+      className="col-span-1 flex justify-center items-center p-8 rounded-md hover:shadow-lg z-10 relative transition"
+    >
+      <img
+        className="max-h-16"
+        src={`https://wd.pupilfirst.org/hiring-network/${logoSrc}`}
+        alt={title}
+      />
+    </a>
+  );
+};
+
+export default function earlyAdopter(props) {
+  const [showLess, setShowLess] = useState(false);
+  const hiringNetwork = showLess ? props.data : props.data.slice(0, 10);
+
   return (
     <div>
       <Head>
@@ -159,6 +181,37 @@ export default function earlyAdopter() {
               </div>
             </div>
           </section>
+        </section>
+        <section className="w-full bg-white px-4 py-8 md:py-16 h-full border-t border-gray-200">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="max-w-3xl mx-auto text-center pb-4">
+              <h2 className="text-2xl lg:text-6xl leading-snug">
+                LITE Hiring Network <br />
+                Early Adopters
+              </h2>
+              <p className="mt-4 text-sm md:text-lg">
+                We received an encouraging interest from software companies to
+                become a part of the LITE Hiring network. As of now, following
+                companies have signed up:
+              </p>
+            </div>
+            <div className="mt-2 lg:mt-4 grid grid-cols-2 gap-1 md:grid-cols-5">
+              {hiringNetwork.map((partner, index) =>
+                hiringPartner(
+                  index,
+                  partner.title,
+                  partner.url,
+                  partner.logoSrc
+                )
+              )}
+            </div>
+            <button
+              className="block mx-auto my-4 text-sm font-semibold text-secondary-600 px-3 py-2 bg-secondary-50 rounded-md"
+              onClick={() => setShowLess((prev) => !prev)}
+            >
+              {showLess ? "Show Less" : "Show more"}
+            </button>
+          </div>
         </section>
         <section className="relative border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
@@ -630,11 +683,11 @@ export default function earlyAdopter() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                     />
                   </svg>
@@ -667,4 +720,12 @@ export default function earlyAdopter() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      data: hiringNetworkData,
+    },
+  };
 }
