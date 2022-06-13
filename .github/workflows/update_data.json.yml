@@ -15,7 +15,7 @@ jobs:
         with:
           ref: main
       - name: Download File
-         uses: wei/curl@master
+        uses: wei/curl@master
         with:
           args: curl https://raw.githubusercontent.com/pupilfirst/wd.pupilfirst.org/main/data/hiring-network.json -o data/hiring-network.json
       - name: Commit files
