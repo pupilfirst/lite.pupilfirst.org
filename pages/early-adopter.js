@@ -15,7 +15,11 @@ let hiringPartner = (index, title, url, logoSrc) => {
       target="_blank"
       className="col-span-1 flex justify-center items-center p-8 rounded-md hover:shadow-lg z-10 relative transition"
     >
-      <img className="max-h-16" src={`hiring-network/${logoSrc}`} alt={title} />
+      <img
+        className="max-h-16"
+        src={`https://wd.pupilfirst.org/hiring-network/${logoSrc}`}
+        alt={title}
+      />
     </a>
   );
 };

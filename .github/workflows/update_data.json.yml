@@ -1,0 +1,30 @@
+name: Update Data
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: ["3.1.1"]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Download File
+        run: |
+          run: curl https://raw.githubusercontent.com/pupilfirst/wd.pupilfirst.org/main/data/hiring-network.json -o data/hiring-network.json
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --staged --quiet || git commit -am "🌍 Update JSON - $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
