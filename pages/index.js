@@ -157,12 +157,7 @@ export default function Home() {
                   In partnership with Pupilfirst
                 </h2>
                 <p className="mt-4 text-sm md:text-base lg:text-lg">
-                  Pupilfirst is a founding member of National Educational
-                  Alliance for Technology (NEAT) programme of the Ministry of
-                  Education, that is implemented by AICTE.
-                </p>
-                <p className="mt-4 text-sm md:text-base lg:text-lg">
-                  Pupilfirst’s mission is to enable teachers to transform
+                  Pupilfirst's mission is to enable teachers to transform
                   classroom education to a learner centered model and achieve
                   near 100% learning outcomes.
                 </p>
