@@ -1088,6 +1088,49 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="flex flex-col bg-gray-100 border-t text-center ">
+          <div className="grid md:grid-cols-12 text-sm max-w-4xl w-full mx-auto gap-10 md:gap-12 px-4 py-10">
+            <div className="col-span-6 text-left">
+              <h4 className="text-base">Registered Office Address</h4>
+              <p className="mt-3">
+                Pupilfirst Pvt. Ltd.,
+                <br />
+                1st Floor, C M Complex,
+                <br />
+                Kalavath Road, Palarivattom, Kochi,
+                <br />
+                Ernakulam, Kerala, India, 682 025
+              </p>
+            </div>
+            <div className="col-span-6 text-left">
+              <h4 className="text-base">Business Office Address</h4>
+              <p className="mt-3 md:hidden">
+                Pupilfirst Pvt. Ltd.,
+                <br />
+                International Center for Free
+                <br />
+                and Open Source Software,
+                <br />
+                Swatantra, South Pavilion,
+                <br />
+                Sports Hub, Karyavattom,
+                <br />
+                Thiruvananthapuram, Kerala,
+                <br />
+                India &mdash; 695 581.
+              </p>
+              <p className="mt-3 hidden md:block">
+                Pupilfirst Pvt. Ltd.,
+                <br />
+                International Center for Free and Open Source Software,
+                <br />
+                Swatantra, South Pavilion, Sports Hub, Karyavattom,
+                <br />
+                Thiruvananthapuram, Kerala, India &mdash; 695 581.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
