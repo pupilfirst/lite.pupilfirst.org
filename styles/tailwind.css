@@ -76,6 +76,9 @@ h4 {
 	content: "";
 	width: 4px;
 }
+.heading-with-leftborder--cyan-green:before {
+	@apply absolute bg-gradient-to-b from-cyan-400 to-green-500 rounded-r-md h-full top-0 left-0;
+}
 
 @screen lg {
 	.heading-with-leftborder::before {
@@ -92,6 +95,9 @@ h4 {
 	content: "";
 	top: 18px;
 	left: 4px;
+}
+.heading-with-underscore--cyan-green::before {
+	@apply bg-gradient-to-b from-cyan-400 to-green-500;
 }
 
 .list-with-underscore {
