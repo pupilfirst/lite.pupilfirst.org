@@ -29,14 +29,14 @@ export default function earlyAdopter(props) {
   return (
     <div>
       <Head>
-        <title>LITE Industry Hiring Network</title>
+        <title>LITE Dynamic Curriculum</title>
         <meta
           name="description"
-          content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
+          content="AICTE Leadership in Teaching Excellence - Dynamic Curriculum"
         ></meta>
         <meta
           name="keywords"
-          content="LITE Industry Hiring Network, Hire software engineer interns, Apply for LITE industry network"
+          content="AICTE Leadership in Teaching Excellence, Dynamic Curriculum"
         ></meta>
         <meta name="author" content="pupilfirst.org"></meta>
         <meta
@@ -51,18 +51,18 @@ export default function earlyAdopter(props) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="LITE Industry Hiring Network" />
+        <meta property="og:title" content="LITE Dynamic Curriculum" />
         <meta
           property="og:description"
-          content="AICTE Leadership in Teaching Excellence (LITE) Industry Network is a national program to connect students trained in the industry-designed full-stack web developer curriculum for internship-based hiring by the software industry."
+          content="AICTE Leadership in Teaching Excellence - Dynamic Curriculum"
         />
-        <meta property="og:image" content="/lite-industry-network.jpg" />
+        <meta property="og:image" content="/lite-dynamic-curriclum.jpg" />
         <meta
           property="og:url"
-          content="https://lite.pupilfirst.org/industry/early-adopter"
+          content="https://lite.pupilfirst.org/dynamic-curriculum"
         />
-        <meta name="twitter:card" content="/lite-industry-network.jpg" />
-        <meta property="og:site_name" content="LITE Industry Network" />
+        <meta name="twitter:card" content="/lite-dynamic-curriclum.jpg" />
+        <meta property="og:site_name" content="LITE Dynamic Curriculum" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"
