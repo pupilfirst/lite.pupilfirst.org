@@ -194,3 +194,7 @@ h4 {
 .stats__side-nav-item--active {
 	@apply bg-primary-200 bg-opacity-50 text-secondary-600;
 }
+
+.webkit-bg-clip {
+-webkit-background-clip: text;
+}

@@ -168,7 +168,7 @@ export default function earlyAdopter(props) {
                     <DescriptionList
                       heading={
                         <div>
-                          <p className="text-gray-400 text-sm md:text-lg">
+                          <p className="text-gray-600 text-sm md:text-base">
                             JULY 2022
                           </p>
                           <p className="pt-1">Version 2 Released</p>
@@ -197,18 +197,43 @@ export default function earlyAdopter(props) {
                               Development 201 course based on Ruby on Rails.
                             </li>
                           </ul>
+                          <p className="pt-4">
+                            <a
+                              className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                              target="_blank"
+                              href="https://drive.google.com/drive/folders/1suCzKkKdlRXbTcUv559lDLw16ZKLe_s8?usp=sharing"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  class="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 2</span>
+                            </a>
+                          </p>
                         </div>
                       }
                     />
                     <DescriptionList
                       heading={
                         <div>
-                          <p className="text-gray-400 text-sm md:text-lg">
+                          <p className="text-gray-600 text-sm md:text-base">
                             MARCH 2022
                           </p>
-                          <p className="pt-1">
-                            What stack will students be familiar with?
-                          </p>
+                          <p className="pt-1">Source Version Released</p>
                         </div>
                       }
                       content={
@@ -222,6 +247,32 @@ export default function earlyAdopter(props) {
                             The source version can be downloaded from AICTE
                             Website here.
                           </p>
+                          <a
+                            className="inline-flex mt-4 md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                            target="_blank"
+                            href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf
+"
+                          >
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="w-4 h-4 md:w-6 md:h-6"
+                              >
+                                <circle cx="18" cy="18" r="3"></circle>
+                                <circle cx="6" cy="6" r="3"></circle>
+                                <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                              </svg>
+                            </span>
+                            <span>Download Source Version</span>
+                          </a>
                         </div>
                       }
                     />
@@ -247,7 +298,7 @@ export default function earlyAdopter(props) {
                           If you have any questions, please write to us at&nbsp;
                           <a
                             href="mailto:wd@pupilfirst.org"
-                            className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                            className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                           >
                             wd@pupilfirst.org
                           </a>
@@ -280,10 +331,10 @@ export default function earlyAdopter(props) {
                       <DescriptionList
                         heading={
                           <div>
-                            <p className="text-gray-400 text-sm md:text-lg">
+                            <p className="text-gray-400 text-sm md:text-base">
                               JULY 2022
                             </p>
-                            <p className="pt-1 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
+                            <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
                               Source Version Released
                             </p>
                           </div>
@@ -299,6 +350,31 @@ export default function earlyAdopter(props) {
                               The source version can be downloaded from AICTE
                               Website here.
                             </p>
+                            <a
+                              className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
+                              target="_blank"
+                              href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/fINAL%20-%20NEP%202020%20Model%20Syllabus%20for%20Open%20Electives%20in%20Electric%20Vehicles.pdf"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  class="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Download Source Version</span>
+                            </a>
                           </div>
                         }
                       />
@@ -312,7 +388,7 @@ export default function earlyAdopter(props) {
                         </p>
                         <div className="bg-white px-4 py-3 rounded-lg inline-flex items-center justify-center mt-1">
                           <img
-                            className="h-20"
+                            className="h-16"
                             src="/logos/micelio-logo.png"
                           ></img>
                         </div>
@@ -327,7 +403,7 @@ export default function earlyAdopter(props) {
                             at&nbsp;
                             <a
                               href="mailto:ev@pupilfirst.org"
-                              className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-green-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                              className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                             >
                               ev@pupilfirst.org
                             </a>
