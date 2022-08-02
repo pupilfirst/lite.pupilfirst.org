@@ -233,18 +233,18 @@ export default function earlyAdopter(props) {
                           <p className="text-gray-600 text-sm md:text-base">
                             MARCH 2022
                           </p>
-                          <p className="pt-1">Source Version Released</p>
+                          <p className="pt-1">Version 1 Released</p>
                         </div>
                       }
                       content={
                         <div>
                           <p>
-                            Source Version the Model Curriculum for Minor Degree
+                            Version 1 the Model Curriculum for Minor Degree
                             in Advanced Web Development has been approved and
                             published by AICTE.
                           </p>
                           <p className="pt-3">
-                            The source version can be downloaded from AICTE
+                            Version 1 can be downloaded from AICTE
                             Website here.
                           </p>
                           <a
@@ -271,7 +271,7 @@ export default function earlyAdopter(props) {
                                 <path d="M6 21V9a9 9 0 0 0 9 9"></path>
                               </svg>
                             </span>
-                            <span>Download Source Version</span>
+                            <span>Download Version 1</span>
                           </a>
                         </div>
                       }
@@ -335,19 +335,19 @@ export default function earlyAdopter(props) {
                               JULY 2022
                             </p>
                             <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
-                              Source Version Released
+                              Version 1 Released
                             </p>
                           </div>
                         }
                         content={
                           <div className="text-white">
                             <p>
-                              Source Version the Model Curriculum for Minor
+                              Version 1 the Model Curriculum for Minor
                               Degree in Advanced Web Development has been
                               approved and published by AICTE.
                             </p>
                             <p className="pt-3">
-                              The source version can be downloaded from AICTE
+                              Version 1 can be downloaded from AICTE
                               Website here.
                             </p>
                             <a
@@ -373,7 +373,7 @@ export default function earlyAdopter(props) {
                                   <path d="M6 21V9a9 9 0 0 0 9 9"></path>
                                 </svg>
                               </span>
-                              <span>Download Source Version</span>
+                              <span>Download Version 1</span>
                             </a>
                           </div>
                         }
