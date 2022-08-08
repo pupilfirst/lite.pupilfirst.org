@@ -239,7 +239,7 @@ export default function earlyAdopter(props) {
                       content={
                         <div>
                           <p>
-                            Version 1 the Model Curriculum for Minor Degree
+                            Version 1 of the Model Curriculum for Minor Degree
                             in Advanced Web Development has been approved and
                             published by AICTE.
                           </p>
