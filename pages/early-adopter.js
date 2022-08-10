@@ -217,7 +217,7 @@ export default function earlyAdopter(props) {
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
               <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
-                <div className="lg:col-span-7 2xl:col-span-8">
+                <div className="lg:col-span-12">
                   <div className="pt-10 lg:pt-20">
                     <Heading
                       heading={
@@ -333,7 +333,7 @@ export default function earlyAdopter(props) {
                     />
                   </div>
                 </div>
-                <div className="hidden lg:block lg:col-span-5 2xl:col-span-4">
+                {/* <div className="hidden lg:block lg:col-span-5 2xl:col-span-4">
                   <div className="sticky top-0 pl-0 pt-10 lg:pt-20 -ml-px md:ml-0">
                     <div className="bg-gradient-to-br from-white to-gray-100 rounded-r md:rounded-lg border border-gray-100 relative shadow-md">
                       <div className="flex space-x-2 px-2 md:px-4 lg:px-5 2xl:px-6 py-4 border-b border-gray-200">
@@ -357,7 +357,7 @@ export default function earlyAdopter(props) {
                             May 28, 2022
                           </span>
                         </p>
-                        {/* <div className="pt-4">
+                        <div className="pt-4">
                           <a
                             href="https://pupilfirst.typeform.com/to/akBZG57E"
                             target="_blank"
@@ -365,14 +365,14 @@ export default function earlyAdopter(props) {
                           >
                             Join as an early adopter
                           </a>
-                        </div> */}
+                        </div>
                         <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
                           Application Closed
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -425,7 +425,7 @@ export default function earlyAdopter(props) {
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
                 <p className="mt-4 text-sm lg:text-lg">
                   This programme is designed with 4 courses such that selected
-                  institutions can offer a 20 credit “Minor Degree in Advanced
+                  institutions can offer 18-20 credits “Minor Degree in Advanced
                   Web Development” through their trained faculty to students.
                 </p>
                 <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mt-8">
@@ -435,7 +435,7 @@ export default function earlyAdopter(props) {
                     </p>
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
                       <span className="font-semibold">Beginner</span> - Getting
-                      started with Javascript (WD 101).
+                      Started with JavaScript.
                     </p>
                   </div>
                   <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
@@ -459,7 +459,7 @@ export default function earlyAdopter(props) {
                     </p>
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
                       <span className="font-semibold">Intermediate</span> -
-                      Server-side programming with Ruby on Rails.
+                      Server-side programming with Node.js.
                     </p>
                   </div>
                   <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
@@ -482,8 +482,8 @@ export default function earlyAdopter(props) {
                       WD 301
                     </p>
                     <p className="font-mono tracking-tight text-black leading-snug mt-1">
-                      <span className="font-semibold">Advanced</span> - React
-                      with TypeScript.
+                      <span className="font-semibold">Advanced</span> -
+                      Front-end development with React &amp; TypeScript.
                     </p>
                   </div>
                   <div className="flex items-center justify-center w-full h-4 md:w-4 md:h-auto md:transform md:-rotate-90">
@@ -511,10 +511,6 @@ export default function earlyAdopter(props) {
                     </p>
                   </div>
                 </div>
-                <p className="mt-4 text-sm ">
-                  WD201 RoR-based course is being replaced with a JS-based
-                  course that teaches the same concepts.
-                </p>
               </div>
               <div className="mt-20">
                 <Heading heading="Setting the Gold Standard in Software Engineering Education" />
@@ -602,7 +598,7 @@ export default function earlyAdopter(props) {
                 </p>
               </div>
             </div>
-            <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
+            {/* <div className="border-l border-gray-200 mx-4 xl:mx-0 py-6 lg:py-8">
               <Heading heading="Schedule" />
               <div className="max-w-4xl lg:ml-28 2xl:ml-44 pl-4">
                 <div className="bg-gradient-to-br from-white to-gray-100 rounded-lg border border-gray-200 relative shadow-lg divide-y divide-gray-200 mt-4">
@@ -620,7 +616,7 @@ export default function earlyAdopter(props) {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section>
@@ -646,7 +642,7 @@ export default function earlyAdopter(props) {
                     </a>
                   </div>
                 </div> */}
-                <div className="flex flex-col md:flex-row  md:items-center justify-between gap-4 p-4 rounded-lg bg-primary-100 mt-10">
+                {/* <div className="flex flex-col md:flex-row  md:items-center justify-between gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <div className="flex items-start md:items-center space-x-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -670,52 +666,53 @@ export default function earlyAdopter(props) {
                   <p className="p-4 bg-gray-100 text-center italic text-gray-500 inline-block bg-opacity-50 text-lg">
                     Application Closed
                   </p>
-                </div>
-
-                <a
-                  href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
-                  target="_blank"
-                  className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-500 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
-                >
-                  <span>Frequently Asked Questions</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="w-6 h-6"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                    />
-                  </svg>
-                </a>
-
-                <div className="pt-10 lg:pt-16">
-                  <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
-                    Questions?
-                  </h3>
-                  <p className="pt-2 md:text-lg">
-                    If you have any questions, email us at{" "}
-                    <a
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                      href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
-                    >
-                      <span className="font-semibold">
-                        hiring@pupilfirst.org
-                      </span>
-                    </a>{" "}
-                    with CC to Neetha Joy at ACT Grants at{" "}
-                    <span className="font-semibold">
-                      neetha.joy@uwbengaluru.org
-                    </span>
-                  </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
+          <section className="bg-white border-t pb-12 px-4">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+              <a
+                href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
+                target="_blank"
+                className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-500 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
+              >
+                <span>Frequently Asked Questions</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="w-6 h-6"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </a>
+
+              <div className="pt-10 lg:pt-16">
+                <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
+                  Questions?
+                </h3>
+                <p className="pt-2 md:text-lg">
+                  If you have any questions, email us at{" "}
+                  <a
+                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                    href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
+                  >
+                    <span className="font-semibold">hiring@pupilfirst.org</span>
+                  </a>{" "}
+                  with CC to Neetha Joy at ACT Grants at{" "}
+                  <span className="font-semibold">
+                    neetha.joy@uwbengaluru.org
+                  </span>
+                </p>
+              </div>
+            </div>
+          </section>
         </section>
       </main>
     </div>
