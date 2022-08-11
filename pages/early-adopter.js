@@ -124,9 +124,9 @@ export default function earlyAdopter(props) {
                     Join as an early adopter
                   </a>
                 </div> */}
-                <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
+                {/* <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
                   Application Closed
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -281,26 +281,28 @@ export default function earlyAdopter(props) {
                               HTML, CSS, Tailwind, JavaScript.
                             </li>
                             <li>
-                              <span className="font-semibold">WD201:</span> Ruby
-                              &amp; Ruby-on-Rails (Batch 1 only <sup>[1]</sup>).
+                              <span className="font-semibold">WD201:</span>{" "}
+                              Node.js, Express.js<sup>[1]</sup>.
                             </li>
                             <li>
                               <span className="font-semibold">WD301:</span>{" "}
                               React with TypeScript.
                             </li>
                             <li>
-                              <span className="font-semibold">WD401:</span>
-                              <sup>[2]</sup> Jest/RSpec, CI/CD with Github
-                              Actions, Docker, Sentry (error-monitoring)
+                              <span className="font-semibold">
+                                WD401<sup>[2]</sup>:
+                              </span>{" "}
+                              Jest/RSpec, CI/CD with Github Actions, Docker,
+                              Sentry (error-monitoring)
                             </li>
                           </ul>
                           <p className="mt-4 text-sm">
-                            <sup>[1]</sup> The stack for Batch 2 onwards will be
-                            based around Express (JS)
+                            <sup>[1]</sup> WD201 course was based on Ruby and
+                            Ruby on Rails until July 2022.
                           </p>
 
                           <p className="text-sm mt-2">
-                            <sup>[2]</sup> Tools/Stack used in WD401 is subject
+                            <sup>[2]</sup>Tools/Stack used in WD401 is subject
                             to change as the curriculum is in active
                             development.
                           </p>
@@ -333,15 +335,15 @@ export default function earlyAdopter(props) {
                     />
                   </div>
                 </div>
-                {/* <div className="hidden lg:block lg:col-span-5 2xl:col-span-4">
-                  <div className="sticky top-0 pl-0 pt-10 lg:pt-20 -ml-px md:ml-0">
+                <div className="hidden lg:col-span-4">
+                  <div className="sticky top-0 pl-0 pt-10 lg:pt-20 ml-4 md:ml-0">
                     <div className="bg-gradient-to-br from-white to-gray-100 rounded-r md:rounded-lg border border-gray-100 relative shadow-md">
-                      <div className="flex space-x-2 px-2 md:px-4 lg:px-5 2xl:px-6 py-4 border-b border-gray-200">
+                      <div className="flex space-x-2 px-3 md:px-4 lg:px-5 2xl:px-6 py-4 border-b border-gray-200">
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                         <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                       </div>
-                      <div className="p-2 md:p-4 lg:p-5">
+                      <div className="p-3 md:p-4 lg:p-5">
                         <p className="text-xl font-semibold leading-tight">
                           Become an early adopter.
                         </p>
@@ -350,13 +352,13 @@ export default function earlyAdopter(props) {
                           we invite you to join us as an early adopter by
                           filling in the Typeform.
                         </p>
-                        <p className="p-4 mt-4 rounded-md bg-gray-100 text-lg">
+                        {/* <p className="p-4 mt-4 rounded-md bg-gray-100 text-lg">
                           Last date to apply:{" "}
                           <span className="text-primary-500 font-semibold">
                             {" "}
                             May 28, 2022
                           </span>
-                        </p>
+                        </p> */}
                         <div className="pt-4">
                           <a
                             href="https://pupilfirst.typeform.com/to/akBZG57E"
@@ -366,13 +368,10 @@ export default function earlyAdopter(props) {
                             Join as an early adopter
                           </a>
                         </div>
-                        <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
-                          Application Closed
-                        </p>
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -642,6 +641,49 @@ export default function earlyAdopter(props) {
                     </a>
                   </div>
                 </div> */}
+                <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+                  <a
+                    href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
+                    target="_blank"
+                    className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-500 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
+                  >
+                    <span>Frequently Asked Questions</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="w-6 h-6"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+
+                  <div className="pt-10 lg:pt-16">
+                    <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
+                      Questions?
+                    </h3>
+                    <p className="pt-2 md:text-lg">
+                      If you have any questions, email us at{" "}
+                      <a
+                        className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                        href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
+                      >
+                        <span className="font-semibold">
+                          hiring@pupilfirst.org
+                        </span>
+                      </a>{" "}
+                      with CC to Neetha Joy at ACT Grants at{" "}
+                      <span className="font-semibold">
+                        neetha.joy@uwbengaluru.org
+                      </span>
+                    </p>
+                  </div>
+                </div>
                 {/* <div className="flex flex-col md:flex-row  md:items-center justify-between gap-4 p-4 rounded-lg bg-primary-100 mt-10">
                   <div className="flex items-start md:items-center space-x-4">
                     <svg
@@ -670,47 +712,9 @@ export default function earlyAdopter(props) {
               </div>
             </div>
           </div>
-          <section className="bg-white border-t pb-12 px-4">
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-              <a
-                href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
-                target="_blank"
-                className="inline-flex justify-between items-center space-x-4 mt-12 w-full p-4 bg-gradient-to-r from-primary-700 to-primary-500 text-white hover:from-primary-600 hover:to-primary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
-              >
-                <span>Frequently Asked Questions</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="w-6 h-6"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>
-              </a>
-
-              <div className="pt-10 lg:pt-16">
-                <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
-                  Questions?
-                </h3>
-                <p className="pt-2 md:text-lg">
-                  If you have any questions, email us at{" "}
-                  <a
-                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                    href="mailto:hiring@pupilfirst.org?cc=neetha.joy@uwbengaluru.org"
-                  >
-                    <span className="font-semibold">hiring@pupilfirst.org</span>
-                  </a>{" "}
-                  with CC to Neetha Joy at ACT Grants at{" "}
-                  <span className="font-semibold">
-                    neetha.joy@uwbengaluru.org
-                  </span>
-                </p>
-              </div>
+          <section className="bg-white border-t p-4 md:p-6">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center">
+              <p className="text-gray-700">© 2022 Pupilfirst Pvt. Ltd.</p>
             </div>
           </section>
         </section>
