@@ -115,7 +115,7 @@ export default function earlyAdopter(props) {
                 developers trained in a curriculum co-developed with Freshworks?
               </p>
               <div className="pt-4 md:pt-8">
-                {/* <div>
+                <div>
                   <a
                     href="https://pupilfirst.typeform.com/to/akBZG57E"
                     target="_blank"
@@ -123,7 +123,7 @@ export default function earlyAdopter(props) {
                   >
                     Join as an early adopter
                   </a>
-                </div> */}
+                </div>
                 {/* <p className="p-4 bg-gray-100 italic text-gray-500 inline-block bg-opacity-50 text-lg">
                   Application Closed
                 </p> */}
@@ -217,7 +217,7 @@ export default function earlyAdopter(props) {
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0">
               <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
-                <div className="lg:col-span-12">
+                <div className="lg:col-span-8">
                   <div className="pt-10 lg:pt-20">
                     <Heading
                       heading={
@@ -239,7 +239,7 @@ export default function earlyAdopter(props) {
                           Students learn a{" "}
                           <a
                             className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                            href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
+                            href="https://lite.pupilfirst.org/dynamic-curriculum"
                             target="_blank"
                           >
                             full-stack web development curriculum
@@ -335,7 +335,7 @@ export default function earlyAdopter(props) {
                     />
                   </div>
                 </div>
-                <div className="hidden lg:col-span-4">
+                <div className="block lg:col-span-4">
                   <div className="sticky top-0 pl-0 pt-10 lg:pt-20 ml-4 md:ml-0">
                     <div className="bg-gradient-to-br from-white to-gray-100 rounded-r md:rounded-lg border border-gray-100 relative shadow-md">
                       <div className="flex space-x-2 px-3 md:px-4 lg:px-5 2xl:px-6 py-4 border-b border-gray-200">
@@ -528,8 +528,9 @@ export default function earlyAdopter(props) {
                     Good globally.
                   </p>
                   <p className="mt-4 text-sm lg:text-lg">
-                    Student developers from 27 institutions would be available
-                    for hire by early adopters.
+                    Student developers from 12 institutions as and when they
+                    complete the course(s) successfully would be available for
+                    internship/hiring opportunities by early adopters.
                   </p>
                   <img
                     className="pt-8"
@@ -622,7 +623,7 @@ export default function earlyAdopter(props) {
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 pb-10 lg:pb-16">
               <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
-                {/* <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
+                <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
                   <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                     Become an early adopter.
                   </h4>
@@ -640,7 +641,7 @@ export default function earlyAdopter(props) {
                       Join as an early adopter
                     </a>
                   </div>
-                </div> */}
+                </div>
                 <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
                   <a
                     href="https://docs.google.com/document/u/2/d/e/2PACX-1vSWoQXQ-RkeBgC_ZDGmCSCpIR_BXixC2pm-2KryKnVRrXlPQ7SVkKYRBbTV0A3Zlcp77dNMBHusykE7/pub"
