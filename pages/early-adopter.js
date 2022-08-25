@@ -145,7 +145,7 @@ export default function earlyAdopter(props) {
                   Supported By
                 </p>
                 <div className="p-10 grid grid-cols-2 md:grid-cols-12 items-center gap-8">
-                  <div className="md:col-span-4 flex items-center justify-center">
+                  <div className="md:col-span-3 flex items-center justify-center">
                     <img src="/logos/aicte.png" alt="aicte" />
                   </div>
                   <div className="md:col-span-1 flex items-center justify-center">
@@ -155,7 +155,14 @@ export default function earlyAdopter(props) {
                       alt="ACT Grants"
                     />
                   </div>
-                  <div className="md:col-span-3 flex items-center justify-center">
+                  <div className="md:col-span-2 flex items-center justify-center">
+                    <img
+                      className="w-32"
+                      src="/logos/beckn_foundation_logo.svg"
+                      alt="Beckn Foundation"
+                    />
+                  </div>
+                  <div className="md:col-span-2 flex items-center justify-center">
                     <img
                       className="w-40"
                       src="/logos/freshworks-logo.svg"
@@ -172,7 +179,7 @@ export default function earlyAdopter(props) {
                   </div>
                   <div className="md:col-span-2 flex items-center justify-center">
                     <img
-                      className="w-32"
+                      className="w-28"
                       src="/logos/pupilfirst-logo-primary.svg"
                       alt="Pupilfirst"
                     />
