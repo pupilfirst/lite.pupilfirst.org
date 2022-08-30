@@ -1,4 +1,6 @@
-<h1 id="resources-shared-with-lite-institutes">Resources shared with LITE Institutes</h1>
+const resources = (props)=>{
+  return <>
+  <h1 id ="resources-shared-with-lite-institutes">Resources shared with LITE Institutes</h1>
 <p>Hello!</p>
 <p>This page contains the reference material shared with LITE institutions. </p>
 <h2 id="1-institutions-resource-links">1. Institutions resource links</h2>
@@ -18,3 +20,8 @@
   <li><a href="https://wd.pupilfirst.org/">Student Website</a></li>
 
 </ul>
+</>
+}
+export default resources;
+
+
