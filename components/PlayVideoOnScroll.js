@@ -2,7 +2,6 @@ import React from "react";
 
 export default function PlayVideoOnScroll() {
   const videoRef = React.useRef(null);
-  const [isVideoPlaying, setIsVideoPlaying] = React.useState(false);
 
   React.useEffect(() => {
     const video = videoRef.current;
@@ -10,10 +9,8 @@ export default function PlayVideoOnScroll() {
       ([entry]) => {
         if (entry.isIntersecting) {
           video.play();
-          setIsVideoPlaying(true);
         } else {
           video.pause();
-          setIsVideoPlaying(false);
         }
       },
       { threshold: 0.5 }
@@ -30,10 +27,9 @@ export default function PlayVideoOnScroll() {
       className="w-full rounded-lg"
       ref={videoRef}
       playsInline
-      autoPlay={isVideoPlaying}
+      autoPlay
       controls
       loop
-      muted
       src="/video/Swimlane.mp4"
     >
       <source src="/video/Swimlane.mp4" type="video/mp4" />
