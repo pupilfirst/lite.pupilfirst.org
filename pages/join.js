@@ -4,6 +4,7 @@ import DescriptionList from "../components/DescriptionList";
 import HiringNetwork from "../components/HiringNetwork";
 import PathWayToJoinFDP from "../components/PathWayToJoinFDP";
 import People from "../components/People";
+import PlayVideoOnScroll from "../components/PlayVideoOnScroll";
 import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
@@ -362,8 +363,8 @@ export default function Page() {
             industry-academia and research for creating NEP 2020
             Learner-Centered Classrooms.
           </p>
-          <div className="mt-6">
-            <img src="" alt="one more image here" />
+          <div className="mt-8">
+            <PlayVideoOnScroll />
           </div>
         </SectionWithHeading>
         <SectionWithHeading heading={"Integrated Research"}>
