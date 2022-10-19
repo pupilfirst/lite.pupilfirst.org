@@ -1,41 +1,42 @@
 import React from "react";
 
 export default function PlayVideoOnScroll() {
-  const videoRef = React.useRef();
-  const parentRef = React.useRef();
-
-  const scrollVideo = (e) => {
-    if (videoRef.current.duration) {
-      const distanceFromTop =
-        window.scrollY + parentRef.current.getBoundingClientRect().top;
-      const rawPercentScrolled =
-        (window.scrollY - distanceFromTop) /
-        (parentRef.current.scrollHeight - window.innerHeight);
-      const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
-      console.log("Duration", videoRef.current);
-
-      videoRef.current.currentTime =
-        videoRef.current.duration * percentScrolled;
-    }
-  };
+  const videoRef = React.useRef(null);
+  const [isVideoPlaying, setIsVideoPlaying] = React.useState(false);
 
   React.useEffect(() => {
-    window.addEventListener("scroll", scrollVideo);
-    return () => window.removeEventListener("scroll", scrollVideo);
-  });
+    const video = videoRef.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          video.play();
+          setIsVideoPlaying(true);
+        } else {
+          video.pause();
+          setIsVideoPlaying(false);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(video);
+    return () => {
+      observer.unobserve(video);
+    };
+  }, []);
 
   return (
-    <div className="h-[500vh]" ref={parentRef}>
-      <video
-        className="w-full sticky top-8"
-        ref={videoRef}
-        playsInline
-        autoPlay={false}
-        muted
-        src="/video/Swimlane.mp4"
-      >
-        <source src="/video/Swimlane.mp4" type="video/mp4" />
-      </video>
-    </div>
+    <video
+      className="w-full rounded-lg"
+      ref={videoRef}
+      playsInline
+      autoPlay={isVideoPlaying}
+      controls
+      loop
+      muted
+      src="/video/Swimlane.mp4"
+    >
+      <source src="/video/Swimlane.mp4" type="video/mp4" />
+    </video>
   );
 }
