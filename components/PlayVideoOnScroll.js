@@ -2,13 +2,20 @@ import React from "react";
 
 export default function PlayVideoOnScroll() {
   const videoRef = React.useRef(null);
+  const [error, setError] = React.useState(false);
 
   React.useEffect(() => {
     const video = videoRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          video.play();
+          video
+            .play()
+            .then(() => {})
+            .catch((error) => {
+              setError(true);
+              video.muted = false;
+            });
         } else {
           video.pause();
         }
@@ -23,16 +30,19 @@ export default function PlayVideoOnScroll() {
   }, []);
 
   return (
-    <video
-      className="w-full rounded-lg"
-      ref={videoRef}
-      playsInline
-      autoPlay
-      controls
-      loop
-      src="/video/Swimlane.mp4"
-    >
-      <source src="/video/Swimlane.mp4" type="video/mp4" />
-    </video>
+    <div className="relative">
+      <video
+        className="w-full rounded-lg"
+        ref={videoRef}
+        playsInline
+        controls
+        loop
+        autoPlay
+        muted
+        src="/video/Swimlane.mp4"
+      >
+        <source src="/video/Swimlane.mp4" type="video/mp4" />
+      </video>
+    </div>
   );
 }
