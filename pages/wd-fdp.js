@@ -12,19 +12,25 @@ import ZoomImage from "../components/ZoomImage";
 
 let researchers = [
   {
-    name: "Dr Leena Chandran Wadia",
-    role: "Co-Principal Investigator",
+    name: "Dr. Leena Chandran Wadia",
+    role: "Member NEP 2019 Drafting Committee",
     imgSrc: "/people/dr-leena-chandran.png",
+    description:
+      "Leena received her PhD in Physics from the Indian Institute of Science, Bangalore, and did her post-doctoral work in high-performance computing at ETH Zurich. She has both academia and industry experience having worked at CDAC, TIFR, IIT Bombay, and Netcore Cloud, in India. As of 2010, she has been working in the area of policy research and advocacy, mainly in the area of education. She was a member of the drafting committee of the draft National Education Policy 2019 prepared by the Dr Kasturirangan committee. At present, she serves as Professor and Head of the Vocational Education Cell at The University of Trans-disciplinary Health Sciences and Technology (TDU).",
   },
   {
-    name: "Dr Viraj Kumar",
-    role: "Co-Principal Investigator",
+    name: "Dr. Viraj Kumar",
+    role: "Technical Secreteriat to National Curriculum Framework",
     imgSrc: "/people/dr-viraj-kumar.png",
+    description:
+      "Viraj completed his MS and PhD in Computer Science from the University of Illinois at Urbana-Champaign in 2007. His primary research interests are in Computer Science Education and Educational Technology. He serves as an elected member of the ACM India Council, and as a member of the Technical Secretariat to the National Curriculum Framework Steering Committee. He previously served as a consultant to the Kasturirangan Committee to draft the National Education Policy (NEP 2020).",
   },
   {
     name: "Aparna Sivakumar",
-    role: "Research Analyst",
+    role: "Researcher",
     imgSrc: "/people/aparna-sivakumar.png",
+    description:
+      "Aparna has a B.Tech in Computer Science and Engineering from College of Engineering, Trivandrum. She has worked in technology, education policy and advocacy, and community organising. With over 21 years of experience, she has worked at Infosys, Observer Research Foundation and at leading roles in Netcore Cloud & Free A Billion.",
   },
 ];
 
@@ -112,7 +118,7 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto pb-8 md:pb-16 px-4 xl:px-0">
+          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto pb-8 md:pb-12 px-4 xl:px-0">
             <div className="w-full mx-auto md:w-4/5 text-center relative z-10">
               <div className="inline-block rounded bg-primary-100 py-1 px-1 md:px-2 mt-4 ">
                 <p className="font-medium text-sm text-primary-800">
@@ -146,18 +152,17 @@ export default function Page() {
               </div>
             </div>
           </div>
-
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 ">
-            <p className="font-medium py-2 text-gray-700">
-              Watch the NEP 2020 Learner-Centered Classroom at Malla Reddy
-              College, JNTU-Hyderabad
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto pt-4 relative z-10 bg-white bg-opacity-75 rounded-md md:rounded-xl shadow-2xl shadow-orange-200 ">
+            <p className="px-6 pb-4 text-xs md:text-base font-semibold py-2 text-gray-700 text-center">
+              Transform your classroom from NEP 1986 to NEP 2020
+              Learner-Centered Classrooms.
             </p>
             <div style={{ padding: "42.58% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/760206777?h=0b708633d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
                 style={{
                   position: "absolute",
                   top: 0,
@@ -165,17 +170,19 @@ export default function Page() {
                   width: "100%",
                   height: "100%",
                 }}
-                className="rounded-lg"
+                className="rounded-b-md md:rounded-b-xl"
                 title="AICTE Leadership in Teaching Excellence (LITE)  - Transformation of Classrooms to NEP 2020 Learner Centered Pedagogy"
               ></iframe>
             </div>
           </div>
-          <div className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 pb-6">
-            <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-8">
-              <p className="text-2xl font-medium max-w-2xl">
-                Be an <span className="font-bold">AICTE Recognised</span>{" "}
-                Faculty with Leadership in Teaching Excellence to implement NEP
-                2020.
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-12 py-4 px-4 xl:px-0 relative z-10 pb-6">
+            <div className="bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-8">
+              <p className="text-2xl font-medium max-w-4xl">
+                <span className="font-bold">
+                  Begin your journey to implement NEP 2020
+                </span>{" "}
+                with AICTE's Leadership in Teaching Excellence Faculty
+                Development Programme.
               </p>
               <div>
                 <a
@@ -348,34 +355,42 @@ export default function Page() {
         <SectionWithHeading
           heading={
             <p>
-              LITE NEP 2020 Continuous <br /> Improvement Framework{" "}
+              Learner Centered <br />
+              Classsroom Framework
             </p>
           }
-          className="bg-gradient-to-b from-[#311C57] to-[#200C43] text-white"
+          className="bg-gradient-to-b from-[#311C57] to-[#1f0c3a] text-white"
           darkBackground
         >
-          <p>
-            AICTE LITE provides universities, institutions and faculty with a
-            continuous improvement framework that interconnects
-            industry-academia and research for creating NEP 2020
-            Learner-Centered Classrooms.
+          <p className="md:text-lg">
+            AICTE LITE enables all stakeholders including universities,
+            institutions, faculty, industry and researchers to work
+            collaboratively to build NEP 2020 learner-centered classrooms.
           </p>
-          <div className="mt-8">
+          <p className="pt-4 md:text-lg">
+            Watch video to see the processes that are executed by each
+            stakeholder to transform classrroms from NEP 1986 to NEP 2020.
+          </p>
+          <div className="mt-8 shadow-2xl">
             <PlayVideoOnScroll />
           </div>
         </SectionWithHeading>
-        <SectionWithHeading heading={"Integrated Research"}>
-          <p>
-            Learning Analytics Research Network (LEARN) is integrated in the
-            LITE with continuous applied research based on observations to
-            constantly improve the continuous improvement game.
+        <SectionWithHeading heading={"Deep Research Integration"}>
+          <p className="md:text-lg">
+            Faculty and Institutions shall become part of the Learning
+            Engineering, Analytics & Research Network (LEARN) that is a key
+            component of the LITE programme.The goal of the research team is to
+            constantly listen to institutions and faculty to suggest
+            improvements to policy makers, so that the system is dynamically
+            improving every day.
           </p>
-          <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3  gap-5 mt-6">
+          <div className="max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
             {researchers.map((researcher) => (
               <People
                 imgSrc={researcher.imgSrc}
                 name={researcher.name}
                 role={researcher.role}
+                description={researcher.description}
               />
             ))}
           </div>
@@ -449,9 +464,19 @@ export default function Page() {
             >
               <img
                 className="p-8 bg-white rounded-lg mt-6"
-                src="/stats/digital-job-growth-graph.png"
+                src="/stats/digital-job-growth-from-2020-2025.svg"
                 alt="Graph showing digital job growth"
               />
+              <p className="text-gray-600 italic text-sm pt-1">
+                Data Source:{" "}
+                <a
+                  className="text-indigo-600 underline"
+                  href="https://blogs.microsoft.com/blog/2020/06/30/microsoft-launches-initiative-to-help-25-million-people-worldwide-acquire-the-digital-skills-needed-in-a-covid-19-economy/"
+                  target="_blank"
+                >
+                  Microsoft Data Science utilizing LinkedIn data.
+                </a>
+              </p>
             </DescriptionList>
             <DescriptionList
               heading="Dynamic Curriculum by Industry Experts"
@@ -609,12 +634,13 @@ export default function Page() {
             </DescriptionList>
             <DescriptionList
               heading="Easy to Get Started"
-              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. Coaches and teaching assistants shall support you in clearing any doubts you may have during the learning process."
+              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. On average, faculty has completed WD 101 in 14 days."
             >
               <p className="pt-4">
-                You can continue your training and classroom implementation for
-                learners at your institution and complete the training in 18
-                months.
+                Coaches and teaching assistants shall support you in clearing
+                any doubts you may have during the learning process.You can
+                continue your training and classroom implementation for learners
+                at your institution and complete the training in 18 months.
               </p>
             </DescriptionList>
             <DescriptionList
