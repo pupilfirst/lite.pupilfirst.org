@@ -8,6 +8,7 @@ import PlayVideoOnScroll from "../components/PlayVideoOnScroll";
 import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
+import ZoomImage from "../components/ZoomImage";
 
 let researchers = [
   {
@@ -408,11 +409,12 @@ export default function Page() {
             </span>{" "}
             are leading LITE NEP 2020 Classroom implementation.
           </p>
-          <img
-            className="mt-8 w-full rounded-lg "
-            src="/stats-map/stats-map-LITE-2022-vc-head-of-institutions.png"
-            alt="Map showing vc's and heads of institutions"
-          />
+          <div className="mt-8">
+            <ZoomImage
+              src="/stats-map/stats-map-LITE-2022-vc-head-of-institutions.png"
+              alt="Map showing vc's and heads of institutions"
+            />
+          </div>
         </SectionWithHeading>
         <SectionWithHeading
           heading={
@@ -426,11 +428,12 @@ export default function Page() {
             all approvals from Universities and Institutions to launch LITE NEP
             2020 classrooms and bring NEP 2020 to your institution.
           </p>
-          <img
-            className="w-full mt-8 rounded-lg "
-            src="/stats-map/stats-map-LITE-2022-Faculties.png"
-            alt="Map showing vc's and heads of institutions"
-          />
+          <div className="mt-8">
+            <ZoomImage
+              src="/stats-map/stats-map-LITE-2022-Faculties.png"
+              alt="Map showing vc's and heads of institutions"
+            />
+          </div>
         </SectionWithHeading>
         <SectionWithHeading
           heading={
