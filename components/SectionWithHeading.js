@@ -18,7 +18,7 @@ export default function SectionWithHeading({
                 {heading}
               </h2>
             </div>
-            <div className="max-w-6xl mt-6 ml-2 md:ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+            <div className="max-w-6xl mt-6 md:mt-8 ml-2 md:ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
               {children}
             </div>
           </div>

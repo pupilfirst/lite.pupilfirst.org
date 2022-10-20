@@ -93,7 +93,7 @@ h4 {
 .heading-with-underscore::before {
   @apply absolute bg-primary-500 h-1 w-4;
   content: "";
-  top: 18px;
+  bottom: 6px;
   left: 4px;
 }
 .heading-with-underscore--cyan-green::before {

@@ -369,7 +369,7 @@ export default function Page() {
             LITE with continuous applied research based on observations to
             constantly improve the continuous improvement game.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3  gap-5 mt-6">
+          <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3  gap-5 mt-6">
             {researchers.map((researcher) => (
               <People
                 imgSrc={researcher.imgSrc}
@@ -381,7 +381,7 @@ export default function Page() {
         </SectionWithHeading>
         <SectionWithHeading heading="Leadership Testimonial">
           <Testimony
-            testimony="The Leadership in Teaching Excellence (LITE) is one of the finest leadership development programmes I have ever witnessed.We have nearly 5 Lakh faculty members who are teaching under the Council but the real question is how many are teaching with excellence. We are starting with a small group but over the next few years, this programme would expand to tens of thousands of faculty members under the Council"
+            testimony="The Leadership in Teaching Excellence (LITE) is one of the finest leadership development programmes I have ever witnessed.We have nearly 5 Lakh faculty members who are teaching under the Council but the real question is how many are teaching with excellence. We are starting with a small group but over the next few years, this programme would expand to tens of thousands of faculty members under the Council."
             name="Prof Anil D Sahasrabudhe,"
             role={
               <span>
@@ -391,13 +391,7 @@ export default function Page() {
             imageSrc="/people/Prof-Anil-Sahasrabudhe.jpg"
           />
         </SectionWithHeading>
-        <SectionWithHeading
-          heading={
-            <p>
-              Pathway to be a <br /> LITE institution
-            </p>
-          }
-        >
+        <SectionWithHeading heading={<p>Six Steps to be a LITE Institution</p>}>
           <PathWayToJoinFDP />
         </SectionWithHeading>
 
@@ -409,8 +403,10 @@ export default function Page() {
           }
         >
           <p>
-            <span className="font-bold">8 Vice Chancellors and 12 Heads</span>{" "}
-            of Institutions are leading LITE NEP 2020 Classroom implementation.
+            <span className="font-bold">
+              8 Vice Chancellors and 12 Heads of Institutions
+            </span>{" "}
+            are leading LITE NEP 2020 Classroom implementation.
           </p>
           <img
             className="mt-8 w-full rounded-lg "
@@ -606,14 +602,17 @@ export default function Page() {
                   More advanced courses would be added to give a broader choice
                   of specialisations.
                 </p>
-                <p className="mt-8">
-                  <strong>WD 101 </strong> is an easy{" "}
-                  <em>one-credit course of 15 hours</em> which can be learned at
-                  your own pace. Coaches and teaching assistants shall support
-                  you to clear any doubts you may have during the learning
-                  process.
-                </p>
               </div>
+            </DescriptionList>
+            <DescriptionList
+              heading="Easy to Get Started"
+              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. Coaches and teaching assistants shall support you in clearing any doubts you may have during the learning process."
+            >
+              <p className="pt-4">
+                You can continue your training and classroom implementation for
+                learners at your institution and complete the training in 18
+                months.
+              </p>
             </DescriptionList>
             <DescriptionList
               heading="Improve your skills and confidence"
@@ -640,10 +639,10 @@ export default function Page() {
               content=""
             >
               <div className="flex gap-4 p-6 bg-white rounded-lg mt-6">
-                <div className="stretch flex items-center p-6 bg-white border border-primary-200 rounded-lg">
+                <div className="stretch flex w-auto items-center p-6 bg-white border border-primary-200 rounded-lg">
                   <p
                     className="font-bold uppercase text-primary-500"
-                    style={{ writingMode: "vertical-lr" }}
+                    style={{ writingMode: "vertical-rl" }}
                   >
                     NEP 2020 GOALS
                   </p>
