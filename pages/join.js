@@ -17,11 +17,6 @@ let researchers = [
     imgSrc: "/people/dr-leena-chandran.png",
   },
   {
-    name: "Gregory La Blanc",
-    role: "Co-Principal Investigator",
-    imgSrc: "/people/gregory-la-blanc.png",
-  },
-  {
     name: "Dr Viraj Kumar",
     role: "Co-Principal Investigator",
     imgSrc: "/people/dr-viraj-kumar.png",
@@ -80,7 +75,7 @@ export default function Page() {
           property="og:site_name"
           content="Leadership in Teaching Excellence (LITE)"
         />
-        <meta name="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence." />
+        <meta name="AICTE's Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence." />
 
         <script
           async
@@ -103,20 +98,15 @@ export default function Page() {
             <div className="flex justify-between items-center">
               <a className="block" href="/">
                 <img
-                  className="block w-20 md:w-28"
-                  src="logos/LITE-logo.svg"
-                  alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
-                />
-              </a>
-              <div className="flex gap-4">
-                <img
                   className="w-16 md:w-24"
                   src="logos/atal.png"
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
+              </a>
+              <div className="flex gap-4">
                 <img
-                  className="w-16 md:w-24"
-                  src="logos/pupilfirst-emblem.png"
+                  className="w-24 md:w-36"
+                  src="logos/pupilfirst-logo-primary.svg"
                   alt=""
                 />
               </div>
@@ -137,7 +127,7 @@ export default function Page() {
                 </span>
               </h1>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
-                AICTE’s Leadership in Teaching Excellence (LITE) is a
+                AICTE's Leadership in Teaching Excellence (LITE) is a
                 transformational NEP 2020 programme to{" "}
                 <span className="font-bold">
                   train 100,000 faculty and 2.4 Crore Students
@@ -156,7 +146,12 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 ">
+
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 ">
+            <p className="font-medium py-2 text-gray-700">
+              Watch the NEP 2020 Learner-Centered Classroom at Malla Reddy
+              College, JNTU-Hyderabad
+            </p>
             <div style={{ padding: "42.58% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/760206777?h=0b708633d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -176,15 +171,16 @@ export default function Page() {
             </div>
           </div>
           <div className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 pb-6">
-            <div className="bg-white shadow-lg rounded-lg flex gap-5 items-center justify-between p-8">
-              <p className="text-2xl font-medium">
-                Be an <span className="font-bold">AICTE-recognised</span>{" "}
-                Faculty with Leadership in Teaching Excellence.
+            <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-8">
+              <p className="text-2xl font-medium max-w-2xl">
+                Be an <span className="font-bold">AICTE Recognised</span>{" "}
+                Faculty with Leadership in Teaching Excellence to implement NEP
+                2020.
               </p>
               <div>
                 <a
                   href="#"
-                  className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+                  className="inline-block w-full sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                 >
                   Apply now
                 </a>
@@ -374,7 +370,7 @@ export default function Page() {
             LITE with continuous applied research based on observations to
             constantly improve the continuous improvement game.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-3  gap-5 mt-6">
             {researchers.map((researcher) => (
               <People
                 imgSrc={researcher.imgSrc}
@@ -383,15 +379,6 @@ export default function Page() {
               />
             ))}
           </div>
-        </SectionWithHeading>
-        <SectionWithHeading
-          heading={
-            <p>
-              Pathway to be a <br /> LITE institution
-            </p>
-          }
-        >
-          <PathWayToJoinFDP />
         </SectionWithHeading>
         <SectionWithHeading heading="Leadership Testimonial">
           <Testimony
@@ -405,6 +392,16 @@ export default function Page() {
             imageSrc="/people/Prof-Anil-Sahasrabudhe.jpg"
           />
         </SectionWithHeading>
+        <SectionWithHeading
+          heading={
+            <p>
+              Pathway to be a <br /> LITE institution
+            </p>
+          }
+        >
+          <PathWayToJoinFDP />
+        </SectionWithHeading>
+
         <SectionWithHeading
           heading={
             <p>
