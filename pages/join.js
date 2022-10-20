@@ -8,7 +8,6 @@ import PlayVideoOnScroll from "../components/PlayVideoOnScroll";
 import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
-import Zoom from "next-image-zoom";
 
 let researchers = [
   {
@@ -413,17 +412,11 @@ export default function Page() {
             <span className="font-bold">8 Vice Chancellors and 12 Heads</span>{" "}
             of Institutions are leading LITE NEP 2020 Classroom implementation.
           </p>
-          <div className="mt-8 w-full">
-            <Zoom
-              className="bg-white cursor-zoom-in mt-8 w-full"
-              src={"/stats-map/stats-map-LITE-2022-Faculties.png"}
-              alt="Map showing vc's and heads of institutions"
-              layout={"responsive"}
-              width={1200}
-              height={675}
-              objectFit={"contain"}
-            />
-          </div>
+          <img
+            className="mt-8 w-full rounded-lg "
+            src="/stats-map/stats-map-LITE-2022-vc-head-of-institutions.png"
+            alt="Map showing vc's and heads of institutions"
+          />
         </SectionWithHeading>
         <SectionWithHeading
           heading={
@@ -437,16 +430,11 @@ export default function Page() {
             all approvals from Universities and Institutions to launch LITE NEP
             2020 classrooms and bring NEP 2020 to your institution.
           </p>
-          <div className="mt-8 w-full">
-            <Zoom
-              className="bg-white cursor-zoom-in "
-              src={"/stats-map/stats-map-LITE-2022.png"}
-              layout={"responsive"}
-              width={1200}
-              height={675}
-              objectFit={"contain"}
-            />
-          </div>
+          <img
+            className="w-full mt-8 rounded-lg "
+            src="/stats-map/stats-map-LITE-2022-Faculties.png"
+            alt="Map showing vc's and heads of institutions"
+          />
         </SectionWithHeading>
         <SectionWithHeading
           heading={
