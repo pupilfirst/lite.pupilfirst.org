@@ -9,7 +9,7 @@ export default function People({ name, role, imgSrc, description }) {
         <img
           src={imgSrc}
           alt={name}
-          className="block w-full object-cover md:object-contain p-0.5 rounded-lg"
+          className="block w-full object-contain object-top p-0.5 rounded-lg"
         />
       </div>
       <p className={"text-lg font-semibold pt-2"}>{name}</p>

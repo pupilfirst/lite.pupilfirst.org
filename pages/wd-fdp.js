@@ -102,13 +102,13 @@ export default function Page() {
         <section className="hero__bg-pattern relative">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
-              <a className="block" href="/">
+              <div>
                 <img
                   className="w-16 md:w-24"
                   src="logos/atal.png"
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
-              </a>
+              </div>
               <div className="flex gap-4">
                 <img
                   className="w-24 md:w-36"
@@ -152,11 +152,18 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto pt-4 relative z-10 bg-white bg-opacity-75 rounded-md md:rounded-xl shadow-2xl shadow-orange-200 ">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-4 md:mx-auto pt-4 relative z-10 bg-white bg-opacity-75 rounded-md md:rounded-xl shadow-2xl shadow-orange-200 ">
             <p className="px-6 pb-4 text-xs md:text-base font-semibold py-2 text-gray-700 text-center">
               Transform your classroom from NEP 1986 to NEP 2020
               Learner-Centered Classrooms.
             </p>
+            <div className="hidden md:block h-20 w-20 opacity-75 absolute top-2 right-4 z-10">
+              <img
+                className=" object-cover"
+                src="/watch-video.svg"
+                alt="Watch Video label"
+              />
+            </div>
             <div style={{ padding: "42.58% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/760206777?h=0b708633d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -176,30 +183,28 @@ export default function Page() {
             </div>
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-12 py-4 px-4 xl:px-0 relative z-10 pb-6">
-            <div className="bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-8">
-              <p className="text-2xl font-medium max-w-4xl">
+            <div className="md:grid grid-cols-12 bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-6 md:p-8">
+              <p className="md:col-span-10 text-lg md:text-2xl font-medium max-w-4xl">
                 <span className="font-bold">
                   Begin your journey to implement NEP 2020
                 </span>{" "}
                 with AICTE's Leadership in Teaching Excellence Faculty
                 Development Programme.
               </p>
-              <div>
-                <a
-                  href="#"
-                  className="inline-block w-full sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
-                >
-                  Apply now
-                </a>
-              </div>
+              <a
+                href="#"
+                className="inline-block md:col-span-2 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+              >
+                Apply now
+              </a>
             </div>
           </div>
-          <div className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 pb-20">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 pb-20">
             <div className="flex space-y-4 md:space-y-0 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
               <div className="md:w-5/12 flex items-center justify-center flex-shrink-0">
-                <div className="p-4 md:p-3 rounded-full border-2 bg-primary-100 border-primary-200 shadow-sm">
+                <div className="p-4 md:p-3 rounded-full border-2 bg-primary-100 border-primary-200 shadow-sm flex-shrink-0">
                   <img
-                    className="h-72 w-72 lg:h-96 lg:w-96 object-cover rounded-full"
+                    className="h-64 w-64 lg:h-96 lg:w-96 object-cover rounded-full"
                     src="people/MP-Poonia.png"
                     alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
                   />
@@ -265,7 +270,7 @@ export default function Page() {
             </p>
           }
         >
-          <div className="grid grid-cols-8 gap-6">
+          <div className="md:grid grid-cols-8 gap-6">
             <div className="flex flex-col gap-8 col-span-5">
               <DescriptionList
                 heading="NEP 2020 Model Curriculum"
@@ -367,10 +372,20 @@ export default function Page() {
             institutions, faculty, industry and researchers to work
             collaboratively to build NEP 2020 learner-centered classrooms.
           </p>
-          <p className="pt-4 md:text-lg">
-            Watch video to see the processes that are executed by each
-            stakeholder to transform classrroms from NEP 1986 to NEP 2020.
-          </p>
+          <div className="relative">
+            <p className="pt-4 md:text-lg">
+              <span className="font-semibold">Watch video</span> to see the
+              processes that are executed by each stakeholder to transform
+              classrroms from NEP 1986 to NEP 2020.
+            </p>
+            <div className="hidden md:block h-10 w-10 opacity-75 absolute top-8 -left-7 z-10">
+              <img
+                className=" object-cover"
+                src="/arrow-down.svg"
+                alt="Watch Video label"
+              />
+            </div>
+          </div>
           <div className="mt-8 shadow-2xl">
             <PlayVideoOnScroll />
           </div>
