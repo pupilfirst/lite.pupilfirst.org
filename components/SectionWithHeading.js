@@ -11,7 +11,7 @@ export default function SectionWithHeading({
       } border-t border-gray-200 relative ${className}`}
     >
       <div className="max-w-6xl 2xl:max-w-7xl mx-auto ">
-        <div className="mx-4  xl:mx-0 border-l border-gray-200">
+        <div className="mx-4 xl:mx-0 border-l border-gray-200">
           <div className="py-10 lg:py-16">
             <div className="heading-with-leftborder">
               <h2 className="font-bold text-2xl lg:text-6xl text-black-500 leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">

@@ -357,39 +357,46 @@ export default function Page() {
             </div>
           </div>
         </SectionWithHeading>
-        <SectionWithHeading
-          heading={
-            <p>
-              Learner Centered <br />
-              Classsroom Framework
-            </p>
-          }
-          className="bg-gradient-to-b from-[#311C57] to-[#1f0c3a] text-white"
-          darkBackground
-        >
-          <p className="md:text-lg">
-            AICTE LITE enables all stakeholders including universities,
-            institutions, faculty, industry and researchers to work
-            collaboratively to build NEP 2020 learner-centered classrooms.
-          </p>
-          <div className="relative">
-            <p className="pt-4 md:text-lg">
-              <span className="font-semibold">Watch video</span> to see the
-              processes that are executed by each stakeholder to transform
-              classrroms from NEP 1986 to NEP 2020.
-            </p>
-            <div className="hidden md:block h-10 w-10 opacity-75 absolute top-8 -left-7 z-10">
-              <img
-                className=" object-cover"
-                src="/arrow-down.svg"
-                alt="Watch Video label"
-              />
+        <div className="bg-gradient-to-b from-[#311C57] to-[#1f0c3a] text-white">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto ">
+            <div className="mx-4 xl:mx-0 border-l border-secondary-600">
+              <div className="py-10 lg:py-16">
+                <div className="heading-with-leftborder">
+                  <h2 className="font-bold text-2xl lg:text-6xl text-black-500 leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                    Learner Centered <br />
+                    Classsroom Framework
+                  </h2>
+                </div>
+                <div className="max-w-6xl mt-6 md:mt-8 ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                  <p className="md:text-lg">
+                    AICTE LITE enables all stakeholders including universities,
+                    institutions, faculty, industry and researchers to work
+                    collaboratively to build NEP 2020 learner-centered
+                    classrooms.
+                  </p>
+                  <div className="relative">
+                    <p className="pt-4 md:text-lg">
+                      <span className="font-semibold">Watch video</span> to see
+                      the processes that are executed by each stakeholder to
+                      transform classrroms from NEP 1986 to NEP 2020.
+                    </p>
+                    <div className="hidden md:block h-10 w-10 opacity-75 absolute top-8 -left-7 z-10">
+                      <img
+                        className=" object-cover"
+                        src="/arrow-down.svg"
+                        alt="Watch Video label"
+                      />
+                    </div>
+                  </div>
+                  <div className="mt-8 shadow-2xl">
+                    <PlayVideoOnScroll />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="mt-8 shadow-2xl">
-            <PlayVideoOnScroll />
-          </div>
-        </SectionWithHeading>
+        </div>
+
         <SectionWithHeading heading={"Deep Research Integration"}>
           <p className="md:text-lg">
             Faculty and Institutions shall become part of the Learning
