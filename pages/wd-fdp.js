@@ -156,16 +156,51 @@ export default function Page() {
             </div>
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-4 md:mx-auto pt-4 relative z-10 bg-white bg-opacity-75 rounded-md md:rounded-xl shadow-2xl shadow-orange-200 ">
-            <p className="px-6 pb-4 text-xs md:text-base font-semibold py-2 text-gray-700 text-center">
-              Transform your classroom from NEP 1986 to NEP 2020
-              Learner-Centered Classrooms.
-            </p>
-            <div className="hidden md:block h-20 w-20 opacity-75 absolute top-2 right-4 z-10">
-              <img
-                className=" object-cover"
-                src="/watch-video.svg"
-                alt="Watch Video label"
-              />
+            <div className="relative max-w-3xl mx-auto">
+              <p className="px-6 pb-4 text-xs md:text-lg font-medium py-2 text-gray-600 text-center">
+                <span className="font-bold text-gray-900">Watch the Video</span>{" "}
+                of how faculty can transform their classrooms from NEP 1986 to
+                NEP 2020 Learner-Centered Classrooms.
+              </p>
+              <div className="hidden md:block h-14 w-14 opacity-75 absolute top-8 left-1 z-10">
+                <svg
+                  viewBox="0 0 12.85 17.08"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.55,1.15c-.04,.08-.1,.15-.14,.23-2.68,4.4-1.44,10.09,2.69,13.02l-2.87,.1c-.24,.02-.42,.2-.41,.44,0,.23,.2,.42,.44,.41l4.28-.15s.03,0,.04,0c.11-.01,.22-.07,.29-.17,.08-.1,.1-.23,.07-.36l-.96-3.88c-.06-.23-.29-.37-.51-.31-.23,.06-.37,.29-.31,.51l.72,2.9C4.87,11.28,3.63,5.93,6.13,1.82c.16-.26,.33-.51,.51-.75,0,0-.67-.68-1.09,.08Z"
+                    fill="url(#paint0_linear_114_984)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_114_984"
+                      x1="24.1475"
+                      y1="86.2573"
+                      x2="24.1475"
+                      y2="0.880501"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#FF2424">
+                        <animate
+                          attributeName="stop-color"
+                          values="#683DAD; #C5A0FF; #683DAD"
+                          dur="2s"
+                          repeatCount="indefinite"
+                        ></animate>
+                      </stop>
+                      <stop offset="1" stop-color="#24B0FF">
+                        <animate
+                          attributeName="stop-color"
+                          values="#C5A0FF; #683DAD; #C5A0FF"
+                          dur="2s"
+                          repeatCount="indefinite"
+                        ></animate>
+                      </stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
             </div>
             <div style={{ padding: "42.58% 0 0 0", position: "relative" }}>
               <iframe
