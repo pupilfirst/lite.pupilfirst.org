@@ -399,11 +399,43 @@ export default function Page() {
                       transform classrroms from NEP 1986 to NEP 2020.
                     </p>
                     <div className="hidden md:block h-10 w-10 opacity-75 absolute top-8 -left-7 z-10">
-                      <img
-                        className=" object-cover"
-                        src="/arrow-down.svg"
-                        alt="Watch Video label"
-                      />
+                      <svg
+                        viewBox="0 0 12.85 17.08"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.55,1.15c-.04,.08-.1,.15-.14,.23-2.68,4.4-1.44,10.09,2.69,13.02l-2.87,.1c-.24,.02-.42,.2-.41,.44,0,.23,.2,.42,.44,.41l4.28-.15s.03,0,.04,0c.11-.01,.22-.07,.29-.17,.08-.1,.1-.23,.07-.36l-.96-3.88c-.06-.23-.29-.37-.51-.31-.23,.06-.37,.29-.31,.51l.72,2.9C4.87,11.28,3.63,5.93,6.13,1.82c.16-.26,.33-.51,.51-.75,0,0-.67-.68-1.09,.08Z"
+                          fill="url(#paint0_linear_114_984)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_114_984"
+                            x1="24.1475"
+                            y1="86.2573"
+                            x2="24.1475"
+                            y2="0.880501"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0" stop-color="#FF2424">
+                              <animate
+                                attributeName="stop-color"
+                                values="#683DAD; #C5A0FF; #683DAD"
+                                dur="2s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                            <stop offset="1" stop-color="#24B0FF">
+                              <animate
+                                attributeName="stop-color"
+                                values="#C5A0FF; #683DAD; #C5A0FF"
+                                dur="2s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                          </linearGradient>
+                        </defs>
+                      </svg>
                     </div>
                   </div>
                   <div className="mt-8 shadow-2xl">
