@@ -8,9 +8,9 @@ export default function Testimonial({
   children,
 }) {
   return (
-    <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-orange-100 p-6 rounded-lg w-full md:w-5/6">
+    <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-orange-100 p-6 rounded-lg w-full">
       <img
-        className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-orange-200 bg-orange-50"
+        className="ml-0 md:-ml-16 w-72 h-72 rounded-xl md:rounded-full object-cover md:object-contain border-8 border-orange-200 bg-orange-50"
         src={imageSrc}
         alt={"Photo of" + name}
       />
@@ -31,7 +31,9 @@ export default function Testimonial({
         </svg>
 
         <div className="text-white">
-          <p className="text-base md:text-base text-black">{testimony}</p>
+          <p className="text-base md:text-xl text-gray-600 font-medium">
+            {testimony}
+          </p>
           {children ? children : null}
           <p className="font-semibold mt-4 text-black">{name}</p>
           <p className="text-sm text-gray-600">{role}</p>

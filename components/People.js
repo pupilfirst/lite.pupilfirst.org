@@ -15,7 +15,7 @@ export default function People({ name, role, imgSrc, description }) {
       <p className={"text-lg font-semibold pt-2"}>{name}</p>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>{role}</p>
       {description ? (
-        <p className={"text-sm md:text-base pt-4 text-gray-700"}>
+        <p className={"text-sm md:text-base pt-3 text-gray-700"}>
           {description}
         </p>
       ) : null}

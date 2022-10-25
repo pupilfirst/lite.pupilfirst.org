@@ -65,7 +65,7 @@ export default function Page() {
         />
         <meta
           property="og:description"
-          content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
+          content="AICTE's Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
         />
         <meta name="theme-color" content="#FDFAF7" />
         <meta
@@ -133,12 +133,15 @@ export default function Page() {
                 </span>
               </h1>
               <p className="max-w-4xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
-                AICTE's Leadership in Teaching Excellence (LITE) is a
-                transformational NEP 2020 programme to{" "}
+                AICTE's Leadership In Teaching Excellence (LITE) is a
+                transformational program to pioneer and implement the goals of
+                National Educational Policy 2020 such as learner-centered
+                pedagogy, competency-based curriculums, continuous and
+                personalized assessments thus{" "}
                 <span className="font-bold">
-                  train 100,000 faculty and 2.4 Crore Students
+                  enabling 100,000 faculty to skill 2.4 Crore
                 </span>{" "}
-                in emerging technologies.
+                students in emerging industry technologies.
               </p>
               <div className="pt-4 md:pt-8">
                 <div>
@@ -146,7 +149,7 @@ export default function Page() {
                     href="#"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                   >
-                    Apply now
+                    Apply Now for LITE FDP
                   </a>
                 </div>
               </div>
@@ -182,78 +185,6 @@ export default function Page() {
               ></iframe>
             </div>
           </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-12 py-4 px-4 xl:px-0 relative z-10 pb-6">
-            <div className="md:grid grid-cols-12 bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-6 md:p-8">
-              <p className="md:col-span-10 text-lg md:text-2xl font-medium max-w-4xl">
-                <span className="font-bold">
-                  Begin your journey to implement NEP 2020
-                </span>{" "}
-                with AICTE's Leadership in Teaching Excellence Faculty
-                Development Programme.
-              </p>
-              <a
-                href="#"
-                className="inline-block md:col-span-2 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
-              >
-                Apply now
-              </a>
-            </div>
-          </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10 pb-20">
-            <div className="flex space-y-4 md:space-y-0 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
-              <div className="md:w-5/12 flex items-center justify-center flex-shrink-0">
-                <div className="p-4 md:p-3 rounded-full border-2 bg-primary-100 border-primary-200 shadow-sm flex-shrink-0">
-                  <img
-                    className="h-64 w-64 lg:h-96 lg:w-96 object-cover rounded-full"
-                    src="people/MP-Poonia.png"
-                    alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
-                  />
-                </div>
-              </div>
-              <div className="md:w-7/12">
-                <h2 className="text-base md:text-xl lg:text-2xl lg:pt-8">
-                  Letter to Vice Chancellors and Head of Institutions from{" "}
-                  <br />
-                  Hon: Vice Chairman, AICTE
-                </h2>
-                <p className="mt-4 max-w-xl">
-                  “We intend to upgrade selected institutions as AICTE Brand
-                  Ambassadors of Change and highlight selected institutions, its
-                  leadership, faculty and students as change agents who are
-                  implementing proven online teaching-learning methods that are
-                  aligned with NEP 2020”
-                </p>
-                <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
-                <p className="italic">Vice Chairman, </p>
-                <p className="italic">
-                  All India Council for Technical Education.
-                </p>
-                <a
-                  className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-4 md:mt-6 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
-                  href="letter-from-VCM/Letter-from-the-VCM-AICTE.pdf"
-                  target="_blank"
-                >
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="w-6 h-6 text-primary-500"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
-                      <path
-                        fillRule="evenodd"
-                        d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"
-                      />
-                    </svg>
-                  </div>
-                  <div>Read the full letter</div>
-                </a>
-              </div>
-            </div>
-          </div>
           <div className="absolute inset-0 md:inset-x-0 md:top-8 2xl:inset-0 z-0">
             <img
               className="h-full w-full object-cover relative"
@@ -263,10 +194,82 @@ export default function Page() {
             <div className="absolute inset-0"></div>
           </div>
         </section>
+        <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
+          <div className="grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+            <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
+              <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
+                <img
+                  className="w-full h-full object-contain rounded-2xl"
+                  src="people/MP-Poonia.png"
+                  alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
+                />
+              </div>
+            </div>
+            <div className="md:col-span-8">
+              <h2 className="text-base md:text-xl lg:text-2xl lg:pt-2">
+                Letter to Vice Chancellors and Head of Institutions from <br />
+                Hon: Vice Chairman, AICTE
+              </h2>
+              <p className="mt-4 text-lg">
+                “We intend to upgrade selected institutions as AICTE Brand
+                Ambassadors of Change and highlight selected institutions, its
+                leadership, faculty and students as change agents who are
+                implementing proven online teaching-learning methods that are
+                aligned with NEP 2020”
+              </p>
+              <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
+              <p className="italic">Vice Chairman, </p>
+              <p className="italic">
+                All India Council for Technical Education.
+              </p>
+              <a
+                className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-4 md:mt-6 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
+                href="letter-from-VCM/Letter-from-the-VCM-AICTE.pdf"
+                target="_blank"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="w-6 h-6 text-primary-500"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"
+                    />
+                  </svg>
+                </div>
+                <div>Read the full letter</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-6xl 2xl:max-w-7xl mx-auto md:mt-4 pt-4 px-4 xl:px-0 relative z-10 pb-10 md:pb-20">
+          <div className="md:grid grid-cols-12 bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-6 md:p-8">
+            <p className="md:col-span-8 text-lg md:text-xl font-medium max-w-4xl">
+              <span className="font-bold">
+                Begin your journey to implement NEP 2020
+              </span>{" "}
+              with AICTE's Leadership in Teaching Excellence Faculty Development
+              Programme.
+            </p>
+            <a
+              href="#"
+              className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+            >
+              Apply Now for LITE FDP
+            </a>
+          </div>
+        </div>
         <SectionWithHeading
           heading={
             <p>
-              LITE Program <br /> Highlights
+              Program Highlights for
+              <br /> Faculty Members
             </p>
           }
         >
@@ -274,8 +277,23 @@ export default function Page() {
             <div className="flex flex-col gap-8 col-span-5">
               <DescriptionList
                 heading="NEP 2020 Model Curriculum"
-                content="AICTE has published NEP 2020 Model Curriculum for institutions and faculty featuring learner-centred pedagogy, competency-based curriculums and continuous assessments."
+                content={
+                  <p>
+                    AICTE has published{" "}
+                    <a
+                      className="text-indigo-600 fonr-semibold hover:underline hover:bg-indigo-50 transition"
+                      target="_blank"
+                      href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
+                    >
+                      NEP 2020 Model Curriculum
+                    </a>{" "}
+                    for institutions and faculty featuring learner-centred
+                    pedagogy, competency-based curriculums and continuous
+                    assessments.
+                  </p>
+                }
               />
+
               <DescriptionList
                 heading="Dynamic Updates by Industry"
                 content="NEP 2020 Model Curriculums are maintained by practising industry engineers enabling faculty and students to learn the most up-to-date knowledge"
@@ -351,7 +369,7 @@ export default function Page() {
                   href="#"
                   className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                 >
-                  Apply now
+                  Apply Now for LITE FDP
                 </a>
               </div>
             </div>
@@ -504,7 +522,7 @@ export default function Page() {
               heading="Dynamic Curriculum by Industry Experts"
               content="Confidently, learn how to become a full-stack developer by learning from a curriculum designed and maintained by practising software engineering professionals."
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 md:gap-5 mt-6">
                 <People
                   name="Vignesh Rajendran"
                   role="Principal Engineer, Oracle"
@@ -689,7 +707,7 @@ export default function Page() {
               heading="Transform your classroom from NEP 1986 to NEP 2020 through LITE"
               content=""
             >
-              <div className="flex gap-4 p-6 bg-white rounded-lg mt-6">
+              <div className="flex gap-4 p-2 p-6 bg-white rounded-lg mt-2 md:mt-6">
                 <div className="stretch flex w-auto items-center p-6 bg-white border border-primary-200 rounded-lg">
                   <p
                     className="font-bold uppercase text-primary-500"
@@ -701,27 +719,27 @@ export default function Page() {
                 <div className="flex-1 flex flex-col gap-5">
                   <div className="flex items-center gap-4">
                     <p className="font-bold text-secondary-500">1</p>
-                    <p className="flex-1 p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
+                    <p className="flex-1 p-2 md:p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
                       Enabling a learner centered model of teaching-learning.
                     </p>
                   </div>
                   <div className="flex items-center gap-4">
                     <p className="font-bold text-secondary-500">2</p>
-                    <p className="flex-1 p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
+                    <p className="flex-1 p-2 md:p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
                       Delivering competency based curriculum for highly paid
                       global tech skills.
                     </p>
                   </div>
                   <div className="flex items-center gap-4">
                     <p className="font-bold text-secondary-500">3</p>
-                    <p className="flex-1 p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
+                    <p className="flex-1 p-2 md:p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
                       Transformation of assessments from summative to formative
                       (continuous)
                     </p>
                   </div>
                   <div className="flex items-center gap-4">
                     <p className="font-bold text-secondary-500">4</p>
-                    <p className="flex-1 p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
+                    <p className="flex-1 p-2 md:p-6 text-base bg-primary-50 border border-primary-200 rounded-lg">
                       Identifying gifted school students to gain direct
                       admission to universities
                     </p>
@@ -829,8 +847,8 @@ export default function Page() {
               </a>
             </p>
           </div>
-          <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12 mt-14">
-            <h4 className=" w-2/3 text-xl lg:text-4xl text-white font-extrabold text-center">
+          <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
+            <h4 className="md:w-2/3 text-xl lg:text-4xl text-white font-extrabold text-center">
               Apply Now for AICTE LITE Faculty Development Program
             </h4>
             <div className="mt-6 flex justify-center">
@@ -839,7 +857,7 @@ export default function Page() {
                 target="_blank"
                 className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
               >
-                Apply now
+                Apply Now for LITE FDP
               </a>
             </div>
           </div>
