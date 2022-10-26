@@ -139,9 +139,10 @@ export default function Page() {
                 pedagogy, competency-based curriculums, continuous and
                 personalized assessments thus{" "}
                 <span className="font-bold">
-                  enabling 100,000 faculty to skill 2.4 Crore
-                </span>{" "}
-                students in emerging industry technologies.
+                  enabling 100,000 faculty to skill 2.4 Crore students{" "}
+                </span>
+                in emerging industry technologies, beginning with Advanced Web
+                Development.
               </p>
               <div className="pt-4 md:pt-8">
                 <div>
@@ -320,7 +321,7 @@ export default function Page() {
                       target="_blank"
                       href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
                     >
-                      NEP 2020 Model Curriculum
+                      NEP 2020 Model Curriculum in Advanced Web Development
                     </a>{" "}
                     for institutions and faculty featuring learner-centred
                     pedagogy, competency-based curriculums and continuous
@@ -335,11 +336,11 @@ export default function Page() {
               />
               <DescriptionList
                 heading="Teaching Assistants"
-                content="Get support from student teaching assistants (TA’s) who have completed the curriculum to enable you to answer all queries/doubts of your learners via the learning community."
+                content="Get support from student teaching assistants (TA's) who have completed the curriculum to enable you to answer all queries/doubts of your learners via the learning community."
               />
               <DescriptionList
                 heading="Career Progression"
-                content="The LITE FDPs are conducted with AICTE Training and Learning (ATAL) Academy, ensuring that these training counts towards your career progression."
+                content="The LITE FDPs are conducted with AICTE Training and Learning (ATAL) Academy, ensuring that this training counts towards your career progression."
               />
               <DescriptionList
                 heading="NEP 2020 Certificate"
@@ -484,12 +485,12 @@ export default function Page() {
 
         <SectionWithHeading heading={"Deep Research Integration"}>
           <p className="md:text-lg">
-            Faculty and Institutions shall become part of the Learning
-            Engineering, Analytics & Research Network (LEARN) that is a key
-            component of the LITE programme.The goal of the research team is to
+            Faculty and Institutions who qualify shall become part of the
+            Learning Engineering, Analytics & Research Network (LEARN); a key
+            component of the LITE programme. The research team's goal is to
             constantly listen to institutions and faculty to suggest
-            improvements to policy makers, so that the system is dynamically
-            improving every day.
+            improvements to policymakers so that the learner-centred classroom
+            framework is dynamically improving every day.
           </p>
           <div className="max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
             {researchers.map((researcher) => (
