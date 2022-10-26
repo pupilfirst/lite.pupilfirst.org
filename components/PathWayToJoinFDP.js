@@ -100,7 +100,7 @@ export default function PathWayToJoinFDP() {
       />
       <PathwayItem
         number="3"
-        title="Assist in getting  University Approval"
+        title="To Assist in getting University Approval"
         description="Submit AICTE Model Curriculum along with your LITE Training letter to the University."
         actions={[
           {
@@ -129,7 +129,7 @@ export default function PathWayToJoinFDP() {
       />
       <PathwayItem
         number="5"
-        title="Facility Complete Basic 15Hr Training"
+        title="Faculty Complete Basic 15Hr Training"
         description="Receive LITE Basic Training Completion Letter"
         actions={[
           {
