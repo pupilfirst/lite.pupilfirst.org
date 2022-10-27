@@ -241,6 +241,11 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"img-comparison-slider@^7.8.0":
+  "integrity" "sha512-gMK/nWAkLuXfHcvkQy9vS2Szm+yG7+t3gvh5Nm9z5X3cgXdmOq9CJb5xSEdby+yBerypSYJINFLSc5K9fS9Ubw=="
+  "resolved" "https://registry.npmjs.org/img-comparison-slider/-/img-comparison-slider-7.8.0.tgz"
+  "version" "7.8.0"
+
 "is-binary-path@~2.1.0":
   "integrity" "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw=="
   "resolved" "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz"
