@@ -385,7 +385,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="December 24, 2022"
-                  content="Last Date for Institutions to secure Univerity Approvals for Januaryuary Batch"
+                  content="Last Date for Institutions to secure Univerity Approvals for January Batch"
                 />
                 <DateAndContent
                   date="January 05, 2023"
@@ -841,7 +841,7 @@ export default function Page() {
             />
             <ScheduleDate
               date="December 24, 2022"
-              content="Last Date for Institutions to secure Univerity Approvals for Januaryuary Batch"
+              content="Last Date for Institutions to secure Univerity Approvals for January Batch"
             />
             <ScheduleDate
               date="January 05, 2023"

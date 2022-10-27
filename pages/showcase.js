@@ -83,13 +83,13 @@ export default function Page() {
               <img
                 className="rounded-2xl"
                 slot="first"
-                src="https://images.unsplash.com/photo-1502143135356-dcdb8a9a3da6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src="/showcase/image-comparison-sketch.png"
                 width="100%"
               />
               <img
                 className="rounded-2xl"
                 slot="second"
-                src="https://images.unsplash.com/flagged/photo-1551455464-ae6227c3fd5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+                src="/showcase/image-comparison-real.png"
                 width="100%"
               />
             </img-comparison-slider>
