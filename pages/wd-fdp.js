@@ -163,43 +163,34 @@ export default function Page() {
                 of how faculty can transform their classrooms from NEP 1986 to
                 NEP 2020 Learner-Centered Classrooms.
               </p>
-              <div className="hidden md:block h-14 w-14 opacity-75 absolute top-8 left-1 z-10">
+              <div className="hidden md:block h-6 w-6 absolute top-8 left-6 z-10">
                 <svg
-                  viewBox="0 0 12.85 17.08"
-                  fill="none"
+                  version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 43.1 85.9"
+                  xmlSpace="preserve"
                 >
                   <path
-                    d="M5.55,1.15c-.04,.08-.1,.15-.14,.23-2.68,4.4-1.44,10.09,2.69,13.02l-2.87,.1c-.24,.02-.42,.2-.41,.44,0,.23,.2,.42,.44,.41l4.28-.15s.03,0,.04,0c.11-.01,.22-.07,.29-.17,.08-.1,.1-.23,.07-.36l-.96-3.88c-.06-.23-.29-.37-.51-.31-.23,.06-.37,.29-.31,.51l.72,2.9C4.87,11.28,3.63,5.93,6.13,1.82c.16-.26,.33-.51,.51-.75,0,0-.67-.68-1.09,.08Z"
-                    fill="url(#paint0_linear_114_984)"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="st0 draw-arrow__svg-path"
+                    d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1"
                   />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_114_984"
-                      x1="24.1475"
-                      y1="86.2573"
-                      x2="24.1475"
-                      y2="0.880501"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop offset="0" stop-color="#FF2424">
-                        <animate
-                          attributeName="stop-color"
-                          values="#683DAD; #C5A0FF; #683DAD"
-                          dur="2s"
-                          repeatCount="indefinite"
-                        ></animate>
-                      </stop>
-                      <stop offset="1" stop-color="#24B0FF">
-                        <animate
-                          attributeName="stop-color"
-                          values="#C5A0FF; #683DAD; #C5A0FF"
-                          dur="2s"
-                          repeatCount="indefinite"
-                        ></animate>
-                      </stop>
-                    </linearGradient>
-                  </defs>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="draw-arrow__svg-path"
+                    d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="draw-arrow__svg-path"
+                    d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9"
+                  />
                 </svg>
               </div>
             </div>
@@ -430,47 +421,40 @@ export default function Page() {
                   </p>
                   <div className="relative">
                     <p className="pt-4 md:text-lg">
-                      <span className="font-semibold">Watch video</span> to see
-                      the processes that are executed by each stakeholder to
-                      transform classrroms from NEP 1986 to NEP 2020.
+                      <span className="font-semibold md:text-indigo-400">
+                        Watch video
+                      </span>{" "}
+                      to see the processes that are executed by each stakeholder
+                      to transform classrroms from NEP 1986 to NEP 2020.
                     </p>
-                    <div className="hidden md:block h-10 w-10 opacity-75 absolute top-8 -left-7 z-10">
+                    <div className="hidden md:block h-6 w-6 absolute top-8 -left-4 z-10">
                       <svg
-                        viewBox="0 0 12.85 17.08"
-                        fill="none"
+                        version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 43.1 85.9"
+                        xmlSpace="preserve"
                       >
                         <path
-                          d="M5.55,1.15c-.04,.08-.1,.15-.14,.23-2.68,4.4-1.44,10.09,2.69,13.02l-2.87,.1c-.24,.02-.42,.2-.41,.44,0,.23,.2,.42,.44,.41l4.28-.15s.03,0,.04,0c.11-.01,.22-.07,.29-.17,.08-.1,.1-.23,.07-.36l-.96-3.88c-.06-.23-.29-.37-.51-.31-.23,.06-.37,.29-.31,.51l.72,2.9C4.87,11.28,3.63,5.93,6.13,1.82c.16-.26,.33-.51,.51-.75,0,0-.67-.68-1.09,.08Z"
-                          fill="url(#paint0_linear_114_984)"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="st0 draw-arrow__svg-path"
+                          d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1"
                         />
-                        <defs>
-                          <linearGradient
-                            id="paint0_linear_114_984"
-                            x1="24.1475"
-                            y1="86.2573"
-                            x2="24.1475"
-                            y2="0.880501"
-                            gradientUnits="userSpaceOnUse"
-                          >
-                            <stop offset="0" stop-color="#FF2424">
-                              <animate
-                                attributeName="stop-color"
-                                values="#683DAD; #C5A0FF; #683DAD"
-                                dur="2s"
-                                repeatCount="indefinite"
-                              ></animate>
-                            </stop>
-                            <stop offset="1" stop-color="#24B0FF">
-                              <animate
-                                attributeName="stop-color"
-                                values="#C5A0FF; #683DAD; #C5A0FF"
-                                dur="2s"
-                                repeatCount="indefinite"
-                              ></animate>
-                            </stop>
-                          </linearGradient>
-                        </defs>
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="draw-arrow__svg-path"
+                          d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="draw-arrow__svg-path"
+                          d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9"
+                        />
                       </svg>
                     </div>
                   </div>

@@ -80,19 +80,33 @@ export default function Page() {
           </header>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
             <img-comparison-slider hover="hover">
-              <img
-                className="rounded-2xl"
-                slot="first"
-                src="/showcase/image-comparison-sketch.png"
-                width="100%"
-              />
-              <img
-                className="rounded-2xl"
-                slot="second"
-                src="/showcase/image-comparison-real.png"
-                width="100%"
-              />
+              <figure slot="first" className="img-comparison-slider__img-1">
+                <img
+                  className="rounded-2xl"
+                  src="/showcase/NEP-2020-Vision.png"
+                  width="100%"
+                />
+                <figcaption>NEP 2020 Vision</figcaption>
+              </figure>
+              <figure slot="second" className="img-comparison-slider__img-2">
+                <img
+                  className="rounded-2xl"
+                  src="/showcase/NEP-2020-real-classroom.png"
+                  width="100%"
+                />
+                <figcaption>NEP 2020 Real Classroom</figcaption>
+              </figure>
             </img-comparison-slider>
+            <div className="flex flex-col md:flex-row justify-between pt-1">
+              <p className="md:w-3/5 text-sm text-gray-800">
+                AICTE LITE Faculty Dr. Roopa Chandrika at Malla Reddy College of
+                Engineering and Technology, <br />
+                affiliated to JNTU-Hyderabad in Telangana.
+              </p>
+              <p className="text-xs text-gray-500 mt-2 md:mt-0">
+                Photographed for Pupilfirst by Jinson Abraham.
+              </p>
+            </div>
           </div>
         </section>
       </main>

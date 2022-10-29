@@ -198,3 +198,42 @@ h4 {
 .webkit-bg-clip {
   -webkit-background-clip: text;
 }
+
+
+
+.img-comparison-slider__img-1,
+.img-comparison-slider__img-2 {
+  margin: 0;
+}
+
+.img-comparison-slider__img-1 figcaption,
+.img-comparison-slider__img-2 figcaption {
+  @apply absolute bottom-4 leading-tight bg-gray-900 bg-opacity-75 border border-gray-600 font-semibold text-white rounded-md px-2 py-1;
+}
+
+.img-comparison-slider__img-1 figcaption {
+  @apply left-4;
+}
+
+.img-comparison-slider__img-2 figcaption {
+  @apply right-4;
+}
+
+
+.draw-arrow__svg-path {
+  stroke-width: 4;
+  stroke: dodgerblue;
+  fill: none;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 200;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: draw;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
