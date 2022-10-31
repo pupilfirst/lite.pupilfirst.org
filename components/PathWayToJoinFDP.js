@@ -76,7 +76,7 @@ export default function PathWayToJoinFDP() {
     <div className="pl-6 pt-6">
       <PathwayItem
         number="1"
-        title="Faculty Joins LITE FDP by ATAL Academy"
+        title="Faculty Member Joins LITE FDP by ATAL Academy"
         description=""
         actions={[
           {
@@ -88,7 +88,7 @@ export default function PathWayToJoinFDP() {
       />
       <PathwayItem
         number="2"
-        title="Faculty Facilitates signing off LITE MOU"
+        title="Faculty Member Facilitates signing off LITE MOU"
         description="Receive MoU Template for your institution to join AICTE LITE Programme"
         actions={[
           {
@@ -106,12 +106,12 @@ export default function PathWayToJoinFDP() {
           {
             title: "Format of Letter from Head of Institution to University",
             actionText: "Download Template",
-            url: "",
+            url: "https://docs.google.com/document/d/1bp_gyCtD5BhzBKXrdKyfTNJq0I68p3g7E9qY1UfL1OA/edit?usp=sharing",
           },
           {
             title: "Format of Approval Orders issued by University",
             actionText: "Download Template",
-            url: "",
+            url: "https://docs.google.com/document/d/1Brw4mygeUqEfJK5uhkw4FLYKi_GHKMdcdfA9b10vLMc/edit?usp=sharing",
           },
         ]}
       />
@@ -123,13 +123,13 @@ export default function PathWayToJoinFDP() {
           {
             title: "Format of Academic Time Table",
             actionText: "Download Template",
-            url: "",
+            url: "https://docs.google.com/document/d/1lNzCNkGbnvkKEXnkgew3HTJlbVECqqhh-u0Bcu5TqDs/edit?usp=sharing",
           },
         ]}
       />
       <PathwayItem
         number="5"
-        title="Faculty Complete Basic 15Hr Training"
+        title="Faculty Member Complete Basic 15Hr Training"
         description="Receive LITE Basic Training Completion Letter"
         actions={[
           {
@@ -142,10 +142,10 @@ export default function PathWayToJoinFDP() {
       <PathwayItem
         number="6"
         title="Admit Learners to NEP 2020 Model curriculums from January 2023"
-        description="You shall receive the Admission Kit to be shared with students to start admissions for the NEP 2020 model curriculums."
+        description="You shall receive the Admission Guide that will be shared with students to start admissions for the NEP 2020 model curriculums."
         actions={[
           {
-            title: "Format of Admissions Kit",
+            title: "Admissions Guide (To be published)",
             actionText: "Download Template",
             url: "",
           },

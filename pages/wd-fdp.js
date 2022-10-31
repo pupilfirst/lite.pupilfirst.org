@@ -41,11 +41,11 @@ export default function Page() {
         <title>Leadership in Teaching Excellence (LITE)</title>
         <meta
           name="description"
-          content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
+          content="AICTE's Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
         ></meta>
         <meta
           name="keywords"
-          content="Employment for Students, AICTE guided industry training for faculty, Recognition for Institute, Proven Online Teaching-Learning method as per NEP 2020, Internship with Covid19 Digital War Rooms."
+          content="Employment for Students, AICTE guided industry training for faculty members, Recognition for Institute, Proven Online Teaching-Learning method as per NEP 2020, Internship with Covid19 Digital War Rooms."
         ></meta>
         <meta name="author" content="pupilfirst.org"></meta>
         <meta
@@ -139,7 +139,7 @@ export default function Page() {
                 pedagogy, competency-based curriculums, continuous and
                 personalized assessments thus{" "}
                 <span className="font-bold">
-                  enabling 100,000 faculty to skill 2.4 Crore students{" "}
+                  enabling 100,000 faculty members to skill 2.4 Crore students{" "}
                 </span>
                 in emerging industry technologies, beginning with Advanced Web
                 Development.
@@ -160,10 +160,10 @@ export default function Page() {
             <div className="relative max-w-3xl mx-auto">
               <p className="px-6 pb-4 text-xs md:text-lg font-medium py-2 text-gray-600 text-center">
                 <span className="font-bold text-gray-900">Watch the Video</span>{" "}
-                of how faculty can transform their classrooms from NEP 1986 to
-                NEP 2020 Learner-Centered Classrooms.
+                of how faculty members can transform their classrooms from NEP
+                1986 to NEP 2020 Learner-Centered Classrooms.
               </p>
-              <div className="hidden md:block h-6 w-6 absolute top-8 left-6 z-10">
+              <div className="hidden md:block h-6 w-6 absolute top-8 left-4 z-10">
                 <svg
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -240,9 +240,9 @@ export default function Page() {
               <p className="mt-4 text-lg">
                 “We intend to upgrade selected institutions as AICTE Brand
                 Ambassadors of Change and highlight selected institutions, its
-                leadership, faculty and students as change agents who are
-                implementing proven online teaching-learning methods that are
-                aligned with NEP 2020”
+                leadership, faculty members and students as change agents who
+                are implementing proven online teaching-learning methods that
+                are aligned with NEP 2020”
               </p>
               <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
               <p className="italic">Vice Chairman, </p>
@@ -314,16 +314,16 @@ export default function Page() {
                     >
                       NEP 2020 Model Curriculum in Advanced Web Development
                     </a>{" "}
-                    for institutions and faculty featuring learner-centred
-                    pedagogy, competency-based curriculums and continuous
-                    assessments.
+                    for institutions and faculty members featuring
+                    learner-centred pedagogy, competency-based curriculums and
+                    continuous assessments.
                   </p>
                 }
               />
 
               <DescriptionList
                 heading="Dynamic Updates by Industry"
-                content="NEP 2020 Model Curriculums are maintained by practising industry engineers enabling faculty and students to learn the most up-to-date knowledge"
+                content="NEP 2020 Model Curriculums are maintained by practising industry engineers enabling faculty members and students to learn the most up-to-date knowledge"
               />
               <DescriptionList
                 heading="Teaching Assistants"
@@ -335,7 +335,16 @@ export default function Page() {
               />
               <DescriptionList
                 heading="NEP 2020 Certificate"
-                content="Faculty who complete the training programme would get certified as LITE NEP 2020 Faculty."
+                content={
+                  <p>
+                    Faculty members who complete training shall be certified as
+                    AICTE LITE Brand Ambassador of Change.{" "}
+                    <span className="italic block">
+                      A copy of the previous LITE certificate is below as a
+                      sample.
+                    </span>
+                  </p>
+                }
               >
                 <img
                   src="/sample-certificate/LITE-Faculty-Certificate-Sample.png"
@@ -355,40 +364,40 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="October 10, 2022 "
+                  date="November 09, 2022 "
                   content="LITE Batch#3 FDP Applications Open and Training Starts"
                 />
                 <DateAndContent
-                  date="October 24, 2022"
+                  date="November 30, 2022"
                   content="Last Date for Batch#3 Applications"
                 />
                 <DateAndContent
-                  date="October 30, 2022"
-                  content="LITE Faculty Training Ends"
+                  date="December 12, 2022"
+                  content="LITE Faculty Members Training Ends"
                 />
                 <DateAndContent
-                  date="November 05, 2022"
+                  date="December 16, 2022"
                   content="Last Date for Institutions to send back signed MOUs"
                 />
                 <DateAndContent
-                  date="November 15, 2022"
+                  date="December 21, 2022"
                   content="AICTE to Announce Selected Institutions and Faculty"
                 />
                 <DateAndContent
-                  date="December 24, 2022"
+                  date="January 16, 2023"
                   content="Last Date for Institutions to secure Univerity Approvals for January Batch"
                 />
                 <DateAndContent
-                  date="January 05, 2023"
+                  date="January 31, 2023"
                   content="Last Date for submitting Academic Calendar Integration	"
                 />
                 <DateAndContent
-                  date="January 10, 2023"
+                  date="February 10, 2023"
                   content="Start Course Admissions at your institution"
                 />
                 <DateAndContent
                   date="Ongoing"
-                  content="In Situ faculty training continues along with course deployment"
+                  content="In Situ faculty members training continues along with course deployment"
                 />
               </div>
               <div className="p-4">
@@ -469,10 +478,10 @@ export default function Page() {
 
         <SectionWithHeading heading={"Deep Research Integration"}>
           <p className="md:text-lg">
-            Faculty and Institutions who qualify shall become part of the
-            Learning Engineering, Analytics & Research Network (LEARN); a key
-            component of the LITE programme. The research team's goal is to
-            constantly listen to institutions and faculty to suggest
+            Faculty Members and Institutions who qualify shall become part of
+            the Learning Engineering, Analytics & Research Network (LEARN); a
+            key component of the LITE programme. The research team's goal is to
+            constantly listen to institutions and faculty members to suggest
             improvements to policymakers so that the learner-centred classroom
             framework is dynamically improving every day.
           </p>
@@ -526,14 +535,15 @@ export default function Page() {
         <SectionWithHeading
           heading={
             <p>
-              Become a Faculty with <br /> leadership in teaching excellence.
+              Become a Faculty Member with <br /> Leadership In Teaching
+              Excellence.
             </p>
           }
         >
           <p>
-            <span className="font-bold">Join 21 faculty</span> who have secured
-            all approvals from Universities and Institutions to launch LITE NEP
-            2020 classrooms and bring NEP 2020 to your institution.
+            <span className="font-bold">21 faculty members</span> secured all
+            approvals from Universities and Institutions to launch LITE NEP 2020
+            classrooms as pioneers.
           </p>
           <div className="mt-8">
             <ZoomImage
@@ -629,7 +639,7 @@ export default function Page() {
                   This programme is designed with 4 courses such that selected
                   institutions can offer a 18-20 credit{" "}
                   <strong>Minor Degree in Advanced Web Development</strong>{" "}
-                  through their trained faculty to students.
+                  through their trained faculty members to students.
                 </span>
               }
             >
@@ -726,7 +736,7 @@ export default function Page() {
             </DescriptionList>
             <DescriptionList
               heading="Easy to Get Started"
-              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. On average, faculty has completed WD 101 in 14 days."
+              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. On average, faculty members have completed WD 101 in 14 days."
             >
               <p className="pt-4">
                 Coaches and teaching assistants shall support you in clearing
@@ -737,7 +747,7 @@ export default function Page() {
             </DescriptionList>
             <DescriptionList
               heading="Improve your skills and confidence"
-              content="Faculty who have completed training have reported significant improvement in their skills and confidence."
+              content="Faculty members who have completed training have reported significant improvement in their skills and confidence."
             >
               <div>
                 <img
@@ -748,8 +758,16 @@ export default function Page() {
               </div>
             </DescriptionList>
             <DescriptionList
+              heading="Clear any classroom doubts through Teaching Assistants"
+              content="Student TAs, along with industry coaches, can answer any doubts, no matter how silly or complex. Faculty members can confidently ask learners to ask any questions through the digital learning platform."
+            >
+              <div className="pt-6">
+                <HiringNetwork />
+              </div>
+            </DescriptionList>
+            <DescriptionList
               heading="Access Industry Hiring Network"
-              content="Faculty and Institutions shall have access to a growing industry hiring network for your students to gain internships and job opportunities as they complete the curriculum."
+              content="Faculty Members and Institutions shall have access to a growing industry hiring network for your students to gain internships and job opportunities as they complete the curriculum."
             >
               <div className="pt-6">
                 <HiringNetwork />
@@ -804,75 +822,41 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="October 10, 2022 "
+              date="November 00, 2022 "
               content="LITE Batch#3 FDP Applications Open and Training Starts"
             />
             <ScheduleDate
-              date="October 24, 2022"
+              date="November 30, 2022"
               content="Last Date for Batch#3 Applications"
             />
             <ScheduleDate
-              date="October 30, 2022"
-              content="LITE Faculty Training Ends"
+              date="December 12, 2022"
+              content="LITE Faculty Members Training Ends"
             />
             <ScheduleDate
-              date="November 05, 2022"
+              date="December 16, 2022"
               content="Last Date for Institutions to send back signed MOUs"
             />
             <ScheduleDate
-              date="November 15, 2022"
-              content="AICTE to Announce Selected Institutions and Faculty"
+              date="December 21, 2022"
+              content="AICTE to Announce Selected Institutions and Faculty Members"
             />
             <ScheduleDate
-              date="December 24, 2022"
+              date="January 16, 2023"
               content="Last Date for Institutions to secure Univerity Approvals for January Batch"
             />
             <ScheduleDate
-              date="January 05, 2023"
-              content="Last Date for submitting Academic Calendar Integration	"
+              date="January 31, 2023"
+              content="Last Date for submitting Academic Calendar Integration"
             />
             <ScheduleDate
-              date="January 10, 2023"
+              date="February 10, 2023"
               content="Start Course Admissions at your institution"
             />
             <ScheduleDate
               date="Ongoing"
-              content="n Situ faculty training continues along with course deployment"
+              content="In Situ faculty members training continues along with course deployment"
             />
-          </div>
-          <div className="relative mt-16 flex flex-col gap-6 p-6 bg-primary-200 rounded-lg">
-            <p>
-              Autonomous Institutions with approval from University to integrate
-              electives may offer both Web Development and Electric Vehicles
-              courses as Electives to their students and need not provide
-              University approvals
-            </p>
-            <p>
-              Universities of{" "}
-              <a className="text-secondary-500 font-bold" href="#">
-                JNTU-H, ... and more universities
-              </a>{" "}
-              have already approved the curriculum for web development as minor
-              degree for their affiliated institutions which have a LITE
-              faculty.
-            </p>
-            <p>
-              Dates for Institute Academic Calendar Integrations and Course
-              Start are flexible based onSemester Start at your University
-            </p>
-            <svg
-              className="absolute -top-6 -left-6"
-              width="46"
-              height="49"
-              viewBox="0 0 46 49"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M43.3125 19.4639C44.2708 18.9222 44.8906 18.1149 45.1719 17.042C45.4531 15.9691 45.3229 14.9534 44.7812 13.9951L42.7812 10.5576C42.2396 9.59929 41.4323 8.97949 40.3594 8.69824C39.2864 8.41699 38.2708 8.5472 37.3125 9.08887L29 13.8701V4.27637C29 3.19304 28.6042 2.25554 27.8125 1.46387C27.0208 0.672199 26.0833 0.276367 25 0.276367H21C19.9167 0.276367 18.9792 0.672199 18.1875 1.46387C17.3958 2.25554 17 3.19304 17 4.27637V13.8701L8.68749 9.08887C7.72916 8.5472 6.71353 8.41699 5.64061 8.69824C4.5677 8.97949 3.76041 9.59929 3.21874 10.5576L1.21874 13.9951C0.677073 14.9534 0.546865 15.9691 0.828115 17.042C1.10936 18.1149 1.72916 18.9222 2.68749 19.4639L11 24.2764L2.68749 29.0889C1.72916 29.6305 1.10936 30.4378 0.828115 31.5107C0.546865 32.5837 0.677073 33.5993 1.21874 34.5576L3.21874 37.9951C3.76041 38.9535 4.5677 39.5732 5.64061 39.8545C6.71353 40.1357 7.72916 40.0055 8.68749 39.4639L17 34.6826V44.2764C17 45.3597 17.3958 46.2972 18.1875 47.0889C18.9792 47.8805 19.9167 48.2764 21 48.2764H25C26.0833 48.2764 27.0208 47.8805 27.8125 47.0889C28.6042 46.2972 29 45.3597 29 44.2764V34.6826L37.3125 39.4639C38.2708 40.0055 39.2864 40.1357 40.3594 39.8545C41.4323 39.5732 42.2396 38.9535 42.7812 37.9951L44.7812 34.5576C45.3229 33.5993 45.4531 32.5837 45.1719 31.5107C44.8906 30.4378 44.2708 29.6305 43.3125 29.0889L35 24.2764L43.3125 19.4639Z"
-                fill="#FD6400"
-              />
-            </svg>
           </div>
           <div className="pt-10 lg:pt-16">
             <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
