@@ -1,6 +1,7 @@
 import Head from "next/head";
 import DateAndContent from "../components/DateAndContent";
 import DescriptionList from "../components/DescriptionList";
+import StudentTeachingAssistants from "../components/StudentTeachingAssistants";
 import HiringNetwork from "../components/HiringNetwork";
 import PathWayToJoinFDP from "../components/PathWayToJoinFDP";
 import People from "../components/People";
@@ -762,7 +763,7 @@ export default function Page() {
               content="Student TAs, along with industry coaches, can answer any doubts, no matter how silly or complex. Faculty members can confidently ask learners to ask any questions through the digital learning platform."
             >
               <div className="pt-6">
-                <HiringNetwork />
+                <StudentTeachingAssistants />
               </div>
             </DescriptionList>
             <DescriptionList
@@ -778,7 +779,7 @@ export default function Page() {
               content=""
             >
               <div className="flex gap-4 p-2 p-6 bg-white rounded-lg mt-2 md:mt-6">
-                <div className="stretch flex w-auto items-center p-6 bg-white border border-primary-200 rounded-lg">
+                <div className="flex p-3 md:p-6 items-center bg-white border border-primary-200 rounded-lg">
                   <p
                     className="font-bold uppercase text-primary-500"
                     style={{ writingMode: "vertical-rl" }}

@@ -133,7 +133,7 @@ export default function PathWayToJoinFDP() {
         description="Receive LITE Basic Training Completion Letter"
         actions={[
           {
-            title: "Format of LITE Letter Issued to Faculty",
+            title: "Format of LITE Letter Issued to Faculty Memebers",
             actionText: "Download Template",
             url: "",
           },

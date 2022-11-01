@@ -11,7 +11,7 @@ export default function HiringNetwork(props) {
   return (
     <div>
       <div className="max-w-6xl 2xl:max-w-7xl mx-auto bg-white p-6 rounded-lg">
-        <div className="mt-2 lg:mt-4 grid grid-cols-2 gap-1 md:grid-cols-5 ">
+        <div className="mt-2 lg:mt-4 grid sm:grid-cols-2 gap-1 md:grid-cols-5 ">
           {hiringNetwork.map((partner, index) => (
             <HiringPartner key={index} {...partner} />
           ))}
