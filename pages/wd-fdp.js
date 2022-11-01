@@ -823,7 +823,7 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 00, 2022 "
+              date="November 09, 2022 "
               content="LITE Batch#3 FDP Applications Open and Training Starts"
             />
             <ScheduleDate
