@@ -20,7 +20,7 @@ export default function StudentTA({
         <div className="p-4">
           <p className="text-base md:text-lg font-bold">{name}</p>
           <p className="text-gray-600 pt-1">
-            {degree} - Sem {semester}, {department}
+            {degree} - {semester}, {department}
           </p>
         </div>
         <div>

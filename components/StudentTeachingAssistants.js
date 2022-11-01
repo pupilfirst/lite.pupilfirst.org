@@ -6,7 +6,7 @@ export default function IndustryTeachingFellows(props) {
   const [showLess, setShowLess] = useState(false);
   const studentTeachingAssistants = showLess
     ? studentTeachingAssistantsData
-    : studentTeachingAssistantsData.slice(0, 4);
+    : studentTeachingAssistantsData.slice(0, 10);
 
   return (
     <div>
@@ -16,12 +16,12 @@ export default function IndustryTeachingFellows(props) {
             <StudentTA key={index} {...teachingAssistant} />
           ))}
         </div>
-        <button
+        {/* <button
           className="block mx-auto mt-8 text-sm font-semibold text-secondary-600 px-3 py-2 bg-secondary-50 rounded-md"
           onClick={() => setShowLess((prev) => !prev)}
         >
           {showLess ? "Show Less" : "Show more"}
-        </button>
+        </button> */}
       </div>
     </div>
   );
