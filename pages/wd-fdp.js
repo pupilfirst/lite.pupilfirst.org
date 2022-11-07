@@ -5,7 +5,6 @@ import StudentTeachingAssistants from "../components/StudentTeachingAssistants";
 import HiringNetwork from "../components/HiringNetwork";
 import PathWayToJoinFDP from "../components/PathWayToJoinFDP";
 import People from "../components/People";
-import PlayVideoOnScroll from "../components/PlayVideoOnScroll";
 import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
@@ -435,7 +434,7 @@ export default function Page() {
                         Watch video
                       </span>{" "}
                       to see the processes that are executed by each stakeholder
-                      to transform classrroms from NEP 1986 to NEP 2020.
+                      to transform classrooms from NEP 1986 to NEP 2020.
                     </p>
                     <div className="hidden md:block h-6 w-6 absolute top-8 -left-4 z-10">
                       <svg
@@ -469,7 +468,24 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="mt-8 shadow-2xl">
-                    <PlayVideoOnScroll />
+                    <div
+                      style={{ padding: "56.25% 0 0 0", position: "relative" }}
+                    >
+                      <iframe
+                        src="https://player.vimeo.com/video/768136345?h=cd15b50884&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameBorder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "100%",
+                        }}
+                        title="Learner-Centered-Classsroom-Framework-Video"
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
