@@ -37,9 +37,12 @@ export default function PlayVideoOnScroll() {
         playsInline
         controls
         loop
-        src="/video/Swimlane.mp4"
+        src="/video/Learner-Centered-Classsroom-Framework-Video.mp4"
       >
-        <source src="/video/Swimlane.mp4" type="video/mp4" />
+        <source
+          src="/video/Learner-Centered-Classsroom-Framework-Video.mp4"
+          type="video/mp4"
+        />
       </video>
     </div>
   );
