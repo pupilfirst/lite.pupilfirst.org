@@ -27,7 +27,7 @@ export default function StudentTA({
           <p className="px-4 pb-2 pt-2 text-gray-600 font-medium">
             Batch - {batch}
           </p>
-          <p className="bg-gray-100 p-4 w-full font-medium text-gray-700 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
+          <p className="bg-primary-100 p-4 w-full font-medium text-gray-700 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
             {institute}
           </p>
         </div>

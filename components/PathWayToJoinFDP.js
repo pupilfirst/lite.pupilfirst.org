@@ -130,7 +130,7 @@ export default function PathWayToJoinFDP() {
         actions={[
           {
             title: "AICTE NEP 2020 Model Curriculum",
-            actionText: "Download template",
+            actionText: "Download curriculum",
             url: "https://drive.google.com/file/d/1E6TO3o3voQFB8m7SVJvtSVPNDt4uVha2/view",
           },
         ]}
@@ -138,7 +138,19 @@ export default function PathWayToJoinFDP() {
       <PathwayItem
         number="2"
         title="Faculty Member Facilitates LITE MOU signoff with Industry"
-        description="Receive MoU Template for your institution to join AICTE LITE Programme"
+        description={
+          <span>
+            Receive MoU Template for your institution to join AICTE LITE
+            Programme. Once you have signed the MoU share it with us at{" "}
+            <a
+              className="font-semibold underline text-secondary-500 hover:text-secondary-700"
+              href="mailto:wd@pupilfirst.org"
+            >
+              {" "}
+              wd@pupilfirst.org
+            </a>
+          </span>
+        }
         actions={[
           {
             title: "Format of LITE MoU",
@@ -149,8 +161,8 @@ export default function PathWayToJoinFDP() {
       />
       <PathwayItem
         number="3"
-        title="To Assist in getting University Approval"
-        description="Submit AICTE Model Curriculum along with your LITE Training letter to the University."
+        title="To Assist in getting Institute and University Approval"
+        description="Submit AICTE Model Curriculum along with your LITE Training letter to the University and get the required approvals."
         actions={[
           {
             title: "Format of Approval letter issued by Institution",
@@ -191,7 +203,7 @@ export default function PathWayToJoinFDP() {
         disabled={true}
       />
       <div className="p-4 rounded-lg bg-primary-100 border border-primary-300 italic">
-        <p>
+        <p className="text-lg">
           Please visit{" "}
           <a
             href="https://resources.pupilfirst.org/lite"

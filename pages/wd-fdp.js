@@ -139,7 +139,7 @@ export default function Page() {
                 pedagogy, competency-based curriculums, continuous and
                 personalized assessments thus{" "}
                 <span className="font-bold">
-                  enabling 100,000 faculty members to skill 2.4 Crore students{" "}
+                  enabling 100,000 faculty to skill 2.4 Crore students{" "}
                 </span>
                 in emerging industry technologies, beginning with Advanced Web
                 Development.
@@ -147,7 +147,8 @@ export default function Page() {
               <div className="pt-4 md:pt-8">
                 <div>
                   <a
-                    href="#"
+                    href="https://application.pupilfirst.org/wdfdp"
+                    target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                   >
                     Apply Now for LITE FDP
@@ -285,7 +286,8 @@ export default function Page() {
               Programme.
             </p>
             <a
-              href="#"
+              href="https://application.pupilfirst.org/wdfdp"
+              target="_blank"
               className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
             >
               Apply Now for LITE FDP
@@ -402,7 +404,8 @@ export default function Page() {
               </div>
               <div className="p-4">
                 <a
-                  href="#"
+                  href="https://application.pupilfirst.org/wdfdp"
+                  target="_blank"
                   className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                 >
                   Apply Now for LITE FDP
@@ -891,25 +894,42 @@ export default function Page() {
             <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
               Questions?
             </h3>
-            <p className="pt-2">
+            <p className="text-xl font-semibold mt-4">
+              For queries regarding ATAL FDP
+            </p>
+            <p>
               Email Ms Mamta Rani, Director, ATAL Academy at
               <a
                 href="mailto:director.atal@aicte-india.org"
-                className={
-                  "text-primary-800 underline pl-2 tracking-wide font-medium"
-                }
+                className="text-secondary-500 underline font-semibold hover:text-secondary-700"
               >
+                {" "}
                 director.atal@aicte-india.org
               </a>{" "}
               with cc to
               <a
                 href="mailto:aicte-fdp@pupilfirst.org"
-                className={
-                  "text-primary-800 underline pl-2 tracking-wide font-medium"
-                }
+                className="text-secondary-500 underline font-semibold hover:text-secondary-700"
               >
+                {" "}
                 aicte-fdp@pupilfirst.org
               </a>
+            </p>
+            <p className="text-xl font-semibold mt-4">
+              For queries regarding LITE Advanced Web Development programme and
+              Integration
+            </p>
+            <p>
+              Email Pupilfirst support team for any help that you would require
+              at{" "}
+              <a
+                className="text-secondary-500 underline font-semibold hover:text-secondary-700"
+                href="mailto:wd@pupilfirst.org"
+              >
+                wd@pupilfirst.org
+              </a>{" "}
+              or send a WhatsApp message to our{" "}
+              <strong>LITE Helpline Number +91-9035116367.</strong>
             </p>
           </div>
           <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
@@ -918,7 +938,7 @@ export default function Page() {
             </h4>
             <div className="mt-6 flex justify-center">
               <a
-                href="#"
+                href="https://application.pupilfirst.org/wdfdp"
                 target="_blank"
                 className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
               >
