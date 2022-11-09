@@ -1,15 +1,5 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  mode: "jit",
-  purge: {
-    content: ["./pages/**/*.js"],
-    options: {
-      whitelist: [],
-    },
-  },
+  content: ["./pages/**/*.js", "./components/**/*.js"],
   theme: {
     extend: {
       fontFamily: {
@@ -44,6 +34,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [require("@tailwindcss/aspect-ratio")],
 };

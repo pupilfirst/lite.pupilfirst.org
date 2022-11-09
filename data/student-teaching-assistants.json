@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Aravind Kannan Rathinasabapathi",
+    "degree": "BE",
+    "semester": "Sem VII",
+    "department": "Computer Science and Engineering",
+    "batch": "GDC",
+    "institute": "Sri Sivasubramaniya Nadar College Of Engineering",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657711762/LITE/Dashboard/Teaching%20Assistants/Aravind_Kannan_Rathinasabapathi_frt5hu.jpg"
+  },
+  {
+    "name": "Mohammed Rabil",
+    "degree": "BE",
+    "semester": "Sem V",
+    "department": "Artificial Intelligence and Machine Learning",
+    "batch": "GDC",
+    "institute": "St. Joseph Engineering College",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657768482/LITE/Dashboard/Teaching%20Assistants/Mohammed_Rabil_xbefej.jpg"
+  },
+  {
+    "name": "Mohd Saad",
+    "degree": "B.Sc",
+    "semester": "Sem V",
+    "department": "Chemistry hons. (with Physics and Mathematics)",
+    "batch": "WD201 - TA Training",
+    "institute": "Aligarh Muslim University",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657768830/LITE/Dashboard/Teaching%20Assistants/Saad_jw6cp4.jpg"
+  },
+  {
+    "name": "Naman Gogia",
+    "degree": "B.Tech",
+    "semester": "Sem VII",
+    "department": "Electrical Engineering",
+    "batch": "GDC",
+    "institute": "Delhi Technological University",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657779854/LITE/Dashboard/Teaching%20Assistants/Naman_Gogia_-_Naman_Gogia_cf9frt.png"
+  },
+  {
+    "name": "Pranshu Aggarwal",
+    "degree": "B.Tech",
+    "semester": "Sem III",
+    "department": "Computer science",
+    "batch": "GDC",
+    "institute": "Vellore Institute Of Technology Chennai",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657711763/LITE/Dashboard/Teaching%20Assistants/Pranshu_Aggarwal_jxjmil.jpg"
+  },
+  {
+    "name": "Shivank Kacker",
+    "degree": "BCA",
+    "semester": "Sem III",
+    "department": "",
+    "batch": "GDC",
+    "institute": "Navrachana University",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657788697/LITE/Dashboard/Teaching%20Assistants/Shivank_Kacker_retceu.jpg"
+  },
+  {
+    "name": "Shreedhar Chavan",
+    "degree": "B.E",
+    "semester": "Graduated",
+    "department": "Information Technology",
+    "batch": "WD201 - TA Training",
+    "institute": "Pillai College Of Engineering, Navi Mumbai, Maharashtra",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657711762/LITE/Dashboard/Teaching%20Assistants/Shreedhar_Chavan_acghsm.jpg"
+  },
+  {
+    "name": "Tanya Rampal",
+    "degree": "B.Tech",
+    "semester": "Sem VII",
+    "department": "Electronics and Communications",
+    "batch": "WD201 - TA Training",
+    "institute": "IIT-Roorkee",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1658120208/LITE/Dashboard/Teaching%20Assistants/Tanya_xlizlx.jpg"
+  },
+  {
+    "name": "Yaswanth Kumar Bethu",
+    "degree": "B.Tech",
+    "semester": "Graduated",
+    "department": "Computer Science and Engineering",
+    "batch": "WD201 - TA Training",
+    "institute": "Prasad V. Potluri Siddhartha Institute Of Technology",
+    "image_url": "https://res.cloudinary.com/sv-co/image/upload/v1657768483/LITE/Dashboard/Teaching%20Assistants/Yaswanth_Kumar_Bethu_g3l25f.jpg"
+  }
+]
