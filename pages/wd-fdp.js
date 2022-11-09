@@ -323,11 +323,11 @@ export default function Page() {
 
               <DescriptionList
                 heading="Dynamic Updates by Industry"
-                content="NEP 2020 Model Curriculums are maintained by practising industry engineers enabling faculty members and students to learn the most up-to-date knowledge"
+                content="NEP 2020 Model Curriculums are maintained by practicing industry engineers enabling faculty members and students to learn the most up-to-date knowledge."
               />
               <DescriptionList
                 heading="Teaching Assistants"
-                content="Get support from student teaching assistants (TA's) who have completed the curriculum to enable you to answer all queries/doubts of your learners via the learning community."
+                content="Get support from student teaching assistants (TAs) who have completed the curriculum to enable you to answer all queries/doubts of your learners via the learning community."
               />
               <DescriptionList
                 heading="Career Progression"
@@ -339,7 +339,7 @@ export default function Page() {
                   <p>
                     Faculty members who complete training shall be certified as
                     AICTE LITE Brand Ambassador of Change.{" "}
-                    <span className="italic block">
+                    <span className="italic block mt-6">
                       A copy of the previous LITE certificate is below as a
                       sample.
                     </span>
@@ -364,7 +364,7 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="November 09, 2022 "
+                  date="November 10, 2022 "
                   content="LITE Batch#3 FDP Applications Open and Training Starts"
                 />
                 <DateAndContent
@@ -381,23 +381,23 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="December 21, 2022"
-                  content="AICTE to Announce Selected Institutions and Faculty"
+                  content="AICTE to Announce Selected Institutions and Faculty Members"
                 />
                 <DateAndContent
                   date="January 16, 2023"
-                  content="Last Date for Institutions to secure Univerity Approvals for January Batch"
+                  content="Last Date for Institutions to secure University Approvals for February Batch"
                 />
                 <DateAndContent
                   date="January 31, 2023"
-                  content="Last Date for submitting Academic Calendar Integration	"
+                  content="Last Date for submitting Academic Calendar Integration"
                 />
                 <DateAndContent
                   date="February 10, 2023"
-                  content="Start Course Admissions at your institution"
+                  content="Start Course Admissions for students at your institution"
                 />
                 <DateAndContent
                   date="Ongoing"
-                  content="In Situ faculty members training continues along with course deployment"
+                  content="In Situ faculty training continues along with course deployment"
                 />
               </div>
               <div className="p-4">
@@ -495,10 +495,10 @@ export default function Page() {
 
         <SectionWithHeading heading={"Deep Research Integration"}>
           <p className="md:text-lg">
-            Faculty Members and Institutions who qualify shall become part of
-            the Learning Engineering, Analytics & Research Network (LEARN); a
-            key component of the LITE programme. The research team's goal is to
-            constantly listen to institutions and faculty members to suggest
+            Faculty and Institutions who qualify shall become part of the
+            Learning Engineering, Analytics & Research Network (LEARN); a key
+            component of the LITE programme. The research team's goal is to
+            constantly listen to institutions and faculty to suggest
             improvements to policymakers so that the learner-centred classroom
             framework is dynamically improving every day.
           </p>
@@ -525,14 +525,16 @@ export default function Page() {
             imageSrc="/people/Prof-Anil-Sahasrabudhe.jpg"
           />
         </SectionWithHeading>
-        <SectionWithHeading heading={<p>Six Steps to be a LITE Institution</p>}>
+        <SectionWithHeading
+          heading={<p>Five Steps to be a LITE Institution</p>}
+        >
           <PathWayToJoinFDP />
         </SectionWithHeading>
 
         <SectionWithHeading
           heading={
             <p>
-              Join LITE VC’s and <br /> Heads of Institutions
+              Join LITE VCs and <br /> Heads of Institutions
             </p>
           }
         >
@@ -753,7 +755,17 @@ export default function Page() {
             </DescriptionList>
             <DescriptionList
               heading="Easy to Get Started"
-              content="WD 101 is a beginner-level and easy one-credit course of 15 hours, which can be learned at your own pace. On average, faculty members have completed WD 101 in 14 days."
+              content={
+                <span>
+                  WD 101 is a beginner-level and easy one-credit course of 15
+                  hours, which can be learned at your own pace.{" "}
+                  <strong>
+                    {" "}
+                    On average, faculty members have completed WD 101 in 14
+                    days.
+                  </strong>
+                </span>
+              }
             >
               <p className="pt-4">
                 Coaches and teaching assistants shall support you in clearing
@@ -764,7 +776,7 @@ export default function Page() {
             </DescriptionList>
             <DescriptionList
               heading="Improve your skills and confidence"
-              content="Faculty members who have completed training have reported significant improvement in their skills and confidence."
+              content="Faculty members who have completed the course(s) as part of FDP  have reported significant improvement in their skills and confidence."
             >
               <div>
                 <img
@@ -839,7 +851,7 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 09, 2022 "
+              date="November 10, 2022 "
               content="LITE Batch#3 FDP Applications Open and Training Starts"
             />
             <ScheduleDate
@@ -860,7 +872,7 @@ export default function Page() {
             />
             <ScheduleDate
               date="January 16, 2023"
-              content="Last Date for Institutions to secure Univerity Approvals for January Batch"
+              content="Last Date for Institutions to secure University Approvals for February Batch"
             />
             <ScheduleDate
               date="January 31, 2023"
@@ -868,11 +880,11 @@ export default function Page() {
             />
             <ScheduleDate
               date="February 10, 2023"
-              content="Start Course Admissions at your institution"
+              content="Start Course Admissions for students at your institution"
             />
             <ScheduleDate
               date="Ongoing"
-              content="In Situ faculty members training continues along with course deployment"
+              content="In Situ faculty training continues along with course deployment"
             />
           </div>
           <div className="pt-10 lg:pt-16">
