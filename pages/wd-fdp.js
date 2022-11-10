@@ -399,7 +399,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="Ongoing"
-                  content="In Situ faculty training continues along with course deployment"
+                  content="Faculty training continues along with course deployment"
                 />
               </div>
               <div className="p-4">
@@ -887,35 +887,31 @@ export default function Page() {
             />
             <ScheduleDate
               date="Ongoing"
-              content="In Situ faculty training continues along with course deployment"
+              content="Faculty training continues along with course deployment"
             />
           </div>
           <div className="pt-10 lg:pt-16">
             <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
               Questions?
             </h3>
-            <p className="text-xl font-semibold mt-4">
+            <p className="text-lg md:text-xl font-semibold mt-4">
               For queries regarding ATAL FDP
             </p>
             <p>
-              Email Ms Mamta Rani, Director, ATAL Academy at
+              Email <span className="font-medium">Ms Mamta Rani</span>,
+              Director, ATAL Academy at{" "}
               <a
-                href="mailto:director.atal@aicte-india.org"
+                href="mailto:director.atal@aicte-india.org?cc=wd@pupilfirst.org"
                 className="text-secondary-500 underline font-semibold hover:text-secondary-700"
               >
-                {" "}
                 director.atal@aicte-india.org
               </a>{" "}
-              with cc to
-              <a
-                href="mailto:aicte-fdp@pupilfirst.org"
-                className="text-secondary-500 underline font-semibold hover:text-secondary-700"
-              >
-                {" "}
-                aicte-fdp@pupilfirst.org
-              </a>
+              with cc to{" "}
+              <span className="text-gray-600 font-semibold">
+                wd@pupilfirst.org
+              </span>
             </p>
-            <p className="text-xl font-semibold mt-4">
+            <p className="text-lg md:text-xl font-semibold mt-8">
               For queries regarding LITE Advanced Web Development programme and
               Integration
             </p>
@@ -928,8 +924,28 @@ export default function Page() {
               >
                 wd@pupilfirst.org
               </a>{" "}
-              or send a WhatsApp message to our{" "}
-              <strong>LITE Helpline Number +91-9035116367.</strong>
+            </p>
+            <p className="pt-2">
+              <strong>OR</strong> send a WhatsApp message to our{" "}
+              <a
+                className="inline-flex px-3 py-1.5 mt-1 md:ml-1 space-x-2 rounded-md items-center font-semibold text-white shadow-md bg-gradient-to-br from-green-500 to-green-600 hover:shadow-lg hover:bg-gradient-to-r transition"
+                href="https://wa.me/message/XKNMF7XL5SL5J1"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="w-4 h-4"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                  </svg>
+                </span>
+                <span>LITE WhatsApp Helpline Number</span>
+              </a>
             </p>
           </div>
           <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
