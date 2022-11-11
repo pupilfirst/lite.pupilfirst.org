@@ -199,8 +199,6 @@ h4 {
   -webkit-background-clip: text;
 }
 
-
-
 .img-comparison-slider__img-1,
 .img-comparison-slider__img-2 {
   margin: 0;
@@ -219,7 +217,6 @@ h4 {
   @apply right-4;
 }
 
-
 .draw-arrow__svg-path {
   stroke-width: 4;
   stroke: dodgerblue;
@@ -236,4 +233,24 @@ h4 {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.nav-link {
+  @apply border-b-2 border-transparent transition-all;
+}
+
+.nav-link:hover {
+  @apply border-primary-300;
+}
+
+.nav-link:hover .title {
+  @apply text-black;
+}
+
+.nav-link.active {
+  @apply border-primary-500;
+}
+
+.nav-link.active .title {
+  @apply text-primary-500;
 }
