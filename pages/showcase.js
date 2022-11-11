@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Head from "next/head";
 import NavLink from "../components/NavLink";
 import VideoCard from "../components/VideoCard";
+import ModalUniversity from "../components/ModalUniversity";
 
 export default function Page() {
   const highlightLink = (link) => {
@@ -240,10 +241,9 @@ export default function Page() {
             </div>
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-            <div
-              id="modal-university"
-              className="section h-screen bg-red-200"
-            ></div>
+            <div id="modal-university" className="section h-screen bg-red-200">
+              <ModalUniversity />
+            </div>
             <div
               id="modal-institute"
               className="section h-screen bg-green-300"
