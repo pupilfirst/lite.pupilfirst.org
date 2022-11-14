@@ -114,10 +114,8 @@ export default function Page() {
             </div>
           </header>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-            <h1 className="font-black text-6xl w-11/12 leading-tight text-gray-500">
-              The national role models who are bringing the Transformational
-              Vision of{" "}
-              <span className="text-black">NEP 2020 into Reality.</span>
+            <h1 className="font-bold  mx-auto text-center max-w-4xl text-6xl leading-tight text-gray-800">
+              National Showcase of LITE Institutions & Faculty
             </h1>
             <div className="mt-12">
               <img-comparison-slider hover="hover">
@@ -151,24 +149,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-          <div className="flex gap-5">
-            <VideoCard
-              title="NEP 2020 Vision"
-              description="Watch 1:50 minute Video"
-              thumbnail="/showcase/NEP-2020-Vision.png"
-              videoTitle="AICTE Leadership in Teaching Excellence (LITE) - Transformation of Classrooms to NEP 2020 Learner Centered Pedagogy"
-              VimeoVideoId="760206777"
-            />
-            <VideoCard
-              title="NEP 2020 Processes"
-              description="Watch 55 Seconds Video"
-              thumbnail="/showcase/NEP-2020-Vision.png"
-              videoTitle="Learner-Centered-Classsroom-Framework-Video"
-              VimeoVideoId="768136345"
-            />
-          </div>
-        </section>
+
         <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
           <div className="flex gap-5 my-8">
             <img
@@ -209,10 +190,28 @@ export default function Page() {
             </div>
           </div>
         </section>
+        <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
+          <div className="flex gap-5">
+            <VideoCard
+              title="NEP 2020 Vision"
+              description="Watch 1:50 minute Video"
+              thumbnail="/showcase/NEP-2020-Vision.png"
+              videoTitle="AICTE Leadership in Teaching Excellence (LITE) - Transformation of Classrooms to NEP 2020 Learner Centered Pedagogy"
+              VimeoVideoId="760206777"
+            />
+            <VideoCard
+              title="NEP 2020 Processes"
+              description="Watch 55 Seconds Video"
+              thumbnail="/showcase/NEP-2020-Vision.png"
+              videoTitle="Learner-Centered-Classsroom-Framework-Video"
+              VimeoVideoId="768136345"
+            />
+          </div>
+        </section>
         <section className="border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-            <h2 className="text-6xl w-11/12 lg:w-1/2 text-center mx-auto my-12">
-              Introducing AICTE’s Brand Ambassadors of Change
+            <h2 className="text-6xl w-11/12 text-center mx-auto my-12">
+              Introducing AICTE's Brand Ambassadors of Change
             </h2>
           </div>
           <div className="bg-white sticky top-0 z-40">
@@ -241,14 +240,11 @@ export default function Page() {
             </div>
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-            <div id="modal-university" className="section h-screen bg-red-200">
+            <div id="modal-university" className="section">
               <ModalUniversity />
             </div>
-            <div
-              id="modal-institute"
-              className="section h-screen bg-green-300"
-            ></div>
-            <div id="modal-faculty" className="section h-screen"></div>
+            <div id="modal-institute" className="section bg-green-300"></div>
+            <div id="modal-faculty" className="section"></div>
           </div>
         </section>
       </main>
