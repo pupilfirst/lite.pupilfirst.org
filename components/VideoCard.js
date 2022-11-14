@@ -44,8 +44,8 @@ export default function VideoCard({
                   y2="77"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FF9651" />
-                  <stop offset="1" stop-color="#FD6400" />
+                  <stop stopColor="#FF9651" />
+                  <stop offset="1" stopColor="#FD6400" />
                 </linearGradient>
               </defs>
             </svg>
