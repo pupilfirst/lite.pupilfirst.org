@@ -17,7 +17,7 @@ export default function UniversityModelFaculty({
       />
       <div className="flex h-full">
         <div className="flex flex-col justify-between border-l border-blue-400 pl-3 md:pl-4 ml-2 md:ml-4">
-          <p className="text-xl leading-tight md:text-3xl font-normal text-white pt-3 md:pt-6">
+          <p className="text-xl leading-tight md:text-2xl font-normal text-white pt-3 md:pt-6">
             {quote}
           </p>
           <div>

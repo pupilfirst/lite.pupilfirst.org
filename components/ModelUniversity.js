@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ModelUniversity() {
   return (
-    <div className="bg-green-700 mt-8 rounded-xl text-white">
+    <div className="bg-green-700 mt-8 rounded-xl text-white shadow-2xl">
       <h2 className="flex space-x-4 pt-12 pr-8 text-3xl md:text-5xl">
         <span className="w-2 md:w-3 rounded-r-md bg-green-400"></span>
         <span>Model University</span>

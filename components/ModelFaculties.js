@@ -4,7 +4,7 @@ import UniversityModelFaculty from "./UniversityModelFaculty";
 
 export default function ModelFaculties() {
   return (
-    <div className="bg-blue-700 bg-gradient-to-br from-blue-500 to-blue-700 mt-8 rounded-xl text-white">
+    <div className="bg-blue-700 bg-gradient-to-br from-blue-500 to-blue-700 mt-8 rounded-xl text-white shadow-2xl">
       <h2 className="flex space-x-4 pt-12 pr-8 text-3xl md:text-5xl">
         <span className="w-2 md:w-3 rounded-r-md bg-blue-300"></span>
         <span>Model Faculty Members</span>

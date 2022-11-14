@@ -1,8 +1,9 @@
 import React from "react";
+import ModelInstitute from "../components/ModelInstitute";
 
 export default function ModelInstitutes() {
   return (
-    <div className="bg-yellow-600 bg-gradient-to-br from-yellow-600 to-yellow-700 mt-8 rounded-xl text-white">
+    <div className="bg-yellow-600 bg-gradient-to-br from-yellow-600 to-yellow-700 mt-8 rounded-xl text-white shadow-2xl">
       <h2 className="flex space-x-4 pt-12 pr-8 text-3xl md:text-5xl">
         <span className="w-2 md:w-3 rounded-r-md bg-yellow-300"></span>
         <span>Model Institutes & Leadership</span>
@@ -15,42 +16,55 @@ export default function ModelInstitutes() {
           faculty members to adopt the change.
         </h3>
       </div>
-      <div className="grid md:grid-cols-5 p-3 md:p-8 gap-8">
-        <div className="md:col-span-3">
-          <img
-            src="/showcase/people/Prof-Manzoor-Hussain.jpg"
-            alt=""
-            className="w-full object-cover rounded-lg shadow-xl"
-          />
-        </div>
-        <div className="md:col-span-2 flex flex-col justify-between">
-          <div>
-            <div>
-              <img
-                src="/logos/JNTU_Hyderabad_logo.png"
-                alt="JNTU Hyderabad logo"
-                className="w-12 h-12"
-              />
-            </div>
-            <p className="font-semibold mt-2">
-              Jawaharlal Nehru Technological University
-            </p>
-            <p className="text-sm">Hyderabad</p>
-          </div>
-          <div className="relative mt-8 md:mt-4">
-            <div className="border-t-2 md:border-t border-yellow-500 w-1/4 md:-ml-8"></div>
-            <p className="text-xl md:text-3xl font-normal text-white pt-2 md:pt-4">
-              Designing the curriculum for implementing National Education
-              Policy is very important.
-            </p>
-            <p className="pt-6 font-semibold md:text-lg">
-              Prof Manzoor Hussain
-            </p>
-            <p className="text-sm md:text-base">
-              Registrar, Jawaharlal Nehru Technological University, Hyderabad
-            </p>
-          </div>
-        </div>
+      <div className="space-y-8">
+        <ModelInstitute
+          imageSrc="/showcase/people/Malla_Reddy_College_of_Engineering_and_Technology/Dr_S_Sreenivasa_Rao.jpg"
+          name="Dr. S. Sreenivasa Rao"
+          quote="Major Degree and Minor Degree programmes are very popular in western countries, and now the government has taken initiation to introduce this in our country also."
+          designation="Principal"
+          university="Malla Reddy College of Engineering and Technology"
+          place="Hyderabad"
+        />
+        <ModelInstitute
+          imageSrc="/showcase/people/Chaitanya_Bharathi_Institute_of_Technology/Dr_P_Ravindra_Reddy.jpg"
+          name="Dr. P. Ravindra Reddy"
+          quote="Inline with NEP 2020, we have been implementing this programme where skill sets are going to be huge because of industry involvement in curriculum development and delivery."
+          designation="Principal"
+          university="Chaitanya Bharathi Institute of Technology"
+          place="Hyderabad"
+        />
+        <ModelInstitute
+          imageSrc="/showcase/people/Sreyas_Institute_of_Engineering_and_Technology/Dr_S_Sai_Satyanarayana_Reddy.jpg"
+          name="Dr. S. Sai Satyanarayana Reddy"
+          quote="As per NEP 2020, faculty should also learn the updated and cutting edge technologies to learn and also teach the students."
+          designation="Principal"
+          university="Sreyas Institute of Engineering and Technology"
+          place="Hyderabad"
+        />
+        <ModelInstitute
+          imageSrc="/showcase/people/Vardhaman_College_of_Enginnering/Prof_J_V_R_Ravindra.jpg"
+          name="Prof. J V R Ravindra"
+          quote="Curriculum plays a major role in nurturing the student community, so if the curriculum is good, we can ensure the students are industry-ready."
+          designation="Principal"
+          university="Vardhaman College of Engineering"
+          place="Shamshabad"
+        />
+        <ModelInstitute
+          imageSrc="/showcase/people/G_Narayanamma_Institute_of_Technology_Science/Dr_Kolli_Ramesh_Reddy.jpg"
+          name="Dr. Kolli Ramesh Reddy"
+          quote="We have to be mentors and give proper advice for improving the student's skills because nowadays, AICTE, the Government of India and Statutory bodies are looking to improve the quality of education in our country."
+          designation="Principal"
+          university="G. Narayanamma Institute of Technology Science (for Women)"
+          place="Hyderabad"
+        />
+        <ModelInstitute
+          imageSrc="/showcase/people/Institute_of_Aeronautical_Engineering/Prof_N_Sambasiva_Rao.jpg"
+          name="Prof. N Sambasiva Rao"
+          quote="More than 300 students are participating from our institution and we have made a special allocation of labs and two staff members to co-ordinate the program."
+          designation="Principal"
+          university="Institute of Aeronautical Engineering"
+          place="Hyderabad"
+        />
       </div>
     </div>
   );

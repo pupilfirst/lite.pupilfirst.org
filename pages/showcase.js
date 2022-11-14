@@ -45,7 +45,7 @@ export default function Page() {
         <title>Leadership in Teaching Excellence (LITE)</title>
         <meta
           name="description"
-          content="AICTE’s Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
+          content="AICTE's Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence."
         ></meta>
         <meta
           name="keywords"
@@ -116,11 +116,22 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-            <h1 className="font-bold  mx-auto text-center max-w-4xl text-6xl leading-tight text-gray-800">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center md:mt-8 py-4 px-4 xl:px-0 relative z-10">
+            <div className="inline-block rounded bg-primary-100 py-1 px-1 md:px-2">
+              <p className="font-medium text-sm text-primary-800">
+                All India Council for Technical Education.
+              </p>
+            </div>
+            <p className="hero__title-gradient text-center md:text-3xl py-1 lg:py-4 font-extrabold">
+              Leadership in Teaching Excellence
+              <span className="hidden md:inline-block text-lg md:text-xl pl-1">
+                (LITE)
+              </span>
+            </p>
+            <h1 className="font-black mx-auto text-center max-w-6xl text-2xl md:text-7xl leading-tight text-gray-800">
               National Showcase of LITE Institutions & Faculty
             </h1>
-            <div className="mt-12">
+            <div className="mt-6 md:mt-12">
               <img-comparison-slider hover="hover">
                 <figure slot="first" className="img-comparison-slider__img-1">
                   <img
@@ -154,11 +165,11 @@ export default function Page() {
         </section>
 
         <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-          <div className="flex gap-5 my-8">
+          <div className="flex flex-col md:flex-row gap-5 my-8">
             <img
               src="/people/dr-leena-chandran.png"
               alt="Photograph of Dr Leena"
-              className="rounded-lg h-56"
+              className="rounded-lg w-full md:w-72"
             />
             <div className="flex">
               <div>
@@ -194,7 +205,7 @@ export default function Page() {
           </div>
         </section>
         <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-          <div className="flex gap-5">
+          <div className="flex flex-col md:flex-row gap-5">
             <VideoCard
               title="NEP 2020 Vision"
               description="Watch 1:50 minute Video"
@@ -213,11 +224,15 @@ export default function Page() {
         </section>
         <section className="border-t border-gray-200">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
-            <h2 className="text-6xl w-11/12 text-center mx-auto my-12">
+            <h2 className="leading-tight md:text-6xl text-center mx-auto mt-12">
               Introducing AICTE's Brand Ambassadors of Change
             </h2>
+            <p className="text-center text-gray-600 font-medium mt-2 md:text-xl">
+              National role models bringing the transformational vision of NEP
+              2020 into reality.
+            </p>
           </div>
-          <div className="bg-white sticky top-0 z-40">
+          <div className="bg-white sticky top-0 z-40 mt-4">
             <div className="max-w-6xl 2xl:max-w-7xl bg-white overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between">
               <NavLink
                 title="Model University"

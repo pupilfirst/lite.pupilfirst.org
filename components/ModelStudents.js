@@ -9,9 +9,9 @@ export default function IndustryTeachingFellows(props) {
     : studentTeachingAssistantsData.slice(0, 10);
 
   return (
-    <div className="bg-blue-700 bg-gradient-to-br from-blue-500 to-blue-700 mt-8 pb-12 rounded-xl text-white">
+    <div className="bg-teal-700 bg-gradient-to-br from-teal-500 to-teal-700 mt-8 pb-12 rounded-xl text-white shadow-2xl">
       <h2 className="flex space-x-4 pt-12 pr-8 text-3xl md:text-5xl">
-        <span className="w-2 md:w-3 rounded-r-md bg-blue-300"></span>
+        <span className="w-2 md:w-3 rounded-r-md bg-teal-400"></span>
         <span>Model Students</span>
       </h2>
       <div className="pt-8 px-3 md:px-8">
