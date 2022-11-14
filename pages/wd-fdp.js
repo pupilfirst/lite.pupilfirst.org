@@ -366,7 +366,7 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="November 10, 2022 "
+                  date="November 16, 2022 "
                   content="LITE Batch#3 FDP Applications Open and Training Starts"
                 />
                 <DateAndContent
@@ -535,14 +535,48 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading heading={<p>Approval Process Experience</p>}>
-          <p className="md:text-lg">
-            Faculty and Institutions who qualify shall become part of the
-            Learning Engineering, Analytics & Research Network (LEARN); a key
-            component of the LITE programme. The research team's goal is to
-            constantly listen to institutions and faculty to suggest
-            improvements to policymakers so that the learner-centred classroom
-            framework is dynamically improving every day.
-          </p>
+          <div className="relative">
+            <p className="md:text-lg">
+              Watch the experience of{" "}
+              <span className="font-semibold">
+                Chaitanya Bharati Institute of Technology
+              </span>
+              on how they secured approvals from{" "}
+              <span className="font-semibold">Osmania University,</span>{" "}
+              enabling faculty to launch NEP 2020 Classrooms.
+            </p>
+            <div className="hidden md:block h-6 w-6 absolute top-6 -left-6 -translate-y-1.5 rotate-12 z-10">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 43.1 85.9"
+                xmlSpace="preserve"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="st0 draw-arrow__svg-path"
+                  d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="draw-arrow__svg-path"
+                  d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="draw-arrow__svg-path"
+                  d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9"
+                />
+              </svg>
+            </div>
+          </div>
+
           <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
             <iframe
               src="https://player.vimeo.com/video/770258057?h=15a8fe2942&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -556,7 +590,7 @@ export default function Page() {
                 width: "100%",
                 height: "100%",
               }}
-              className="rounded-md md:rounded-xl mt-8"
+              className="rounded-md md:rounded-xl mt-8 shadow-xl"
               title="AICTE LITE Academic Approval Process Steps | Prof. Ravindra Reddy"
             ></iframe>
           </div>
@@ -882,7 +916,7 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 10, 2022 "
+              date="November 16, 2022 "
               content="LITE Batch#3 FDP Applications Open and Training Starts"
             />
             <ScheduleDate
