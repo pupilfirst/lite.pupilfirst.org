@@ -24,11 +24,11 @@ export default function ModelUniversity() {
         </div>
         <div className="md:col-span-2 flex flex-col justify-between">
           <div>
-            <div>
+            <div className="w-20 h-20 p-2 bg-white rounded-md">
               <img
-                src="/logos/JNTU_Hyderabad_logo.png"
+                src="/showcase/logos/JNTU_Hyderabad_logo.png"
                 alt="JNTU Hyderabad logo"
-                className="w-12 h-12"
+                className="object-fit"
               />
             </div>
             <p className="font-semibold mt-2">

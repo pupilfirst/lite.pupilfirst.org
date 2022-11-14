@@ -20,11 +20,11 @@ export default function ModelInstitute({
       </div>
       <div className="md:col-span-5 flex flex-col justify-between">
         <div>
-          <div>
+          <div className="h-20 w-20 p-2 flex items-center justify-center bg-white rounded-md">
             <img
-              src="/logos/JNTU_Hyderabad_logo.png"
-              alt="JNTU Hyderabad logo"
-              className="w-12 h-12"
+              src={universityLogo}
+              alt={"Logo of" + university}
+              className="object-fit"
             />
           </div>
           <p className="font-semibold mt-2">{university}</p>

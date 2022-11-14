@@ -16,7 +16,7 @@ export default function ModelFaculties() {
         </h3>
       </div>
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/Chaitanya_Bharathi_Institute_of_Technology_logo.png"
         university="Chaitanya Bharathi Institute of Technology"
         place="Hyderabad"
       >
@@ -55,7 +55,7 @@ export default function ModelFaculties() {
       </UniversityModelFacultyList>
 
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/G_Narayanamma_Institute_of_Technology_and_Science_For_Women_JNTUH_Hyderabad.png"
         university="G Narayanamma Institute of Technology and Science"
         place="Hyderabad"
       >
@@ -78,7 +78,7 @@ export default function ModelFaculties() {
       </UniversityModelFacultyList>
 
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/Institute_of_Aeronautical_Engineering_Hyderabad.png"
         university="Institute of Aeronautical Engineering"
         place="Hyderabad"
       >
@@ -101,7 +101,7 @@ export default function ModelFaculties() {
       </UniversityModelFacultyList>
 
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/Malla_Reddy_College_of_Engineering_and_Technology_Hyderabad.png"
         university="Malla Reddy College of Engineering and Technology"
         place="Hyderabad"
       >
@@ -124,7 +124,7 @@ export default function ModelFaculties() {
       </UniversityModelFacultyList>
 
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/Sreyas_Institute_of_Engineering_and_Technology.png"
         university="Shreyas Institute of Engineering and Technology"
         place="Hyderabad"
       >
@@ -155,7 +155,7 @@ export default function ModelFaculties() {
       </UniversityModelFacultyList>
 
       <UniversityModelFacultyList
-        universityLogo="/logos/JNTU_Hyderabad_logo.png"
+        universityLogo="/showcase/logos/Vardhaman_College_of_Engineering_Shamshabad.jpg"
         university="Vardhaman College of Engineering"
         place="Shamshabad"
       >

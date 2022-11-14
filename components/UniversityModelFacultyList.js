@@ -10,11 +10,11 @@ export default function UniversityModelFacultyList({
     <div>
       <div className="pt-8 px-3 md:px-8">
         <div className="pt-12 md:flex md:space-x-4">
-          <div>
+          <div className="w-32 h-32 object-contain bg-white rounded-md flex items-center justify-center">
             <img
               src={universityLogo}
               alt={"Logo of " + university}
-              className="w-24 h-24"
+              className="w-24 object-contain"
             />
           </div>
           <div>

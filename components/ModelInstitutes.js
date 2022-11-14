@@ -18,6 +18,7 @@ export default function ModelInstitutes() {
       </div>
       <div className="space-y-8">
         <ModelInstitute
+          universityLogo="/showcase/logos/Malla_Reddy_College_of_Engineering_and_Technology_Hyderabad.png"
           imageSrc="/showcase/people/Malla_Reddy_College_of_Engineering_and_Technology/Dr_S_Sreenivasa_Rao.jpg"
           name="Dr. S. Sreenivasa Rao"
           quote="Major Degree and Minor Degree programmes are very popular in western countries, and now the government has taken initiation to introduce this in our country also."
@@ -26,6 +27,7 @@ export default function ModelInstitutes() {
           place="Hyderabad"
         />
         <ModelInstitute
+          universityLogo="/showcase/logos/Chaitanya_Bharathi_Institute_of_Technology_logo.png"
           imageSrc="/showcase/people/Chaitanya_Bharathi_Institute_of_Technology/Dr_P_Ravindra_Reddy.jpg"
           name="Dr. P. Ravindra Reddy"
           quote="Inline with NEP 2020, we have been implementing this programme where skill sets are going to be huge because of industry involvement in curriculum development and delivery."
@@ -34,6 +36,7 @@ export default function ModelInstitutes() {
           place="Hyderabad"
         />
         <ModelInstitute
+          universityLogo="/showcase/logos/Sreyas_Institute_of_Engineering_and_Technology.png"
           imageSrc="/showcase/people/Sreyas_Institute_of_Engineering_and_Technology/Dr_S_Sai_Satyanarayana_Reddy.jpg"
           name="Dr. S. Sai Satyanarayana Reddy"
           quote="As per NEP 2020, faculty should also learn the updated and cutting edge technologies to learn and also teach the students."
@@ -42,6 +45,7 @@ export default function ModelInstitutes() {
           place="Hyderabad"
         />
         <ModelInstitute
+          universityLogo="/showcase/logos/Vardhaman_College_of_Engineering_Shamshabad.jpg"
           imageSrc="/showcase/people/Vardhaman_College_of_Enginnering/Prof_J_V_R_Ravindra.jpg"
           name="Prof. J V R Ravindra"
           quote="Curriculum plays a major role in nurturing the student community, so if the curriculum is good, we can ensure the students are industry-ready."
@@ -50,6 +54,7 @@ export default function ModelInstitutes() {
           place="Shamshabad"
         />
         <ModelInstitute
+          universityLogo="/showcase/logos/G_Narayanamma_Institute_of_Technology_and_Science_For_Women_JNTUH_Hyderabad.png"
           imageSrc="/showcase/people/G_Narayanamma_Institute_of_Technology_Science/Dr_Kolli_Ramesh_Reddy.jpg"
           name="Dr. Kolli Ramesh Reddy"
           quote="We have to be mentors and give proper advice for improving the student's skills because nowadays, AICTE, the Government of India and Statutory bodies are looking to improve the quality of education in our country."
@@ -58,6 +63,7 @@ export default function ModelInstitutes() {
           place="Hyderabad"
         />
         <ModelInstitute
+          universityLogo="/showcase/logos/Institute_of_Aeronautical_Engineering_Hyderabad.png"
           imageSrc="/showcase/people/Institute_of_Aeronautical_Engineering/Prof_N_Sambasiva_Rao.jpg"
           name="Prof. N Sambasiva Rao"
           quote="More than 300 students are participating from our institution and we have made a special allocation of labs and two staff members to co-ordinate the program."
