@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function UniversityModalFaculty({
+export default function UniversityModelFaculty({
   imageSrc,
   quote,
   university,

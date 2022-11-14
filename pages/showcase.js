@@ -2,8 +2,10 @@ import { useEffect } from "react";
 import Head from "next/head";
 import NavLink from "../components/NavLink";
 import VideoCard from "../components/VideoCard";
-import ModalUniversity from "../components/ModalUniversity";
-import ModalFaculties from "../components/ModalFaculties";
+import ModelUniversity from "../components/ModelUniversity";
+import ModelInstitutes from "../components/ModelInstitutes";
+import ModelFaculties from "../components/ModelFaculties";
+import ModelStudents from "../components/ModelStudents";
 
 export default function Page() {
   const highlightLink = (link) => {
@@ -216,37 +218,42 @@ export default function Page() {
             </h2>
           </div>
           <div className="bg-white sticky top-0 z-40">
-            <div className="max-w-6xl 2xl:max-w-7xl overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between">
+            <div className="max-w-6xl 2xl:max-w-7xl bg-white overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between">
               <NavLink
                 title="Model University"
                 description="AICTE LITE - NEP 2020"
-                href="#modal-university"
+                href="#model-university"
                 isActive={true}
               />
               <NavLink
-                title="Model Institute & Leadership"
+                title="Model Institutes & Leadership"
                 description="AICTE LITE - NEP 2020"
-                href="#modal-institute"
+                href="#model-institute"
               />
               <NavLink
                 title="Model Faculty Members"
                 description="AICTE LITE - NEP 2020"
-                href="#modal-faculty"
+                href="#model-faculty"
               />
               <NavLink
                 title="Model Students"
                 description="AICTE LITE - NEP 2020"
-                href="#modal-students"
+                href="#model-students"
               />
             </div>
           </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative space-y-24">
-            <div id="modal-university" className="section">
-              <ModalUniversity />
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
+            <div id="model-university" className="section pt-4">
+              <ModelUniversity />
             </div>
-            <div id="modal-institute" className="section"></div>
-            <div id="modal-faculty" className="section">
-              <ModalFaculties />
+            <div id="model-institute" className="section pt-16">
+              <ModelInstitutes />
+            </div>
+            <div id="model-faculty" className="section pt-16">
+              <ModelFaculties />
+            </div>
+            <div id="model-students" className="section pt-16">
+              <ModelStudents />
             </div>
           </div>
         </section>

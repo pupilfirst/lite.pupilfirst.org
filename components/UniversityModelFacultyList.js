@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function UniversityModalFacultyList({
+export default function UniversityModelFacultyList({
   children,
   universityLogo,
   university,

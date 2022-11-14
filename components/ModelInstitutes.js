@@ -1,17 +1,18 @@
 import React from "react";
 
-export default function ModalUniversity() {
+export default function ModelInstitutes() {
   return (
-    <div className="bg-green-700 mt-8 rounded-xl text-white">
+    <div className="bg-yellow-600 bg-gradient-to-br from-yellow-600 to-yellow-700 mt-8 rounded-xl text-white">
       <h2 className="flex space-x-4 pt-12 pr-8 text-3xl md:text-5xl">
-        <span className="w-2 md:w-3 rounded-r-md bg-green-400"></span>
-        <span>Model University</span>
+        <span className="w-2 md:w-3 rounded-r-md bg-yellow-300"></span>
+        <span>Model Institutes & Leadership</span>
       </h2>
       <div className="pt-8 px-3 md:px-8">
         <span className="text-sm md:text-lg font-medium uppercase">Role:</span>
         <h3 className="font-semibold text-xl leading-tight md:text-3xl">
-          Fast Approval Process for AICTE NEP 2020 Model Curriculum for its
-          Affiliated Institutions.
+          Takes lead in working with institutional academic committees, securing
+          University approvals, allocating time-table hours and motivating
+          faculty members to adopt the change.
         </h3>
       </div>
       <div className="grid md:grid-cols-5 p-3 md:p-8 gap-8">
@@ -37,7 +38,7 @@ export default function ModalUniversity() {
             <p className="text-sm">Hyderabad</p>
           </div>
           <div className="relative mt-8 md:mt-4">
-            <div className="border-t-2 md:border-t border-green-400 w-1/4 md:-ml-8"></div>
+            <div className="border-t-2 md:border-t border-yellow-500 w-1/4 md:-ml-8"></div>
             <p className="text-xl md:text-3xl font-normal text-white pt-2 md:pt-4">
               Designing the curriculum for implementing National Education
               Policy is very important.
