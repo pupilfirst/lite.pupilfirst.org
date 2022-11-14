@@ -152,7 +152,7 @@ export default function Page() {
               </img-comparison-slider>
             </div>
             <div className="flex flex-col md:flex-row justify-between pt-1">
-              <p className="md:w-3/5 text-sm text-gray-800">
+              <p className="text-left md:w-3/5 text-sm text-gray-800">
                 AICTE LITE Faculty Dr. Roopa Chandrika at Malla Reddy College of
                 Engineering and Technology, <br />
                 affiliated to JNTU-Hyderabad in Telangana.
