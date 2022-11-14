@@ -3,6 +3,7 @@ import Head from "next/head";
 import NavLink from "../components/NavLink";
 import VideoCard from "../components/VideoCard";
 import ModalUniversity from "../components/ModalUniversity";
+import ModalFaculties from "../components/ModalFaculties";
 
 export default function Page() {
   const highlightLink = (link) => {
@@ -239,12 +240,14 @@ export default function Page() {
               />
             </div>
           </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative space-y-24">
             <div id="modal-university" className="section">
               <ModalUniversity />
             </div>
-            <div id="modal-institute" className="section bg-green-300"></div>
-            <div id="modal-faculty" className="section"></div>
+            <div id="modal-institute" className="section"></div>
+            <div id="modal-faculty" className="section">
+              <ModalFaculties />
+            </div>
           </div>
         </section>
       </main>
