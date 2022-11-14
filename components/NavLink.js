@@ -7,10 +7,12 @@ export default function NavLink({
   href,
 }) {
   return (
-    <div className="flex-1">
+    <div className="flex-shrink-0">
       <a
         href={href}
-        className={`nav-link text-center block p-4 ${isActive ? "active" : ""}`}
+        className={`nav-link text-center flex-shrink-0 block p-4 ${
+          isActive ? "active" : ""
+        }`}
       >
         <p className="text-gray-500 text-sm">{description}</p>
         <p className="title font-semibold text-gray-500">{title}</p>

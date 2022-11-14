@@ -215,7 +215,7 @@ export default function Page() {
             </h2>
           </div>
           <div className="bg-white sticky top-0 z-40">
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto px-4 xl:px-0 flex items-center justify-between">
+            <div className="max-w-6xl 2xl:max-w-7xl overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between">
               <NavLink
                 title="Model University"
                 description="AICTE LITE - NEP 2020"
