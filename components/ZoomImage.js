@@ -20,7 +20,7 @@ export default function ZoomImage({ src, alt, className = " " }) {
       >
         <img src={src} alt={alt} />
         <p
-          className={`${className} text-sm select-none font-medium bg-gray-200 px-2 py-1.5 rounded absolute bottom-2 left-2 flex items-center space-x-2 ${
+          className={`${className} text-sm select-none font-medium bg-gray-200 px-2 py-1.5 rounded mt-0.5 md:mt-0 md:absolute md:bottom-2 md:left-2 flex justify-center items-center space-x-2 ${
             isZoomed ? "text-gray-800 " : "text-blue-800"
           }`}
         >
