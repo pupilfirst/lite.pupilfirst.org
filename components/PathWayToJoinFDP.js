@@ -202,18 +202,6 @@ export default function PathWayToJoinFDP() {
         isLast={true}
         disabled={true}
       />
-      <div className="p-4 rounded-lg bg-primary-100 border border-primary-300 italic">
-        <p className="text-lg">
-          Please visit{" "}
-          <a
-            href="https://resources.pupilfirst.org/lite"
-            className="font-semibold text-secondary-500 underline hover:text-secondary-700"
-          >
-            LITE Resources Page
-          </a>{" "}
-          for more information on how to do course integration.
-        </p>
-      </div>
     </div>
   );
 }

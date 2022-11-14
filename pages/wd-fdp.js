@@ -534,6 +534,34 @@ export default function Page() {
           <PathWayToJoinFDP />
         </SectionWithHeading>
 
+        <SectionWithHeading heading={<p>Approval Process Experience</p>}>
+          <p className="md:text-lg">
+            Faculty and Institutions who qualify shall become part of the
+            Learning Engineering, Analytics & Research Network (LEARN); a key
+            component of the LITE programme. The research team's goal is to
+            constantly listen to institutions and faculty to suggest
+            improvements to policymakers so that the learner-centred classroom
+            framework is dynamically improving every day.
+          </p>
+          <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
+            <iframe
+              src="https://player.vimeo.com/video/770258057?h=15a8fe2942&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              className="rounded-md md:rounded-xl mt-8"
+              title="AICTE LITE Academic Approval Process Steps | Prof. Ravindra Reddy"
+            ></iframe>
+          </div>
+        </SectionWithHeading>
+
         <SectionWithHeading
           heading={
             <p>
