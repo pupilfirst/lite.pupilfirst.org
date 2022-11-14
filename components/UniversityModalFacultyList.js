@@ -25,7 +25,6 @@ export default function UniversityModalFacultyList({
           </div>
         </div>
       </div>
-
       <div className="grid md:grid-cols-12 p-3 md:p-8 gap-8 md:gap-12">
         {children}
       </div>
