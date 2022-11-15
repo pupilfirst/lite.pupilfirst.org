@@ -107,6 +107,17 @@ export default function Page() {
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
+              <div className="space-x-8 text-sm">
+                <a
+                  className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
+                  href="/wd-fdp"
+                >
+                  Faculty Development Program
+                </a>
+                <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
+                  National Showcase
+                </span>
+              </div>
               <div className="flex gap-4">
                 <img
                   className="w-24 md:w-36"
@@ -116,20 +127,21 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center md:mt-8 py-4 px-4 xl:px-0 relative z-10">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center md:mt-4 py-4 px-4 xl:px-0 relative z-10">
             <div className="inline-block rounded bg-primary-100 py-1 px-1 md:px-2">
               <p className="font-medium text-sm text-primary-800">
                 All India Council for Technical Education.
               </p>
             </div>
-            <p className="hero__title-gradient text-center md:text-3xl py-1 lg:py-4 font-extrabold">
+            <p className="hero__title-gradient text-center md:text-3xl py-1 lg:py-4 font-bold">
               Leadership in Teaching Excellence
               <span className="hidden md:inline-block text-lg md:text-xl pl-1">
                 (LITE)
               </span>
             </p>
-            <h1 className="font-black mx-auto text-center max-w-6xl text-2xl md:text-7xl leading-tight text-gray-800">
-              National Showcase of LITE Institutions & Faculty
+            <h1 className="hero__title-gradient-primary font-black mx-auto text-center max-w-6xl text-2xl md:text-6xl 2xl:text-7xl leading-tight text-gray-800">
+              National Showcase of NEP 2020 Vision into Reality by Institutions
+              and Faculty
             </h1>
             <div className="mt-6 md:mt-12">
               <img-comparison-slider hover="hover">
