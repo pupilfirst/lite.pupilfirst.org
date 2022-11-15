@@ -261,3 +261,12 @@ h4 {
 .nav-link.active .title {
   @apply text-primary-500;
 }
+
+.ambassadorLinks::-webkit-scrollbar {
+  display: none;
+}
+
+.ambassadorLinks {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

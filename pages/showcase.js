@@ -12,6 +12,7 @@ export default function Page() {
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => link.classList.remove("active"));
     link.classList.add("active");
+    link.scrollIntoView();
   };
 
   const highlightLinkOnScroll = () => {
@@ -250,7 +251,7 @@ export default function Page() {
             </p>
           </div>
           <div className="bg-white sticky top-0 z-40 mt-4">
-            <div className="max-w-6xl 2xl:max-w-7xl bg-white overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between">
+            <div className="ambassadorLinks max-w-6xl 2xl:max-w-7xl bg-white overflow-x-scroll mx-auto px-4 xl:px-0 flex items-center justify-between gap-6">
               <NavLink
                 title="Model University"
                 description="AICTE LITE - NEP 2020"
