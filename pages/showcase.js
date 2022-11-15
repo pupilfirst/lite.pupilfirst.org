@@ -106,15 +106,21 @@ export default function Page() {
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-8 text-sm">
+              <div className="space-x-2 md:space-x-8 text-sm">
                 <a
                   className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
                   href="/wd-fdp"
                 >
-                  Faculty Development Program
+                  <span className="hidden md:inline-block">
+                    Faculty Development Program
+                  </span>
+                  <span className="inline-block md:hidden">FDP</span>
                 </a>
                 <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
-                  National Showcase
+                  <span className="hidden md:inline-block">
+                    National Showcase
+                  </span>
+                  <span className="inline-block md:hidden">Showcase</span>
                 </span>
               </div>
               <div className="flex gap-4">
