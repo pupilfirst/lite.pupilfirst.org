@@ -233,7 +233,7 @@ export default function Page() {
             <VideoCard
               title="NEP 2020 Processes"
               description="Watch 55 Seconds Video"
-              thumbnail="/showcase/NEP-2020-Vision.png"
+              thumbnail="/showcase/NEP-2020-process.jpg"
               videoTitle="Learner-Centered-Classsroom-Framework-Video"
               VimeoVideoId="768136345"
             />

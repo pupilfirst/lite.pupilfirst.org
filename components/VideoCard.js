@@ -9,9 +9,14 @@ export default function VideoCard({
   thumbnail,
 }) {
   const [open, setOpen] = useState(false);
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      setOpen(false);
+    }
+  });
 
   return (
-    <div>
+    <>
       <div
         className="w-full flex gap-5 cursor-pointer items-center p-5 rounded-lg bg-gradient-to-tl from-white to-primary-50 border-2 border-primary-100 hover:shadow-xl transition"
         onClick={() => setOpen(true)}
@@ -81,6 +86,6 @@ export default function VideoCard({
           </div>
         </ClientOnlyPortal>
       )}
-    </div>
+    </>
   );
 }
