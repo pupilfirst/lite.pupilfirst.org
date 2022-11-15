@@ -6,16 +6,16 @@ export default function ZoomImage({ src, alt, className = " " }) {
     <div
       className={
         isZoomed
-          ? "fixed inset-0 z-50 h-screen w-screen bg-black/50 transition-all"
-          : "relative w-full h-full transition-all"
+          ? "fixed inset-0 z-50 h-screen w-screen bg-gray-900/25 backdrop-blur-xl overscroll-contain transition "
+          : "relative w-full h-full transition "
       }
     >
       <div
         onClick={() => setIsZoomed((prev) => !prev)}
-        className={`${className} rounded-lg ${
+        className={`${className} rounded-lg touch-pinch-zoom ${
           isZoomed
-            ? "w-11/12 relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  object-cover cursor-zoom-out "
-            : "w-full h-full object-cover cursor-zoom-in"
+            ? "w-11/12 relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover cursor-zoom-out "
+            : "w-full h-full object-cover cursor-zoom-in hover:transition hover:scale-105 "
         }`}
       >
         <img src={src} alt={alt} />
