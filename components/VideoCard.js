@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ClientOnlyPortal from "./ClientOnlyPortal";
 
 export default function VideoCard({
@@ -9,11 +9,22 @@ export default function VideoCard({
   thumbnail,
 }) {
   const [open, setOpen] = useState(false);
-  window.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-      setOpen(false);
-    }
-  });
+
+  useEffect(() => {
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+      }
+    });
+
+    return () => {
+      window.removeEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          setOpen(false);
+        }
+      });
+    };
+  }, []);
 
   return (
     <>
