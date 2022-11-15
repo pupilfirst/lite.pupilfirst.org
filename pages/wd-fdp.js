@@ -977,13 +977,13 @@ export default function Page() {
               For queries regarding ATAL FDP
             </p>
             <p>
-              Email <span className="font-medium">Ms Mamta Rani</span>,
-              Director, ATAL Academy at{" "}
+              Email <span className="font-medium">Ms Mamta Rani</span>, Advisor
+              - I, ATAL Academy at{" "}
               <a
-                href="mailto:director.atal@aicte-india.org?cc=wd@pupilfirst.org"
+                href="mailto:advatal@aicte-india.org?cc=wd@pupilfirst.org"
                 className="text-secondary-500 underline font-semibold hover:text-secondary-700"
               >
-                director.atal@aicte-india.org
+                advatal@aicte-india.org
               </a>{" "}
               with cc to{" "}
               <span className="text-gray-600 font-semibold">
