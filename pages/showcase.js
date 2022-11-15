@@ -306,7 +306,7 @@ export default function Page() {
           <div className="mt-16">
             <h2 className="text-xl md:text-6xl">NEP 2020 Adoption Curve</h2>
             <img
-              className="w-full rounded-lg overflow-hidden mt-6"
+              className="w-full rounded-lg overflow-hidden mt-6 border-2 border-orange-100"
               src="/showcase/NEP-2020-adoption-curve.png"
               alt="Graph showing NEP 2020 Adoption Curve"
             />
