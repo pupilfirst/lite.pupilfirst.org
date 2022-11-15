@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import DateAndContent from "../components/DateAndContent";
 import DescriptionList from "../components/DescriptionList";
 import StudentTeachingAssistants from "../components/StudentTeachingAssistants";
@@ -113,12 +114,11 @@ export default function Page() {
                 <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
                   <span>Faculty Development Program</span>
                 </span>
-                <a
-                  className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
-                  href="/showcase"
-                >
-                  National Showcase
-                </a>
+                <Link href="/showcase">
+                  <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
+                    National Showcase
+                  </a>
+                </Link>
               </div>
               <div className="flex gap-4">
                 <img
