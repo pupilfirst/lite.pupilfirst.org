@@ -6,6 +6,7 @@ import ModelUniversity from "../components/ModelUniversity";
 import ModelInstitutes from "../components/ModelInstitutes";
 import ModelFaculties from "../components/ModelFaculties";
 import ModelStudents from "../components/ModelStudents";
+import Link from "next/link";
 
 export default function Page() {
   const highlightLink = (link) => {
@@ -107,15 +108,14 @@ export default function Page() {
                 />
               </div>
               <div className="space-x-2 md:space-x-8 text-sm">
-                <a
-                  className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
-                  href="/wd-fdp"
-                >
-                  <span className="hidden md:inline-block">
-                    Faculty Development Program
-                  </span>
-                  <span className="inline-block md:hidden">FDP</span>
-                </a>
+                <Link href="/wd-fdp">
+                  <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
+                    <span className="hidden md:inline-block">
+                      Faculty Development Program
+                    </span>
+                    <span className="inline-block md:hidden">FDP</span>
+                  </a>
+                </Link>
                 <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
                   <span className="hidden md:inline-block">
                     National Showcase
@@ -286,6 +286,41 @@ export default function Page() {
             </div>
             <div id="model-students" className="section pt-16">
               <ModelStudents />
+            </div>
+          </div>
+        </section>
+        <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
+          <div className="mt-16">
+            <h2 className="text-xl md:text-6xl">Coming next</h2>
+            <p className="mt-3 text-lg text-gray-700">
+              In the coming weeks, the following institutions would be
+              showcased.
+            </p>
+            <img
+              className="w-full rounded-lg overflow-hidden mt-6"
+              src="/stats-map/Coming-next-institutes-LITE-2022.png"
+              alt="Map showing the upcoming institutions to be showcased"
+            />
+          </div>
+          <div className="mt-16">
+            <h2 className="text-xl md:text-6xl">NEP 2020 Adoption Curve</h2>
+            <img
+              className="w-full rounded-lg overflow-hidden mt-6 border-2 border-orange-100"
+              src="/showcase/NEP-2020-adoption-curve.png"
+              alt="Graph showing NEP 2020 Adoption Curve"
+            />
+          </div>
+          <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
+            <h4 className="md:w-3/4 text-xl lg:text-4xl text-white font-extrabold text-center">
+              Become an AICTE LITE Faculty and join the implementation of NEP
+              2020 to transform the quality of our classroom education.
+            </h4>
+            <div className="mt-6 flex justify-center">
+              <Link href="/wd-fdp">
+                <a className="inline-block  p-3 lg:px-3 lg:py-3.5 text-primary-600 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition ">
+                  Learn More About AICTE LITE FDP
+                </a>
+              </Link>
             </div>
           </div>
         </section>

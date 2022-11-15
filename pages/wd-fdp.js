@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import DateAndContent from "../components/DateAndContent";
 import DescriptionList from "../components/DescriptionList";
 import StudentTeachingAssistants from "../components/StudentTeachingAssistants";
@@ -116,15 +117,14 @@ export default function Page() {
                   </span>
                   <span className="inline-block md:hidden">FDP</span>
                 </span>
-                <a
-                  className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
-                  href="/showcase"
-                >
-                  <span className="hidden md:inline-block">
-                    National Showcase
-                  </span>
-                  <span className="inline-block md:hidden">Showcase</span>
-                </a>
+                <Link href="/showcase">
+                  <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
+                    <span className="hidden md:inline-block">
+                      National Showcase
+                    </span>
+                    <span className="inline-block md:hidden">Showcase</span>
+                  </a>
+                </Link>
               </div>
               <div className="flex">
                 <img
