@@ -12,7 +12,6 @@ export default function Page() {
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => link.classList.remove("active"));
     link.classList.add("active");
-    link.scrollIntoView();
   };
 
   const highlightLinkOnScroll = () => {
