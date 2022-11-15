@@ -292,19 +292,19 @@ export default function Page() {
         </section>
         <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
           <div className="mt-16">
-            <h2 className="text-3xl md:text-5xl">Coming next</h2>
-            <p className="mt-3 text-gray-500">
+            <h2 className="text-xl md:text-6xl">Coming next</h2>
+            <p className="mt-3 text-lg text-gray-700">
               In the coming weeks, the following institutions would be
               showcased.
             </p>
             <img
               className="w-full rounded-lg overflow-hidden mt-6"
-              src="/stats-map/LITE-50-Faculty-List.png"
+              src="/stats-map/Coming-next-institutes-LITE-2022.png"
               alt="Map showing the upcoming institutions to be showcased"
             />
           </div>
           <div className="mt-16">
-            <h2 className="text-3xl md:text-5xl">NEP 2020 Adoption Curve</h2>
+            <h2 className="text-xl md:text-6xl">NEP 2020 Adoption Curve</h2>
             <img
               className="w-full rounded-lg overflow-hidden mt-6"
               src="/showcase/NEP-2020-adoption-curve.png"
