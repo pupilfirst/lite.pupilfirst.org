@@ -47,6 +47,13 @@ h4 {
   -webkit-text-fill-color: transparent;
   box-decoration-break: clone;
 }
+.hero__title-gradient-primary {
+  @apply bg-gradient-to-br from-primary-500 to-primary-700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+}
 
 @screen lg {
   .hero__image-container {
