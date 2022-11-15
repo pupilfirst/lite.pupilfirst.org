@@ -67,7 +67,7 @@ export default function ModelInstitutes() {
           imageSrc="/showcase/people/Institute_of_Aeronautical_Engineering/Prof_N_Sambasiva_Rao.jpg"
           name="Prof. N Sambasiva Rao"
           quote="More than 300 students are participating from our institution and we have made a special allocation of labs and two staff members to co-ordinate the program."
-          designation="Principal"
+          designation="Professor of CSE"
           university="Institute of Aeronautical Engineering"
           place="Hyderabad"
         />
