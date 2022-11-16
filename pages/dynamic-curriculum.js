@@ -244,8 +244,7 @@ export default function earlyAdopter(props) {
                             published by AICTE.
                           </p>
                           <p className="pt-3">
-                            Version 1 can be downloaded from AICTE
-                            Website here.
+                            Version 1 can be downloaded from AICTE Website here.
                           </p>
                           <a
                             className="inline-flex mt-4 md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
@@ -321,13 +320,69 @@ export default function earlyAdopter(props) {
                   <div className="lg:col-span-8">
                     <div className="pt-10 lg:pt-20">
                       <div className="heading-with-leftborder heading-with-leftborder--cyan-green">
-                        <h2 className="font-bold text-white text-2xl lg:text-5xl lg:leading-tight lg:ml-28 2xl:ml-44 pl-4">
+                        <h2 className="font-bold text-white text-2xl lg:text-5xl lg:leading-tight lg:ml-20 2xl:ml-40 pl-4">
                           Credit Course in <br />
                           Electric Vehicles
                         </h2>
                       </div>
                     </div>
                     <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+                      <DescriptionList
+                        heading={
+                          <div>
+                            <p className="text-gray-400 text-sm md:text-base">
+                              NOVEMBER 2022
+                            </p>
+                            <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
+                              Version 2 Released
+                            </p>
+                          </div>
+                        }
+                        content={
+                          <div className="text-white">
+                            <p>
+                              Version 2 of the Model Curriculum for Open
+                              Electives in Electric Vehicles is now released.
+                            </p>
+                            <p className="pt-3">The changes include:</p>
+                            <ul className="list-disc ml-5 mt-2 space-y-2">
+                              <li>
+                                The course structure has been updated for the
+                                Electric Vehicles 101 course.
+                              </li>
+                              <li>
+                                Addition of new topics on importance of battery
+                                thermal design to Electric Vehicles 101 course.
+                              </li>
+                            </ul>
+                            <a
+                              className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1zLul5qKnopQDfF6NHDpWEfJ3IzjTHTJz/view"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  class="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 2</span>
+                            </a>
+                          </div>
+                        }
+                      />
                       <DescriptionList
                         heading={
                           <div>
@@ -342,11 +397,12 @@ export default function earlyAdopter(props) {
                         content={
                           <div className="text-white">
                             <p>
-                              Version 1 of the Model Curriculum for Electric Vehicles has been approved and published by AICTE. 
+                              Version 1 of the Model Curriculum for Electric
+                              Vehicles has been approved and published by AICTE.
                             </p>
                             <p className="pt-3">
-                              Version 1 can be downloaded from AICTE
-                              Website here.
+                              Version 1 can be downloaded from AICTE Website
+                              here.
                             </p>
                             <a
                               className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
