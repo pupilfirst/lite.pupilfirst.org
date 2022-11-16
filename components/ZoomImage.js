@@ -24,7 +24,7 @@ export default function ZoomImage({ src, alt, className = "" }) {
       onClick={() => setIsZoomed((prev) => !prev)}
       className={
         isZoomed
-          ? "fixed inset-0 z-50 h-screen w-screen bg-gray-900/25 backdrop-blur-xl overscroll-contain transition-all cursor-zoom-out"
+          ? "fixed inset-0 z-50 h-screen w-screen bg-gray-900/25 backdrop-blur-xl cursor-zoom-out"
           : "relative w-full h-full cursor-zoom-in"
       }
     >

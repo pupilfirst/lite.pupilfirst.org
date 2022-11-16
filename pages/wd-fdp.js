@@ -383,40 +383,36 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="November 16, 2022 "
-                  content="LITE Batch#3 FDP Applications Open and Training Starts"
+                  date="November 17, 2022 "
+                  content="LITE Batch#3 FDP Applications Open and Training Starts."
                 />
                 <DateAndContent
-                  date="November 30, 2022"
-                  content="Last Date for Batch#3 Applications"
+                  date="December 05, 2022"
+                  content="Last Date for Batch#3 FDP Applications."
                 />
                 <DateAndContent
                   date="December 12, 2022"
-                  content="LITE Faculty Members Training Ends"
+                  content="Last Date for faculty members to complete WD 101 course."
                 />
                 <DateAndContent
                   date="December 16, 2022"
-                  content="Last Date for Institutions to send back signed MOUs"
+                  content="Last Date for Institutions to share the signed MoU with Pupilfirst."
                 />
                 <DateAndContent
                   date="December 21, 2022"
-                  content="AICTE to Announce Selected Institutions and Faculty Members"
+                  content="AICTE to Announce Selected Institutions and Faculty Members."
                 />
                 <DateAndContent
-                  date="January 16, 2023"
-                  content="Last Date for Institutions to secure University Approvals for February Batch"
-                />
-                <DateAndContent
-                  date="January 31, 2023"
-                  content="Last Date for submitting Academic Calendar Integration"
+                  date="January 24, 2023"
+                  content="Last Date for Institutions to complete integration approvals along with timetable inclusion of advanced web development courses for Batch#3."
                 />
                 <DateAndContent
                   date="February 10, 2023"
-                  content="Start Course Admissions for students at your institution"
+                  content="Start Course Admissions for students at institutions."
                 />
                 <DateAndContent
                   date="Ongoing"
-                  content="Faculty training continues along with course deployment"
+                  content="Faculty training continues along with course deployment."
                 />
               </div>
               <div className="p-4">
@@ -933,40 +929,36 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 16, 2022 "
-              content="LITE Batch#3 FDP Applications Open and Training Starts"
+              date="November 17, 2022"
+              content="LITE Batch#3 FDP Applications Open and Training Starts."
             />
             <ScheduleDate
-              date="November 30, 2022"
-              content="Last Date for Batch#3 Applications"
+              date="December 05, 2022"
+              content="Last Date for Batch#3 FDP Applications."
             />
             <ScheduleDate
               date="December 12, 2022"
-              content="LITE Faculty Members Training Ends"
+              content="Last Date for faculty members to complete WD 101 course."
             />
             <ScheduleDate
               date="December 16, 2022"
-              content="Last Date for Institutions to send back signed MOUs"
+              content="Last Date for Institutions to share the signed MoU with Pupilfirst."
             />
             <ScheduleDate
               date="December 21, 2022"
-              content="AICTE to Announce Selected Institutions and Faculty Members"
+              content="AICTE to Announce Selected Institutions and Faculty Members."
             />
             <ScheduleDate
-              date="January 16, 2023"
-              content="Last Date for Institutions to secure University Approvals for February Batch"
-            />
-            <ScheduleDate
-              date="January 31, 2023"
-              content="Last Date for submitting Academic Calendar Integration"
+              date="January 24, 2023"
+              content="Last Date for Institutions to complete integration approvals along with timetable inclusion of advanced web development courses for Batch#3."
             />
             <ScheduleDate
               date="February 10, 2023"
-              content="Start Course Admissions for students at your institution"
+              content="Start Course Admissions for students at institutions."
             />
             <ScheduleDate
               date="Ongoing"
-              content="Faculty training continues along with course deployment"
+              content="Faculty training continues along with course deployment."
             />
           </div>
           <div className="pt-10 lg:pt-16">
