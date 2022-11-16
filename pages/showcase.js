@@ -132,7 +132,7 @@ export default function Page() {
               </div>
             </div>
           </header>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center md:mt-4 py-4 px-4 xl:px-0 relative z-10">
+          <div className="mx-auto text-center md:mt-4 py-4 px-4 xl:px-0 relative z-10">
             <div className="inline-block rounded bg-primary-100 py-1 px-1 md:px-2">
               <p className="font-medium text-sm text-primary-800">
                 All India Council for Technical Education.
@@ -144,11 +144,12 @@ export default function Page() {
                 (LITE)
               </span>
             </p>
-            <h1 className="hero__title-gradient-primary font-black mx-auto text-center max-w-6xl text-2xl md:text-6xl 2xl:text-7xl leading-tight text-gray-800">
-              National Showcase of NEP 2020 Vision into Reality by Institutions
-              and Faculty
+            <h1 className="hero__title-gradient-primary font-black mx-auto px-4 text-center text-2xl md:text-6xl 2xl:text-7xl leading-tight text-gray-800">
+              National Showcase <br />
+              Turning NEP 2020 vision into reality <br />
+              by Institutions and faculty members.
             </h1>
-            <div className="mt-6 md:mt-12">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-6 md:mt-12">
               <img-comparison-slider hover="hover">
                 <figure slot="first" className="img-comparison-slider__img-1">
                   <img
@@ -167,16 +168,16 @@ export default function Page() {
                   <figcaption>NEP 2020 Real Classroom</figcaption>
                 </figure>
               </img-comparison-slider>
-            </div>
-            <div className="flex flex-col md:flex-row justify-between pt-1">
-              <p className="text-left md:w-3/5 text-sm text-gray-800">
-                AICTE LITE Faculty Dr. Roopa Chandrika at Malla Reddy College of
-                Engineering and Technology, <br />
-                affiliated to JNTU-Hyderabad in Telangana.
-              </p>
-              <p className="text-xs text-gray-500 mt-2 md:mt-0">
-                Photographed for Pupilfirst by Jinson Abraham.
-              </p>
+              <div className="flex flex-col md:flex-row justify-between pt-1">
+                <p className="text-left md:w-3/5 text-sm text-gray-800">
+                  AICTE LITE Faculty Dr. Roopa Chandrika at Malla Reddy College
+                  of Engineering and Technology, <br />
+                  affiliated to JNTU-Hyderabad in Telangana.
+                </p>
+                <p className="text-xs text-gray-500 mt-2 md:mt-0">
+                  Photographed for Pupilfirst by Jinson Abraham.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -204,7 +205,7 @@ export default function Page() {
                 </svg>
               </div>
               <div className="-ml-4 flex flex-col justify-between">
-                <p className="font-semibold text-2xl text-gray-600">
+                <p className="font-semibold text-2xl max-w-2xl text-gray-600">
                   NEP 2020 is a discontinuous jump to the future of classroom
                   education. Instead of incremental innovations, we need a
                   paradigm shift, and LITE institutions are the pioneers in
