@@ -427,12 +427,12 @@ export default function Page() {
             </div>
           </div>
         </SectionWithHeading>
-        <div className="bg-gradient-to-b from-[#311C57] to-[#1f0c3a] text-white">
+        <div className="bg-gradient-to-b from-white to-primary-100">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto ">
-            <div className="mx-4 xl:mx-0 border-l border-secondary-600">
+            <div className="mx-4 xl:mx-0 border-l border-gray-200">
               <div className="py-10 lg:py-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="font-bold text-2xl lg:text-6xl text-black-500 leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                     Learner Centered <br />
                     Classsroom Framework
                   </h2>
@@ -452,7 +452,7 @@ export default function Page() {
                       to see the processes that are executed by each stakeholder
                       to transform classrooms from NEP 1986 to NEP 2020.
                     </p>
-                    <div className="hidden md:block h-6 w-6 absolute top-8 -left-4 z-10">
+                    <div className="hidden md:block h-6 w-6 absolute top-8 -left-6 z-10">
                       <svg
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -483,11 +483,13 @@ export default function Page() {
                       </svg>
                     </div>
                   </div>
-                  <div className="mt-8 shadow-2xl">
+                  <div className="mt-8 shadow-2xl rounded-xl">
                     <div
+                      rounded-xl
                       style={{ padding: "56.25% 0 0 0", position: "relative" }}
                     >
                       <iframe
+                        className="rounded-xl"
                         src="https://player.vimeo.com/video/768136345?h=cd15b50884&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         frameBorder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
