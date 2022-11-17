@@ -7,8 +7,8 @@ export default function SectionWithHeading({
   return (
     <section
       className={`${
-        darkBackground ? "bg-gray-800 text-white" : "bg-orange-50"
-      } border-t border-gray-200 relative ${className}`}
+        darkBackground ? "bg-gray-800 text-white" : "bg-primary-50"
+      } border-t border-gray-200 z-30 ${className}`}
     >
       <div className="max-w-6xl 2xl:max-w-7xl mx-auto ">
         <div className="mx-4 xl:mx-0 border-l border-gray-200">

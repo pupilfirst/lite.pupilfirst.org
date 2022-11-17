@@ -99,7 +99,7 @@ export default function Page() {
           }}
         />
       </Head>
-      <main className="bg-primary-50 mx-auto">
+      <main className="bg-primary-50 mx-auto z-10">
         <section className="hero__bg-pattern relative">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">

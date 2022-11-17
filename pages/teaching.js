@@ -76,8 +76,8 @@ export default function teachingFellowship() {
               />
               <img
                 className="w-16 md:w-24"
-                src="/logos/aicte-logo.png"
-                alt="Logo of All India Council for Technical Education (AICTE)"
+                src="logos/atal.png"
+                alt="Logo of All India Council for Technical Education (AICTE) Training And Learning (ATAL) Academy"
               />
             </div>
           </header>

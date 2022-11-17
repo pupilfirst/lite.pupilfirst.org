@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 function ImageWithDescription({ name, caption, role, imgSrc }) {
   return (
@@ -91,13 +92,13 @@ export default function Home() {
                 <img
                   className="block w-20 md:w-28"
                   src="logos/LITE-logo.svg"
-                  alt="Logo of Leadership in Teaching Excellence (LITE)national programme."
+                  alt="Logo of Leadership in Teaching Excellence (LITE) national programme."
                 />
               </a>
               <img
                 className="w-16 md:w-24"
-                src="logos/aicte-logo.png"
-                alt="Logo of All India Council for Technical Education (AICTE)"
+                src="logos/atal.png"
+                alt="Logo of All India Council for Technical Education (AICTE) Training And Learning (ATAL) Academy"
               />
             </div>
           </header>
