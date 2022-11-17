@@ -290,7 +290,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
+        <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-12 px-4 xl:px-0 relative">
           <div className="mt-16">
             <h2 className="text-xl md:text-6xl">Coming next</h2>
             <p className="mt-3 text-lg text-gray-700">

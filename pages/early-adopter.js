@@ -91,8 +91,8 @@ export default function earlyAdopter(props) {
               />
               <img
                 className="w-16 md:w-24"
-                src="/logos/aicte-logo.png"
-                alt="Logo of All India Council for Technical Education (AICTE)"
+                src="logos/atal.png"
+                alt="Logo of All India Council for Technical Education (AICTE) Training And Learning (ATAL) Academy"
               />
             </div>
           </header>
@@ -720,11 +720,6 @@ export default function earlyAdopter(props) {
               </div>
             </div>
           </div>
-          <section className="bg-white border-t p-4 md:p-6">
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto text-center">
-              <p className="text-gray-700">© 2022 Pupilfirst Pvt. Ltd.</p>
-            </div>
-          </section>
         </section>
       </main>
     </div>
