@@ -434,7 +434,7 @@ export default function Page() {
                 <div className="heading-with-leftborder">
                   <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                     Learner Centered <br />
-                    Classsroom Framework
+                    Classroom Framework
                   </h2>
                 </div>
                 <div className="max-w-6xl mt-6 md:mt-8 ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
@@ -501,7 +501,7 @@ export default function Page() {
                           width: "100%",
                           height: "100%",
                         }}
-                        title="Learner-Centered-Classsroom-Framework-Video"
+                        title="Learner-Centered-Classroom-Framework-Video"
                       ></iframe>
                     </div>
                   </div>

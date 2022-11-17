@@ -235,7 +235,7 @@ export default function Page() {
               title="NEP 2020 Processes"
               description="Watch 55 Seconds Video"
               thumbnail="/showcase/NEP-2020-process.jpg"
-              videoTitle="Learner-Centered-Classsroom-Framework-Video"
+              videoTitle="Learner-Centered-Classroom-Framework-Video"
               VimeoVideoId="768136345"
             />
           </div>
