@@ -383,7 +383,7 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="November 17, 2022 "
+                  date="November 20, 2022 "
                   content="LITE Batch#3 FDP Applications Open and Training Starts."
                 />
                 <DateAndContent
@@ -995,7 +995,7 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 17, 2022"
+              date="November 20, 2022"
               content="LITE Batch#3 FDP Applications Open and Training Starts."
             />
             <ScheduleDate
