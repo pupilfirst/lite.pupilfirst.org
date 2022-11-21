@@ -164,7 +164,7 @@ export default function Page() {
               <div className="pt-4 md:pt-8">
                 <div>
                   <a
-                    href="https://application.pupilfirst.org/wdfdp"
+                    href="https://apply.pupilfirst.org/wdfdp"
                     target="_blank"
                     className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                   >
@@ -303,7 +303,7 @@ export default function Page() {
               Programme.
             </p>
             <a
-              href="https://application.pupilfirst.org/wdfdp"
+              href="https://apply.pupilfirst.org/wdfdp"
               target="_blank"
               className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
             >
@@ -417,7 +417,7 @@ export default function Page() {
               </div>
               <div className="p-4">
                 <a
-                  href="https://application.pupilfirst.org/wdfdp"
+                  href="https://apply.pupilfirst.org/wdfdp"
                   target="_blank"
                   className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                 >
@@ -1091,7 +1091,7 @@ export default function Page() {
             </h4>
             <div className="mt-6 flex justify-center">
               <a
-                href="https://application.pupilfirst.org/wdfdp"
+                href="https://apply.pupilfirst.org/wdfdp"
                 target="_blank"
                 className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
               >
