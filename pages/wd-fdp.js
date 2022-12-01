@@ -240,7 +240,7 @@ export default function Page() {
           </div>
         </section>
         <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-          <div className="grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+          <div className="mt-8 borse border-orange-300 grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
             <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
               <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
                 <img
@@ -250,46 +250,83 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="md:col-span-8">
-              <h2 className="text-base md:text-xl lg:text-2xl lg:pt-2">
-                Letter to Vice Chancellors and Head of Institutions from <br />
-                Hon: Vice Chairman, AICTE
-              </h2>
-              <p className="mt-4 text-lg">
-                “We intend to upgrade selected institutions as AICTE Brand
-                Ambassadors of Change and highlight selected institutions, its
-                leadership, faculty members and students as change agents who
-                are implementing proven online teaching-learning methods that
-                are aligned with NEP 2020”
+            <div className="md:col-span-8 flex flex-col justify-between">
+              <div className="mt-4">
+                <h2 className="text-base md:text-xl lg:text-2xl lg:pt-2">
+                  Letter to Vice Chancellors and Head of Institutions from{" "}
+                  <br />
+                  Hon: Vice Chairman, AICTE
+                </h2>
+                <p className="mt-4 text-lg md:text-xl max-w-3xl">
+                  “We intend to upgrade selected institutions as AICTE Brand
+                  Ambassadors of Change and highlight selected institutions, its
+                  leadership, faculty members and students as change agents who
+                  are implementing proven online teaching-learning methods that
+                  are aligned with NEP 2020”
+                </p>
+              </div>
+              <div>
+                <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
+                <p className="italic">Vice Chairman, </p>
+                <p className="italic">
+                  All India Council for Technical Education.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
+          <div className="grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+            <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
+              <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
+                <img
+                  className="w-full h-full object-contain rounded-2xl"
+                  src="people/Dr-Mamta-Rani-Agarwal.jpg"
+                  alt="Prof MP Poonia, Vice Chairman, All India Council for Technical Education."
+                />
+              </div>
+            </div>
+            <div className="md:col-span-8 flex flex-col justify-between">
+              <p className="mt-8 text-lg md:text-xl max-w-2xl">
+                “AICTE LITE creates an exciting opportunity for institutions and
+                faculty members to bring an integrated research environment into
+                their classrooms and provide inputs to the National Educational
+                Technology Forum (NETC) that has been established under NEP 2020
+                to showcase the best practices in digital teaching-learning
+                pedagogies.”
               </p>
-              <p className="font-semibold mt-6 text-lg">Prof MP Poonia, </p>
-              <p className="italic">Vice Chairman, </p>
-              <p className="italic">
-                All India Council for Technical Education.
-              </p>
-              <a
-                className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-4 md:mt-6 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
-                href="letter-from-VCM/Letter-from-the-VCM-AICTE.pdf"
-                target="_blank"
-              >
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="w-6 h-6 text-primary-500"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
-                    <path
-                      fillRule="evenodd"
-                      d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"
-                    />
-                  </svg>
-                </div>
-                <div>Read the full letter</div>
-              </a>
+              <div>
+                <p className="font-semibold mt-6 text-lg">
+                  Mamta Rani Agarwal,{" "}
+                </p>
+                <p className="italic">Advisor - I, </p>
+                <p className="italic">
+                  All India Council for Technical Education.
+                </p>
+                <a
+                  className="inline-flex items-center px-4 py-3 rounded-lg space-x-2 font-semibold bg-primary-100 text-primary-800 mt-4 md:mt-6 border border-primary-400 hover:bg-primary-50 hover:shadow-lg outline-none focus:ring focus:ring-primary-200 focus:ring-offset-1 transition"
+                  href="letter-from-advisor/AICTE_TRAINING_AND_LEARNING_ACADEMY_-_LEADERSHIP_IN_TEACHING_EXCELLENCE_LITE_FDP_ANNOUNCEMENT_30_NOV_2022.pdf"
+                  target="_blank"
+                >
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="w-6 h-6 text-primary-500"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z" />
+                      <path
+                        fillRule="evenodd"
+                        d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"
+                      />
+                    </svg>
+                  </div>
+                  <div>Read the full letter</div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -383,19 +420,15 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="November 20, 2022 "
+                  date="December 01, 2022 "
                   content="LITE Batch#3 FDP Applications Open and Training Starts."
                 />
                 <DateAndContent
-                  date="December 05, 2022"
+                  date="December 10, 2022"
                   content="Last Date for Batch#3 FDP Applications."
                 />
                 <DateAndContent
-                  date="December 12, 2022"
-                  content="Last Date for faculty members to complete WD 101 course."
-                />
-                <DateAndContent
-                  date="December 16, 2022"
+                  date="December 19, 2022"
                   content="Last Date for Institutions to share the signed MoU with Pupilfirst."
                 />
                 <DateAndContent
@@ -404,7 +437,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="January 24, 2023"
-                  content="Last Date for Institutions to complete integration approvals along with timetable inclusion of advanced web development courses for Batch#3."
+                  content="Last Date for Institutions to complete integration approvals for Batch#3."
                 />
                 <DateAndContent
                   date="February 10, 2023"
@@ -995,19 +1028,16 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
-              date="November 20, 2022"
+              date="December 01, 2022"
               content="LITE Batch#3 FDP Applications Open and Training Starts."
             />
             <ScheduleDate
-              date="December 05, 2022"
+              date="December 10, 2022"
               content="Last Date for Batch#3 FDP Applications."
             />
+
             <ScheduleDate
-              date="December 12, 2022"
-              content="Last Date for faculty members to complete WD 101 course."
-            />
-            <ScheduleDate
-              date="December 16, 2022"
+              date="December 19, 2022"
               content="Last Date for Institutions to share the signed MoU with Pupilfirst."
             />
             <ScheduleDate
@@ -1016,7 +1046,7 @@ export default function Page() {
             />
             <ScheduleDate
               date="January 24, 2023"
-              content="Last Date for Institutions to complete integration approvals along with timetable inclusion of advanced web development courses for Batch#3."
+              content="Last Date for Institutions to complete integration approvals for Batch#3."
             />
             <ScheduleDate
               date="February 10, 2023"
@@ -1034,14 +1064,14 @@ export default function Page() {
             <p className="text-lg md:text-xl font-semibold mt-4">
               For queries regarding ATAL FDP
             </p>
-            <p>
-              Email <span className="font-medium">Ms Mamta Rani</span>, Advisor
-              - I, ATAL Academy at{" "}
+            <p className="pt-1">
+              Email <span className="font-semibold">Dr Sunil Luthra, </span>
+              Director, ATAL Academy at{" "}
               <a
-                href="mailto:advatal@aicte-india.org?cc=wd@pupilfirst.org"
+                href="mailto:director1atal@aicte-india.org?cc=wd@pupilfirst.org"
                 className="text-secondary-500 underline font-semibold hover:text-secondary-700"
               >
-                advatal@aicte-india.org
+                director1atal@aicte-india.org
               </a>{" "}
               with cc to{" "}
               <span className="text-gray-600 font-semibold">
@@ -1052,7 +1082,7 @@ export default function Page() {
               For queries regarding LITE Advanced Web Development programme and
               Integration
             </p>
-            <p>
+            <p className="pt-1">
               Email Pupilfirst support team for any help that you would require
               at{" "}
               <a
