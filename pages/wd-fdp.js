@@ -240,7 +240,7 @@ export default function Page() {
           </div>
         </section>
         <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-          <div className="mt-8 borse border-orange-300 grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+          <div className="mt-8 borse border-orange-300 grid grid-cols-none md:grid-cols-12 gap-4 md:gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
             <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
               <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
                 <img
@@ -257,7 +257,7 @@ export default function Page() {
                   <br />
                   Hon: Vice Chairman, AICTE
                 </h2>
-                <p className="mt-4 text-lg md:text-xl max-w-3xl">
+                <p className="mt-4 text-base md:text-xl max-w-3xl">
                   “We intend to upgrade selected institutions as AICTE Brand
                   Ambassadors of Change and highlight selected institutions, its
                   leadership, faculty members and students as change agents who
@@ -276,7 +276,7 @@ export default function Page() {
           </div>
         </div>
         <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-          <div className="grid grid-cols-none md:grid-cols-12 gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+          <div className="grid grid-cols-none md:grid-cols-12 gap-4 md:gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
             <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
               <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
                 <img
@@ -287,7 +287,7 @@ export default function Page() {
               </div>
             </div>
             <div className="md:col-span-8 flex flex-col justify-between">
-              <p className="mt-8 text-lg md:text-xl max-w-2xl">
+              <p className="mt-2 md:mt-8 text-base md:text-xl max-w-2xl">
                 “AICTE LITE creates an exciting opportunity for institutions and
                 faculty members to bring an integrated research environment into
                 their classrooms and provide inputs to the National Educational
@@ -297,7 +297,7 @@ export default function Page() {
               </p>
               <div>
                 <p className="font-semibold mt-6 text-lg">
-                  Mamta Rani Agarwal,{" "}
+                  Dr. Mamta Rani Agarwal,{" "}
                 </p>
                 <p className="italic">Advisor - I, </p>
                 <p className="italic">
