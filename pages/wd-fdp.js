@@ -425,11 +425,11 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="December 10, 2022"
-                  content="Last Date for Batch#3 FDP Applications."
+                  content="Last Date for Batch#3 FDP Applications (tentative)."
                 />
                 <DateAndContent
-                  date="December 19, 2022"
-                  content="Last Date for Institutions to share the signed MoU with Pupilfirst."
+                  date="December 20, 2022"
+                  content="Last Date for Institutions to share the signed MoU with Pupilfirst (tentative)."
                 />
                 <DateAndContent
                   date="December 21, 2022"
@@ -1033,12 +1033,12 @@ export default function Page() {
             />
             <ScheduleDate
               date="December 10, 2022"
-              content="Last Date for Batch#3 FDP Applications."
+              content="Last Date for Batch#3 FDP Applications (tentative)."
             />
 
             <ScheduleDate
-              date="December 19, 2022"
-              content="Last Date for Institutions to share the signed MoU with Pupilfirst."
+              date="December 20, 2022"
+              content="Last Date for Institutions to share the signed MoU with Pupilfirst (tentative)."
             />
             <ScheduleDate
               date="December 21, 2022"
