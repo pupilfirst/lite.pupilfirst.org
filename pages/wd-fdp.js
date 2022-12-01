@@ -291,7 +291,7 @@ export default function Page() {
                 “AICTE LITE creates an exciting opportunity for institutions and
                 faculty members to bring an integrated research environment into
                 their classrooms and provide inputs to the National Educational
-                Technology Forum (NETC) that has been established under NEP 2020
+                Technology Forum (NETF) that has been established under NEP 2020
                 to showcase the best practices in digital teaching-learning
                 pedagogies.”
               </p>
