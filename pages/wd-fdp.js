@@ -149,7 +149,7 @@ export default function Page() {
                   (LITE)
                 </span>
               </h1>
-              <p className="max-w-6xl mx-auto text-center text-sm md:text-base lg:text-xl pt-2">
+              <p className="max-w-6xl mx-auto text-center text-sm md:text-base lg:text-lg pt-2">
                 AICTE's Leadership In Teaching Excellence (LITE) is a
                 transformational program to pioneer and implement the goals of
                 National Educational Policy 2020 such as learner-centered
@@ -174,60 +174,62 @@ export default function Page() {
               </div> */}
             </div>
           </div>
-          <div className="relative z-20 pt-4 md:pt-6 max-w-7xl mx-auto px-2 xl:px-0 text-center rounded-2xl shadow-sm">
-            <div className="bg-white border-4 border-b-0 border-white border-opacity-50 bg-opacity-25 backdrop-blur-sm rounded-t-2xl pt-4 pb-3">
-              <p>
-                Leadership in Teaching Excellence (LITE) Faculty Development
-                Programme{" "}
-              </p>
-              <p>
-                <span className="bg-red-500 text-white text-sm rounded px-1.5 font-semibold mr-1">
-                  LIVE
-                </span>
-                status
-              </p>
-            </div>
-            <div className="bg-secondary-200 bg-opacity-10 backdrop-blur-sm border-4 border-white border-opacity-50 py-6 px-4 rounded-b-2xl">
-              <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-6 xl:divide-x-4 divide-white divide-opacity-50">
-                <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">826</p>
-                  <p>
-                    Faculty members <br />
-                    initiated application
-                  </p>
-                </div>
-                <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">416</p>
-                  <p>
-                    Faculty members <br />
-                    applied and onboarded
-                  </p>
-                </div>
-                <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">201</p>
-                  <p>
-                    Institutions from which
-                    <br /> faculty applied
-                  </p>
-                </div>
+          <div className="relative z-20 pt-4 md:pt-6 max-w-7xl mx-auto px-2 xl:px-0 text-center">
+            <div className="rounded-2xl shadow-sm">
+              <div className="bg-white border-4 border-b-0 border-white border-opacity-50 bg-opacity-50 backdrop-blur-sm rounded-t-2xl pt-4 pb-3">
+                <p>
+                  Leadership in Teaching Excellence (LITE) Faculty Development
+                  Programme{" "}
+                </p>
+                <p>
+                  <span className="bg-red-500 text-white text-sm rounded px-1.5 font-semibold mr-1">
+                    LIVE
+                  </span>
+                  status
+                </p>
+              </div>
+              <div className="bg-secondary-200 bg-opacity-25 backdrop-blur-sm border-4 border-white border-opacity-50 py-6 px-4 rounded-b-2xl">
+                <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-6 xl:divide-x-4 divide-white divide-opacity-50">
+                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">826</p>
+                    <p>
+                      Faculty members <br />
+                      initiated application
+                    </p>
+                  </div>
+                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">416</p>
+                    <p>
+                      Faculty members <br />
+                      applied and onboarded
+                    </p>
+                  </div>
+                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">201</p>
+                    <p>
+                      Institutions from which
+                      <br /> faculty applied
+                    </p>
+                  </div>
 
-                <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">90</p>
-                  <p>
-                    Universities from which <br />
-                    faculty applied
-                  </p>
-                </div>
-                <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">26</p>
-                  <p>
-                    States from which <br />
-                    faculty applied
-                  </p>
-                </div>
-                <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                  <p className="text-3xl font-bold">0</p>
-                  <p>LITE MOU Signed</p>
+                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">90</p>
+                    <p>
+                      Universities from which <br />
+                      faculty applied
+                    </p>
+                  </div>
+                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">26</p>
+                    <p>
+                      States from which <br />
+                      faculty applied
+                    </p>
+                  </div>
+                  <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
+                    <p className="text-3xl font-bold">0</p>
+                    <p>LITE MOU Signed</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -409,7 +411,7 @@ export default function Page() {
             <a
               href="https://apply.pupilfirst.org/wdfdp"
               target="_blank"
-              className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+              className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:from-primary-500 hover:to-primary-700 hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
             >
               Apply Now for LITE FDP
             </a>
@@ -519,7 +521,7 @@ export default function Page() {
                 <a
                   href="https://apply.pupilfirst.org/wdfdp"
                   target="_blank"
-                  className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+                  className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:from-primary-500 hover:to-primary-700 hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
                 >
                   Apply Now for LITE FDP
                 </a>
@@ -1190,7 +1192,7 @@ export default function Page() {
               <a
                 href="https://apply.pupilfirst.org/wdfdp"
                 target="_blank"
-                className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+                className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-primary-800 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:from-yellow-100 hover:to-gray-50 hover:shadow-xl transition "
               >
                 Apply Now for LITE FDP
               </a>
