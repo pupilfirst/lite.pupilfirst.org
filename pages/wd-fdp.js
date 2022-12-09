@@ -182,53 +182,35 @@ export default function Page() {
                   Programme{" "}
                 </p>
                 <p>
-                  <span className="bg-red-500 text-white text-sm rounded px-1.5 font-semibold mr-1">
-                    LIVE
+                  stats
+                  <span className="bg-red-500 text-white text-sm rounded px-1.5 font-semibold mx-1">
+                    updated at 8:00 AM
                   </span>
-                  status
+                  everyday.
                 </p>
               </div>
               <div className="bg-secondary-200 bg-opacity-25 backdrop-blur-sm border-4 border-white border-opacity-50 py-6 px-4 rounded-b-2xl">
-                <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-6 xl:divide-x-4 divide-white divide-opacity-50">
+                <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-5 xl:divide-x-4 divide-white divide-opacity-50">
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">826</p>
-                    <p>
-                      Faculty members <br />
-                      initiated application
-                    </p>
+                    <p className="text-xl md:text-4xl font-bold">564</p>
+                    <p>Faculty Members Applied</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">416</p>
-                    <p>
-                      Faculty members <br />
-                      applied and onboarded
-                    </p>
-                  </div>
-                  <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">201</p>
-                    <p>
-                      Institutions from which
-                      <br /> faculty applied
-                    </p>
+                    <p className="text-xl md:text-4xl font-bold">246</p>
+                    <p>Institutions Represented</p>
                   </div>
 
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">90</p>
-                    <p>
-                      Universities from which <br />
-                      faculty applied
-                    </p>
+                    <p className="text-xl md:text-4xl font-bold">99</p>
+                    <p>Universities</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">26</p>
-                    <p>
-                      States from which <br />
-                      faculty applied
-                    </p>
+                    <p className="text-xl md:text-4xl font-bold">27</p>
+                    <p>States</p>
                   </div>
                   <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-3xl font-bold">0</p>
-                    <p>LITE MOU Signed</p>
+                    <p className="text-xl md:text-4xl font-bold">76</p>
+                    <p>LITE MoU Received</p>
                   </div>
                 </div>
               </div>
@@ -493,7 +475,7 @@ export default function Page() {
                   content="LITE Batch#3 FDP Applications Open and Training Starts."
                 />
                 <DateAndContent
-                  date="December 10, 2022"
+                  date="December 12, 2022"
                   content="Last Date for Batch#3 FDP Applications (tentative)."
                 />
                 <DateAndContent
@@ -1101,7 +1083,7 @@ export default function Page() {
               content="LITE Batch#3 FDP Applications Open and Training Starts."
             />
             <ScheduleDate
-              date="December 10, 2022"
+              date="December 12, 2022"
               content="Last Date for Batch#3 FDP Applications (tentative)."
             />
 
