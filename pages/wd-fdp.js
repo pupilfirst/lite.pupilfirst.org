@@ -100,6 +100,20 @@ export default function Page() {
         />
       </Head>
       <main className="bg-primary-50 mx-auto z-10">
+        <div className="bg-blue-600 text-white p-3 notice">
+          <div className="max-w-6xl mx-auto text-center font-semibold">
+            <p>
+              <span className="font-bold">Notice:</span> Applications for LITE
+              Batch#3 are closed, and LITE Batch#4 Applications are now open for
+              July 2023 implementation.
+            </p>
+            <p>
+              Please note that Batch#4 institutions who complete the approval
+              process by Jan 24, 2023, shall be upgraded to Batch#3
+              institutions.
+            </p>
+          </div>
+        </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
@@ -117,6 +131,15 @@ export default function Page() {
                   </span>
                   <span className="inline-block md:hidden">FDP</span>
                 </span>
+                <a
+                  className="relative inline-flex items-center space-x-1"
+                  href=""
+                >
+                  <span>Selection Result</span>
+                  <span className="bg-red-500 font-medium text-xs text-white px-1.5 py-px rounded-lg">
+                    New
+                  </span>
+                </a>
                 <Link href="/showcase">
                   <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
                     <span className="hidden md:inline-block">
