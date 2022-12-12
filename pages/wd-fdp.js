@@ -100,6 +100,20 @@ export default function Page() {
         />
       </Head>
       <main className="bg-primary-50 mx-auto z-10">
+        <div className="bg-blue-600 text-white p-3 notice">
+          <div className="max-w-6xl mx-auto text-center font-semibold">
+            <p>
+              <span className="font-bold">Notice:</span> Applications for LITE
+              Batch#3 are closed, and LITE Batch#4 Applications are now open for
+              July 2023 implementation.
+            </p>
+            <p>
+              Please note that Batch#4 institutions who complete the approval
+              process by Jan 24, 2023, shall be upgraded to Batch#3
+              institutions.
+            </p>
+          </div>
+        </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
@@ -117,6 +131,16 @@ export default function Page() {
                   </span>
                   <span className="inline-block md:hidden">FDP</span>
                 </span>
+                <a
+                  className="relative inline-flex items-center space-x-1"
+                  href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcxNEmRJ1pSn6qLTUT6odll_3_ql87JECesQyxTcK_6apjLdC-gpkNLrlxrTd_fYIyoIVSfPLlDkkF/pubhtml#"
+                  target="_blank"
+                >
+                  <span>Selection Result</span>
+                  <span className="bg-red-500 font-medium text-xs text-white px-1.5 py-px rounded-lg">
+                    New
+                  </span>
+                </a>
                 <Link href="/showcase">
                   <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
                     <span className="hidden md:inline-block">
@@ -192,16 +216,16 @@ export default function Page() {
               <div className="bg-secondary-200 bg-opacity-25 backdrop-blur-sm border-4 border-white border-opacity-50 py-6 px-4 rounded-b-2xl">
                 <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-5 xl:divide-x-4 divide-white divide-opacity-50">
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">699</p>
+                    <p className="text-xl md:text-4xl font-bold">839</p>
                     <p>Faculty Members Applied</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">264</p>
+                    <p className="text-xl md:text-4xl font-bold">278</p>
                     <p>Institutions Represented</p>
                   </div>
 
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">101</p>
+                    <p className="text-xl md:text-4xl font-bold">105</p>
                     <p>Universities</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
@@ -209,7 +233,7 @@ export default function Page() {
                     <p>States</p>
                   </div>
                   <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">77</p>
+                    <p className="text-xl md:text-4xl font-bold">78</p>
                     <p>LITE MoU Received</p>
                   </div>
                 </div>
@@ -479,8 +503,12 @@ export default function Page() {
                   content="Last Date for Batch#3 FDP Applications (tentative)."
                 />
                 <DateAndContent
+                  date="December 13, 2022 onwards"
+                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
+                />
+                <DateAndContent
                   date="December 20, 2022"
-                  content="Last Date for Institutions to share the signed MoU with Pupilfirst (tentative)."
+                  content="Last Date for institute to share the signed MoU with Pupilfirst and faculty members to complete WD101 (tentative)"
                 />
                 <DateAndContent
                   date="December 21, 2022"
@@ -1086,10 +1114,14 @@ export default function Page() {
               date="December 12, 2022"
               content="Last Date for Batch#3 FDP Applications (tentative)."
             />
+            <ScheduleDate
+              date="December 13, 2022 onwards"
+              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
+            />
 
             <ScheduleDate
               date="December 20, 2022"
-              content="Last Date for Institutions to share the signed MoU with Pupilfirst (tentative)."
+              content="Last Date for institute to share the signed MoU with Pupilfirst and faculty members to complete WD101 (tentative)."
             />
             <ScheduleDate
               date="December 21, 2022"
