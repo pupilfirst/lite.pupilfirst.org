@@ -104,13 +104,12 @@ export default function Page() {
           <div className="max-w-6xl mx-auto text-center font-semibold">
             <p>
               <span className="font-bold">Notice:</span> Applications for LITE
-              Batch#3 are closed, and LITE Batch#4 Applications are now open for
+              B01Y23 are closed, and LITE B02Y23 Applications are now open for
               July 2023 implementation.
             </p>
             <p>
-              Please note that Batch#4 institutions who complete the approval
-              process by Jan 24, 2023, shall be upgraded to Batch#3
-              institutions.
+              Please note that B02Y23 institutions who complete the approval
+              process by Jan 24, 2023, shall be upgraded to B01Y23 institutions.
             </p>
           </div>
         </div>
@@ -496,11 +495,11 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   date="December 01, 2022 "
-                  content="LITE Batch#3 FDP Applications Open and Training Starts."
+                  content="LITE B01Y23 FDP Applications Open and Training Starts."
                 />
                 <DateAndContent
                   date="December 12, 2022"
-                  content="Last Date for Batch#3 FDP Applications (tentative)."
+                  content="Last Date for B01Y23 FDP Applications (tentative)."
                 />
                 <DateAndContent
                   date="December 13, 2022 onwards"
@@ -516,7 +515,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   date="January 24, 2023"
-                  content="Last Date for Institutions to complete integration approvals for Batch#3."
+                  content="Last Date for Institutions to complete integration approvals for B01Y23."
                 />
                 <DateAndContent
                   date="February 10, 2023"
@@ -1108,11 +1107,11 @@ export default function Page() {
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
               date="December 01, 2022"
-              content="LITE Batch#3 FDP Applications Open and Training Starts."
+              content="LITE B01Y23 FDP Applications Open and Training Starts."
             />
             <ScheduleDate
               date="December 12, 2022"
-              content="Last Date for Batch#3 FDP Applications (tentative)."
+              content="Last Date for B01Y23 FDP Applications (tentative)."
             />
             <ScheduleDate
               date="December 13, 2022 onwards"
@@ -1129,7 +1128,7 @@ export default function Page() {
             />
             <ScheduleDate
               date="January 24, 2023"
-              content="Last Date for Institutions to complete integration approvals for Batch#3."
+              content="Last Date for Institutions to complete integration approvals for B01Y23."
             />
             <ScheduleDate
               date="February 10, 2023"

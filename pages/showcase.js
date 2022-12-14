@@ -101,13 +101,12 @@ export default function Page() {
           <div className="max-w-6xl mx-auto text-center font-semibold">
             <p>
               <span className="font-bold">Notice:</span> Applications for LITE
-              Batch#3 are closed, and LITE Batch#4 Applications are now open for
+              B01Y23 are closed, and LITE B02Y23 Applications are now open for
               July 2023 implementation.
             </p>
             <p>
-              Please note that Batch#4 institutions who complete the approval
-              process by Jan 24, 2023, shall be upgraded to Batch#3
-              institutions.
+              Please note that B02Y23 institutions who complete the approval
+              process by Jan 24, 2023, shall be upgraded to B01Y23 institutions.
             </p>
           </div>
         </div>
