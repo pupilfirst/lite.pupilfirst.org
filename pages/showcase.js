@@ -97,6 +97,20 @@ export default function Page() {
         />
       </Head>
       <main className="bg-primary-50 mx-auto">
+        <div className="bg-blue-600 text-white p-3 notice">
+          <div className="max-w-6xl mx-auto text-center font-semibold">
+            <p>
+              <span className="font-bold">Notice:</span> Applications for LITE
+              Batch#3 are closed, and LITE Batch#4 Applications are now open for
+              July 2023 implementation.
+            </p>
+            <p>
+              Please note that Batch#4 institutions who complete the approval
+              process by Jan 24, 2023, shall be upgraded to Batch#3
+              institutions.
+            </p>
+          </div>
+        </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
@@ -116,6 +130,16 @@ export default function Page() {
                     <span className="inline-block md:hidden">FDP</span>
                   </a>
                 </Link>
+                <a
+                  className="relative inline-flex items-center space-x-1"
+                  href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcxNEmRJ1pSn6qLTUT6odll_3_ql87JECesQyxTcK_6apjLdC-gpkNLrlxrTd_fYIyoIVSfPLlDkkF/pubhtml#"
+                  target="_blank"
+                >
+                  <span>Selection Result</span>
+                  <span className="bg-red-500 font-medium text-xs text-white px-1.5 py-px rounded-lg">
+                    New
+                  </span>
+                </a>
                 <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
                   <span className="hidden md:inline-block">
                     National Showcase
