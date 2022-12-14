@@ -270,3 +270,24 @@ h4 {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.fdp-notice {
+  width: 100wh;
+  background: linear-gradient(-45deg, #d95e38, #ce125a, #2352d5, #08af88);
+  animation: gradient-animation 25s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}

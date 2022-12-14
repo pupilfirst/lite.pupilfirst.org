@@ -100,7 +100,7 @@ export default function Page() {
         />
       </Head>
       <main className="bg-primary-50 mx-auto z-10">
-        <div className="bg-blue-600 text-white p-3 notice">
+        <div className="bg-blue-600 text-white p-3 fdp-notice">
           <div className="max-w-6xl mx-auto text-center font-semibold">
             <p>
               <span className="font-bold">Notice:</span> Applications for LITE
