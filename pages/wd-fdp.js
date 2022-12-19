@@ -202,16 +202,16 @@ export default function Page() {
               <div className="bg-secondary-200 bg-opacity-25 backdrop-blur-sm border-4 border-white border-opacity-50 py-6 px-4 rounded-2xl">
                 <div className="grid grid-cols-2 gap-2 xl:gap-0 md:grid-cols-3 xl:grid-cols-5 xl:divide-x-4 divide-white divide-opacity-50">
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">874</p>
+                    <p className="text-xl md:text-4xl font-bold">883</p>
                     <p>Faculty Members Applied</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">282</p>
+                    <p className="text-xl md:text-4xl font-bold">284</p>
                     <p>Institutions Represented</p>
                   </div>
 
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">107</p>
+                    <p className="text-xl md:text-4xl font-bold">108</p>
                     <p>Universities</p>
                   </div>
                   <div className="flex flex-col justify-center items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
@@ -219,7 +219,7 @@ export default function Page() {
                     <p>States</p>
                   </div>
                   <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">81</p>
+                    <p className="text-xl md:text-4xl font-bold">84</p>
                     <p>LITE MoU Received</p>
                   </div>
                 </div>
