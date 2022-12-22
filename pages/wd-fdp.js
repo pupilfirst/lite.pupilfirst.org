@@ -454,8 +454,10 @@ export default function Page() {
                 heading="NEP 2020 Certificate"
                 content={
                   <p>
-                    Faculty members who complete training shall be certified as
-                    AICTE LITE Brand Ambassador of Change.{" "}
+                    Faculty members who complete training and whose Institute
+                    has completed the signing the MoU, thereby initiating the
+                    integration process shall be certified as AICTE LITE Brand
+                    Ambassador of Change
                     <span className="italic block mt-6">
                       A copy of the previous LITE certificate is below as a
                       sample.
