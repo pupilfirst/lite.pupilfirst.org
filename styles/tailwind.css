@@ -278,16 +278,20 @@ h4 {
   background-size: 400% 400%;
 }
 
+.arbitary {
+  @apply order-1 order-2 order-3;
+}
+
 @keyframes gradient-animation {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
 
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }

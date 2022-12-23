@@ -115,7 +115,7 @@ export default function Page() {
         </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center gap-4">
               <div>
                 <img
                   className="w-16 md:w-24"
@@ -123,15 +123,15 @@ export default function Page() {
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-2 md:space-x-8 text-sm">
-                <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
+              <div className="flex gap-4 items-center text-sm">
+                <span className="block text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
                   <span className="hidden md:inline-block">
                     Faculty Development Program
                   </span>
                   <span className="inline-block md:hidden">FDP</span>
                 </span>
                 <a
-                  className="relative inline-flex items-center space-x-1"
+                  className="relative block items-center space-x-1"
                   href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcxNEmRJ1pSn6qLTUT6odll_3_ql87JECesQyxTcK_6apjLdC-gpkNLrlxrTd_fYIyoIVSfPLlDkkF/pubhtml#"
                   target="_blank"
                 >
@@ -141,7 +141,7 @@ export default function Page() {
                   </span>
                 </a>
                 <Link href="/showcase">
-                  <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
+                  <a className="block font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
                     <span className="hidden md:inline-block">
                       National Showcase
                     </span>
@@ -483,36 +483,36 @@ export default function Page() {
               </div>
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
-                  date="December 01, 2022 "
-                  content="LITE B01Y23 FDP Applications Open and Training Starts."
+                  date="December 01, 2022"
+                  content="LITE Batch#3 FDP Applications Open and Training Starts"
                 />
                 <DateAndContent
                   date="December 12, 2022"
-                  content="Last Date for B01Y23 FDP Applications (tentative)."
+                  content="Last Date for Batch#3 FDP Applications (Closed)"
                 />
                 <DateAndContent
                   date="December 13, 2022 onwards"
-                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
-                />
-                <DateAndContent
-                  date="December 20, 2022"
-                  content="Last Date for institute to share the signed MoU with Pupilfirst and faculty members to complete WD101 (tentative)"
+                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
                 />
                 <DateAndContent
                   date="December 21, 2022"
-                  content="AICTE to Announce Selected Institutions and Faculty Members."
+                  content="AICTE to Announce Selected Institutions and Faculty Members"
                 />
                 <DateAndContent
-                  date="January 24, 2023"
-                  content="Last Date for Institutions to complete integration approvals for B01Y23."
+                  date="January 09, 2023"
+                  content="Last Date for institute to share the signed MoU with Pupilfirst"
                 />
                 <DateAndContent
-                  date="February 10, 2023"
-                  content="Start Course Admissions for students at institutions."
+                  date="February 16, 2023"
+                  content="Last Date for Institutions to complete integration approvals for Batch#3"
+                />
+                <DateAndContent
+                  date="February 23, 2023"
+                  content="Start Course Admissions for students at institutions"
                 />
                 <DateAndContent
                   date="Ongoing"
-                  content="Faculty training continues along with course deployment."
+                  content="Faculty training continues along with course deployment"
                 />
               </div>
               <div className="p-4">
@@ -1096,36 +1096,35 @@ export default function Page() {
           <div className="bg-white divide-y rounded-lg border border-gray-200">
             <ScheduleDate
               date="December 01, 2022"
-              content="LITE B01Y23 FDP Applications Open and Training Starts."
+              content="LITE Batch#3 FDP Applications Open and Training Starts"
             />
             <ScheduleDate
               date="December 12, 2022"
-              content="Last Date for B01Y23 FDP Applications (tentative)."
+              content="Last Date for Batch#3 FDP Applications (Closed)"
             />
             <ScheduleDate
               date="December 13, 2022 onwards"
-              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
-            />
-
-            <ScheduleDate
-              date="December 20, 2022"
-              content="Last Date for institute to share the signed MoU with Pupilfirst and faculty members to complete WD101 (tentative)."
+              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
             />
             <ScheduleDate
               date="December 21, 2022"
-              content="AICTE to Announce Selected Institutions and Faculty Members."
+              content="AICTE to Announce Selected Institutions and Faculty Members"
             />
             <ScheduleDate
-              date="January 24, 2023"
-              content="Last Date for Institutions to complete integration approvals for B01Y23."
+              date="January 09, 2023"
+              content="Last Date for institute to share the signed MoU with Pupilfirst"
             />
             <ScheduleDate
-              date="February 10, 2023"
-              content="Start Course Admissions for students at institutions."
+              date="February 16, 2023"
+              content="Last Date for Institutions to complete integration approvals for Batch#3"
+            />
+            <ScheduleDate
+              date="February 23, 2023"
+              content="Start Course Admissions for students at institutions"
             />
             <ScheduleDate
               date="Ongoing"
-              content="Faculty training continues along with course deployment."
+              content="Faculty training continues along with course deployment"
             />
           </div>
           <div className="pt-10 lg:pt-16">
