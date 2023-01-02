@@ -18,12 +18,12 @@ export default function Footer() {
         <div className="border-t border-gray-300 flex-1 h-px"></div>
       </div>
       <div className="max-w-7xl mx-auto py-6 px-2 flex flex-wrap items-center gap-2 justify-center">
-        <FooterLink title="Dynamic curriculum" href="dynamic-curriculum" />
-        <FooterLink title="Faculty development program" href="wd-fdp" />
-        <FooterLink title="LITE Showcase" href="showcase" />
-        <FooterLink title="Teaching fellowship" href="teaching" />
-        <FooterLink title="Faculty" href="faculty" />
-        <FooterLink title="Hiring network" href="early-adopter" />
+        <FooterLink title="Dynamic curriculum" href="/dynamic-curriculum" />
+        <FooterLink title="Faculty development program" href="/wd-fdp" />
+        <FooterLink title="LITE Showcase" href="/showcase" />
+        <FooterLink title="Teaching fellowship" href="/teaching" />
+        <FooterLink title="Faculty" href="/faculty" />
+        <FooterLink title="Hiring network" href="/early-adopter" />
       </div>
     </footer>
   );

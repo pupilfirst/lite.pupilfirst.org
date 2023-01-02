@@ -211,10 +211,10 @@ export default function earlyAdopter(props) {
                                   viewBox="0 0 24 24"
                                   fill="none"
                                   stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  class="w-4 h-4 md:w-6 md:h-6"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
                                 >
                                   <circle cx="18" cy="18" r="3"></circle>
                                   <circle cx="6" cy="6" r="3"></circle>
@@ -260,10 +260,10 @@ export default function earlyAdopter(props) {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="w-4 h-4 md:w-6 md:h-6"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="w-4 h-4 md:w-6 md:h-6"
                               >
                                 <circle cx="18" cy="18" r="3"></circle>
                                 <circle cx="6" cy="6" r="3"></circle>
@@ -368,10 +368,10 @@ export default function earlyAdopter(props) {
                                   viewBox="0 0 24 24"
                                   fill="none"
                                   stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  class="w-4 h-4 md:w-6 md:h-6"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
                                 >
                                   <circle cx="18" cy="18" r="3"></circle>
                                   <circle cx="6" cy="6" r="3"></circle>
@@ -417,10 +417,10 @@ export default function earlyAdopter(props) {
                                   viewBox="0 0 24 24"
                                   fill="none"
                                   stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  class="w-4 h-4 md:w-6 md:h-6"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
                                 >
                                   <circle cx="18" cy="18" r="3"></circle>
                                   <circle cx="6" cy="6" r="3"></circle>
