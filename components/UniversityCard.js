@@ -11,9 +11,8 @@ export default function UniversityCard({ university, cardSize = "large" }) {
   return (
     <div
       key={university.key}
-      className={`flex flex-col gap-6 flex-wrap ${
-        cardSize === "large" ? "lg:items-center lg:flex-row gap-0 lg:gap-6" : ""
-      } border border-gray-100 rounded-md bg-white shadow `}
+      className={`flex flex-col md:flex-row gap-6 flex-wrap ${cardSize === "large" ? "lg:items-center lg:flex-row gap-0 lg:gap-6" : ""
+        } border border-gray-100 rounded-md bg-white shadow `}
     >
       <Link href={`/universities/${university.key}`}>
         <a
@@ -126,14 +125,13 @@ export default function UniversityCard({ university, cardSize = "large" }) {
         </a>
       </Link>
       <div
-        className={`px-6 pb-6 flex flex-col ${
-          cardSize === "large"
-            ? "sm:flex-row sm:items-center pt-6"
-            : "lg:flex-row lg:items-center pt-0"
-        } gap-6 flex-1 justify-between`}
+        className={`px-6 pb-6 flex flex-col ${cardSize === "large"
+          ? "sm:flex-row sm:items-center pt-6"
+          : "lg:flex-row lg:items-center pt-0"
+          } gap-6 flex-1 justify-between`}
       >
         <div className="md:col-span-4 flex items-center">
-          <div className="flex flex-1">
+          <div className="flex gap-4 flex-1">
             <img
               className="inline-block h-9 w-9 rounded-full object-cover"
               src="/approval-process-status-icons/person-circle.svg"

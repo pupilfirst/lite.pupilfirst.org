@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Link from "next/link";
 // import InstituteCard from "../components/InstituteCard";
-import Container from "../components/layout/Container";
+import Container from "../components/layout/Container.js";
 import UniversityCard from "../components/UniversityCard";
 import { institutesList, universitiesList, findUniqueCount } from "../lib/api";
 
@@ -103,7 +103,7 @@ export default function ApprovalStatus(props) {
         <Container className="mt-4">
           <div className="bg-gray-50 px-4 md:px-8 py-8 mt-6 border border-b-0 rounded-t-lg">
             <h1 title="LITE NEP 2020 Approval Process Status"></h1>
-            <p className="md:text-lg font-medium max-w-6xl">
+            <p className="text-lg md:text-2xl font-medium max-w-6xl text-center">
               AICTE's Leadership in Teaching Excellence (LITE) enables
               Institutions and Faculty to become national showcase of NEP 2020
               pillars of Learner-Centered Pedagogy, Competency Based
@@ -382,7 +382,12 @@ export default function ApprovalStatus(props) {
           </div>
         </Container>
         <Container>
-          <h2 className="pt-16">LITE NEP 2020 Enabled Universities</h2>
+          <div className="flex items-center gap-4 pb-4">
+            <h2 className="text-xl md:text-3xl font-bold">
+              LITE NEP 2020 Enabled Universities
+            </h2>
+            <div class="flex-1 h-px border-t-2 border-gray-100"></div>
+          </div>
           <div className="grid grid-cols-1 gap-5 mt-2">
             {props.liteEnabledUniversities.map((university, index) => (
               <UniversityCard university={university} key={index} />
@@ -391,9 +396,12 @@ export default function ApprovalStatus(props) {
         </Container>
 
         <Container>
-          <h2 className="pt-16">
-            LITE NEP 2020 Universities Awaiting Approval
-          </h2>
+          <div className="flex items-center gap-4 pb-4">
+            <h2 className="text-xl md:text-3xl font-bold">
+              LITE NEP 2020 Universities Awaiting Approval
+            </h2>
+            <div class="flex-1 h-px border-t-2 border-gray-100"></div>
+          </div>
           <div className="grid grid-cols-1 gap-5 mt-2 pb-16">
             {props.pendingUniversities.map((university, index) => (
               <UniversityCard university={university} key={index} />
