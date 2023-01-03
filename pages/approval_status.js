@@ -103,7 +103,7 @@ export default function ApprovalStatus(props) {
         <Container className="mt-4">
           <div className="bg-gray-50 px-4 md:px-8 py-8 mt-6 border border-b-0 rounded-t-lg">
             <h1 title="LITE NEP 2020 Approval Process Status"></h1>
-            <p className="text-lg md:text-2xl font-medium max-w-6xl text-center">
+            <p className="text-lg md:text-xl font-medium max-w-6xl text-center">
               AICTE's Leadership in Teaching Excellence (LITE) enables
               Institutions and Faculty to become national showcase of NEP 2020
               pillars of Learner-Centered Pedagogy, Competency Based
@@ -140,7 +140,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.application_submitted} */}
-                      413
+                      420
                     </p>
                     <p>FDP application submitted</p>
                   </div>
@@ -171,7 +171,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.mou_signed} */}
-                      91
+                      93
                     </p>
                     <p>Institutions with LITE MoU</p>
                   </div>
@@ -235,7 +235,7 @@ export default function ApprovalStatus(props) {
                         props.institutesSummary
                           .academic_council_approval_completed
                       } */}
-                      19
+                      20
                     </p>
                     <p>Institutions with Academic Council Approvals</p>
                   </div>
@@ -336,7 +336,7 @@ export default function ApprovalStatus(props) {
             </div>
           </div>
         </div>
-        <Container className="mt-16">
+        <Container className="mt-24">
           <h2>LITE NEP 2020 Enabled States and Universities</h2>
           <div className="lg:container mx-auto mt-2 bg-orange-50 bg-opacity-75 border border-orange-100 rounded-lg py-8">
             <p className="flow-chart-level-0 flex flex-col rounded-lg bg-orange-100 text-orange-700 w-64 text-center mx-auto p-6 shadow-lg border-2 border-orange-400 relative">
@@ -381,7 +381,7 @@ export default function ApprovalStatus(props) {
             </div>
           </div>
         </Container>
-        <Container>
+        <Container className="mt-24">
           <div className="flex items-center gap-4 pb-4">
             <h2 className="text-xl md:text-3xl font-bold">
               LITE NEP 2020 Enabled Universities
@@ -395,7 +395,7 @@ export default function ApprovalStatus(props) {
           </div>
         </Container>
 
-        <Container>
+        <Container className="mt-24">
           <div className="flex items-center gap-4 pb-4">
             <h2 className="text-xl md:text-3xl font-bold">
               LITE NEP 2020 Universities Awaiting Approval
