@@ -115,23 +115,49 @@ export default function Page() {
         </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
-            <div className="flex justify-between items-center gap-4">
-              <div>
+            <div className="flex max-w-2xl mx-auto md:hidden justify-between items-center gap-4">
+              <div className="inline-flex">
                 <img
                   className="w-16 md:w-24"
                   src="logos/atal.png"
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="flex gap-4 items-center text-sm">
-                <span className="block text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
-                  <span className="hidden md:inline-block">
+              <div className="inline-flex">
+                <img
+                  className="w-24 md:w-36"
+                  src="logos/pupilfirst-logo-primary.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex justify-center md:justify-between items-center gap-4">
+              <div className="hidden md:flex">
+                <img
+                  className="w-16 md:w-24"
+                  src="logos/atal.png"
+                  alt="Logo of All India Council for Technical Education (AICTE)"
+                />
+              </div>
+              <div className="hidden md:flex md:order-last">
+                <img
+                  className="w-24 md:w-36"
+                  src="logos/pupilfirst-logo-primary.svg"
+                  alt=""
+                />
+              </div>
+              <div className="flex gap-4 mt-3 md:mt-0 items-center text-sm overflow-x-scroll md:overflow-auto">
+                <a
+                  href="/wd-fdp"
+                  className="block text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold flex-shrink-0"
+                >
+                  <span className="hidden lg:inline-block">
                     Faculty Development Program
                   </span>
-                  <span className="inline-block md:hidden">FDP</span>
-                </span>
+                  <span className="inline-block lg:hidden">FDP</span>
+                </a>
                 <a
-                  className="relative block items-center space-x-1"
+                  className="block font-medium space-x-1 p-1.5 cursor-pointer flex-shrink-0 text-gray-700 rounded-md hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50 "
                   href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcxNEmRJ1pSn6qLTUT6odll_3_ql87JECesQyxTcK_6apjLdC-gpkNLrlxrTd_fYIyoIVSfPLlDkkF/pubhtml#"
                   target="_blank"
                 >
@@ -140,21 +166,21 @@ export default function Page() {
                     New
                   </span>
                 </a>
-                <Link href="/showcase">
-                  <a className="block font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
-                    <span className="hidden md:inline-block">
-                      National Showcase
-                    </span>
-                    <span className="inline-block md:hidden">Showcase</span>
-                  </a>
-                </Link>
-              </div>
-              <div className="flex">
-                <img
-                  className="w-24 md:w-36"
-                  src="logos/pupilfirst-logo-primary.svg"
-                  alt=""
-                />
+                <a
+                  href="/approval_status"
+                  className="block font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
+                >
+                  Approval Status
+                </a>
+                <a
+                  href="/showcase"
+                  className="block font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
+                >
+                  <span className="hidden lg:inline-block">
+                    National Showcase
+                  </span>
+                  <span className="inline-block lg:hidden">Showcase</span>
+                </a>
               </div>
             </div>
           </header>
@@ -585,7 +611,7 @@ export default function Page() {
                   </div>
                   <div className="mt-8 shadow-2xl rounded-xl">
                     <div
-                      rounded-xl
+                      className="rounded-xl"
                       style={{ padding: "56.25% 0 0 0", position: "relative" }}
                     >
                       <iframe

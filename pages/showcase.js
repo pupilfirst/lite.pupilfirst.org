@@ -112,25 +112,49 @@ export default function Page() {
         </div>
         <section className="hero__bg-pattern relative">
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
-            <div className="flex justify-between items-center">
-              <div>
+            <div className="flex max-w-2xl mx-auto md:hidden justify-between items-center gap-4">
+              <div className="inline-flex">
                 <img
                   className="w-16 md:w-24"
                   src="logos/atal.png"
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-2 md:space-x-8 text-sm">
-                <Link href="/wd-fdp">
-                  <a className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50">
-                    <span className="hidden md:inline-block">
-                      Faculty Development Program
-                    </span>
-                    <span className="inline-block md:hidden">FDP</span>
-                  </a>
-                </Link>
+              <div className="inline-flex">
+                <img
+                  className="w-24 md:w-36"
+                  src="logos/pupilfirst-logo-primary.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex justify-center md:justify-between items-center gap-4">
+              <div className="hidden md:flex">
+                <img
+                  className="w-16 md:w-24"
+                  src="logos/atal.png"
+                  alt="Logo of All India Council for Technical Education (AICTE)"
+                />
+              </div>
+              <div className="hidden md:flex md:order-last">
+                <img
+                  className="w-24 md:w-36"
+                  src="logos/pupilfirst-logo-primary.svg"
+                  alt=""
+                />
+              </div>
+              <div className="flex gap-4 mt-3 md:mt-0 items-center text-sm overflow-x-scroll md:overflow-auto">
                 <a
-                  className="relative inline-flex items-center space-x-1"
+                  href="/wd-fdp"
+                  className="font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
+                >
+                  <span className="hidden lg:inline-block">
+                    Faculty Development Program
+                  </span>
+                  <span className="inline-block lg:hidden">FDP</span>
+                </a>
+                <a
+                  className="block font-medium space-x-1 p-1.5 cursor-pointer flex-shrink-0 text-gray-700 rounded-md hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50 "
                   href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcxNEmRJ1pSn6qLTUT6odll_3_ql87JECesQyxTcK_6apjLdC-gpkNLrlxrTd_fYIyoIVSfPLlDkkF/pubhtml#"
                   target="_blank"
                 >
@@ -139,19 +163,21 @@ export default function Page() {
                     New
                   </span>
                 </a>
-                <span className="text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold">
-                  <span className="hidden md:inline-block">
+                <a
+                  href="/approval_status"
+                  className="block font-medium text-gray-700 rounded-md p-1.5 hover:text-secondary-500 hover:bg-secondary-100 hover:bg-opacity-50"
+                >
+                  Approval Status
+                </a>
+                <a
+                  href="/showcase"
+                  className="block text-secondary-500 p-1.5 border-b-2 border-secondary-400 font-semibold flex-shrink-0"
+                >
+                  <span className="hidden lg:inline-block">
                     National Showcase
                   </span>
-                  <span className="inline-block md:hidden">Showcase</span>
-                </span>
-              </div>
-              <div className="flex gap-4">
-                <img
-                  className="w-24 md:w-36"
-                  src="logos/pupilfirst-logo-primary.svg"
-                  alt=""
-                />
+                  <span className="inline-block lg:hidden">Showcase</span>
+                </a>
               </div>
             </div>
           </header>
@@ -340,11 +366,12 @@ export default function Page() {
               2020 to transform the quality of our classroom education.
             </h4>
             <div className="mt-6 flex justify-center">
-              <Link href="/wd-fdp">
-                <a className="inline-block  p-3 lg:px-3 lg:py-3.5 text-primary-600 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition ">
-                  Learn More About AICTE LITE FDP
-                </a>
-              </Link>
+              <a
+                href="/wd-fdp"
+                className="inline-block  p-3 lg:px-3 lg:py-3.5 text-primary-600 bg-gradient-to-br from-yellow-50 to-gray-300 rounded-md text-center text-base lg:text-lg font-semibold hover:shadow-xl transition "
+              >
+                Learn More About AICTE LITE FDP
+              </a>
             </div>
           </div>
         </section>
