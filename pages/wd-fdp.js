@@ -453,7 +453,7 @@ export default function Page() {
                     <a
                       className="text-indigo-600 fonr-semibold hover:underline hover:bg-indigo-50 transition"
                       target="_blank"
-                      href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
+                      href="https://drive.google.com/file/d/1E6TO3o3voQFB8m7SVJvtSVPNDt4uVha2/view"
                     >
                       NEP 2020 Model Curriculum in Advanced Web Development
                     </a>{" "}
