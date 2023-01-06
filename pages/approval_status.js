@@ -140,7 +140,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.application_submitted} */}
-                      420
+                      413
                     </p>
                     <p>FDP application submitted</p>
                   </div>
@@ -171,7 +171,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.mou_signed} */}
-                      93
+                      98
                     </p>
                     <p>Institutions with LITE MoU</p>
                   </div>
