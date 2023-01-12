@@ -171,7 +171,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.mou_signed} */}
-                      98
+                      103
                     </p>
                     <p>Institutions with LITE MoU</p>
                   </div>
@@ -235,7 +235,7 @@ export default function ApprovalStatus(props) {
                         props.institutesSummary
                           .academic_council_approval_completed
                       } */}
-                      20
+                      21
                     </p>
                     <p>Institutions with Academic Council Approvals</p>
                   </div>
