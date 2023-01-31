@@ -169,6 +169,82 @@ export default function earlyAdopter(props) {
                       heading={
                         <div>
                           <p className="text-gray-600 text-sm md:text-base">
+                            JANUARY 2023
+                          </p>
+                          <p className="pt-1">Version 3 Released</p>
+                        </div>
+                      }
+                      content={
+                        <div>
+                          <p>Major changes in the revised version include:</p>
+
+                          <ul className="list-disc ml-5 mt-2 space-y-2">
+                            <li>
+                              Content related to introduction to web development
+                              in Module 1 of WD101 was moved to Module 2 for a
+                              better fit.
+                            </li>
+                            <li>
+                              A video demonstrating WD101 capstone project
+                              requirement was added to help students understand
+                              what's required.
+                            </li>
+                            <li>
+                              Module 7{" "}
+                              <span className="italic">
+                                Add User Interface for To-do Application
+                              </span>
+                              and module 8 <span className="italic">EJS</span>{" "}
+                              Templating in WD201 have been swapped for a better
+                              continuity.
+                            </li>
+                            <li>
+                              <span className="italic">Heroku</span> was
+                              replaced with Render as a suggested cloud
+                              deployment platform in the WD201 course.
+                            </li>
+                          </ul>
+                          <p className="pt-3 text-sm">
+                            This is the updated curriculum, and it is in the
+                            process of being sent to AICTE for getting
+                            published. Since that will take some time, you can
+                            access the updated curriculum structure for your
+                            reference meanwhile
+                          </p>
+                          <p className="pt-4">
+                            <a
+                              className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1jGBo0LHjH_HIEF7-wlF-x2I1DwZk62tK/view"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 3</span>
+                            </a>
+                          </p>
+                        </div>
+                      }
+                    />
+                    <DescriptionList
+                      heading={
+                        <div>
+                          <p className="text-gray-600 text-sm md:text-base">
                             JULY 2022
                           </p>
                           <p className="pt-1">Version 2 Released</p>
@@ -279,15 +355,6 @@ export default function earlyAdopter(props) {
                 </div>
                 <div className="col-span-4">
                   <div className="sticky top-24 mt-10 lg:mt-20 -ml-px md:ml-0 space-y-12">
-                    <div className="mt-2 md:border-l pl-12 md:pl-8">
-                      <p className="text-lg text-gray-500">Industry Partner</p>
-                      <div className="bg-white rounded-lg inline-flex items-center justify-center mt-1">
-                        <img
-                          className="h-28"
-                          src="/logos/freshworks-logo.svg"
-                        ></img>
-                      </div>
-                    </div>
                     <div className="bg-primary-100 rounded-r md:rounded-lg border-gray-100 relative ml-8">
                       <div className="p-2 md:p-4 lg:p-5">
                         <p className="text-xl font-semibold leading-tight">
