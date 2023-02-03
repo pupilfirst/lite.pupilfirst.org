@@ -215,7 +215,7 @@ export default function earlyAdopter(props) {
                             <a
                               className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
                               target="_blank"
-                              href="https://drive.google.com/file/d/1jGBo0LHjH_HIEF7-wlF-x2I1DwZk62tK/view"
+                              href="https://drive.google.com/file/d/1di0o5i8ZmI03j4bicWlKSMSeYHpeFjvA/view"
                             >
                               <span>
                                 <svg
