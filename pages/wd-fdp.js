@@ -299,12 +299,11 @@ export default function Page() {
                 </svg>
               </div>
             </div>
-            <div style={{ padding: "42.58% 0 0 0", position: "relative" }}>
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
-                src="https://player.vimeo.com/video/760206777?h=0b708633d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                frameBorder="0"
+                className="rounded-b-xl shadow-2xl"
+                src="https://player.vimeo.com/video/793992206?h=72be05d25d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                 allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
                 style={{
                   position: "absolute",
                   top: 0,
@@ -312,8 +311,7 @@ export default function Page() {
                   width: "100%",
                   height: "100%",
                 }}
-                className="rounded-b-md md:rounded-b-xl"
-                title="AICTE Leadership in Teaching Excellence (LITE)  - Transformation of Classrooms to NEP 2020 Learner Centered Pedagogy"
+                title="Pupilfirst Teaching Learning Cycle"
               ></iframe>
             </div>
           </div>
