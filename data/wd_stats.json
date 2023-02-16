@@ -1,1 +1,30 @@
-{"total_students":[{"Count":6610}],"active_students":[{"Count":753}],"velocity":[{"Count":220}],"reviews":[{"Count":33}],"courses":[{"Courses → Name":"Web Development 101 ","Count":4447},{"Courses → Name":"Web Development 201 (Node.js)","Count":2127},{"Courses → Name":"Web Development 301","Count":36}],"total_submissions":[{"Distinct values of ID":36603}],"pending_submissions":[{"Distinct values of ID":607}],"last_updated_at":{"abbreviation":"IST","client_ip":"40.84.170.50","datetime":"2023-01-12T01:32:33.063656+05:30","day_of_week":4,"day_of_year":12,"dst":false,"dst_from":null,"dst_offset":0,"dst_until":null,"raw_offset":19800,"timezone":"Asia/Kolkata","unixtime":1673467353,"utc_datetime":"2023-01-11T20:02:33.063656+00:00","utc_offset":"+05:30","week_number":2}}
+{
+  "total_students": [{ "Count": 7475 }],
+  "active_students": [{ "Count": 432 }],
+  "velocity": [{ "Count": 2449 }],
+  "reviews": [{ "Count": 0 }],
+  "courses": [
+    { "Courses → Name": "Web Development 101", "Count": 5090 },
+    { "Courses → Name": "Web Development 201 (Node.js)", "Count": 2349 },
+    { "Courses → Name": "Web Development 301", "Count": 36 }
+  ],
+  "total_submissions": [{ "Distinct values of ID": 40423 }],
+  "pending_submissions": [{ "Distinct values of ID": 53 }],
+  "last_updated_at": {
+    "abbreviation": "IST",
+    "client_ip": "40.86.18.80",
+    "datetime": "2023-02-16T13:32:16.919044+05:30",
+    "day_of_week": 4,
+    "day_of_year": 47,
+    "dst": false,
+    "dst_from": null,
+    "dst_offset": 0,
+    "dst_until": null,
+    "raw_offset": 19800,
+    "timezone": "Asia/Kolkata",
+    "unixtime": 1676534536,
+    "utc_datetime": "2023-02-16T08:02:16.919044+00:00",
+    "utc_offset": "+05:30",
+    "week_number": 7
+  }
+}
