@@ -6,11 +6,21 @@ export default function Testimonial({
   testimony,
   imageSrc,
   children,
+  darkBackground = false,
+  className = "",
 }) {
   return (
-    <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-orange-100 p-6 rounded-lg w-full">
+    <div
+      className={`${
+        darkBackground
+          ? "bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700"
+          : "bg-orange-100"
+      } flex flex-col items-center md:items-start md:flex-row gap-3 p-6 rounded-lg w-full ${className}`}
+    >
       <img
-        className="ml-0 md:-ml-16 w-72 h-72 rounded-xl md:rounded-full object-cover md:object-contain border-8 border-orange-200 bg-orange-50"
+        className={`${
+          darkBackground ? "border-blue-900" : "border-orange-200 bg-orange-50"
+        } ml-0 md:-ml-16 w-72 h-72 rounded-xl md:rounded-full object-cover md:object-contain border-8  ${className}`}
         src={imageSrc}
         alt={"Photo of" + name}
       />
@@ -30,13 +40,15 @@ export default function Testimonial({
           />
         </svg>
 
-        <div className="text-white">
-          <p className="text-base md:text-xl text-gray-600 font-medium">
-            {testimony}
-          </p>
+        <div
+          className={`${
+            darkBackground ? "text-gray-200" : "text-gray-600"
+          } ${className}`}
+        >
+          <p className="text-base md:text-xl  font-medium">{testimony}</p>
           {children ? children : null}
-          <p className="font-semibold mt-4 text-black">{name}</p>
-          <p className="text-sm text-gray-600">{role}</p>
+          <p className="font-semibold mt-4">{name}</p>
+          <p className="text-sm">{role}</p>
         </div>
       </div>
     </div>

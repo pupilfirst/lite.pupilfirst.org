@@ -40,6 +40,23 @@ h4 {
   background-image: url(".././public/hero/hero-bg-circles.svg");
   @apply bg-cover bg-center bg-no-repeat;
 }
+.bg-animation {
+  background:
+      radial-gradient(ellipse at center, rgba(0, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 70%),
+      radial-gradient(ellipse at center, rgba(255, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 70%),
+      radial-gradient(ellipse at center, rgba(0, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0) 70%)
+      #111827;
+    background-repeat:
+      no-repeat,
+      no-repeat,
+      no-repeat;
+    background-size:
+      900px 900px,
+      900px 900px,
+      900px 900px;
+    background-attachment: fixed;
+    animation: bganimation 30s infinite;
+}
 .hero__title-gradient {
   @apply bg-gradient-to-br from-secondary-400 to-secondary-600;
   -webkit-background-clip: text;
@@ -49,6 +66,13 @@ h4 {
 }
 .hero__title-gradient-primary {
   @apply bg-gradient-to-br from-primary-500 to-primary-700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+}
+.ev-hero__title-gradient {
+  @apply bg-gradient-to-r from-blue-400 to-green-500;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -369,5 +393,29 @@ h4 {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes bganimation {
+  0% {
+    background-position:
+      -100% -100%,
+      200% 200%,
+      -100% 200%,
+      200% -100%;
+  }
+  50% {
+    background-position:
+      150% 100%,
+      -200% 100%,
+      100% 0%,
+      0% 100%;
+  }
+  100% {
+    background-position:
+      -100% -100%,
+      200% 200%,
+      -100% 200%,
+      200% -100%;
   }
 }

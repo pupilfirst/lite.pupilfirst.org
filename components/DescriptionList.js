@@ -1,9 +1,21 @@
 /** @format */
 
-export default function DescriptionList({ heading, content, children }) {
+export default function DescriptionList({
+  heading,
+  content,
+  children,
+  darkBackground = false,
+  className = "",
+}) {
   return (
     <div className="md:-ml-8">
-      <h3 className="heading-with-underscore text-xl lg:text-5xl text-secondary-500 font-bold">
+      <h3
+        className={`${
+          darkBackground
+            ? "heading-with-underscore--cyan-green text-blue-500"
+            : "text-secondary-500"
+        } heading-with-underscore text-xl lg:text-5xl font-bold ${className}`}
+      >
         {heading}
       </h3>
       <div className="ml-8 pt-4 text-sm lg:text-lg ">{content}</div>

@@ -2,10 +2,23 @@
 
 import React from "react";
 
-export default function People({ name, role, imgSrc, description }) {
+export default function People({
+  name,
+  role,
+  imgSrc,
+  description,
+  darkBackground = false,
+  className = "",
+}) {
   return (
     <div>
-      <div className="relative rounded-lg bg-gradient-to-br from-yellow-300 to-primary-400 md:w-auto">
+      <div
+        className={`${
+          darkBackground
+            ? "bg-gradient-to-br from-blue-500 to-green-600"
+            : "bg-gradient-to-br from-yellow-300 to-primary-400"
+        } relative rounded-lg md:w-auto ${className}`}
+      >
         <img
           src={imgSrc}
           alt={name}
@@ -15,7 +28,11 @@ export default function People({ name, role, imgSrc, description }) {
       <p className={"text-lg font-semibold pt-2"}>{name}</p>
       <p className={"text-sm text-gray-600 leading-tight pt-1"}>{role}</p>
       {description ? (
-        <p className={"text-sm md:text-base pt-3 text-gray-700"}>
+        <p
+          className={`${
+            darkBackground ? "text-gray-400" : "text-gray-700"
+          } text-sm md:text-base pt-3 ${className}`}
+        >
           {description}
         </p>
       ) : null}
