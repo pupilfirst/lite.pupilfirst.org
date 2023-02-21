@@ -10,6 +10,7 @@ import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
 import ZoomImage from "../components/ZoomImage";
+import AnimatedBackground from "../components/AnimatedBackground";
 
 let researchers = [
   {
@@ -100,7 +101,10 @@ export default function Page() {
         />
       </Head>
       <main className="bg-gray-900 mx-auto z-10">
-        <section className="hero__bg-pattern relative bg-animation pb-8">
+        <section className="hero__bg-pattern relative pb-8">
+          <div className="absolute inset-0 opacity-10 overflow-hidden">
+            <AnimatedBackground />
+          </div>
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
             <div className="flex max-w-2xl mx-auto md:hidden justify-between items-center gap-4">
               <div className="inline-flex items-center bg-white px-1 pt-0.5 pb-1 rounded-full">
