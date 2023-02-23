@@ -123,7 +123,7 @@ export default function Page() {
               <div className="inline-flex">
                 <img
                   className="w-24 md:w-36"
-                  src="logos/pupilfirst-logo-primary.svg"
+                  src="logos/pupilfirst-logo-white.svg"
                   alt=""
                 />
               </div>
@@ -293,8 +293,8 @@ export default function Page() {
             <div className="absolute inset-0"></div>
           </div> */}
         </section>
-        <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
-          <div className="mt-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 grid grid-cols-none md:grid-cols-12 gap-4 md:gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
+        <div className="max-w-6xl 2xl:max-w-7xl mx-auto md:pt-8 py-4 px-4 xl:px-0 relative z-10">
+          <div className="md:mt-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 grid grid-cols-none md:grid-cols-12 gap-4 md:gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
             <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
               <div className="p-4 md:p-3 rounded-3xl border-2 border-blue-800 shadow-sm">
                 <img
@@ -331,7 +331,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="max-w-6xl 2xl:max-w-7xl mx-auto mt-8 py-4 px-4 xl:px-0 relative z-10">
+        <div className="max-w-6xl 2xl:max-w-7xl mx-auto md:pt-8 py-4 px-4 xl:px-0 relative z-10">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 grid grid-cols-none md:grid-cols-12 gap-4 md:gap-8 flex-col md:flex-row justify-between p-6 bg-orange-50 rounded-lg">
             <div className="md:col-span-4 flex items-start justify-center flex-shrink-0">
               <div className="p-4 md:p-3 rounded-3xl border-2 bg-primary-100 border-primary-200 shadow-sm">
@@ -658,7 +658,7 @@ export default function Page() {
             improvements to policymakers so that the learner-centred classroom
             framework is dynamically improving every day.
           </p>
-          <div className="max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
+          <div className="max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-12 mt-6">
             {researchers.map((researcher) => (
               <People
                 darkBackground="true"
