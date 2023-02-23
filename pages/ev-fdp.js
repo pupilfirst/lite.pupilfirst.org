@@ -652,7 +652,7 @@ export default function Page() {
           darkBackground="true"
           heading={
             <span>
-              Highlights of ATAL FDP <br /> in Advanced Web Development
+              Highlights of ATAL FDP <br /> in Electric Vehicles
             </span>
           }
         >
@@ -660,22 +660,31 @@ export default function Page() {
             <DescriptionList
               darkBackground="true"
               heading="Bridge your skill gap with Industry"
-              content="Upgrade your knowledge for preparing students for the 10Cr job opportunities in the Web Development industry"
+              content="Upgrade your knowledge for preparing students for the paradigm
+                shift to sustainable energy, enabling them to be part of the
+                e-mobility industry."
             >
-              <img
-                className="p-8 bg-white rounded-lg mt-6"
-                src="/stats/digital-job-growth-from-2020-2025.svg"
-                alt="Graph showing digital job growth"
-              />
-              <p className="text-gray-600 italic text-sm pt-1">
-                Data Source:{" "}
-                <a
-                  className="text-indigo-600 underline"
-                  href="https://blogs.microsoft.com/blog/2020/06/30/microsoft-launches-initiative-to-help-25-million-people-worldwide-acquire-the-digital-skills-needed-in-a-covid-19-economy/"
-                  target="_blank"
-                >
-                  Microsoft Data Science utilizing LinkedIn data.
-                </a>
+              <p>
+                The EV sector in India is also facing a talent crunch, which
+                will have to be solved by the higher education system in India.
+                The current talent is only trained in specific domain of
+                engineering, while electric vehicles requires an
+                interdisciplinary approach for learning and developing the
+                technology behind them.
+              </p>
+              <p className="mt-4">
+                The regulators are also pushing towards shifting to electric
+                mobility. Because of this push from the regulators towards EVs
+                and the lack of immediate availability of talent, this course
+                plays a major role in solving this issue.
+              </p>
+              <p className="mt-4">
+                The EV curriculum has been designed by practicing industry
+                professionals to help the students get acquainted to industry
+                best practices. Compared to other courses, students learn
+                hands-on by building a working prototype which mimics an actual
+                EV powertrain using electronic components which will help them
+                understand its working and become industry ready.
               </p>
             </DescriptionList>
             <DescriptionList
@@ -689,15 +698,15 @@ export default function Page() {
                   name="Mr. Swapnil Mankame"
                   role="CEO, Founder at Mankame Automotive"
                   description="Course Author & Full time coach Entrepreneur in the EV space and ecosystem leader."
-                  imgSrc="people/Swapnil-Mankame.png"
+                  imgSrc="people/ev/industry-experts//Swapnil-Mankame.png"
                 />
 
                 <People
                   darkBackground="true"
-                  name="Mr. Swapnil Mankame"
-                  role="CEO, Founder at Mankame Automotive"
-                  description="Course Author & Full time coach Entrepreneur in the EV space and ecosystem leader."
-                  imgSrc="people/Swapnil-Mankame.png"
+                  name="Kishor Kumar K"
+                  role="Design & Development Engineer (Motor and Inverter), Garrett Advancing Motion (formerly Honeywell Turbo technologies), Bangalore"
+                  description="Kishor is a design and development engineer, who is currently working with Garrett Advancing Motion on cutting edge technologies such as High Speed High Voltage Motor and inverters for electrification of 4 Wheeler Passenger and Commercial vehicles. He has 10 years of experience in the field of EV and electrification. In his previous assignment with SEG Automotive he developed traction motors for leading Indian 2Wheeler OEMs which involved development of motor from scratch to Series of production with a volume of 20,000 motors per month by following all the stages of product development. Apart from his work, he is also Co-founder of NPO called Athira Edutech Foundation through which he teaches STEM based education to Govt school higher primary students."
+                  imgSrc="people/ev/industry-experts//Kishor_Kumar_K.png"
                 />
               </div>
             </DescriptionList>
@@ -826,7 +835,60 @@ export default function Page() {
               content="Student TAs, along with industry coaches, can answer any doubts, no matter how silly or complex. Faculty members can confidently ask learners to ask any questions through the digital learning platform."
             >
               <div className="pt-6">
-                <StudentTeachingAssistants />
+                <div className="max-w-6xl 2xl:max-w-7xl mx-auto rounded-lg">
+                  <div className="mt-2 lg:mt-4 grid md:grid-cols-2 gap-8">
+                    <div className="flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg">
+                      <div className="w-full md:w-32 h-48 md:h-full">
+                        <img
+                          className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
+                          src="people/ev/teaching-assistants/Chetan_Shivprakash_Agroya.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col flex-1 justify-between text-sm">
+                        <div className="p-4">
+                          <p className="text-base md:text-lg font-bold">
+                            Chetan Shivprakash Agroya
+                          </p>
+                          <p className="text-gray-400 pt-1">
+                            B.E - Sem VIII, Mechanical Engineering
+                          </p>
+                        </div>
+                        <div>
+                          <p className="bg-gray-900 p-4 w-full font-medium text-gray-300 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
+                            PCET's Nutan Maharashtra Institute of Engineering
+                            and Technology, Talegaon, Maharashtra
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg">
+                      <div className="w-full md:w-32 h-48 md:h-full">
+                        <img
+                          className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
+                          src="people/ev/teaching-assistants/Gurudayal_Singh_Dalawat.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col flex-1 justify-between text-sm">
+                        <div className="p-4">
+                          <p className="text-base md:text-lg font-bold">
+                            Gurudayal Singh Dalawat
+                          </p>
+                          <p className="text-gray-400 pt-1">
+                            B.E - Sem VIII, Mechanical Engineering
+                          </p>
+                        </div>
+                        <div>
+                          <p className="bg-gray-900 p-4 w-full font-medium text-gray-300 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
+                            St. Francis Institute of Technology, Mumbai,
+                            Maharashtra
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </DescriptionList>
             <DescriptionList

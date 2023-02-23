@@ -26,11 +26,17 @@ export default function People({
         />
       </div>
       <p className={"text-lg font-semibold pt-2"}>{name}</p>
-      <p className={"text-sm text-gray-600 leading-tight pt-1"}>{role}</p>
+      <p
+        className={`${
+          darkBackground ? "text-gray-400" : "text-gray-500"
+        } text-sm leading-tight pt-1 ${className}`}
+      >
+        {role}
+      </p>
       {description ? (
         <p
           className={`${
-            darkBackground ? "text-gray-400" : "text-gray-700"
+            darkBackground ? "text-gray-200" : "text-gray-700"
           } text-sm md:text-base pt-3 ${className}`}
         >
           {description}
