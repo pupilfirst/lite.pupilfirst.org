@@ -10,6 +10,7 @@ import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
 import ZoomImage from "../components/ZoomImage";
+import Footer from "../components/Footer";
 
 let researchers = [
   {
@@ -1225,6 +1226,7 @@ export default function Page() {
           </div>
         </SectionWithHeading>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import ModelUniversity from "../components/ModelUniversity";
 import ModelInstitutes from "../components/ModelInstitutes";
 import ModelFaculties from "../components/ModelFaculties";
 import ModelStudents from "../components/ModelStudents";
+import Footer from "../components/Footer";
 import Link from "next/link";
 
 export default function Page() {
@@ -376,6 +377,7 @@ export default function Page() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

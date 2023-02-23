@@ -4,6 +4,7 @@ import Heading from "../components/Heading";
 import People from "../components/People";
 import NumberListItem from "../components/NumberListItem";
 import ScheduleDate from "../components/ScheduleDate";
+import Footer from "../components/Footer";
 import React, { useState } from "react";
 
 let hiringPartner = (index, title, url, logoSrc) => {
@@ -574,6 +575,7 @@ export default function earlyAdopter(props) {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

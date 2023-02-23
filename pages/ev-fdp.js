@@ -2,14 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import DateAndContent from "../components/DateAndContent";
 import DescriptionList from "../components/DescriptionList";
-import StudentTeachingAssistants from "../components/StudentTeachingAssistants";
-import HiringNetwork from "../components/HiringNetwork";
-import PathWayToJoinFDP from "../components/PathWayToJoinFDP";
 import People from "../components/People";
 import ScheduleDate from "../components/ScheduleDate";
 import SectionWithHeading from "../components/SectionWithHeading";
 import Testimony from "../components/Testimony";
-import ZoomImage from "../components/ZoomImage";
 import AnimatedBackground from "../components/AnimatedBackground";
 
 let researchers = [
@@ -35,6 +31,16 @@ let researchers = [
       "Aparna has a B.Tech in Computer Science and Engineering from College of Engineering, Trivandrum. She has worked in technology, education policy and advocacy, and community organising. With over 21 years of experience, she has worked at Infosys, Observer Research Foundation and at leading roles in Netcore Cloud & Free A Billion.",
   },
 ];
+
+function FooterLink({ title, href }) {
+  return (
+    <div className="p-2 text-blue-500 font-medium text-sm hover:underline hover:text-blue-200 cursor-pointer rounded-lg transition">
+      <Link target="_blank" href={href}>
+        {title}
+      </Link>
+    </div>
+  );
+}
 
 export default function Page() {
   return (
@@ -216,7 +222,7 @@ export default function Page() {
           <div className="relative z-20 max-w-7xl mx-auto px-2 xl:px-0 text-center">
             <div className="pt-4 md:pt-6">
               <a
-                href="#"
+                href="https://pupilfirst.typeform.com/to/JWPISbKH"
                 target="_blank"
                 className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-r from-green-500 to-blue-400 text-gray-900 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:to-green-500 focus:ring-2 focus:ring-indigo-400 transition "
               >
@@ -390,7 +396,7 @@ export default function Page() {
               Programme
             </p>
             <a
-              href="#"
+              href="https://pupilfirst.typeform.com/to/JWPISbKH"
               target="_blank"
               className="inline-block md:col-span-4 items-center w-full text-center sm:max-w-md p-3 lg:px-8 lg:py-3.5 text-white bg-gradient-to-r from-green-500 to-blue-400 text-gray-900 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:to-green-500 focus:ring-2 focus:ring-indigo-400 transition "
             >
@@ -464,7 +470,7 @@ export default function Page() {
                 }
               >
                 <img
-                  src="/sample-certificate/LITE-Faculty-Certificate-Sample.png"
+                  src="/sample-certificate/EV-LITE-Sample-certificate.png"
                   alt="Sample certificate issued by LITE"
                 />
               </DescriptionList>
@@ -482,48 +488,43 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   darkBackground="true"
-                  date="December 01, 2022"
-                  content="LITE Batch#3 FDP Applications Open and Training Starts"
+                  date="February 27, 2023"
+                  content="LITE EV Batch1 FDP Applications Open"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="December 12, 2022"
-                  content="Last Date for Batch#3 FDP Applications (Closed)"
-                />
-                <DateAndContent
-                  darkBackground="true"
-                  date="December 13, 2022 onwards"
+                  date="February 27, 2023 onwards"
                   content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="December 21, 2022"
-                  content="AICTE to Announce Selected Institutions and Faculty Members"
+                  date="March 10, 2023"
+                  content="Last Date for EV Batch#1 FDP Applications (Closed)"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="January 09, 2023"
-                  content="Last Date for institute to share the signed MoU with Pupilfirst"
+                  date="March 13, 2023"
+                  content="Announcement of Selected Institutions and Faculty Members"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="February 16, 2023"
-                  content="Last Date for Institutions to complete integration approvals for Batch#3"
+                  date="March 15, 2023"
+                  content="Last Date for institute to share the signed Addendum with Pupilfirst"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="February 23, 2023"
+                  date="May 31, 2023"
+                  content="Last Date for Institutions to complete integration approvals for EV Batch#1. FDP"
+                />
+                <DateAndContent
+                  darkBackground="true"
+                  date="To be Announced (July/August 2023)"
                   content="Start Course Admissions for students at institutions"
-                />
-                <DateAndContent
-                  darkBackground="true"
-                  date="Ongoing"
-                  content="Faculty training continues along with course deployment"
                 />
               </div>
               <div className="p-4">
                 <a
-                  href="#"
+                  href="https://pupilfirst.typeform.com/to/JWPISbKH"
                   target="_blank"
                   className="inline-block w-full sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white text-center bg-gradient-to-r from-green-500 to-blue-400 text-gray-900 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:to-green-500 focus:ring-2 focus:ring-indigo-400 transition "
                 >
@@ -534,6 +535,44 @@ export default function Page() {
           </div>
         </SectionWithHeading>
         <div className="bg-gray-900 border-t border-gray-700">
+          <SectionWithHeading
+            darkBackground="true"
+            heading={<p>Testimonial from Micelio</p>}
+          >
+            <div className="flex flex-col md:flex-row-reverse space-y-4 md:space-y-0 md:text-lg justify-between items-start">
+              <div className="inline-flex items-center p-2 px-4 rounded bg-white md:ml-4">
+                <img
+                  className="md:w-48"
+                  src="logos/micelio-logo.png"
+                  alt="Logo of All India Council for Technical Education (AICTE)"
+                />
+              </div>
+              <div className="md:w-4/5">
+                <p className="">
+                  Micelio and Pupilfirst have a shared vision of creating an
+                  ecosystem for Electric mobility to facilitate innovations as
+                  well as addressing the talent crunch observed in the domain.
+                  We are proud to support Pupilfirst in changing the way we look
+                  at education, as well as bringing India on the map of
+                  technological advancements in the future of electric mobility.{" "}
+                </p>
+                <p className="mt-4">
+                  The EV courses from Pupilfirst is aimed to pave away for
+                  students from higher education institutes to the domain of
+                  electric mobility. These courses are designed by experts who
+                  are currently practicing in the industry, such that it will
+                  take the learners through industry best practices through a
+                  learner centered approach which involves hands-on learning.
+                </p>
+                <p className="mt-4">
+                  The evolution of technology at this time and age is very rapid
+                  and hence, industry and academia working in tandem is the need
+                  of the hour, where there is constant exchange of information
+                  and talent between both the entities.
+                </p>
+              </div>
+            </div>
+          </SectionWithHeading>
           <SectionWithHeading
             darkBackground="true"
             heading={<p>Learner Centered Classroom Framework</p>}
@@ -896,7 +935,7 @@ export default function Page() {
               heading="Hands on Learning"
               content="Students learn the EV technology by building their own prototype model, thanks to the help of DIY kits supplied with the intermediate level  EV 201 - Design and Build Your Own Powertrain course. This helps students understand the basics of industry grade technologies."
             ></DescriptionList>
-            <DescriptionList
+            {/* <DescriptionList
               darkBackground="true"
               heading="Access Industry Hiring Network"
               content="Faculty Members and Institutions shall have access to a growing industry hiring network for your students to gain internships and job opportunities as they complete the curriculum."
@@ -904,7 +943,7 @@ export default function Page() {
               <div className="pt-6">
                 <HiringNetwork />
               </div>
-            </DescriptionList>
+            </DescriptionList> */}
             <DescriptionList
               darkBackground="true"
               heading="Transform your classroom from NEP 1986 to NEP 2020 through LITE"
@@ -1019,43 +1058,38 @@ export default function Page() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 divide-y divide-gray-700 rounded-lg border border-gray-700">
             <ScheduleDate
               darkBackground="true"
-              date="December 01, 2022"
-              content="LITE Batch#3 FDP Applications Open and Training Starts"
+              date="February 27, 2023"
+              content="LITE EV Batch1 FDP Applications Open"
             />
             <ScheduleDate
               darkBackground="true"
-              date="December 12, 2022"
-              content="Last Date for Batch#3 FDP Applications (Closed)"
-            />
-            <ScheduleDate
-              darkBackground="true"
-              date="December 13, 2022 onwards"
+              date="February 27, 2023 onwards"
               content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
             />
             <ScheduleDate
               darkBackground="true"
-              date="December 21, 2022"
-              content="AICTE to Announce Selected Institutions and Faculty Members"
+              date="March 10, 2023"
+              content="Last Date for EV Batch#1 FDP Applications (Closed)"
             />
             <ScheduleDate
               darkBackground="true"
-              date="January 09, 2023"
-              content="Last Date for institute to share the signed MoU with Pupilfirst"
+              date="March 13, 2023"
+              content="Announcement of Selected Institutions and Faculty Members"
             />
             <ScheduleDate
               darkBackground="true"
-              date="February 16, 2023"
-              content="Last Date for Institutions to complete integration approvals for Batch#3"
+              date="March 15, 2023"
+              content="Last Date for institute to share the signed Addendum with Pupilfirst"
             />
             <ScheduleDate
               darkBackground="true"
-              date="February 23, 2023"
+              date="May 31, 2023"
+              content="Last Date for Institutions to complete integration approvals for EV Batch#1. FDP"
+            />
+            <ScheduleDate
+              darkBackground="true"
+              date="To be Announced (July/August 2023)"
               content="Start Course Admissions for students at institutions"
-            />
-            <ScheduleDate
-              darkBackground="true"
-              date="Ongoing"
-              content="Faculty training continues along with course deployment"
             />
           </div>
           <div className="pt-10 lg:pt-16">
@@ -1122,7 +1156,7 @@ export default function Page() {
             </h4>
             <div className="mt-6 flex justify-center">
               <a
-                href="#"
+                href="https://pupilfirst.typeform.com/to/JWPISbKH"
                 target="_blank"
                 className="inline-block w-full p-3 lg:px-4 lg:py-3.5 text-blue-300 bg-gradient-to-br from-gray-800 to-gray-900 rounded-md text-center text-base lg:text-lg font-semibold hover:from-gray-700 hover:to-gray-800 hover:shadow-xl transition "
               >
@@ -1132,6 +1166,20 @@ export default function Page() {
           </div>
         </SectionWithHeading>
       </main>
+
+      <footer className="bg-gray-900 z-50 border-t border-gray-700">
+        <div className="max-w-7xl mx-auto py-6 px-2 flex flex-wrap items-center gap-2 justify-center">
+          <FooterLink title="Dynamic curriculum" href="/dynamic-curriculum" />
+          <FooterLink
+            title="FAQ"
+            href="https://docs.google.com/document/d/e/2PACX-1vTJ9YP4STdXiGMeFokNtO6r9HIeLI7cJOY5YYhOQcJfQxCPVH9HgtQjlojM6-5_oR_Y7OE693OMc9y2/pub"
+          />
+          <FooterLink
+            title="EV Teaching Fellowship"
+            href="https://ev.pupilfirst.org/teaching-fellowship"
+          />
+        </div>
+      </footer>
     </div>
   );
 }

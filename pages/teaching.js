@@ -5,6 +5,7 @@ import DateAndContent from "../components/DateAndContent";
 import People from "../components/People";
 import ListItem from "../components/ListItem";
 import ScheduleDate from "../components/ScheduleDate";
+import Footer from "../components/Footer";
 
 export default function teachingFellowship() {
   return (
@@ -566,6 +567,7 @@ export default function teachingFellowship() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

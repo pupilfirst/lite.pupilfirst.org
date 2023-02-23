@@ -5,6 +5,7 @@ import Link from "next/link";
 // import InstituteCard from "../components/InstituteCard";
 import Container from "../components/layout/Container.js";
 import UniversityCard from "../components/UniversityCard";
+import Footer from "../components/Footer";
 import { institutesList, universitiesList, findUniqueCount } from "../lib/api";
 
 export default function ApprovalStatus(props) {
@@ -409,6 +410,7 @@ export default function ApprovalStatus(props) {
           </div>
         </Container>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import NumberListItem from "../components/NumberListItem";
 import ScheduleDate from "../components/ScheduleDate";
 import React, { useState } from "react";
 import hiringNetworkData from "./../data/hiring-network.json";
+import Footer from "../components/Footer";
 
 let hiringPartner = (index, title, url, logoSrc) => {
   return (
@@ -722,6 +723,7 @@ export default function earlyAdopter(props) {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
