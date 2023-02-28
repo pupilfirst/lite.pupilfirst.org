@@ -139,7 +139,7 @@ export default function Page() {
               <div className="hidden md:flex md:order-last">
                 <img
                   className="w-24 md:w-36"
-                  src="logos/pupilfirst-logo-primary.svg"
+                  src="logos/pupilfirst-logo-white.svg"
                   alt=""
                 />
               </div>
