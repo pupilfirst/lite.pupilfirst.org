@@ -232,10 +232,11 @@ export default function Page() {
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mt-6 md:mt-12 mx-4 md:mx-auto pt-4 relative z-10 bg-gray-900 border border-gray-800 rounded-md md:rounded-xl shadow-lg ">
             <div className="relative max-w-3xl mx-auto">
-              <p className="px-6 pb-4 text-xs md:text-lg font-medium py-2 text-gray-600 text-center">
-                <span className="font-bold text-gray-500">Watch the Video</span>{" "}
-                of how faculty members can transform their classrooms from NEP
-                1986 to NEP 2020 Learner-Centered Classrooms.
+              <p className="px-6 pb-4 text-xs md:text-lg font-medium py-2 text-gray-400 text-center">
+                <span className="font-bold text-gray-300">Watch the Video</span>{" "}
+                of how LITE faculty members are transforming their classrooms
+                from NEP 1986 to NEP 2020 Learner-Centered Classrooms for the
+                LITE Web Development courses.
               </p>
               <div className="hidden md:block h-6 w-6 absolute top-8 left-4 z-10">
                 <svg
@@ -488,37 +489,42 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   darkBackground="true"
-                  date="February 27, 2023"
+                  date="February 28, 2023"
                   content="LITE EV Batch1 FDP Applications Open"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="February 27, 2023 onwards"
+                  date="February 28, 2023 onwards"
                   content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 10, 2023"
+                  date="March 17, 2023"
                   content="Last Date for EV Batch#1 FDP Applications (Closed)"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 13, 2023"
+                  date="March 21, 2023"
                   content="Announcement of Selected Institutions and Faculty Members"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 15, 2023"
-                  content="Last Date for institute to share the signed Addendum with Pupilfirst"
+                  date="March 23, 2023"
+                  content="FDP start for selected faculty members"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="May 31, 2023"
-                  content="Last Date for Institutions to complete integration approvals for EV Batch#1. FDP"
+                  date="March 28, 2023"
+                  content="Recommended for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="To be Announced (July/August 2023)"
+                  date="April 30, 2023"
+                  content="Recommended date for Institutions to complete integration approvals for EV Batch#1. FDP"
+                />
+                <DateAndContent
+                  darkBackground="true"
+                  date="To be Announced"
                   content="Start Course Admissions for students at institutions"
                 />
               </div>
@@ -537,7 +543,7 @@ export default function Page() {
         <div className="bg-gray-900 border-t border-gray-700">
           <SectionWithHeading
             darkBackground="true"
-            heading={<p>Testimonial from Micelio</p>}
+            heading={<p>A joint effort with Micelio</p>}
           >
             <div className="flex flex-col md:flex-row-reverse space-y-4 md:space-y-0 md:text-lg justify-between items-start">
               <div className="inline-flex items-center p-2 px-4 rounded bg-white md:ml-4">
@@ -550,19 +556,18 @@ export default function Page() {
               <div className="md:w-4/5">
                 <p className="">
                   Micelio and Pupilfirst have a shared vision of creating an
-                  ecosystem for Electric mobility to facilitate innovations as
-                  well as addressing the talent crunch observed in the domain.
-                  We are proud to support Pupilfirst in changing the way we look
-                  at education, as well as bringing India on the map of
-                  technological advancements in the future of electric mobility.{" "}
+                  ecosystem for Electric mobility to facilitate innovations, as
+                  well as addressing the talent crunch observed in the EV
+                  sector.
                 </p>
                 <p className="mt-4">
-                  The EV courses from Pupilfirst is aimed to pave away for
-                  students from higher education institutes to the domain of
-                  electric mobility. These courses are designed by experts who
-                  are currently practicing in the industry, such that it will
-                  take the learners through industry best practices through a
-                  learner centered approach which involves hands-on learning.
+                  With the support from Micelio, Pupifirst has developed the EV
+                  courses, which are aimed to pave a pathway for students from
+                  higher education institutes to the domain of electric
+                  mobility. These courses are designed by experts who are
+                  currently practicing in the industry, such that it will take
+                  the learners through industry best practices through a learner
+                  centered approach which involves hands-on learning.
                 </p>
                 <p className="mt-4">
                   The evolution of technology at this time and age is very rapid
@@ -719,7 +724,7 @@ export default function Page() {
               </p>
               <p className="mt-4">
                 The EV curriculum has been designed by practicing industry
-                professionals to help the students get acquainted to industry
+                professionals to help the students get acquainted with industry
                 best practices. Compared to other courses, students learn
                 hands-on by building a working prototype which mimics an actual
                 EV powertrain using electronic components which will help them
@@ -731,22 +736,61 @@ export default function Page() {
               heading="Dynamic Curriculum by Industry Experts"
               content="The courses are created with support from Micelio Mobility who aims to create an EV ecosystem in India."
             >
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-20 md:gap-5 mt-6">
-                <People
-                  darkBackground="true"
-                  name="Mr. Swapnil Mankame"
-                  role="CEO, Founder at Mankame Automotive"
-                  description="Course Author & Full time coach Entrepreneur in the EV space and ecosystem leader."
-                  imgSrc="people/ev/industry-experts//Swapnil-Mankame.png"
-                />
-
-                <People
-                  darkBackground="true"
-                  name="Kishor Kumar K"
-                  role="Design & Development Engineer (Motor and Inverter), Garrett Advancing Motion (formerly Honeywell Turbo technologies), Bangalore"
-                  description="Kishor is a design and development engineer, who is currently working with Garrett Advancing Motion on cutting edge technologies such as High Speed High Voltage Motor and inverters for electrification of 4 Wheeler Passenger and Commercial vehicles. He has 10 years of experience in the field of EV and electrification. In his previous assignment with SEG Automotive he developed traction motors for leading Indian 2Wheeler OEMs which involved development of motor from scratch to Series of production with a volume of 20,000 motors per month by following all the stages of product development. Apart from his work, he is also Co-founder of NPO called Athira Edutech Foundation through which he teaches STEM based education to Govt school higher primary students."
-                  imgSrc="people/ev/industry-experts//Kishor_Kumar_K.png"
-                />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-5 mt-6">
+                <div className="col-span-1 gap-4">
+                  <div className="rounded-lg">
+                    <img
+                      src="people/ev/industry-experts//Swapnil-Mankame.png"
+                      alt=""
+                      className="block w-full h-full md:w-72 md:h-72 bg-gradient-to-br from-blue-500 to-green-600 w-full object-cover object-top p-0.5 rounded-lg"
+                    />
+                  </div>
+                  <div className="col-span-8">
+                    <p className="text-lg font-semibold pt-2">
+                      Mr. Swapnil Mankame
+                    </p>
+                    <p className="text-gray-400 text-sm leading-tight pt-1">
+                      CEO, Founder at Mankame Automotive
+                    </p>
+                    <p className="text-gray-200 text-sm md:text-base pt-3">
+                      Course Author & Full time coach Entrepreneur in the EV
+                      space and ecosystem leader.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-span-1 gap-4">
+                  <div className="rounded-lg">
+                    <img
+                      src="people/ev/industry-experts//Kishor_Kumar_K.png"
+                      alt=""
+                      className="block w-full h-full md:w-72 md:h-72 bg-gradient-to-br from-blue-500 to-green-600 w-full object-cover object-top p-0.5 rounded-lg"
+                    />
+                  </div>
+                  <div className="col-span-8">
+                    <p className="text-lg font-semibold pt-2">Kishor Kumar K</p>
+                    <p className="text-gray-400 text-sm leading-tight pt-1">
+                      Design & Development Engineer (Motor and Inverter),
+                      Garrett Advancing Motion (formerly Honeywell Turbo
+                      technologies), Bangalore
+                    </p>
+                    <p className="text-gray-200 text-sm md:text-base pt-3">
+                      Kishor is a design and development engineer, who is
+                      currently working with Garrett Advancing Motion on cutting
+                      edge technologies such as High Speed High Voltage Motor
+                      and inverters for electrification of 4 Wheeler Passenger
+                      and Commercial vehicles. He has 10 years of experience in
+                      the field of EV and electrification. In his previous
+                      assignment with SEG Automotive he developed traction
+                      motors for leading Indian 2Wheeler OEMs which involved
+                      development of motor from scratch to Series of production
+                      with a volume of 20,000 motors per month by following all
+                      the stages of product development. Apart from his work, he
+                      is also Co-founder of NPO called Athira Edutech Foundation
+                      through which he teaches STEM based education to Govt
+                      school higher primary students.
+                    </p>
+                  </div>
+                </div>
               </div>
             </DescriptionList>
             <DescriptionList
@@ -995,7 +1039,7 @@ export default function Page() {
         <SectionWithHeading
           darkBackground="true"
           heading={
-            <p>Lets hear about the courses from one of our students :</p>
+            <p>Let's hear about the courses from one of our students :</p>
           }
         >
           <div className="relative">
@@ -1058,37 +1102,42 @@ export default function Page() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 divide-y divide-gray-700 rounded-lg border border-gray-700">
             <ScheduleDate
               darkBackground="true"
-              date="February 27, 2023"
+              date="February 28, 2023"
               content="LITE EV Batch1 FDP Applications Open"
             />
             <ScheduleDate
               darkBackground="true"
-              date="February 27, 2023 onwards"
+              date="February 28, 2023 onwards"
               content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 10, 2023"
+              date="March 17, 2023"
               content="Last Date for EV Batch#1 FDP Applications (Closed)"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 13, 2023"
+              date="March 21, 2023"
               content="Announcement of Selected Institutions and Faculty Members"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 15, 2023"
-              content="Last Date for institute to share the signed Addendum with Pupilfirst"
+              date="March 23, 2023"
+              content="FDP start for selected faculty members"
             />
             <ScheduleDate
               darkBackground="true"
-              date="May 31, 2023"
-              content="Last Date for Institutions to complete integration approvals for EV Batch#1. FDP"
+              date="March 28, 2023"
+              content="Recommended for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
             />
             <ScheduleDate
               darkBackground="true"
-              date="To be Announced (July/August 2023)"
+              date="April 30, 2023"
+              content="Recommended date for Institutions to complete integration approvals for EV Batch#1. FDP"
+            />
+            <ScheduleDate
+              darkBackground="true"
+              date="To be Announced"
               content="Start Course Admissions for students at institutions"
             />
           </div>
