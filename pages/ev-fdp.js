@@ -480,12 +480,12 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   darkBackground="true"
-                  date="March 01, 2023"
-                  content="LITE EV batch1 FDP applications open."
+                  date="March 02, 2023"
+                  content="LITE EV batch#1 FDP applications open."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 01, 2023 onwards"
+                  date="March 02, 2023 onwards"
                   content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
                 />
                 <DateAndContent
@@ -496,17 +496,17 @@ export default function Page() {
                 <DateAndContent
                   darkBackground="true"
                   date="March 29, 2023"
-                  content="Announcement of selected institutions and faculty members"
+                  content="Announcement of selected institutions and faculty members."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 30, 2023"
-                  content="FDP start for selected faculty members"
+                  content="FDP start for selected faculty members."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 31, 2023"
-                  content="Recommended date for institute to share the signed addendum with Pupilfirst (done on a rolling basis)."
+                  content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -1093,12 +1093,12 @@ export default function Page() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 divide-y divide-gray-700 rounded-lg border border-gray-700">
             <ScheduleDate
               darkBackground="true"
-              date="March 01, 2023"
-              content="LITE EV batch1 FDP applications open."
+              date="March 02, 2023"
+              content="LITE EV EV batch#1 FDP applications open."
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 01, 2023 onwards"
+              date="March 02, 2023 onwards"
               content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
             />
             <ScheduleDate
@@ -1109,17 +1109,17 @@ export default function Page() {
             <ScheduleDate
               darkBackground="true"
               date="March 29, 2023"
-              content="Announcement of selected institutions and faculty members"
+              content="Announcement of selected institutions and faculty members."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 30, 2023"
-              content="FDP start for selected faculty members"
+              content="FDP start for selected faculty members."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 31, 2023"
-              content="Recommended date for institute to share the signed addendum with Pupilfirst (done on a rolling basis)."
+              content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
             />
             <ScheduleDate
               darkBackground="true"
