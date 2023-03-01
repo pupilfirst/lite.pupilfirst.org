@@ -183,8 +183,8 @@ export default function Page() {
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto px-4 xl:px-0">
             <div className="w-full mx-auto md:w-4/5 text-center relative z-10">
-              <div className="inline-block rounded bg-gray-800 bg-opacity-50 py-1 px-1 md:px-2 mt-4 ">
-                <p className="font-medium text-sm text-blue-800">
+              <div className="inline-block rounded bg-gray-700 bg-opacity-50 py-1 px-1 md:px-2 mt-4 ">
+                <p className="font-medium text-sm text-blue-500">
                   All India Council for Technical Education.
                 </p>
               </div>
@@ -481,22 +481,22 @@ export default function Page() {
                 <DateAndContent
                   darkBackground="true"
                   date="March 01, 2023"
-                  content="LITE EV Batch1 FDP Applications Open"
+                  content="LITE EV batch1 FDP applications open."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 01, 2023 onwards"
-                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
+                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 24, 2023"
-                  content="Last Date for EV Batch#1 FDP Applications (Closed)"
+                  content="Last date for EV batch#1 FDP applications."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 29, 2023"
-                  content="Announcement of Selected Institutions and Faculty Members"
+                  content="Announcement of selected institutions and faculty members"
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -506,17 +506,17 @@ export default function Page() {
                 <DateAndContent
                   darkBackground="true"
                   date="March 31, 2023"
-                  content="Recommended date for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
+                  content="Recommended date for institute to share the signed addendum with Pupilfirst (done on a rolling basis)."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="April 30, 2023"
-                  content="Recommended date for Institutions to complete integration approvals for EV Batch#1. FDP"
+                  content="Recommended date for institutions to complete integration approvals for EV Courses (done on a rolling basis)."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="To be Announced"
-                  content="Start Course Admissions for students at institutions"
+                  content="Start course admissions for students at institutions."
                 />
               </div>
               <div className="p-4">
@@ -1094,22 +1094,22 @@ export default function Page() {
             <ScheduleDate
               darkBackground="true"
               date="March 01, 2023"
-              content="LITE EV Batch1 FDP Applications Open"
+              content="LITE EV batch1 FDP applications open."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 01, 2023 onwards"
-              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
+              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 24, 2023"
-              content="Last Date for EV Batch#1 FDP Applications (Closed)"
+              content="Last date for EV batch#1 FDP applications."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 29, 2023"
-              content="Announcement of Selected Institutions and Faculty Members"
+              content="Announcement of selected institutions and faculty members"
             />
             <ScheduleDate
               darkBackground="true"
@@ -1119,17 +1119,17 @@ export default function Page() {
             <ScheduleDate
               darkBackground="true"
               date="March 31, 2023"
-              content="Recommended date for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
+              content="Recommended date for institute to share the signed addendum with Pupilfirst (done on a rolling basis)."
             />
             <ScheduleDate
               darkBackground="true"
               date="April 30, 2023"
-              content="Recommended date for Institutions to complete integration approvals for EV Batch#1. FDP"
+              content="Recommended date for institutions to complete integration approvals for EV Courses (done on a rolling basis)."
             />
             <ScheduleDate
               darkBackground="true"
               date="To be Announced"
-              content="Start Course Admissions for students at institutions"
+              content="Start course admissions for students at institutions."
             />
           </div>
           <div className="pt-10 lg:pt-16">
