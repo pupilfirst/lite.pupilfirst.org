@@ -463,18 +463,9 @@ export default function Page() {
                     to EV courses roll out, thereby initiating the integration
                     process, shall be certified as AICTE LITE Brand Ambassador
                     of Change
-                    <span className="italic block mt-6">
-                      A copy of the previous LITE certificate is below as a
-                      sample.
-                    </span>
                   </p>
                 }
-              >
-                <img
-                  src="/sample-certificate/EV-LITE-Sample-certificate.png"
-                  alt="Sample certificate issued by LITE"
-                />
-              </DescriptionList>
+              ></DescriptionList>
             </div>
             <div className="col-span-3 self-start hidden md:block bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 sticky top-4">
               <div className="flex gap-2 p-4 border-b border-gray-700">
@@ -489,33 +480,33 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   darkBackground="true"
-                  date="February 28, 2023"
+                  date="March 01, 2023"
                   content="LITE EV Batch1 FDP Applications Open"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="February 28, 2023 onwards"
+                  date="March 01, 2023 onwards"
                   content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 17, 2023"
+                  date="March 24, 2023"
                   content="Last Date for EV Batch#1 FDP Applications (Closed)"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 21, 2023"
+                  date="March 29, 2023"
                   content="Announcement of Selected Institutions and Faculty Members"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 23, 2023"
+                  date="March 30, 2023"
                   content="FDP start for selected faculty members"
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 28, 2023"
-                  content="Recommended for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
+                  date="March 31, 2023"
+                  content="Recommended date for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -1102,33 +1093,33 @@ export default function Page() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 divide-y divide-gray-700 rounded-lg border border-gray-700">
             <ScheduleDate
               darkBackground="true"
-              date="February 28, 2023"
+              date="March 01, 2023"
               content="LITE EV Batch1 FDP Applications Open"
             />
             <ScheduleDate
               darkBackground="true"
-              date="February 28, 2023 onwards"
+              date="March 01, 2023 onwards"
               content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 17, 2023"
+              date="March 24, 2023"
               content="Last Date for EV Batch#1 FDP Applications (Closed)"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 21, 2023"
+              date="March 29, 2023"
               content="Announcement of Selected Institutions and Faculty Members"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 23, 2023"
+              date="March 30, 2023"
               content="FDP start for selected faculty members"
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 28, 2023"
-              content="Recommended for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
+              date="March 31, 2023"
+              content="Recommended date for institute to share the signed Addendum with Pupilfirst (Done on a rolling basis)."
             />
             <ScheduleDate
               darkBackground="true"
@@ -1145,23 +1136,6 @@ export default function Page() {
             <h3 className="text-blue-500 text-xl lg:text-3xl font-bold">
               Questions?
             </h3>
-            <p className="text-lg md:text-xl font-semibold mt-4">
-              For queries regarding ATAL FDP
-            </p>
-            <p className="pt-1">
-              Email <span className="font-semibold">Dr Sunil Luthra, </span>
-              Director, ATAL Academy at{" "}
-              <a
-                href="mailto:director1atal@aicte-india.org?cc=ev@pupilfirst.org"
-                className="text-indigo-500 underline font-semibold hover:text-indigo-700 transition"
-              >
-                director1atal@aicte-india.org
-              </a>{" "}
-              with cc to{" "}
-              <span className="text-gray-600 font-semibold">
-                ev@pupilfirst.org
-              </span>
-            </p>
             <p className="text-lg md:text-xl font-semibold mt-8">
               For queries regarding LITE Electric Vehicles programme and
               Integration
