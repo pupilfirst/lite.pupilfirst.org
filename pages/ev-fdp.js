@@ -490,23 +490,23 @@ export default function Page() {
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 24, 2023"
+                  date="March 31, 2023"
                   content="Last date for EV batch#1 FDP applications."
-                />
-                <DateAndContent
-                  darkBackground="true"
-                  date="March 29, 2023"
-                  content="Announcement of selected institutions and faculty members."
-                />
-                <DateAndContent
-                  darkBackground="true"
-                  date="March 30, 2023"
-                  content="FDP start for selected faculty members."
                 />
                 <DateAndContent
                   darkBackground="true"
                   date="March 31, 2023"
                   content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
+                />
+                <DateAndContent
+                  darkBackground="true"
+                  date="April 04, 2023"
+                  content="Announcement of selected institutions and faculty members."
+                />
+                <DateAndContent
+                  darkBackground="true"
+                  date="April 06, 2023"
+                  content="FDP start for selected faculty members."
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -1103,23 +1103,23 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 24, 2023"
+              date="March 31, 2023"
               content="Last date for EV batch#1 FDP applications."
-            />
-            <ScheduleDate
-              darkBackground="true"
-              date="March 29, 2023"
-              content="Announcement of selected institutions and faculty members."
-            />
-            <ScheduleDate
-              darkBackground="true"
-              date="March 30, 2023"
-              content="FDP start for selected faculty members."
             />
             <ScheduleDate
               darkBackground="true"
               date="March 31, 2023"
               content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
+            />
+            <ScheduleDate
+              darkBackground="true"
+              date="April 04, 2023"
+              content="Announcement of selected institutions and faculty members."
+            />
+            <ScheduleDate
+              darkBackground="true"
+              date="April 06, 2023"
+              content="FDP start for selected faculty members."
             />
             <ScheduleDate
               darkBackground="true"
