@@ -141,7 +141,7 @@ export default function ApprovalStatus(props) {
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
                     <p className="text-3xl font-bold">
                       {/* {props.institutesSummary.application_submitted} */}
-                      413
+                      341
                     </p>
                     <p>FDP application submitted</p>
                   </div>
@@ -236,7 +236,7 @@ export default function ApprovalStatus(props) {
                         props.institutesSummary
                           .academic_council_approval_completed
                       } */}
-                      21
+                      24
                     </p>
                     <p>Institutions with Academic Council Approvals</p>
                   </div>
@@ -265,9 +265,7 @@ export default function ApprovalStatus(props) {
                     </svg>
                   </span>
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
-                    <p className="text-3xl font-bold">
-                      {props.institutesSummary.university_approval_completed}
-                    </p>
+                    <p className="text-3xl font-bold">20</p>
                     <p>Institutions with University Approvals</p>
                   </div>
                 </div>
@@ -295,9 +293,7 @@ export default function ApprovalStatus(props) {
                     </svg>
                   </span>
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 px-4 py-2 md:p-4 rounded-lg bg-gray-50 md:text-center relative">
-                    <p className="text-3xl font-bold">
-                      {props.institutesSummary.admission_started}
-                    </p>
+                    <p className="text-3xl font-bold">18</p>
                     <p>Institutions with Time Table Integrations</p>
                   </div>
                 </div>
@@ -325,9 +321,7 @@ export default function ApprovalStatus(props) {
                     </svg>
                   </span>
                   <div className="flex w-full flex-col md:justify-between md:items-center flex-1 p-4 rounded-lg bg-white border-2 border-indigo-700 shadow-inner md:text-center relative">
-                    <p className="text-3xl font-bold">
-                      {props.institutesSummary.lite_enabled}
-                    </p>
+                    <p className="text-3xl font-bold">18</p>
                     <p className="text-indigo-600 font-medium">
                       LITE Enabled Institutions
                     </p>
@@ -337,7 +331,7 @@ export default function ApprovalStatus(props) {
             </div>
           </div>
         </div>
-        <Container className="mt-24">
+        {/* <Container className="mt-24">
           <h2>LITE NEP 2020 Enabled States and Universities</h2>
           <div className="lg:container mx-auto mt-2 bg-orange-50 bg-opacity-75 border border-orange-100 rounded-lg py-8">
             <p className="flow-chart-level-0 flex flex-col rounded-lg bg-orange-100 text-orange-700 w-64 text-center mx-auto p-6 shadow-lg border-2 border-orange-400 relative">
@@ -381,7 +375,7 @@ export default function ApprovalStatus(props) {
               </div>
             </div>
           </div>
-        </Container>
+        </Container> */}
         <Container className="mt-24">
           <div className="flex items-center gap-4 pb-4">
             <h2 className="text-xl md:text-3xl font-bold">
