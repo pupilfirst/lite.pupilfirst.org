@@ -246,7 +246,7 @@ export default function Page() {
                     <p>States</p>
                   </div>
                   <div className="flex flex-col justify-center xl:justify-start items-center bg-white bg-opacity-25 xl:bg-transparent backdrop-blur-sm drop-shadow-sm xl:drop-shadow-none rounded-lg text-secondary-600 p-2 leading-snug">
-                    <p className="text-xl md:text-4xl font-bold">105</p>
+                    <p className="text-xl md:text-4xl font-bold">103</p>
                     <p>LITE MoU Received</p>
                   </div>
                 </div>
