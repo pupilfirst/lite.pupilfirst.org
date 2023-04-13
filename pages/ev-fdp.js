@@ -480,23 +480,23 @@ export default function Page() {
               <div className="flex flex-col gap-4 p-4 text-sm">
                 <DateAndContent
                   darkBackground="true"
-                  date="March 02, 2023"
-                  content="LITE EV batch#1 FDP applications open."
+                  date="April 13, 2023"
+                  content="LITE EV FDP cohort#2 applications open."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 02, 2023 onwards"
-                  content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
+                  date="April 13, 2023 onwards"
+                  content="Interested faculty members to apply for FDP."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 31, 2023"
-                  content="Last date for EV batch#1 FDP applications."
+                  date="April 27, 2023"
+                  content="Last date for EV FDP cohort#2 applications."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="March 31, 2023"
-                  content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
+                  date="On a rolling basis"
+                  content="Institutions to sign the addendum to the LITE MoU with Pupilfirst."
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -505,13 +505,13 @@ export default function Page() {
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="April 06, 2023"
+                  date="May 05, 2023"
                   content="FDP start for selected faculty members."
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="April 30, 2023"
-                  content="Recommended date for institutions to complete integration approvals for EV Courses (done on a rolling basis)."
+                  date="On a rolling basis"
+                  content="Institutions to complete integration approvals for EV Courses."
                 />
                 <DateAndContent
                   darkBackground="true"
@@ -1093,23 +1093,23 @@ export default function Page() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 divide-y divide-gray-700 rounded-lg border border-gray-700">
             <ScheduleDate
               darkBackground="true"
-              date="March 02, 2023"
-              content="LITE EV EV batch#1 FDP applications open."
+              date="April 13, 2023"
+              content="LITE EV FDP cohort#2 applications open."
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 02, 2023 onwards"
-              content="Interested faculty members to apply for FDP and coordinate integration approvals on a continuous basis."
+              date="April 13, 2023 onwards"
+              content="Interested faculty members to apply for FDP."
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 31, 2023"
-              content="Last date for EV batch#1 FDP applications."
+              date="April 27, 2023"
+              content="Last date for EV FDP cohort#2 applications."
             />
             <ScheduleDate
               darkBackground="true"
-              date="March 31, 2023"
-              content="Recommended date for institutions to share the signed addendum with Pupilfirst (done on a rolling basis)."
+              date="On a rolling basis"
+              content="Institutions to sign the addendum to the LITE MoU with Pupilfirst."
             />
             <ScheduleDate
               darkBackground="true"
@@ -1118,13 +1118,13 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="April 06, 2023"
+              date="May 05, 2023"
               content="FDP start for selected faculty members."
             />
             <ScheduleDate
               darkBackground="true"
-              date="April 30, 2023"
-              content="Recommended date for institutions to complete integration approvals for EV Courses (done on a rolling basis)."
+              date="On a rolling basis"
+              content="Institutions to complete integration approvals for EV Courses."
             />
             <ScheduleDate
               darkBackground="true"
