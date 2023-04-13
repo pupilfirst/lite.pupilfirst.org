@@ -1108,11 +1108,6 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="April 04, 2023"
-              content="Announcement of selected institutions and faculty members."
-            />
-            <ScheduleDate
-              darkBackground="true"
               date="May 05, 2023"
               content="FDP start for selected faculty members."
             />
