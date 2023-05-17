@@ -490,7 +490,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="April 27, 2023"
+                  date="May 26, 2023"
                   content="Last date for EV FDP cohort#2 applications."
                 />
                 <DateAndContent
@@ -500,7 +500,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="May 05, 2023"
+                  date="On a rolling basis"
                   content="FDP start for selected faculty members."
                 />
                 <DateAndContent
@@ -510,7 +510,7 @@ export default function Page() {
                 />
                 <DateAndContent
                   darkBackground="true"
-                  date="To be Announced"
+                  date="July 24, 2023 (tentative)"
                   content="Start course admissions for students at institutions."
                 />
               </div>
@@ -1098,7 +1098,7 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="April 27, 2023"
+              date="May 26, 2023"
               content="Last date for EV FDP cohort#2 applications."
             />
             <ScheduleDate
@@ -1108,7 +1108,7 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="May 05, 2023"
+              date="On a rolling basis"
               content="FDP start for selected faculty members."
             />
             <ScheduleDate
@@ -1118,7 +1118,7 @@ export default function Page() {
             />
             <ScheduleDate
               darkBackground="true"
-              date="To be Announced"
+              date="July 24, 2023 (tentative)"
               content="Start course admissions for students at institutions."
             />
           </div>
