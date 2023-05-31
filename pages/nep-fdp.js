@@ -87,15 +87,15 @@ export default function Page() {
             <AnimatedBackground />
           </div>
           <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative z-10">
-            <div className="flex justify-center md:justify-between items-center gap-4">
-              <div className="flex items-center bg-white px-2 pt-1.5 pb-2 rounded-full">
+            <div className="flex justify-between items-center gap-4">
+              <div className="flex items-center justify-center bg-white px-2 pt-1.5 pb-2 rounded-full">
                 <img
                   className="w-16 md:w-24"
                   src="logos/atal.png"
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-8">
+              <div className="space-x-8 hidden md:flex font-medium items-center bg-secondary-800 bg-opacity-50 rounded-lg border border-white border-opacity-10 px-4">
                 <a
                   href="/nep-fdp"
                   className="text-secondary-300 px-2 py-3 border-b-2 border-secondary-400"
@@ -116,6 +116,20 @@ export default function Page() {
                   alt=""
                 />
               </div>
+            </div>
+            <div className="space-x-8 flex md:hidden px-4 font-medium items-center justify-center bg-secondary-800 bg-opacity-50 mt-4">
+              <a
+                href="/nep-fdp"
+                className="text-secondary-300 px-2 py-3 border-b-2 border-secondary-400"
+              >
+                NEP-FDP
+              </a>
+              <a href="/wd-fdp" className="text-white">
+                WD-FDP
+              </a>
+              <a href="/ev-fdp" className="text-white">
+                EV-FDP
+              </a>
             </div>
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto px-4 xl:px-0">
@@ -138,13 +152,13 @@ export default function Page() {
             </div>
           </div>
           <section className="mx-4 xl:mx-0 pb-10 md:pb-16 mt-16">
-            <div className="bg-gradient-to-br from-white to-gray-100 rounded-xl border border-secondary-500 relative shadow-lg max-w-6xl 2xl:max-w-7xl mx-auto">
-              <div className="flex space-y-4 md:space-y-0 flex-col md:flex-row justify-between">
+            <div className="bg-gradient-to-br from-[#160027] to-gray-900 text-white rounded-xl border border-secondary-500 relative shadow-lg max-w-6xl 2xl:max-w-7xl mx-auto">
+              <div className="flex space-y-4 items-center md:space-y-0 flex-col md:flex-row justify-between">
                 <div className="md:w-8/12 p-4 lg:p-10">
                   <h2 className="text-xl md:text-3xl">
                     In partnership with Pupilfirst
                   </h2>
-                  <p className="mt-4 text-base lg:text-lg">
+                  <p className="mt-4 md:mt-6 text-base lg:text-xl">
                     Pupilfirst is the technology partner for the Leadership in
                     Teaching Excellence programme that aims to train 100,000
                     faculty and 2.4 Crore students in emerging technologies
