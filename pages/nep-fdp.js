@@ -65,21 +65,6 @@ export default function Page() {
           content="Leadership in Teaching Excellence (LITE)"
         />
         <meta name="AICTE's Leadership in Teaching Excellence (LITE) is a national programme to equip 50 colleges and 50 schools with leadership in teaching excellence." />
-
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-6H1NS1GQNW"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-6H1NS1GQNW');
-              `,
-          }}
-        />
       </Head>
       <main className="bg-[#160027] mx-auto z-10">
         <section className="hero__bg-pattern relative pb-8">
@@ -241,9 +226,8 @@ export default function Page() {
               <iframe
                 className="rounded-b-xl shadow-2xl"
                 src="https://player.vimeo.com/video/814873471?h=09987f9bd7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
                 style={{
                   position: "absolute",
                   top: 0,
@@ -380,7 +364,7 @@ export default function Page() {
         <SectionWithHeading
           className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
-          heading={<p>Everything You Need to Know</p>}
+          heading="Everything You Need to Know"
         >
           <div className="md:grid grid-cols-8 gap-6">
             <div className="flex flex-col gap-12 col-span-7">
@@ -552,7 +536,7 @@ export default function Page() {
           <SectionWithHeading
             className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
             darkBackground="true"
-            heading={<p>Benefits to Institutions, Faculty and Students</p>}
+            heading="Benefits to Institutions, Faculty and Students"
           >
             <div className="flex space-y-4 md:space-y-0 md:text-lg justify-between items-start">
               <ol className="ml-8 list-decimal space-y-4 text-base md:text-xl max-w-4xl">
@@ -576,7 +560,7 @@ export default function Page() {
           <SectionWithHeading
             className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
             darkBackground="true"
-            heading={<span>Curriculum Overview</span>}
+            heading="Curriculum Overview"
           >
             <div className="flex flex-col gap-20 md:ml-8">
               <DescriptionList darkBackground="true" heading="NEP 101">
@@ -656,7 +640,7 @@ export default function Page() {
         <SectionWithHeading
           className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
-          heading={"Get Guidance from Dr Leena Chandran Wadia"}
+          heading="Get Guidance from Dr Leena Chandran Wadia"
         >
           <section className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 px-4 xl:px-0 relative">
             <div className="flex flex-col md:flex-row gap-5 my-8">
@@ -703,7 +687,7 @@ export default function Page() {
         <SectionWithHeading
           className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
-          heading={"Get Recognised Nationally"}
+          heading="Get Recognised Nationally"
         >
           <p className="text-base md:text-xl">
             As of May 2023, 18 institutions and 13 Universities have already
@@ -726,7 +710,25 @@ export default function Page() {
           <Testimony
             className="bg-secondary-900 bg-gradient-to-br from-secondary-900 to-[#160027] border-secondary-800"
             darkBackground="true"
-            testimony="The Leadership in Teaching Excellence (LITE) is one of the finest leadership development programmes I have ever witnessed.We have nearly 5 Lakh faculty members who are teaching under the Council but the real question is how many are teaching with excellence. We are starting with a small group but over the next few years, this programme would expand to tens of thousands of faculty members under the Council."
+            testimony={
+              <div>
+                <p>
+                  The Leadership in Teaching Excellence (LITE) is one of the
+                  finest leadership development programmes I have ever
+                  witnessed.
+                </p>
+                <p className="mt-4">
+                  We have nearly 5 Lakh faculty members who are teaching under
+                  the Council but the real question is how many are teaching
+                  with excellence.
+                </p>
+                <p className="mt-4">
+                  We are starting with a small group but over the next few
+                  years, this programme would expand to tens of thousands of
+                  faculty members under the Council.
+                </p>
+              </div>
+            }
             name="Prof Anil D Sahasrabudhe,"
             role={
               <span>
@@ -862,6 +864,76 @@ export default function Page() {
               </div>
             </div>
           </section>
+        </SectionWithHeading>
+
+        <SectionWithHeading
+          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          darkBackground="true"
+          heading="Curriculum-centric Faculty Development"
+        >
+          <p className="text-base md:text-xl">
+            As understanding the key aspects of NEP 2020 implementation is
+            important for faculty members, so is their exposure to the
+            curriculum that will be offered to students. Having adequate
+            understanding of the basics within the curriculum would enable
+            faculty members to mentor students towards completing the courses.
+            For the above-mentioned purpose, we are also conducting
+            curriculum-centric faculty development programmes for interested
+            faculty members.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 mt-8">
+            <div className="col-span-1 p-4 md:p-8 bg-secondary-900 bg-opacity-10 shadow-xl rounded-xl border border-secondary-800">
+              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-secondary-300 to-secondary-500">
+                Faculty Development Programme for Advanced Web Development
+                curriculum
+              </h3>
+              <a
+                target="_blank"
+                href="https://lite.pupilfirst.org/wd-fdp"
+                className="mt-4 inline-flex py-1 px-3 -ml-3 rounded-md space-x-2 items-center hover:underline text-secondary-200"
+              >
+                <span>Read More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div className="col-span-1 p-4 md:p-8 bg-secondary-900 bg-opacity-10 shadow-xl rounded-xl border border-secondary-800">
+              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-700">
+                Faculty Development Programme for Electric Vehicles curriculum
+              </h3>
+              <a
+                target="_blank"
+                href="https://lite.pupilfirst.org/ev-fdp"
+                className="mt-4 inline-flex py-1 px-3 -ml-3 rounded-md space-x-2 items-center hover:underline text-secondary-200"
+              >
+                <span>Read More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
         </SectionWithHeading>
 
         <SectionWithHeading

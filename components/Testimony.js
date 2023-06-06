@@ -45,7 +45,7 @@ export default function Testimonial({
             darkBackground ? "text-gray-200" : "text-gray-600"
           } ${className}`}
         >
-          <p className="text-base md:text-xl  font-medium">{testimony}</p>
+          <div className="text-base md:text-xl  font-medium">{testimony}</div>
           {children ? children : null}
           <p className="font-semibold mt-4">{name}</p>
           <p className="text-sm">{role}</p>
