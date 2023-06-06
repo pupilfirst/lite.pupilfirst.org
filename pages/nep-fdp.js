@@ -121,18 +121,26 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="space-x-8 flex md:hidden px-4 font-medium items-center justify-center bg-secondary-800 bg-opacity-50 mt-4">
+            <div className="space-x-4 flex md:hidden px-2 text-center font-medium items-center justify-center bg-secondary-800 bg-opacity-50 mt-4">
               <a
                 href="/nep-fdp"
-                className="text-secondary-300 px-2 py-3 border-b-2 border-secondary-400"
+                className="text-secondary-300 text-xs px-2 py-3 border-b-2 border-secondary-400"
               >
                 NEP-FDP
               </a>
-              <a href="/wd-fdp" className="text-white">
-                WD-FDP
+              <a
+                target="_blank"
+                href="/approval_status"
+                className="text-white text-xs"
+              >
+                Approval Status
               </a>
-              <a href="/ev-fdp" className="text-white">
-                EV-FDP
+              <a
+                target="_blank"
+                href="/showcase"
+                className="text-white text-xs"
+              >
+                National Showcase
               </a>
             </div>
           </header>
@@ -143,7 +151,7 @@ export default function Page() {
                   NEP 2020 Leadership in Teaching Excellence (LITE)
                 </p>
               </div>
-              <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-700 text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
+              <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-700 mt-3 md:mt-0 text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
                 Leadership Series <br />
                 Faculty Development Programme
               </h1>
@@ -169,7 +177,7 @@ export default function Page() {
                     using learner-centred pedagogy.
                   </p>
                 </div>
-                <div className="md:w-6/12 flex items-center justify-center flex-shrink-0 rounded-b-lg md:rounded-bl-none md:rounded-r-lg bg-gradient-to-br from-secondary-500 to-secondary-600">
+                <div className="w-full md:w-6/12 flex items-center justify-center flex-shrink-0 rounded-b-lg md:rounded-bl-none md:rounded-r-lg bg-gradient-to-br from-secondary-500 to-secondary-600">
                   <div className="p-6 md:p-3">
                     <img
                       className="w-36 lg:w-72 object-contain"
@@ -277,7 +285,7 @@ export default function Page() {
         >
           <div>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mt-8">
-              <div className="w-full md:flex-1 bg-gradient-to-br from-gray-800 to-gray-900 border border-blue-400 rounded-lg shadow-md p-3 md:p-4">
+              <div className="w-full md:flex-1 bg-gradient-to-br from-secondary-900 to-black border border-blue-400 rounded-lg shadow-md p-3 md:p-4">
                 <p className="text-blue-400 text-base md:text-xl font-bold">
                   NEP 101
                 </p>
@@ -300,7 +308,7 @@ export default function Page() {
                   />
                 </svg>
               </div>
-              <div className="w-full md:flex-1 bg-gradient-to-br from-gray-800 to-gray-900 border border-green-400 rounded-lg shadow-md p-3 md:p-4">
+              <div className="w-full md:flex-1 bg-gradient-to-br from-secondary-900 to-black border border-green-400 rounded-lg shadow-md p-3 md:p-4">
                 <p className="text-green-400 text-base md:text-xl font-bold">
                   NEP 201
                 </p>
@@ -323,7 +331,7 @@ export default function Page() {
                   />
                 </svg>
               </div>
-              <div className="w-full md:flex-1 bg-gradient-to-br from-gray-800 to-gray-900 border border-teal-400 rounded-lg shadow-md p-3 md:p-4">
+              <div className="w-full md:flex-1 bg-gradient-to-br from-secondary-900 to-black border border-teal-400 rounded-lg shadow-md p-3 md:p-4">
                 <p className="text-teal-400 text-base md:text-xl font-bold">
                   NEP 301
                 </p>
@@ -570,7 +578,7 @@ export default function Page() {
             darkBackground="true"
             heading={<span>Curriculum Overview</span>}
           >
-            <div className="flex flex-col gap-20 ml-8">
+            <div className="flex flex-col gap-20 md:ml-8">
               <DescriptionList darkBackground="true" heading="NEP 101">
                 <div className="text-base md:text-xl">
                   <ul className="ml-4 space-y-4 list-disc">
@@ -673,7 +681,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <div className="-ml-4 flex flex-col justify-between">
-                  <p className="font-semibold text-2xl max-w-2xl text-gray-200">
+                  <p className="font-semibold text-base md:text-2xl max-w-2xl text-gray-200">
                     NEP 2020 is a discontinuous jump to the future of classroom
                     education. Instead of incremental innovations, we need a
                     paradigm shift, and LITE institutions are the pioneers in
@@ -796,7 +804,7 @@ export default function Page() {
             </p>
             <div className="relative py-8">
               <div className="max-w-6xl mx-auto">
-                <div className="md:grid md:grid-cols-2 md:grid-rows-2 gap-5">
+                <div className="grid md:grid-cols-2 md:grid-rows-2 gap-5">
                   <div className="row-span-2">
                     <div className="bg-gradient-to-bl from-white/5 to-black/5  border-2 border-white/10 rounded-lg flex flex-col h-full overflow-hidden">
                       <div className="w-11/12 p-8 flex-1">
@@ -882,7 +890,7 @@ export default function Page() {
           </ul>
         </SectionWithHeading>
         <div className="border-t border-gray-800">
-          <div className="max-w-6xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
+          <div className="max-w-6xl mx-auto py-10 lg:pb-24 px-4 xl:pl-0">
             <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12">
               <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                 Get Started with NEP 101
