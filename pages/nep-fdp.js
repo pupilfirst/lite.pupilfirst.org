@@ -95,18 +95,22 @@ export default function Page() {
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-8 hidden md:flex font-medium items-center bg-secondary-800 bg-opacity-50 rounded-lg border border-white border-opacity-10 px-4">
+              <div className="space-x-8 hidden md:flex font-medium items-center rounded-lg border-white border-opacity-10 px-4">
                 <a
                   href="/nep-fdp"
                   className="text-secondary-300 px-2 py-3 border-b-2 border-secondary-400"
                 >
                   NEP-FDP
                 </a>
-                <a href="/wd-fdp" className="text-white">
-                  WD-FDP
+                <a
+                  target="_blank"
+                  href="/approval_status"
+                  className="text-white"
+                >
+                  LITE Approval Status
                 </a>
-                <a href="/ev-fdp" className="text-white">
-                  EV-FDP
+                <a target="_blank" href="/showcase" className="text-white">
+                  LITE National Showcase
                 </a>
               </div>
               <div className="flex md:order-last">
@@ -379,7 +383,7 @@ export default function Page() {
                   <div className="text-base md:text-xl">
                     A leadership series of courses to see the big picture of
                     India as a global superpower and the path to realise the
-                    vision through NEP 2020."
+                    vision through NEP 2020.
                   </div>
                 }
               ></DescriptionList>
@@ -405,9 +409,9 @@ export default function Page() {
                     <p>
                       The path to transforming India is by transforming
                       classrooms as the building blocks which shall create
-                      students with 21st-century graduate attributes who go out
-                      into society and contribute to national development in all
-                      spheres of knowledge.
+                      students with 21st-century graduate attributes who can
+                      then go out into society and contribute to national
+                      development in all spheres of knowledge.
                     </p>
                     <p className="mt-4">
                       Hence, this course series is designed for faculty members
@@ -435,11 +439,11 @@ export default function Page() {
                 content={
                   <div className="text-base md:text-xl">
                     <p>
-                      <strong>NEP 101: 45mins to 60 mins</strong> (recommended
+                      <strong>NEP 101: 45 mins to 60 mins</strong> (recommended
                       for both administrative and teaching roles)
                     </p>
                     <p className="mt-4">
-                      <strong>NEP 201: 90mins to 120 mins</strong> (recommended
+                      <strong>NEP 201: 90 mins to 120 mins</strong> (recommended
                       for faculty members in teaching roles)
                     </p>
                   </div>
@@ -447,17 +451,18 @@ export default function Page() {
               ></DescriptionList>
               <DescriptionList
                 darkBackground="true"
-                heading="Fees"
+                heading="Is there a fee for the courses?"
                 content={
                   <div className="text-base md:text-xl">
-                    This course is provided free of cost to administrators and
-                    faculty members by ATAL Academy and Pupilfirst.
+                    Both NEP 101 and NEP 201 are provided free of cost to
+                    administrators and faculty members, sponsored by ATAL
+                    Academy and Pupilfirst.
                   </div>
                 }
               ></DescriptionList>
               <DescriptionList
                 darkBackground="true"
-                heading="How"
+                heading="How can I access the courses?"
                 content={
                   <div className="text-base md:text-xl">
                     The leadership series is a fully online and self-paced
@@ -467,11 +472,11 @@ export default function Page() {
               ></DescriptionList>
               <DescriptionList
                 darkBackground="true"
-                heading="Certificate"
+                heading="Will I get a certificate for the courses?"
                 content={
                   <div className="text-base md:text-xl">
                     Yes. You shall receive a joint certificate with ATAL Academy
-                    and Industry for each stage of course completion.
+                    and Pupilfirst for each stage of course completion.
                   </div>
                 }
               ></DescriptionList>
@@ -552,8 +557,9 @@ export default function Page() {
                   Institution, and Faculty.
                 </li>
                 <li className="">
-                  Access Industry Internships and Hiring opportunities through
-                  LITE Hiring Gateway.
+                  Access for students from LITE enabled institutes to industry
+                  internships and hiring opportunities through LITE Hiring
+                  Gateway.
                 </li>
               </ol>
             </div>
@@ -607,12 +613,23 @@ export default function Page() {
 
               <DescriptionList darkBackground="true" heading="NEP 201">
                 <div className="text-base md:text-xl">
-                  <ul className="ml-4 space-y-4 list-disc">
-                    <li>Learner Centered Model.</li>
+                  <p>This course will cover the following:</p>
+                  <ul className="ml-4 mt-4 space-y-4 list-disc">
                     <li>
-                      How curriculums are created, delivered and assessed.
+                      How are learner-centred courses created, delivered and
+                      assessed.
                     </li>
-                    <li>Best practices for teaching.</li>
+                    <li>
+                      Tools for tracking learners' progress and creating a peer
+                      learning environment.
+                    </li>
+                    <li>
+                      Healthy learning practices to inculcate in students in a
+                      classroom environment.
+                    </li>
+                    <li>
+                      The career progression pathway for faculty through LITE.
+                    </li>
                   </ul>
                 </div>
               </DescriptionList>
@@ -681,9 +698,9 @@ export default function Page() {
           heading={"Get Recognised Nationally"}
         >
           <p className="text-base md:text-xl">
-            18 institutions and 13 Universities have already gone live in AY
-            2022-23, and 85 institutions are in the University Academic Council
-            approval stage for AY 2023-24.
+            As of May 2023, 18 institutions and 13 Universities have already
+            gone live in AY 2022-23, and 85 institutions are in the University
+            Academic Council approval stage for AY 2023-24.
           </p>
           <div>
             <img
@@ -719,11 +736,17 @@ export default function Page() {
         >
           <div className="flex flex-col text-base md:text-xl">
             <p>
-              Contribute immediately to solving the equity crisis in delivering
-              healthcare services to ten crore citizens by empowering the top
-              students from your institution to join the Global Developer Corps
-              programme and get internships to build CARE, a United Nations
-              Digital Public Good, deployed at 200 public hospitals.
+              For this century to be one in which the Indian civilisation rises
+              beyond its past glory into a 21st-century superpower, it would
+              require collective action by all players involved in the game viz
+              Regulators, Vice Chancellors, Heads of Institutions, Faculty
+              Members, Industry, Researchers and Students.
+            </p>
+            <p className="mt-4">
+              Learn the key roles and responsibilities of all stakeholders in
+              this Leadership Series to create a collaborative spirit where best
+              practices are shared for everyone to learn and continuously
+              improve the classroom teaching-learning process.
             </p>
             <div>
               <img
@@ -744,8 +767,8 @@ export default function Page() {
             <p>
               India's large population requires jobs, and the internet offers
               global opportunities for ten crore new jobs. LITE NEP 2020 Model
-              Curriculum in Web Development Curriculum offers your institution a
-              direct skills pathway to these job opportunities.
+              Curriculum in Web Development Curriculum offers your institution
+              skills pathway for your students to avail these job opportunities.
             </p>
             <div>
               <img
@@ -766,9 +789,10 @@ export default function Page() {
             <p>
               Contribute immediately to solving the equity crisis in delivering
               healthcare services to ten crore citizens by empowering the top
-              students from your institution to join the Global Developer Corps
-              programme and get internships to build CARE, a United Nations
-              Digital Public Good, deployed at 200 public hospitals.
+              students from your institution who complete the nationally
+              approved web development courses to join the Global Developer
+              Corps programme and get internships to build CARE, a United
+              Nations Digital Public Good, deployed at 200 public hospitals.
             </p>
             <div className="relative py-8">
               <div className="max-w-6xl mx-auto">
@@ -863,14 +887,14 @@ export default function Page() {
               <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
                 Get Started with NEP 101
               </h4>
-              <div className="mt-6 flex justify-center">
+              {/* <div className="mt-6 flex justify-center">
                 <a
                   href="/"
                   className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-purple-500 to-purple-700 rounded-md text-center text-base shadow-lg lg:text-lg font-semibold hover:shadow-xl transition "
                 >
                   Apply Now
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
