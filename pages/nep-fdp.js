@@ -80,7 +80,7 @@ export default function Page() {
                   alt="Logo of All India Council for Technical Education (AICTE)"
                 />
               </div>
-              <div className="space-x-8 hidden md:flex font-medium items-center rounded-lg border-white border-opacity-10 px-4">
+              {/* <div className="space-x-8 hidden md:flex font-medium items-center rounded-lg border-white border-opacity-10 px-4">
                 <a
                   href="/nep-fdp"
                   className="text-secondary-300 px-2 py-3 border-b-2 border-secondary-400"
@@ -97,7 +97,7 @@ export default function Page() {
                 <a target="_blank" href="/showcase" className="text-white">
                   LITE National Showcase
                 </a>
-              </div>
+              </div> */}
               <div className="flex md:order-last">
                 <img
                   className="w-24 md:w-36"
@@ -106,7 +106,7 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="space-x-4 flex md:hidden px-2 text-center font-medium items-center justify-center bg-secondary-800 bg-opacity-50 mt-4">
+            {/* <div className="space-x-4 flex md:hidden px-2 text-center font-medium items-center justify-center bg-secondary-800 bg-opacity-50 mt-4">
               <a
                 href="/nep-fdp"
                 className="text-secondary-300 text-xs px-2 py-3 border-b-2 border-secondary-400"
@@ -127,7 +127,7 @@ export default function Page() {
               >
                 National Showcase
               </a>
-            </div>
+            </div> */}
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto px-4 xl:px-0">
             <div className="w-full mx-auto md:w-4/5 text-center relative z-10">
