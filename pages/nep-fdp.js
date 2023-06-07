@@ -136,7 +136,7 @@ export default function Page() {
                   NEP 2020 Leadership in Teaching Excellence (LITE)
                 </p>
               </div>
-              <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-700 mt-3 md:mt-0 text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
+              <h1 className="bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-purple-400 to-purple-700 mt-3 md:mt-0 text-center text-3xl md:text-5xl lg:text-7xl lg:py-4 font-extrabold">
                 Leadership Series <br />
                 Faculty Development Programme
               </h1>
@@ -242,7 +242,7 @@ export default function Page() {
         </section>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Gain the power of Adhyayana"
         >
@@ -263,7 +263,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Progressive & Continuous"
         >
@@ -362,7 +362,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Everything You Need to Know"
         >
@@ -534,7 +534,7 @@ export default function Page() {
         </SectionWithHeading>
         <div>
           <SectionWithHeading
-            className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+            className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
             darkBackground="true"
             heading="Benefits to Institutions, Faculty and Students"
           >
@@ -558,7 +558,7 @@ export default function Page() {
           </SectionWithHeading>
 
           <SectionWithHeading
-            className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+            className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
             darkBackground="true"
             heading="Curriculum Overview"
           >
@@ -638,7 +638,7 @@ export default function Page() {
         </div>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Get Guidance from Dr Leena Chandran Wadia"
         >
@@ -685,7 +685,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Get Recognised Nationally"
         >
@@ -703,7 +703,7 @@ export default function Page() {
           </div>
         </SectionWithHeading>
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Testimonials"
         >
@@ -740,7 +740,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Rising through Collective Action"
         >
@@ -769,7 +769,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Secure our future"
         >
@@ -791,7 +791,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Make Immediate Contributions "
         >
@@ -811,7 +811,7 @@ export default function Page() {
                     <div className="bg-gradient-to-bl from-white/5 to-black/5  border-2 border-white/10 rounded-lg flex flex-col h-full overflow-hidden">
                       <div className="w-11/12 p-8 flex-1">
                         <div className="relative left-gradient-border">
-                          <p className="bg-gradient-to-br from-yellow-400 to-purple-500 bg-clip-text text-transparent max-w-max text-xs font-semibold uppercase">
+                          <p className="bg-gradient-to-br from-yellow-400 to-purple-500 bg-clip-text webkit-bg-clip text-transparent max-w-max text-xs font-semibold uppercase">
                             Batch 1 Delivered
                           </p>
                           <h4 className="gradient-text text-2xl md:text-3xl xl:text-4xl mt-2">
@@ -837,7 +837,7 @@ export default function Page() {
                     <div className="bg-gradient-to-bl from-white/5 to-black/5  border-2 border-white/10 rounded-lg flex flex-col h-full overflow-hidden">
                       <div className="w-11/12 p-8 flex-1">
                         <div className="relative left-gradient-border">
-                          <p className="bg-gradient-to-br from-yellow-400 to-purple-500 bg-clip-text text-transparent max-w-max text-xs font-semibold uppercase">
+                          <p className="bg-gradient-to-br from-yellow-400 to-purple-500 bg-clip-text webkit-bg-clip text-transparent max-w-max text-xs font-semibold uppercase">
                             NEP 2020 Model Classrooms
                           </p>
                           <h4 className="gradient-text text-2xl md:text-3xl xl:text-4xl mt-2">
@@ -867,7 +867,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="Curriculum-centric Faculty Development"
         >
@@ -883,7 +883,7 @@ export default function Page() {
           </p>
           <div className="grid md:grid-cols-2 gap-6 mt-8">
             <div className="col-span-1 p-4 md:p-8 bg-secondary-900 bg-opacity-10 shadow-xl rounded-xl border border-secondary-800">
-              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-secondary-300 to-secondary-500">
+              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-secondary-300 to-secondary-500">
                 Faculty Development Programme for Advanced Web Development
                 curriculum
               </h3>
@@ -909,7 +909,7 @@ export default function Page() {
               </a>
             </div>
             <div className="col-span-1 p-4 md:p-8 bg-secondary-900 bg-opacity-10 shadow-xl rounded-xl border border-secondary-800">
-              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-700">
+              <h3 className="text-lg md:text-2xl leading-tight bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-teal-400 to-teal-700">
                 Faculty Development Programme for Electric Vehicles curriculum
               </h3>
               <a
@@ -937,7 +937,7 @@ export default function Page() {
         </SectionWithHeading>
 
         <SectionWithHeading
-          className="bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
+          className="!bg-[#160027] border-secondary-800 before:bg-gradient-to-b before:from-secondary-400 before:to-secondary-700"
           darkBackground="true"
           heading="A Clear Path Forward"
         >
@@ -980,7 +980,7 @@ export default function Page() {
         </div>
       </main>
 
-      {/* <footer className="bg-[#160027] z-50 border-t border-gray-700">
+      {/* <footer className="!bg-[#160027] z-50 border-t border-gray-700">
         <div className="max-w-7xl mx-auto py-6 px-2 flex flex-wrap items-center gap-2 justify-center">
           <FooterLink title="Dynamic curriculum" href="/dynamic-curriculum" />
           <FooterLink
