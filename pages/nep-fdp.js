@@ -775,10 +775,11 @@ export default function Page() {
         >
           <div className="flex flex-col text-base md:text-xl">
             <p>
-              India's large population requires jobs, and the internet offers
-              global opportunities for ten crore new jobs. LITE NEP 2020 Model
-              Curriculum in Web Development Curriculum offers your institution
-              skills pathway for your students to avail these job opportunities.
+              India's large population requires jobs, and the software industry
+              offers global opportunities for ten crore new jobs. LITE NEP 2020
+              Model Curriculum in Web Development Curriculum offers your
+              institution skills pathway for your students to avail these job
+              opportunities.
             </p>
             <div>
               <img
@@ -959,21 +960,38 @@ export default function Page() {
               Launch NEP 2020 Model Classrooms.
             </li>
           </ul>
+
+          <div className="pt-10 lg:pt-16">
+            <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
+              Questions?
+            </h3>
+            <p className="mt-4">
+              Email <span className="font-semibold">Col. B. Venkat, </span>
+              Director, Faculty Development Cell (AICTE) at{" "}
+              <a
+                href="mailto:director.fdc@aicte-india.org"
+                className="text-secondary-400 underline font-semibold hover:text-secondary-500"
+              >
+                director.fdc@aicte-india.org
+              </a>
+            </p>
+          </div>
         </SectionWithHeading>
-        <div className="border-t border-gray-800">
+        <div className="border-t border-secondary-800">
           <div className="max-w-6xl mx-auto py-10 lg:pb-24 px-4 xl:pl-0">
             <div className="rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-6 lg:p-12">
               <h4 className="text-xl lg:text-4xl text-white font-extrabold text-center">
-                Get Started with NEP 101
+                Get started with NEP courses
               </h4>
-              {/* <div className="mt-6 flex justify-center">
+              <div className="mt-6 flex justify-center">
                 <a
-                  href="/"
-                  className="inline-block w-full sm:w-64 p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-purple-500 to-purple-700 rounded-md text-center text-base shadow-lg lg:text-lg font-semibold hover:shadow-xl transition "
+                  href="https://www.pupilfirst.school/courses/1833/curriculum"
+                  target="_blank"
+                  className="inline-block w-full sm:max-w-sm p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-purple-500 to-purple-700 rounded-md text-center text-base shadow-lg lg:text-lg font-semibold hover:shadow-xl transition "
                 >
-                  Apply Now
+                  Access NEP 101 Course
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
