@@ -12,9 +12,7 @@ export default function Testimonial({
   return (
     <div
       className={`${
-        darkBackground
-          ? "bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700"
-          : "bg-orange-100"
+        darkBackground ? "border border-gray-700" : "bg-orange-100"
       } flex flex-col items-center md:items-start md:flex-row gap-3 p-6 rounded-lg w-full ${className}`}
     >
       <img

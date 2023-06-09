@@ -818,7 +818,7 @@ export default function Page() {
                             Digital War Rooms during Covid 19 Pandemic.
                           </h4>
                         </div>
-                        <p className="text-sm">
+                        <p className="text-sm md:text-base mt-4">
                           The first batch students upgraded Open Healthcare
                           Network with Oxygen Modules during the devastating
                           Delta Wave of May 2021.
@@ -844,7 +844,7 @@ export default function Page() {
                             TeleICU Systems Empowering Healthcare Professionals.
                           </h4>
                         </div>
-                        <p className="text-sm">
+                        <p className="text-sm md:text-base mt-4">
                           The second batch students upgraded Open Healthcare
                           Network with TeleICU Modules in seven North Eastern
                           States.
