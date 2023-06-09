@@ -838,17 +838,16 @@ export default function Page() {
                       <div className="w-11/12 p-8 flex-1">
                         <div className="relative left-gradient-border">
                           <p className="bg-gradient-to-br from-yellow-400 to-purple-500 bg-clip-text webkit-bg-clip text-transparent max-w-max text-xs font-semibold uppercase">
-                            NEP 2020 Model Classrooms
+                            Batch 2 Delivered
                           </p>
                           <h4 className="gradient-text text-2xl md:text-3xl xl:text-4xl mt-2">
-                            LIVE in 6 States & 18 Institutions
+                            TeleICU Systems Empowering Healthcare Professionals.
                           </h4>
                         </div>
                         <p className="text-sm">
-                          Based on the success of the first set of 18
-                          institutions, over 103 institutions have signed up for
-                          implementing the AICTE Leadership in Teaching
-                          Excellence (LITE) Program.
+                          The second batch students upgraded Open Healthcare
+                          Network with TeleICU Modules in seven North Eastern
+                          States.
                         </p>
                       </div>
                       <div className="flex-1 mt-8">
