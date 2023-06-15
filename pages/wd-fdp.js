@@ -222,6 +222,9 @@ export default function Page() {
                   </a>
                 </div>
               </div> */}
+              <p className="inline-flex text-center italic mt-4 text-lg text-gray-600 px-3 py-1 border-l border-r border-gray-400">
+                Applications Closed
+              </p>
             </div>
           </div>
           <div className="relative z-20 pt-4 md:pt-6 max-w-7xl mx-auto px-2 xl:px-0 text-center">
@@ -252,7 +255,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="pt-4 md:pt-6">
+            {/* <div className="pt-4 md:pt-6">
               <a
                 href="https://apply.pupilfirst.org/wdfdp"
                 target="_blank"
@@ -260,7 +263,7 @@ export default function Page() {
               >
                 Apply Now for LITE FDP
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mt-6 mx-4 md:mx-auto pt-4 relative z-10 bg-white bg-opacity-75 rounded-md md:rounded-xl shadow-2xl shadow-orange-200 ">
             <div className="relative max-w-3xl mx-auto">
@@ -416,7 +419,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="max-w-6xl 2xl:max-w-7xl mx-auto md:mt-4 pt-4 px-4 xl:px-0 relative z-10 pb-10 md:pb-20">
+        {/* <div className="max-w-6xl 2xl:max-w-7xl mx-auto md:mt-4 pt-4 px-4 xl:px-0 relative z-10 pb-10 md:pb-20">
           <div className="md:grid grid-cols-12 bg-white shadow-lg shadow-indigo-100 border border-primary-50 rounded-lg flex flex-col md:flex-row gap-5 items-center justify-between p-6 md:p-8">
             <p className="md:col-span-8 text-lg md:text-xl font-medium max-w-4xl">
               <span className="font-bold">
@@ -433,7 +436,7 @@ export default function Page() {
               Apply Now for LITE FDP
             </a>
           </div>
-        </div>
+        </div> */}
         <SectionWithHeading
           heading={
             <p>
@@ -540,7 +543,7 @@ export default function Page() {
                   content="Faculty training continues along with course deployment"
                 />
               </div>
-              <div className="p-4">
+              {/* <div className="p-4">
                 <a
                   href="https://apply.pupilfirst.org/wdfdp"
                   target="_blank"
@@ -548,7 +551,7 @@ export default function Page() {
                 >
                   Apply Now for LITE FDP
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </SectionWithHeading>
@@ -1210,7 +1213,7 @@ export default function Page() {
               </a>
             </p>
           </div>
-          <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
+          {/* <div className="flex flex-col items-center rounded-lg bg-gradient-to-r from-yellow-400 to-primary-500 border border-primary-400 shadow-xl p-4 lg:p-12 mt-14">
             <h4 className="md:w-2/3 text-xl lg:text-4xl text-white font-extrabold text-center">
               Apply Now for AICTE LITE Faculty Development Program
             </h4>
@@ -1223,7 +1226,7 @@ export default function Page() {
                 Apply Now for LITE FDP
               </a>
             </div>
-          </div>
+          </div> */}
         </SectionWithHeading>
       </main>
       <Footer />
