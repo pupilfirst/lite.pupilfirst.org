@@ -132,7 +132,7 @@ export default function ModelFaculties() {
           <UniversityModelFaculty
             imageSrc="/showcase/people/Sreyas_Institute_of_Engineering_and_Technology/Dr_Shaik_Abdul_Nabi.jpg"
             name="Dr. Shaik Abdul Nabi"
-            quote="Though AICTE LITE, students are able to upgrade their skills that meet the industry needs."
+            quote="Through AICTE LITE, students are able to upgrade their skills that meet the industry needs."
             designation="Head of Department, Department of Computer Science and Engineering"
             university="Sreyas Institute of Engineering and Technology"
             place="Hyderabad"
