@@ -425,7 +425,7 @@ export default function earlyAdopter(props) {
                               <li>
                                 Exercises with custom-designed boards for
                                 students to work with BMS systems and algorithms
-                                have been included. Topics on
+                                have been included.
                               </li>
                               <li>
                                 Topics on carbon credits have been included in
