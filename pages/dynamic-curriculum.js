@@ -395,6 +395,72 @@ export default function earlyAdopter(props) {
                       </div>
                     </div>
                     <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+                <DescriptionList
+                        heading={
+                          <div>
+                            <p className="text-gray-400 text-sm md:text-base">
+                              JAN 2024
+                            </p>
+                            <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
+                              Version 4 Released
+                            </p>
+                          </div>
+                        }
+                        content={
+                          <div className="text-white">
+                            <p>
+                              Version 4 of the Model Curriculum for Open
+                              Electives in Electric Vehicles is now released.
+                            </p>
+                            <p className="pt-3">The changes include:</p>
+                            <ul className="list-disc ml-5 mt-2 space-y-2">
+                              <li>
+                                EV 201 course has been updated with a revised
+                                curriculum where the modules have been restructured to fit an academic semester window.
+                              </li>
+                              <li>
+                                Design of the custom PCB board have been revised for ease of manufacturing along  
+                                with addition of capabilities for charging and discharging.
+                              </li>
+                              <li>
+                                Content for the levl on thermal management has been
+                                updated with more concepts and activities for students to gain experience in
+                                industry relevant thermal simulations.
+                              </li>
+                              <li>
+                                The capstone of the course have been revised for students to learn and
+                                experiment on 6 - MOSFET motor controller circuit which mimics the motors 
+                                currently used in modern day Vehicles.
+                              </li>
+                            </ul>
+                            <a
+                              className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1QmRcqwJA5ZrgwR1o6wR9uzPOu9a152XC/view?usp=drive_link"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 4</span>
+                            </a>
+                          </div>
+                        }
+                      />
                       <DescriptionList
                         heading={
                           <div>
