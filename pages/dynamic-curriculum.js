@@ -415,7 +415,7 @@ export default function earlyAdopter(props) {
                             <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
-                                EV 201 course has been updated with a revised
+                               Course has been restructured to align more effectively to the academic semester window, introducing optional modules to accomodate varying student preferences. 
                                 curriculum where the modules have been restructured to fit an academic semester window.
                               </li>
                               <li>
