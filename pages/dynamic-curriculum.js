@@ -423,7 +423,7 @@ export default function earlyAdopter(props) {
                                 with addition of capabilities for charging and discharging.
                               </li>
                               <li>
-                                Content for the levl on thermal management has been
+                                The thermal management module has been enhanced, incorporating additional concepts and activities  relevant to the industry.
                                 updated with more concepts and activities for students to gain experience in
                                 industry relevant thermal simulations.
                               </li>
