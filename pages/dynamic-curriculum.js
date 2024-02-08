@@ -399,7 +399,7 @@ export default function earlyAdopter(props) {
                         heading={
                           <div>
                             <p className="text-gray-400 text-sm md:text-base">
-                              JAN 2024
+                              JANUARY 2024
                             </p>
                             <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
                               Version 4 Released
