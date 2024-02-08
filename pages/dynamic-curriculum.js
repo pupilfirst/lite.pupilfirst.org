@@ -412,7 +412,7 @@ export default function earlyAdopter(props) {
                               Version 4 of the Model Curriculum for Open
                               Electives in Electric Vehicles is now released.
                             </p>
-                            <p className="pt-3">The changes include:</p>
+                            <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
                                 EV 201 course has been updated with a revised
