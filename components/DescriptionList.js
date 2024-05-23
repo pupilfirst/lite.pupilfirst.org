@@ -14,7 +14,7 @@ export default function DescriptionList({
           darkBackground
             ? "heading-with-underscore--cyan-green text-blue-500"
             : "text-secondary-500"
-        } heading-with-underscore text-xl lg:text-5xl font-bold ${className}`}
+        } heading-with-underscore text-xl lg:text-4xl font-bold ${className}`}
       >
         {heading}
       </h3>

@@ -140,7 +140,7 @@ export default function earlyAdopter(props) {
               href="#Advanced-Web-Development-Course"
               className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
             >
-              Minor Degree in Advanced Web Development
+              Credit Course in Advanced Web Development
             </a>
             <a
               href="#Electric-Vehicles-Credit-Course"
@@ -160,7 +160,7 @@ export default function earlyAdopter(props) {
                     <Heading
                       heading={
                         <span className="text-2xl lg:text-5xl lg:leading-tight">
-                          Minor Degree in Advanced Web Development
+                          Credit Course in Advanced Web Development
                         </span>
                       }
                     />
@@ -254,8 +254,8 @@ export default function earlyAdopter(props) {
                       content={
                         <div>
                           <p>
-                            Version 2 of the Model Curriculum for Minor Degree
-                            in Advanced Web Development is now released.
+                            Version 2 of the Model Curriculum for Advanced Web
+                            Development is now released.
                           </p>
                           <p className="pt-3">
                             Significant changes in the revised version include:
@@ -316,9 +316,9 @@ export default function earlyAdopter(props) {
                       content={
                         <div>
                           <p>
-                            Version 1 of the Model Curriculum for Minor Degree
-                            in Advanced Web Development has been approved and
-                            published by AICTE.
+                            Version 1 of the Model Curriculum for Advanced Web
+                            Development has been approved and published by
+                            AICTE.
                           </p>
                           <p className="pt-3">
                             Version 1 can be downloaded from AICTE Website here.
@@ -364,10 +364,10 @@ export default function earlyAdopter(props) {
                         <p className="leading-tight mt-2">
                           If you have any questions, please write to us at&nbsp;
                           <a
-                            href="mailto:wd@pupilfirst.org"
+                            href="mailto:support@pupilfirst.org"
                             className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                           >
-                            wd@pupilfirst.org
+                            support@pupilfirst.org
                           </a>
                         </p>
                       </div>
@@ -395,7 +395,7 @@ export default function earlyAdopter(props) {
                       </div>
                     </div>
                     <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
-                <DescriptionList
+                      <DescriptionList
                         heading={
                           <div>
                             <p className="text-gray-400 text-sm md:text-base">
@@ -415,21 +415,30 @@ export default function earlyAdopter(props) {
                             <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
-                               Course has been restructured to align more effectively to the academic semester window, introducing optional modules to accomodate varying student preferences. 
-                                curriculum where the modules have been restructured to fit an academic semester window.
+                                Course has been restructured to align more
+                                effectively to the academic semester window,
+                                introducing optional modules to accomodate
+                                varying student preferences. curriculum where
+                                the modules have been restructured to fit an
+                                academic semester window.
                               </li>
                               <li>
-                                Design of the custom PCB board have been revised for ease of manufacturing along  
-                                with addition of capabilities for charging and discharging.
+                                Design of the custom PCB board have been revised
+                                for ease of manufacturing along with addition of
+                                capabilities for charging and discharging.
                               </li>
                               <li>
-                                The thermal management module has been enhanced, incorporating additional concepts and activities  relevant to the industry.
-                                updated with more concepts and activities for students to gain experience in
-                                industry relevant thermal simulations.
+                                The thermal management module has been enhanced,
+                                incorporating additional concepts and activities
+                                relevant to the industry. updated with more
+                                concepts and activities for students to gain
+                                experience in industry relevant thermal
+                                simulations.
                               </li>
                               <li>
-                                The capstone of the course have been revised for students to learn and
-                                experiment on 6 - MOSFET motor controller circuit which mimics the motors 
+                                The capstone of the course have been revised for
+                                students to learn and experiment on 6 - MOSFET
+                                motor controller circuit which mimics the motors
                                 currently used in modern day Vehicles.
                               </li>
                             </ul>
@@ -669,6 +678,108 @@ export default function earlyAdopter(props) {
               </div>
             </div>
           </div>
+
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div
+              id="Advanced-Web-Development-Course"
+              className="border-l border-gray-200 mx-4 xl:mx-0 py-8 md:py-12"
+            >
+              <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
+                <div className="lg:col-span-8">
+                  <div className="pt-10 lg:pt-20">
+                    <Heading
+                      heading={
+                        <span className="text-2xl lg:text-5xl lg:leading-tight">
+                          Credit Course in Swabodha - Yogic Psychology for
+                          Self-Mastery
+                        </span>
+                      }
+                    />
+                  </div>
+                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+                    <DescriptionList
+                      heading={
+                        <div>
+                          <p className="text-gray-600 text-sm md:text-base">
+                            MAY 2024
+                          </p>
+                          <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-pink-500 to-amber-600">
+                            Version 1 released
+                          </p>
+                        </div>
+                      }
+                      content={
+                        <div>
+                          <p>
+                            Significant changes in the revised version include:
+                          </p>
+
+                          <ul className="list-disc ml-5 mt-2 space-y-2">
+                            <li>
+                              We have onboarded an industry partner for managing
+                              course creation and updates.
+                            </li>
+                            <li>
+                              The course outline of the IYP101 and IYP 201
+                              courses have been merged for development into one
+                              course.
+                            </li>
+                          </ul>
+                          <p className="pt-4">
+                            <a
+                              className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                              target="_blank"
+                              href="https://docs.google.com/document/d/13J4GhDhY72uDgvNlszMRPRWo5R3Jhk8M_x9OacIfH6E/edit?usp=sharing"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 1</span>
+                            </a>
+                          </p>
+                        </div>
+                      }
+                    />
+                  </div>
+                </div>
+                <div className="col-span-4">
+                  <div className="sticky top-24 mt-10 lg:mt-20 -ml-px md:ml-0 space-y-12">
+                    <div className="bg-primary-100 rounded-r md:rounded-lg border-gray-100 relative ml-8">
+                      <div className="p-2 md:p-4 lg:p-5">
+                        <p className="text-xl font-semibold leading-tight">
+                          Questions?
+                        </p>
+                        <p className="leading-tight mt-2">
+                          If you have any questions, please write to&nbsp;
+                          <a
+                            href="mailto:support@pupilfirst.org"
+                            className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          >
+                            support@pupilfirst.org
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
@@ -679,27 +790,15 @@ export default function earlyAdopter(props) {
                     Questions?
                   </h3>
                   <p className="pt-2 md:text-lg">
-                    If you have any questions, please write to the
-                    course-specific email addresses below.
+                    If you have any questions, please write to
                   </p>
-                  <p>
-                    Web development -
-                    <a
-                      href="mailto:wd@pupilfirst.org"
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                    >
-                      wd@pupilfirst.org
-                    </a>
-                  </p>
-                  <p>
-                    Electric Vehicles -{" "}
-                    <a
-                      href="mailto:ev@pupilfirst.org"
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                    >
-                      ev@pupilfirst.org
-                    </a>
-                  </p>
+
+                  <a
+                    href="mailto:support@pupilfirst.org"
+                    className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                  >
+                    support@pupilfirst.org
+                  </a>
                 </div>
               </div>
             </div>
