@@ -135,19 +135,27 @@ export default function earlyAdopter(props) {
         </section>
 
         <section className="relative border-t border-gray-200">
-          <div className="flex sticky top-0 w-full justify-center mt-8 space-x-4 z-30 bg-primary-50 p-4">
-            <a
-              href="#Advanced-Web-Development-Course"
-              className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
-            >
-              Credit Course in Advanced Web Development
-            </a>
-            <a
-              href="#Electric-Vehicles-Credit-Course"
-              className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 bg-gradient-to-br from-cyan-400 to-green-500 text-gray-900 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
-            >
-              Credit Course in Electric Vehicles
-            </a>
+          <div className="hidden md:sticky top-0 w-full mt-8  z-30 bg-primary-50 p-4">
+            <div className="flex max-w-7xl justify-center space-x-4 mx-auto">
+              <a
+                href="#Advanced-Web-Development-Course"
+                className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-secondary-500 bg-white border border-indigo-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
+              >
+                Advanced Web Development
+              </a>
+              <a
+                href="#Electric-Vehicles-Credit-Course"
+                className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-secondary-500 bg-white border border-indigo-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+              >
+                Electric Vehicles
+              </a>
+              <a
+                href="#Credit-Course-in-Swabodha-Course"
+                className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-secondary-500 bg-white border border-indigo-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition "
+              >
+                Swabodha
+              </a>
+            </div>
           </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div
@@ -181,22 +189,25 @@ export default function earlyAdopter(props) {
 
                           <ul className="list-disc ml-5 mt-2 space-y-2">
                             <li>
-                              The development of both WD301 (Front-end Development with React & 
-                              TypeScript) and WD401 (Getting Ready for Production) is complete,
-                              and the courses have been released to students.
+                              The development of both WD301 (Front-end
+                              Development with React & TypeScript) and WD401
+                              (Getting Ready for Production) is complete, and
+                              the courses have been released to students.
                             </li>
                             <li>
-                              All assignments in WD201 and WD301 have been updated 
-                              to use the Virtual Teaching Assistant for automated reviews, similar to WD101.
-                              Students will still be able to request manual reviews of their submissions. 
-                              In WD401, assignments in 9 modules are manually reviewed, 
-                              with the last module being reviewed using AI.
+                              All assignments in WD201 and WD301 have been
+                              updated to use the Virtual Teaching Assistant for
+                              automated reviews, similar to WD101. Students will
+                              still be able to request manual reviews of their
+                              submissions. In WD401, assignments in 9 modules
+                              are manually reviewed, with the last module being
+                              reviewed using AI.
                             </li>
                           </ul>
                           <p className="pt-3 text-sm">
-                            This is the updated curriculum shared with AICTE, under the
-                            Global Developer Corps (GDC) Artificial Intelligence Workforce 
-                            Scheme 2024-2029.
+                            This is the updated curriculum shared with AICTE,
+                            under the Global Developer Corps (GDC) Artificial
+                            Intelligence Workforce Scheme 2024-2029.
                           </p>
                           <p className="pt-4">
                             <a
@@ -390,8 +401,7 @@ export default function earlyAdopter(props) {
                           <a
                             className="inline-flex mt-4 md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
                             target="_blank"
-                            href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf
-"
+                            href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20Adv.%20Web%20Development.pdf"
                           >
                             <span>
                               <svg
@@ -459,7 +469,7 @@ export default function earlyAdopter(props) {
                       </div>
                     </div>
                     <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
-               <DescriptionList
+                      <DescriptionList
                         heading={
                           <div>
                             <p className="text-gray-400 text-sm md:text-base">
@@ -479,16 +489,29 @@ export default function earlyAdopter(props) {
                             <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
-                               The aspect of battery management system algorithms was introduced in Module 4 of EV201. 
-                               Basics of Python programming and step-by-step exercises were included to enable students to develop their battery management algorithm.
+                                The aspect of battery management system
+                                algorithms was introduced in Module 4 of EV201.
+                                Basics of Python programming and step-by-step
+                                exercises were included to enable students to
+                                develop their battery management algorithm.
                               </li>
                               <li>
-                                A 6-MOSFET motor controller was introduced in the EV201 Capstone project. The capstone was split into 3 phases, namely developing the 6 MOSFET motor controller, improving the communication between BMS and motor, 
-                                and developing a BMS algorithm to enable students to learn step-by-step on upgrading their EV powertrain prototype.
+                                A 6-MOSFET motor controller was introduced in
+                                the EV201 Capstone project. The capstone was
+                                split into 3 phases, namely developing the 6
+                                MOSFET motor controller, improving the
+                                communication between BMS and motor, and
+                                developing a BMS algorithm to enable students to
+                                learn step-by-step on upgrading their EV
+                                powertrain prototype.
                               </li>
                               <li>
-                                The EV101 Capstone project was revised to eliminate the comprehensive report submission. The capstone has been split into multiple levels through the course, 
-                                where students are guided step-by-step on virtually modelling their own two-wheeler EV conversion.
+                                The EV101 Capstone project was revised to
+                                eliminate the comprehensive report submission.
+                                The capstone has been split into multiple levels
+                                through the course, where students are guided
+                                step-by-step on virtually modelling their own
+                                two-wheeler EV conversion.
                               </li>
                             </ul>
                             <a
@@ -519,7 +542,7 @@ export default function earlyAdopter(props) {
                           </div>
                         }
                       />
-                <DescriptionList
+                      <DescriptionList
                         heading={
                           <div>
                             <p className="text-gray-400 text-sm md:text-base">
@@ -539,20 +562,30 @@ export default function earlyAdopter(props) {
                             <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
-                               The EV201 course has been restructured to better align with the academic semester schedule. 
-                               It now includes optional modules to accommodate diverse student preferences.
+                                The EV201 course has been restructured to better
+                                align with the academic semester schedule. It
+                                now includes optional modules to accommodate
+                                diverse student preferences.
                               </li>
                               <li>
-                                Design of the custom PCB board has been revised for ease of manufacturing, 
-                                along with the addition of capabilities for charging and discharging.
+                                Design of the custom PCB board has been revised
+                                for ease of manufacturing, along with the
+                                addition of capabilities for charging and
+                                discharging.
                               </li>
                               <li>
-                                The thermal management module has been enhanced, incorporating additional concepts and activities relevant to the industry. 
-                                The module has been updated with more concepts and activities for students to gain experience in industry relevant thermal simulations.
+                                The thermal management module has been enhanced,
+                                incorporating additional concepts and activities
+                                relevant to the industry. The module has been
+                                updated with more concepts and activities for
+                                students to gain experience in industry relevant
+                                thermal simulations.
                               </li>
                               <li>
-                                The capstone of the course has been revised for students to learn and experiment on 6 - MOSFET motor controller 
-                                circuit which mimics the motors currently used in modern-day vehicles.
+                                The capstone of the course has been revised for
+                                students to learn and experiment on 6 - MOSFET
+                                motor controller circuit which mimics the motors
+                                currently used in modern-day vehicles.
                               </li>
                             </ul>
                             <a
@@ -791,11 +824,115 @@ export default function earlyAdopter(props) {
               </div>
             </div>
           </div>
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div
+              id="Credit-Course-in-Swabodha-Course"
+              className="border-l border-gray-200 mx-4 xl:mx-0 py-8 md:py-12"
+            >
+              <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
+                <div className="lg:col-span-8">
+                  <div className="pt-10 lg:pt-20">
+                    <Heading
+                      heading={
+                        <span className="text-2xl lg:text-5xl lg:leading-tight">
+                          Credit Course in Swabodha - Yogic Psychology for
+                          Self-Mastery.
+                        </span>
+                      }
+                    />
+                  </div>
+                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+                    <DescriptionList
+                      heading={
+                        <div>
+                          <p className="pt-1">Version 1 released</p>
+                        </div>
+                      }
+                      content={
+                        <div>
+                          <p>
+                            Version 1 of the Model Curriculum for Swabodha -
+                            Yogic Psychology for Self-Mastery is in the process
+                            of getting approved by AICTE.
+                          </p>
+
+                          <p className="pt-3 text-sm">
+                            The curriculum for Swabodha course is under process
+                            to be submitted for approval at AICTE.
+                          </p>
+                          <p className="pt-4">
+                            <a
+                              className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1M5PpXGw7uDPbmaHzAarVontYnpRTwwTb/view?usp=sharing"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 1</span>
+                            </a>
+                          </p>
+                        </div>
+                      }
+                    />
+                  </div>
+                </div>
+                <div className="col-span-4">
+                  <div className="sticky top-24 mt-10 lg:mt-20 -ml-px md:ml-0 space-y-12">
+                    <div className="mt-2 md:border-l pl-12 md:pl-8">
+                      <p className="text-lg text-gray-500">
+                        Industry partner - Purnam Centre for Integrality,
+                        Auroville.
+                      </p>
+                      <div className="bg-white px-4 py-3 rounded-lg inline-flex items-center justify-center mt-2">
+                        <img
+                          className="h-28"
+                          alt="Logo of Industry Partner: Purnam Centre for Integrality, Auroville"
+                          src="/logos/Purnam_Logo.png"
+                        ></img>
+                      </div>
+                    </div>
+                    <div className="bg-primary-100 rounded-r md:rounded-lg border-gray-100 relative ml-8">
+                      <div className="p-2 md:p-4 lg:p-5">
+                        <p className="text-xl font-semibold leading-tight">
+                          Questions?
+                        </p>
+                        <p className="leading-tight mt-2">
+                          If you have any questions, please write to us at&nbsp;
+                          <a
+                            href="mailto:support@pupilfirst.org"
+                            className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
+                          >
+                            support@pupilfirst.org
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-200 mx-4 xl:mx-0 pb-10 lg:pb-16">
-              <div className="max-w-6xl lg:ml-28 2xl:ml-44 pl-4">
+              <div className="max-w-6xl lg:ml-20 2xl:ml-40 pl-4">
                 <div className="pt-10 lg:pt-16">
                   <h3 className="text-secondary-500 text-xl lg:text-3xl font-bold">
                     Questions?
