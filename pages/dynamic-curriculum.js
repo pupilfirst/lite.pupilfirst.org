@@ -135,7 +135,7 @@ export default function earlyAdopter(props) {
         </section>
 
         <section className="relative border-t border-gray-200">
-          <div className="hidden md:sticky top-0 w-full mt-8  z-30 bg-primary-50 p-4">
+          <div className="hidden md:block sticky top-0 w-full mt-8  z-30 bg-primary-50 p-4">
             <div className="flex max-w-7xl justify-center space-x-4 mx-auto">
               <a
                 href="#Advanced-Web-Development-Course"
