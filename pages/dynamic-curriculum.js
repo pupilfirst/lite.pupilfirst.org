@@ -140,7 +140,7 @@ export default function earlyAdopter(props) {
               href="#Advanced-Web-Development-Course"
               className="inline-flex justify-center w-1/2 sm:max-w-md p-3 lg:px-3 lg:py-3.5 text-white bg-gradient-to-br from-primary-400 to-primary-500 rounded-md text-base lg:text-lg text-center font-semibold shadow-lg hover:shadow-xl focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 transition"
             >
-              Minor Degree in Advanced Web Development
+              Credit Course in Advanced Web Development
             </a>
             <a
               href="#Electric-Vehicles-Credit-Course"
@@ -160,8 +160,72 @@ export default function earlyAdopter(props) {
                     <Heading
                       heading={
                         <span className="text-2xl lg:text-5xl lg:leading-tight">
-                          Minor Degree in Advanced Web Development
+                          Credit Course in Advanced Web Development
                         </span>
+                      }
+                    />
+                  </div>
+                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+                    <DescriptionList
+                      heading={
+                        <div>
+                          <p className="text-gray-600 text-sm md:text-base">
+                            MAY 2024
+                          </p>
+                          <p className="pt-1">Version 4 Released</p>
+                        </div>
+                      }
+                      content={
+                        <div>
+                          <p>Major changes in the revised version include:</p>
+
+                          <ul className="list-disc ml-5 mt-2 space-y-2">
+                            <li>
+                              The development of both WD301 (Front-end Development with React & 
+                              TypeScript) and WD401 (Getting Ready for Production) is complete,
+                              and the courses have been released to students.
+                            </li>
+                            <li>
+                              All assignments in WD201 and WD301 have been updated 
+                              to use the Virtual Teaching Assistant for automated reviews, similar to WD101.
+                              Students will still be able to request manual reviews of their submissions. 
+                              In WD401, assignments in 9 modules are manually reviewed, 
+                              with the last module being reviewed using AI.
+                            </li>
+                          </ul>
+                          <p className="pt-3 text-sm">
+                            This is the updated curriculum shared with AICTE, under the
+                            Global Developer Corps (GDC) Artificial Intelligence Workforce 
+                            Scheme 2024-2029.
+                          </p>
+                          <p className="pt-4">
+                            <a
+                              className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1WA_84gvMuJlL-RLYzeyLGl2mpsAb4_4r/view"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 3</span>
+                            </a>
+                          </p>
+                        </div>
                       }
                     />
                   </div>
@@ -254,7 +318,7 @@ export default function earlyAdopter(props) {
                       content={
                         <div>
                           <p>
-                            Version 2 of the Model Curriculum for Minor Degree
+                            Version 2 of the Model Curriculum for Credit Course
                             in Advanced Web Development is now released.
                           </p>
                           <p className="pt-3">
@@ -316,7 +380,7 @@ export default function earlyAdopter(props) {
                       content={
                         <div>
                           <p>
-                            Version 1 of the Model Curriculum for Minor Degree
+                            Version 1 of the Model Curriculum for Credit course
                             in Advanced Web Development has been approved and
                             published by AICTE.
                           </p>
@@ -395,6 +459,66 @@ export default function earlyAdopter(props) {
                       </div>
                     </div>
                     <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
+               <DescriptionList
+                        heading={
+                          <div>
+                            <p className="text-gray-400 text-sm md:text-base">
+                              JUNE 2024
+                            </p>
+                            <p className="pt-1 bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500">
+                              Version 5 Released
+                            </p>
+                          </div>
+                        }
+                        content={
+                          <div className="text-white">
+                            <p>
+                              Version 5 of the Model Curriculum for Open
+                              Electives in Electric Vehicles is now released.
+                            </p>
+                            <p className="pt-3">The major changes include:</p>
+                            <ul className="list-disc ml-5 mt-2 space-y-2">
+                              <li>
+                               The aspect of battery management system algorithms was introduced in Module 4 of EV201. 
+                               Basics of Python programming and step-by-step exercises were included to enable students to develop their battery management algorithm.
+                              </li>
+                              <li>
+                                A 6-MOSFET motor controller was introduced in the EV201 Capstone project. The capstone was split into 3 phases, namely developing the 6 MOSFET motor controller, improving the communication between BMS and motor, 
+                                and developing a BMS algorithm to enable students to learn step-by-step on upgrading their EV powertrain prototype.
+                              </li>
+                              <li>
+                                The EV101 Capstone project was revised to eliminate the comprehensive report submission. The capstone has been split into multiple levels through the course, 
+                                where students are guided step-by-step on virtually modelling their own two-wheeler EV conversion.
+                              </li>
+                            </ul>
+                            <a
+                              className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1GpdgXAlF6K0hmq6m4JdWwW3tUrp8sUQF/view"
+                            >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  className="w-4 h-4 md:w-6 md:h-6"
+                                >
+                                  <circle cx="18" cy="18" r="3"></circle>
+                                  <circle cx="6" cy="6" r="3"></circle>
+                                  <path d="M6 21V9a9 9 0 0 0 9 9"></path>
+                                </svg>
+                              </span>
+                              <span>Link to Version 4</span>
+                            </a>
+                          </div>
+                        }
+                      />
                 <DescriptionList
                         heading={
                           <div>
@@ -415,22 +539,20 @@ export default function earlyAdopter(props) {
                             <p className="pt-3">The major changes include:</p>
                             <ul className="list-disc ml-5 mt-2 space-y-2">
                               <li>
-                               Course has been restructured to align more effectively to the academic semester window, introducing optional modules to accomodate varying student preferences. 
-                                curriculum where the modules have been restructured to fit an academic semester window.
+                               The EV201 course has been restructured to better align with the academic semester schedule. 
+                               It now includes optional modules to accommodate diverse student preferences.
                               </li>
                               <li>
-                                Design of the custom PCB board have been revised for ease of manufacturing along  
-                                with addition of capabilities for charging and discharging.
+                                Design of the custom PCB board has been revised for ease of manufacturing, 
+                                along with the addition of capabilities for charging and discharging.
                               </li>
                               <li>
-                                The thermal management module has been enhanced, incorporating additional concepts and activities  relevant to the industry.
-                                updated with more concepts and activities for students to gain experience in
-                                industry relevant thermal simulations.
+                                The thermal management module has been enhanced, incorporating additional concepts and activities relevant to the industry. 
+                                The module has been updated with more concepts and activities for students to gain experience in industry relevant thermal simulations.
                               </li>
                               <li>
-                                The capstone of the course have been revised for students to learn and
-                                experiment on 6 - MOSFET motor controller circuit which mimics the motors 
-                                currently used in modern day Vehicles.
+                                The capstone of the course has been revised for students to learn and experiment on 6 - MOSFET motor controller 
+                                circuit which mimics the motors currently used in modern-day vehicles.
                               </li>
                             </ul>
                             <a
