@@ -213,7 +213,7 @@ export default function earlyAdopter(props) {
                             <a
                               className="inline-flex md:text-lg font-semibold text-secondary-400 underline px-3 py-1 rounded-md items-center space-x-2 bg-gray-100 hover:bg-secondary-100 transition"
                               target="_blank"
-                              href="https://drive.google.com/file/d/1WA_84gvMuJlL-RLYzeyLGl2mpsAb4_4r/view"
+                              href="https://drive.google.com/file/d/18hJTpy9-PJcfyD-XuT7ISOFW-oTxbZO_/view?usp=drive_link"
                             >
                               <span>
                                 <svg
@@ -233,7 +233,7 @@ export default function earlyAdopter(props) {
                                   <path d="M6 21V9a9 9 0 0 0 9 9"></path>
                                 </svg>
                               </span>
-                              <span>Link to Version 3</span>
+                              <span>Link to Version 4</span>
                             </a>
                           </p>
                         </div>
@@ -436,12 +436,12 @@ export default function earlyAdopter(props) {
                           Questions?
                         </p>
                         <p className="leading-tight mt-2">
-                          If you have any questions, please write to us at&nbsp;
+                          If you have any questions, please write to&nbsp;
                           <a
-                            href="mailto:wd@pupilfirst.org"
+                            href="mailto:support@pupilfirst.org"
                             className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-primary-500 to-primary-600 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                           >
-                            wd@pupilfirst.org
+                            support@pupilfirst.org
                           </a>
                         </p>
                       </div>
@@ -514,10 +514,10 @@ export default function earlyAdopter(props) {
                                 two-wheeler EV conversion.
                               </li>
                             </ul>
-                            <a
+                            {/* <a
                               className="inline-flex mt-4 md:text-lg font-semibold text-green-400 underline px-3 py-1.5 rounded-md items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition"
                               target="_blank"
-                              href="https://drive.google.com/file/d/1GpdgXAlF6K0hmq6m4JdWwW3tUrp8sUQF/view"
+                              href="#"
                             >
                               <span>
                                 <svg
@@ -537,8 +537,8 @@ export default function earlyAdopter(props) {
                                   <path d="M6 21V9a9 9 0 0 0 9 9"></path>
                                 </svg>
                               </span>
-                              <span>Link to Version 4</span>
-                            </a>
+                              <span>Link to Version 5</span>
+                            </a> */}
                           </div>
                         }
                       />
@@ -810,10 +810,10 @@ export default function earlyAdopter(props) {
                             If you have any questions, please write to us
                             at&nbsp;
                             <a
-                              href="mailto:ev@pupilfirst.org"
+                              href="mailto:support@pupilfirst.org"
                               className="inline-block bg-clip-text webkit-bg-clip text-transparent bg-gradient-to-r from-cyan-400 to-green-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                             >
-                              ev@pupilfirst.org
+                              support@pupilfirst.org
                             </a>
                           </p>
                         </div>
@@ -938,25 +938,12 @@ export default function earlyAdopter(props) {
                     Questions?
                   </h3>
                   <p className="pt-2 md:text-lg">
-                    If you have any questions, please write to the
-                    course-specific email addresses below.
-                  </p>
-                  <p>
-                    Web development -
+                    If you have any questions, please write to&nbsp;
                     <a
-                      href="mailto:wd@pupilfirst.org"
+                      href="mailto:support@pupilfirst.org"
                       className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
                     >
-                      wd@pupilfirst.org
-                    </a>
-                  </p>
-                  <p>
-                    Electric Vehicles -{" "}
-                    <a
-                      href="mailto:ev@pupilfirst.org"
-                      className="inline-block text-secondary-500 font-semibold underline hover:bg-secondary-50 focus:outline-none focus:bg-secondary-100"
-                    >
-                      ev@pupilfirst.org
+                      support@pupilfirst.org
                     </a>
                   </p>
                 </div>
